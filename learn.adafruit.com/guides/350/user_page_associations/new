@@ -1,0 +1,24 @@
+<span data-controller="modals" id="remote-modal-wrapper">
+  <div class="dialog-container modal"
+      id="remote-modal"
+      data-modals-target="modalOpen"
+      aria-labelledby="dialog-title"
+      aria-describedby="dialog-description"
+      aria-hidden="true">
+    <div class="dialog-overlay"></div>
+    <div class="dialog-content dialog-medium">
+      <div class="dialog-header">
+        <div class="dialog-title">Link Your Playground Notes</div>
+        <a href="./new" class="dialog-close" data-action="./click-_modals" aria-label="Close this dialog window">&times;</a>
+      </div>
+
+        <div class="dialog-body">
+          <p>Please <a href="../../../users/sign_in">sign in</a> and create a note to be able to link to a note here.</p>
+          <p>You will be redirected back to this page once you <a href="../../../users/sign_in">sign in</a>.</p>
+        </div>
+        <div class="dialog-footer">
+          <a href="./new" class="dialog-close btn-tertiary" data-a11y-dialog-hide="favorites-modal" aria-label="Close this dialog window">Close</a>
+        </div>
+    </div>
+  </div>
+</span>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>support-forum</title>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Support-Comm-Forum" transform="translate(4.000000, 14.000000)">
+            <g id="Group" transform="translate(0.000000, 23.000000)" stroke="#84C261" stroke-width="2">
+                <polyline id="Path" points="12.8835616 49.7009967 13.3356164 68 30.739726 49.4750831"></polyline>
+                <path d="M30.739726,49.4750831 L58.7671233,49.2491694 C63.5136986,49.2491694 66,46.538206 66,42.0199336 L65.7739726,7.22923588 C65.7739726,2.93687708 62.609589,0 58.5410959,0 L7.23287671,0.677740864 C2.26027397,0.677740864 0,2.71096346 0,7.90697674 L0.226027397,42.6976744 C0.226027397,46.9900332 2.93835616,49.9269103 7.45890411,49.9269103 L12.6575342,49.9269103" id="Path"></path>
+            </g>
+            <circle id="Oval" stroke="#84C261" stroke-width="1.75" cx="19.5" cy="48.5" r="2.5"></circle>
+            <circle id="Oval" stroke="#84C261" stroke-width="1.75" cx="33.5" cy="48.5" r="2.5"></circle>
+            <circle id="Oval" stroke="#84C261" stroke-width="1.75" cx="46.5" cy="48.5" r="2.5"></circle>
+            <g id="Group" transform="translate(46.000000, 0.000000)" stroke="#3F4245" stroke-width="2">
+                <polyline id="Path" points="53.0721649 49.7615894 52.6185567 68 35.1546392 49.5364238"></polyline>
+                <path d="M0,16.2119205 L0,7.20529801 C0,2.92715232 3.17525773,0 7.25773196,0 L58.742268,0.675496689 C63.7319588,0.675496689 66,2.70198675 66,7.8807947 L65.7731959,42.5562914 C65.7731959,46.8344371 63.0515464,49.7615894 58.5154639,49.7615894 L53.2989691,49.7615894" id="Path"></path>
+                <line x1="35.1546392" y1="49.5364238" x2="26.9896907" y2="49.5364238" id="Path"></line>
+            </g>
+            <circle id="Oval" stroke="#3F4245" stroke-width="1.75" cx="92.5" cy="25.5" r="2.5"></circle>
+            <circle id="Oval" stroke="#3F4245" stroke-width="1.75" cx="78.5" cy="25.5" r="2.5"></circle>
+        </g>
+    </g>
+</svg>

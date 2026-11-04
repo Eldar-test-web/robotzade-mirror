@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>ESP8266 - NURDspace</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"7c54e2d0d2e98377cfcb4300","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"ESP8266","wgTitle":"ESP8266","wgCurRevisionId":5231,"wgRevisionId":5231,"wgArticleId":941,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Projects"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"ESP8266","wgRelevantArticleId":941,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[],"sdgDownArrowImage":"/extensions/SemanticDrilldown/skins/down-arrow.png",
+"sdgRightArrowImage":"/extensions/SemanticDrilldown/skins/right-arrow.png","wgPageFormsTargetName":null,"wgPageFormsAutocompleteValues":[],"wgPageFormsAutocompleteOnAllChars":false,"wgPageFormsFieldProperties":[],"wgPageFormsCargoFields":[],"wgPageFormsDependentFields":[],"wgPageFormsCalendarValues":[],"wgPageFormsCalendarParams":[],"wgPageFormsCalendarHTML":null,"wgPageFormsGridValues":[],"wgPageFormsGridParams":[],"wgPageFormsContLangYes":null,"wgPageFormsContLangNo":null,"wgPageFormsContLangMonths":[],"wgPageFormsHeightForMinimizingInstances":800,"wgPageFormsShowOnSelect":[],"wgPageFormsScriptPath":"/extensions/PageForms","edgValues":[],"wgPageFormsEDSettings":null,"wgAmericanDates":false,"srfFilteredConfig":null,"wgVector2022PreviewPages":[]};RLSTATE={"site.styles":"ready","user.styles":"ready","user":"ready","user.options":"loading","mediawiki.page.gallery.styles":"ready","skins.vector.styles.legacy":"ready","jquery.tablesorter.styles":"ready","ext.srf.styles":"ready",
+"ext.smw.style":"ready","ext.smw.tooltip.styles":"ready"};RLPAGEMODULES=["ext.smw.style","ext.smw.tooltips","smw.entityexaminer","site","mediawiki.page.ready","jquery.tablesorter","mediawiki.toc","skins.vector.legacy.js"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="./load__e3647aad"/>
+<script async="" src="./load__8120fa20"></script>
+<style>#mw-indicator-mw-helplink {display:none;}</style>
+<meta name="generator" content="MediaWiki 1.39.4"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="viewport" content="width=1000"/>
+<link rel="alternate" type="application/rdf+xml" title="ESP8266" href="./index__db8c3378"/>
+<link rel="icon" href="./favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="./opensearch_desc" title="NURDspace (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="./api__251f0951"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-ESP8266 rootpage-ESP8266 skin-vector action-view skin-vector-legacy vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-disabled vector-feature-sticky-header-disabled vector-feature-sticky-header-edit-disabled vector-feature-table-of-contents-disabled vector-feature-visual-enhancement-next-disabled"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"></div>
+	<div class="mw-indicators">
+	<div id="mw-indicator-smw-entity-examiner" class="mw-indicator"><div class="smw-entity-examiner smw-indicator-vertical-bar-loader" data-subject="ESP8266#0##" data-dir="ltr" data-uselang="" title="Running an examiner in the background"></div></div>
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">ESP8266</span></h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint">From NURDspace</div>
+		<div id="contentSub"></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="./ESP8266">Jump to navigation</a>
+		<a class="mw-jump-link" href="./ESP8266">Jump to search</a>
+		<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><table class="wikitable" style="float:right; clear:right; width:270px; margin:5px; font-size:95%; empty-cells:hide">
+
+<tbody><tr style="text-align:center;">
+<th colspan="2">ESP8266
+</th></tr>
+<tr>
+<th colspan="2"><div style="margin:10px">
+<a href="./File_ESP8266.jpg" class="image"><img alt="ESP8266.jpg" src="./images/thumb/5/55/ESP8266.jpg/260px-ESP8266.jpg" decoding="async" width="260" height="195" srcset="./images/thumb/5/55/ESP8266.jpg/390px-ESP8266.jpg 1.5x, ./images/thumb/5/55/ESP8266.jpg/520px-ESP8266.jpg 2x" /></a></div>
+</th></tr>
+<tr>
+<th>Participants
+</th>
+<td><a href="./User_Buzz" title="User:Buzz">User:buzz</a>, <a href="./User_Zarya" title="User:Zarya">Zarya</a>
+</td></tr>
+<tr>
+<th>Skills
+</th>
+<td><a href="./Electronics" title="Electronics">Electronics</a>, <a href="./index__b6d7a90f" class="new" title="Software (page does not exist)">Software</a>
+</td></tr>
+<tr>
+<th>Status
+</th>
+<td><a href="./index__0ba68bbb" class="new" title="Getting parts (page does not exist)">Getting parts</a>
+</td></tr>
+<tr>
+<th>Niche
+</th>
+<td><a href="./Electronics" title="Electronics">Electronics</a>
+</td></tr>
+<tr>
+<th>Purpose
+</th>
+<td><a href="./index__320c59aa" class="new" title="Education (page does not exist)">Education</a>
+</td></tr>
+<tr>
+<th>Tool
+</th>
+<td>No
+</td></tr>
+<tr>
+<th>Location
+</th>
+<td>
+</td></tr>
+<tr>
+<th>Cost
+</th>
+<td>about 5 dollar per module
+</td></tr>
+<tr>
+<th>Tool category
+</th>
+<td>
+</td></tr></tbody></table>
+<div style="clear: none;"></div>
+<div style="position:fixed; top:10000px; right:10000px;">
+<p><a class="mw-selflink selflink">ESP8266</a>
+<span class="smw-highlighter" data-type="4" data-state="inline" data-title="Warning" title="Property &quot;Tool Image&quot; (as page type) with input value &quot;File:&quot; contains invalid characters or is incomplete and therefore can cause unexpected results during a query or annotation process."><span class="smwtticon warning"></span><span class="smwttcontent">Property "Tool Image" (as page type) with input value "File:" contains invalid characters or is incomplete and therefore can cause unexpected results during a query or annotation process.</span></span>
+</p><p>{{#if:No | [[Tool Owner::{{{ProjectParticipants}}} | }}
+{{#if:No | [[Tool Cost::about 5 dollar per module | }}
+</p>
+</div>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="./ESP8266"><span class="tocnumber">1</span> <span class="toctext">Building the gcc toolchain</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="./ESP8266"><span class="tocnumber">2</span> <span class="toctext">Code examples</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="./ESP8266"><span class="tocnumber">3</span> <span class="toctext">Running the module</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="./ESP8266"><span class="tocnumber">4</span> <span class="toctext">Uploading code</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="./ESP8266"><span class="tocnumber">5</span> <span class="toctext">links</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="./ESP8266"><span class="tocnumber">5.1</span> <span class="toctext">Internal space links</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="./ESP8266"><span class="tocnumber">5.2</span> <span class="toctext">External</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="./ESP8266"><span class="tocnumber">6</span> <span class="toctext">Datasheet</span></a>
+<ul>
+<li class="toclevel-2 tocsection-9"><a href="./ESP8266"><span class="tocnumber">6.1</span> <span class="toctext">Introduction</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="./ESP8266"><span class="tocnumber">6.2</span> <span class="toctext">Technical Overview</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="./ESP8266"><span class="tocnumber">6.3</span> <span class="toctext">Characteristics</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="./ESP8266"><span class="tocnumber">6.4</span> <span class="toctext">Schema</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="./ESP8266"><span class="tocnumber">6.5</span> <span class="toctext">Ultra-low power technology</span></a>
+<ul>
+<li class="toclevel-3 tocsection-14"><a href="./ESP8266"><span class="tocnumber">6.5.1</span> <span class="toctext">Maximum integration</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-15"><a href="./ESP8266"><span class="tocnumber">6.6</span> <span class="toctext">ESP8266 application subject</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="./ESP8266"><span class="tocnumber">6.7</span> <span class="toctext">Specifications</span></a>
+<ul>
+<li class="toclevel-3 tocsection-17"><a href="./ESP8266"><span class="tocnumber">6.7.1</span> <span class="toctext">Power</span></a></li>
+<li class="toclevel-3 tocsection-18"><a href="./ESP8266"><span class="tocnumber">6.7.2</span> <span class="toctext">RF specifications</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-19"><a href="./ESP8266"><span class="tocnumber">6.8</span> <span class="toctext">CPU and memory</span></a>
+<ul>
+<li class="toclevel-3 tocsection-20"><a href="./ESP8266"><span class="tocnumber">6.8.1</span> <span class="toctext">CPU Interface</span></a></li>
+<li class="toclevel-3 tocsection-21"><a href="./ESP8266"><span class="tocnumber">6.8.2</span> <span class="toctext">Storage Controller</span></a></li>
+<li class="toclevel-3 tocsection-22"><a href="./ESP8266"><span class="tocnumber">6.8.3</span> <span class="toctext">AHB and AHB module</span></a></li>
+<li class="toclevel-3 tocsection-23"><a href="./ESP8266"><span class="tocnumber">6.8.4</span> <span class="toctext">Interface</span></a>
+<ul>
+<li class="toclevel-4 tocsection-24"><a href="./ESP8266"><span class="tocnumber">6.8.4.1</span> <span class="toctext">Main SI / SPI control (optional)</span></a></li>
+<li class="toclevel-4 tocsection-25"><a href="./ESP8266"><span class="tocnumber">6.8.4.2</span> <span class="toctext">General Purpose IO</span></a></li>
+<li class="toclevel-4 tocsection-26"><a href="./ESP8266"><span class="tocnumber">6.8.4.3</span> <span class="toctext">Digital IO pins</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-27"><a href="./ESP8266"><span class="tocnumber">6.9</span> <span class="toctext">Firmware and software tools development kit</span></a>
+<ul>
+<li class="toclevel-3 tocsection-28"><a href="./ESP8266"><span class="tocnumber">6.9.1</span> <span class="toctext">Features</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-29"><a href="./ESP8266"><span class="tocnumber">6.10</span> <span class="toctext">Power Management</span></a></li>
+<li class="toclevel-2 tocsection-30"><a href="./ESP8266"><span class="tocnumber">6.11</span> <span class="toctext">Clock Management</span></a>
+<ul>
+<li class="toclevel-3 tocsection-31"><a href="./ESP8266"><span class="tocnumber">6.11.1</span> <span class="toctext">High Frequency Clock</span></a></li>
+<li class="toclevel-3 tocsection-32"><a href="./ESP8266"><span class="tocnumber">6.11.2</span> <span class="toctext">External Reference Requirements</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-33"><a href="./ESP8266"><span class="tocnumber">6.12</span> <span class="toctext">Radio receivers</span></a>
+<ul>
+<li class="toclevel-3 tocsection-34"><a href="./ESP8266"><span class="tocnumber">6.12.1</span> <span class="toctext">Channel Frequency</span></a></li>
+<li class="toclevel-3 tocsection-35"><a href="./ESP8266"><span class="tocnumber">6.12.2</span> <span class="toctext">2.4GHz receiver</span></a></li>
+<li class="toclevel-3 tocsection-36"><a href="./ESP8266"><span class="tocnumber">6.12.3</span> <span class="toctext">2.4GHz transmitter</span></a></li>
+<li class="toclevel-3 tocsection-37"><a href="./ESP8266"><span class="tocnumber">6.12.4</span> <span class="toctext">Clock generator</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-38"><a href="./ESP8266"><span class="tocnumber">7</span> <span class="toctext">AT Commands</span></a>
+<ul>
+<li class="toclevel-2 tocsection-39"><a href="./ESP8266"><span class="tocnumber">7.1</span> <span class="toctext">Format</span></a></li>
+<li class="toclevel-2 tocsection-40"><a href="./ESP8266"><span class="tocnumber">7.2</span> <span class="toctext">Commands</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-41"><a href="./ESP8266"><span class="tocnumber">8</span> <span class="toctext">Pin Definition</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Building_the_gcc_toolchain">Building the gcc toolchain</span></h2>
+<p>have a look at the github wiki <a rel="nofollow" class="external free" href="../github.com/esp8266/esp8266-wiki/wiki">https://github.com/esp8266/esp8266-wiki/wiki</a>
+</p>
+<h2><span class="mw-headline" id="Code_examples">Code examples</span></h2>
+<p>have a look at the github wiki <a rel="nofollow" class="external free" href="../github.com/esp8266/esp8266-wiki/wiki">https://github.com/esp8266/esp8266-wiki/wiki</a>
+</p>
+<h2><span class="mw-headline" id="Running_the_module">Running the module</span></h2>
+<ul><li>The modules pins only allow 3.3v (use a multi meter to check your serial lines if you are not sure)</li>
+<li>Connect CH_PD to VCC to make it boot</li></ul>
+<p><br />
+</p>
+<h2><span class="mw-headline" id="Uploading_code">Uploading code</span></h2>
+<ul><li>The modules pins only allow 3.3v (use a multi meter to check your serial lines if you are not sure)</li></ul>
+<p>see <a rel="nofollow" class="external free" href="../github.com/esp8266/esp8266-wiki/wiki/Uploading">https://github.com/esp8266/esp8266-wiki/wiki/Uploading</a>
+</p>
+<h2><span class="mw-headline" id="links">links</span></h2>
+<h3><span class="mw-headline" id="Internal_space_links">Internal space links</span></h3>
+<ul><li><a rel="nofollow" class="external free" href="../git.nurdspace.lan/esp8266/led_example/source">https://git.nurdspace.lan/esp8266/led_example/source/</a></li></ul>
+<h3><span class="mw-headline" id="External">External</span></h3>
+<ul><li>SDK documentation (all chinees) <a rel="nofollow" class="external text" href="../rghost.net/57965174_">DOCS</a></li>
+<li>VM file <a rel="nofollow" class="external autonumber" href="../pan.baidu.com/s/1dDf8Iy9">[1]</a> Password: i90l</li>
+<li>Forum about the module <a rel="nofollow" class="external free" href="../www.esp8266.com/index.html">http://www.esp8266.com/</a></li>
+<li>seeedstudio.com/depot/WiFi-Serial-Transceiver-Module-w-ESP8266-p-1994.html</li>
+<li>ESP8266 ROM Bootloader utility <a rel="nofollow" class="external free" href="../github.com/themadinventor/esptool">https://github.com/themadinventor/esptool</a></li></ul>
+<h2><span class="mw-headline" id="Datasheet">Datasheet</span></h2>
+<ul><li><a href="./File_ESP8266_Specifications_English.pdf" title="File:ESP8266 Specifications English.pdf"> English Datasheet</a></li>
+<li><a rel="nofollow" class="external free" href="../www.seeedstudio.com/document/pdf/ESP8266_Specifications(Chinese).pdf">http://www.seeedstudio.com/document/pdf/ESP8266%20Specifications(Chinese).pdf</a> (Chinese)</li></ul>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="Introduction">Introduction</span></h3>
+<p>Yue Xin intelligent high performance wireless connectivity platform --ESCP SOC, designers bring the Gospel to the mobile platform, it 
+At the lowest cost to provide maximum usability for WiFi capabilities embedded in other systems offer unlimited possibilities.
+</p>
+<h3><span class="mw-headline" id="Technical_Overview">Technical Overview</span></h3>
+<p>ESP8266 is a complete and self-contained Wi-Fi network solutions that can carry software applications, or through 
+Another application processor uninstall all Wi-Fi networking capabilities. 
+ESP8266 when the device is mounted and as the only application of the application processor, the flash memory can be started directly from an external 
+Move. Built-in cache memory will help improve system performance and reduce memory requirements. 
+Another situation is when wireless Internet access assume the task of Wi-Fi adapter, you can add it to any microcontroller-based design, the connection is simple, just by SPI / SDIO interface or central processor AHB bridge interface. 
+Processing and storage capacity on ESP8266 powerful piece, it can be integrated via GPIO ports sensors and other applications specific equipment to achieve the lowest early in the development and operation of at least occupy system resources. The ESP8266 highly integrated chip, including antenna switch balun, power management converter, so with minimal external circuitry, and includes front-end module, including the entire solution designed to minimize the space occupied by PCB. 
+The system is equipped with ESP8266 manifested leading features are: energy saving VoIP quickly switch between the sleep / wake patterns, with low-power operation adaptive radio bias, front-end signal processing functions, troubleshooting and radio systems coexist characteristics eliminate cellular / Bluetooth / DDR / LVDS / LCD interference.
+</p>
+<h3><span class="mw-headline" id="Characteristics">Characteristics</span></h3>
+<ul><li>802.11 b / g / n</li>
+<li>Wi-Fi Direct (P2P), soft-AP</li>
+<li>Built-in TCP / IP protocol stack</li>
+<li>Built-in TR switch, balun, LNA, power amplifier and matching network</li>
+<li>Built-in PLL, voltage regulator and power management components</li>
+<li>802.11b mode + 19.5dBm output power</li>
+<li>Built-in temperature sensor</li>
+<li>Support antenna diversity</li>
+<li>off leakage current is less than 10uA</li>
+<li>Built-in low-power 32-bit CPU: can double as an application processor</li>
+<li>SDIO 2.0, SPI, UART</li>
+<li>STBC, 1x1 MIMO, 2x1 MIMO</li>
+<li>A-MPDU, A-MSDU aggregation and the 0.4 Within wake</li>
+<li>2ms, connect and transfer data packets</li>
+<li>standby power consumption of less than 1.0mW (DTIM3)</li></ul>
+<h3><span class="mw-headline" id="Schema">Schema</span></h3>
+<p><a href="./File_Esp8266_schema.png" class="image"><img alt="Esp8266 schema.png" src="./images/thumb/5/58/Esp8266_schema.png/200px-Esp8266_schema.png" decoding="async" width="200" height="109" srcset="./images/thumb/5/58/Esp8266_schema.png/300px-Esp8266_schema.png 1.5x, ./images/thumb/5/58/Esp8266_schema.png/400px-Esp8266_schema.png 2x" /></a>
+</p><p><br />
+</p>
+<h3><span class="mw-headline" id="Ultra-low_power_technology">Ultra-low power technology</span></h3>
+<p>ESP8266 specifically for mobile devices, wearable electronics and networking applications design and make the machine to achieve the lowest energy consumption, together with several other patented technology. This energy-efficient construction in three modes: active mode, sleep mode and deep sleep mode type. 
+When ESP8266 using high-end power management technology and logic systems to reduce non-essential functions of the power conversion regulate sleep patterns and work modes, in sleep mode, it consumes less than the current 12uA, is connected, it consumes less power to 1.0mW (DTIM = 3) or 0.5mW (DTIM = 10). 
+Sleep mode, only calibrated real-time clock and watchdog in working condition. Real-time clock can be programmed to wake ESP8266 within a specific period of time. 
+Through programming, ESP8266 will automatically wake up when detected certain to happen. ESP8266 automatic wake-up in the shortest time, this feature can be applied to the SOC for mobile devices, so before you turn Wi- Fi SOC are in a low-power standby mode. 
+To meet the power requirements of mobile devices and wearable electronics products, ESP8266 at close range when the PA output power can be reduced through software programming to reduce overall power consumption in order to adapt to different applications.
+</p>
+<h4><span class="mw-headline" id="Maximum_integration">Maximum integration</span></h4>
+<p>ESP8266 integrates the most critical components on the board, including power management components, TR switch, RF balun, a peak power of + 25dBm of PA, therefore, ESP8266 only guarantee the lowest BOM cost, and easy to be embedded in any system. 
+ESP8266 BOM is the only external resistors, capacitors, and crystal.
+</p>
+<h3><span class="mw-headline" id="ESP8266_application_subject">ESP8266 application subject</span></h3>
+<ul><li>Smart Power Plug</li>
+<li>Home Automation</li>
+<li>mesh network</li>
+<li>industrial wireless control</li>
+<li>Baby Monitor</li>
+<li>Network Camera</li>
+<li>sensor networks</li>
+<li>wearable electronics</li>
+<li>wireless location-aware devices</li>
+<li>Security ID tag</li>
+<li>wireless positioning system signals</li></ul>
+<h3><span class="mw-headline" id="Specifications">Specifications</span></h3>
+<h4><span class="mw-headline" id="Power">Power</span></h4>
+<p>The following data are based on a 3.3V power supply, ambient temperature 25C and use the internal regulator measured. [1] All measurements are made in the absence of the SAW filter, the antenna interface is completed. 
+[2] all transmit data based on 90% duty cycle, continuous transmission mode in the measured.
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Mode</th>
+<th>Min</th>
+<th>Typical</th>
+<th>Max</th>
+<th>Units
+</th></tr>
+<tr>
+<td>802.11b, CCK 1Mbps, POUT=+19.5dBm</td>
+<td></td>
+<td>215</td>
+<td></td>
+<td>mA
+</td></tr>
+<tr>
+<td>802.11b, CCK 11Mbps, POUT=+18.5dBm</td>
+<td></td>
+<td>197</td>
+<td></td>
+<td>mA
+</td></tr>
+<tr>
+<td>802.11g, OFDM 54Mbps, POUT=+16dBm</td>
+<td></td>
+<td>145</td>
+<td></td>
+<td>mA
+</td></tr>
+<tr>
+<td>802.11n, MCS7, POUT =+14dBm</td>
+<td></td>
+<td>135</td>
+<td></td>
+<td>mA
+</td></tr>
+<tr>
+<td>802.11b, packet size of 1024 bytes, -80dBm</td>
+<td></td>
+<td>60</td>
+<td></td>
+<td>mA
+</td></tr>
+<tr>
+<td>802.11b, packet size of 1024 bytes, -70dBm</td>
+<td></td>
+<td>60</td>
+<td></td>
+<td>mA
+</td></tr>
+<tr>
+<td>802.11b, packet size of 1024 bytes, -65dBm</td>
+<td></td>
+<td>62</td>
+<td></td>
+<td>mA
+</td></tr>
+<tr>
+<td>Standby</td>
+<td></td>
+<td>0.9</td>
+<td></td>
+<td>uA
+</td></tr>
+<tr>
+<td>Deep sleep</td>
+<td></td>
+<td>10</td>
+<td></td>
+<td>mA
+</td></tr>
+<tr>
+<td>Saving mode DTIM 1</td>
+<td></td>
+<td>1.2</td>
+<td></td>
+<td>mA
+</td></tr>
+<tr>
+<td>Saving mode DTIM 3</td>
+<td></td>
+<td>0.86</td>
+<td></td>
+<td>mA
+</td></tr>
+<tr>
+<td>Shutdown</td>
+<td></td>
+<td>0.5</td>
+<td></td>
+<td>uA
+</td></tr></tbody></table>
+<h4><span class="mw-headline" id="RF_specifications">RF specifications</span></h4>
+<p>The following data is at room temperature, the voltage of 3.3V and 1.1V, respectively, when measured
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Description</th>
+<th>Min</th>
+<th>Typical</th>
+<th>Max</th>
+<th>Units
+</th></tr>
+<tr>
+<td>Input Frequency</td>
+<td>2412</td>
+<td></td>
+<td>2484</td>
+<td>MHz
+</td></tr>
+<tr>
+<td>Input resistance</td>
+<td></td>
+<td>50</td>
+<td></td>
+<td>Ω
+</td></tr>
+<tr>
+<td>Input reflection</td>
+<td></td>
+<td></td>
+<td>-10</td>
+<td>dB
+</td></tr>
+<tr>
+<td>At 72.2Mbps, PA output power</td>
+<td>14</td>
+<td>15</td>
+<td>16</td>
+<td>dBm
+</td></tr>
+<tr>
+<td>11b mode, PA output power</td>
+<td>17.5</td>
+<td>18.5</td>
+<td>19.5</td>
+<td>dBm
+</td></tr>
+<tr>
+<th>Sensitivity</th>
+<th></th>
+<th></th>
+<th></th>
+<th>
+</th></tr>
+<tr>
+<td>CCK, 1Mbps ￼</td>
+<td></td>
+<td>-98</td>
+<td></td>
+<td>dBm
+</td></tr>
+<tr>
+<td>CCK, 11Mbps ￼</td>
+<td></td>
+<td>-91</td>
+<td></td>
+<td>dBm
+</td></tr>
+<tr>
+<td>6Mbps (1/2 BPSK) ￼￼</td>
+<td></td>
+<td>-93</td>
+<td></td>
+<td>dBm
+</td></tr>
+<tr>
+<td>54Mbps (3/4 64-QAM) ￼￼</td>
+<td></td>
+<td>-75</td>
+<td></td>
+<td>dBm
+</td></tr>
+<tr>
+<td>HT20, MCS7 (65Mbps, 72.2Mbps) ￼ ￼￼</td>
+<td></td>
+<td>-71</td>
+<td></td>
+<td>dBm
+</td></tr>
+<tr>
+<th>Adjacent suppression</th>
+<th></th>
+<th></th>
+<th></th>
+<th>
+</th></tr>
+<tr>
+<td>OFDM, 6Mbps</td>
+<td></td>
+<td>37</td>
+<td></td>
+<td>dB
+</td></tr>
+<tr>
+<td>OFDM, 54Mbps</td>
+<td></td>
+<td>21</td>
+<td></td>
+<td>dB
+</td></tr>
+<tr>
+<td>HT20, MCS0</td>
+<td></td>
+<td>37</td>
+<td></td>
+<td>dB
+</td></tr>
+<tr>
+<td>HT20, MCS7</td>
+<td></td>
+<td>20</td>
+<td></td>
+<td>dB
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="CPU_and_memory">CPU and memory</span></h3>
+<h4><span class="mw-headline" id="CPU_Interface">CPU Interface</span></h4>
+<p>The chip embedded in an ultra-low-power 32-bit micro-CPU, with 16 compact mode. Can be connected to the CPU via the following interfaces: 
+</p>
+<ul><li>connecting storage controllers can also be used to access external code memory RAM / ROM interface (iBus)</li>
+<li>Also attached storage controller data RAM interface (dBus)</li>
+<li>Access Register of AHB interface</li>
+<li>JTAG debug interface</li></ul>
+<h4><span class="mw-headline" id="Storage_Controller">Storage Controller</span></h4>
+<p>Storage controller contains ROM and SRAM. CPU can iBus, dBus and AHB interface to access the storage controller. Any one of these interfaces can apply for access to ROM or RAM cells, memory arbiter to determine the running order in the order of arrival. 
+</p>
+<h4><span class="mw-headline" id="AHB_and_AHB_module">AHB and AHB module</span></h4>
+<p>AHB module acts as arbiter, through the MAC, and SDIO host CPU control AHB interface. Since sending 
+Address different, AHB data requests may arrive the following two slaves in one: APB module, or  flash memory controller (usually in the case of off-line applications) to the received request is a high speed memory controllers often request, APB module receives register access is often 
+Request. 
+APB module acts as a decoder, but only you can access the ESP8266 main module programmable registers. Since the sending address different, APB request may reach the radio receiver, SI / SPI, hosts SDIO, GPIO, UART, real-time clock (RTC), MAC or digital baseband.
+</p>
+<h4><span class="mw-headline" id="Interface">Interface</span></h4>
+<p>ESP 8266 contains multiple analog and digital interfaces, as follows: 
+</p>
+<h5><span id="Main_SI_.2F_SPI_control_.28optional.29"></span><span class="mw-headline" id="Main_SI_/_SPI_control_(optional)">Main SI / SPI control (optional)</span></h5>
+<p>Main Serial Interface (SI) can run at two, three, four-wire bus configuration, is used to control the EEPROM or other I2C / SPI devices. Multiple devices share the two-wire I2C bus. 
+Multiple SPI devices to share the clock and data signals, and according to the chip select, each controlled by software alone GPIO pins. 
+SPI can be used to control external devices, such as serial flash, audio CODEC or other slave devices, installation, effectively giving it three different pins, making it the standard master SPI device. 
+</p>
+<ul><li>SPI_EN0</li>
+<li>SPI_EN1</li>
+<li>SPI_EN2</li></ul>
+<p>SPI slave is used as the primary interface, giving SPI master and slave SPI support. 
+In the built-in applications, SPI_EN0 is used as an enable signal, the role of external serial flash, download firmware and / or MIB data to baseband. In host-based applications, the firmware and you can choose one MIB data downloaded via the host interface both. This pin is active low when not should be left unconnected. 
+SPI_EN1 often used for user applications, such as controlling the built-in applications or external audio codec sensor ADC. This pin is active low when not should be left unconnected. 
+SPI_EN2 often used to control the EEPROM, storing individual data (individual data), such as MIB information, MAC address, and calibration data, or for general purposes. This pin is active low when not should be left unconnected.
+</p><p><a href="./File_Esp8266_spi_timing.png" class="image"><img alt="Esp8266 spi timing.png" src="./images/thumb/d/d0/Esp8266_spi_timing.png/200px-Esp8266_spi_timing.png" decoding="async" width="200" height="67" srcset="./images/thumb/d/d0/Esp8266_spi_timing.png/300px-Esp8266_spi_timing.png 1.5x, ./images/thumb/d/d0/Esp8266_spi_timing.png/400px-Esp8266_spi_timing.png 2x" /></a>
+</p><p><br />
+</p>
+<h5><span class="mw-headline" id="General_Purpose_IO">General Purpose IO</span></h5>
+<p>A total of up to 16 GPIO pins. The firmware can assign them different functions. Each GPIO can be configured internal pullup / pulldown resistors available software registers sampled input, triggering edge or level CPU interrupt input, trigger level wake-up interrupt input, open-drain or complementary push-pull output drivers, software register output source or sigma-delta PWM DAC. 
+These pins are multiplexed with other functions, such as the main interface, UART, SI, Bluetooth co-existence and so on. 
+</p>
+<h5><span class="mw-headline" id="Digital_IO_pins">Digital IO pins</span></h5>
+<p>Digital IO pad is two-way, three states. It includes a three-state control input and output buffers. In addition, for low-power operation, IO can be set to hold state. For example, when we reduce the chip's power consumption, all the output enable signal can be set to maintain a low-power state. 
+Hold function can be selectively implanted IO in need. When the IO help internal and external circuit driving, hold function can be used to hold last state. 
+Hold function to pin introduce some positive feedback. Therefore, the external drive pin must be stronger than the positive feedback. However, the required driving force size is still small, in the 5uA of.
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Variables</th>
+<th>Symbol</th>
+<th>Min</th>
+<th>Max</th>
+<th>Units
+</th></tr>
+<tr>
+<td>Input Low Voltage</td>
+<td>Vil</td>
+<td>-0.3</td>
+<td>0.25xV10</td>
+<td>V
+</td></tr>
+<tr>
+<td>Input High Voltage</td>
+<td>Vih</td>
+<td>0.75xV10</td>
+<td>3.6</td>
+<td>V
+</td></tr>
+<tr>
+<td>Input leakage current</td>
+<td>IIL</td>
+<td>-</td>
+<td>50</td>
+<td>nA
+</td></tr>
+<tr>
+<td>Output Low Voltage</td>
+<td>VOL</td>
+<td>-</td>
+<td>0.1xV10</td>
+<td>V
+</td></tr>
+<tr>
+<td>Output High Voltage</td>
+<td>VOH</td>
+<td>0.8xV10</td>
+<td>-</td>
+<td>V
+</td></tr>
+<tr>
+<td>Input pin capacitance</td>
+<td>Cpad</td>
+<td>-</td>
+<td>2</td>
+<td>pF
+</td></tr>
+<tr>
+<td>VDDIO</td>
+<td>V10</td>
+<td>1.7</td>
+<td>3.6</td>
+<td>V
+</td></tr>
+<tr>
+<td>Current</td>
+<td>Imax</td>
+<td>-</td>
+<td>12</td>
+<td>mA
+</td></tr>
+<tr>
+<td>Temperature</td>
+<td>Tamb</td>
+<td>-20</td>
+<td>100</td>
+<td>C
+</td></tr></tbody></table>
+<p>All digital IO pins must add an overvoltage protection circuit (snap back circuit) between the pin and ground. Usually bounce (snap back) voltage is about 6V, while maintaining the voltage is 5.8V. This prevents excessive voltage and generating ESD. Diodes also avoid reverse voltage output devices.
+</p>
+<h3><span class="mw-headline" id="Firmware_and_software_tools_development_kit">Firmware and software tools development kit</span></h3>
+<p>The firmware running on the ROM and SRAM chip, when the device is awake, firmware via SDIO sector 
+Download the instructions from the host side. 
+Firmware is fully compliant with 802.11 b / g / n / e / i WLAN MAC protocol and Wi-Fi Direct specification only supports basic services unit distributed control function (DCF) under (BSS) operation, but also follow the latest Wi-Fi P2P protocol to support P2P groups operating (P2P group operation). Low level protocol functions automatically run by ESP8266, such as 
+</p>
+<ul><li>RTS / CTS</li>
+<li>Confirm</li>
+<li>fragmentation and reassembly</li>
+<li>polymerization</li>
+<li>frame package (802.11h / RFC 1042)</li>
+<li>automatic beacon monitoring / scanning</li>
+<li>P2P WiFi direct</li></ul>
+<p>With P2P discovery procedures, passive or active scanning once in the host command start, it will be done automatically. Perform power management, interaction with the host at least, this way, the task of effectively minimized. 
+</p>
+<h4><span class="mw-headline" id="Features">Features</span></h4>
+<p>Laboratory features of the software developer's kit is as follows: 
+</p>
+<ul><li>802.11 b / g / n / d / e / i / k / r support</li>
+<li>Wi-Fi Direct (P2P) support</li>
+<li>P2P discovery, P2P group master mode (Group Owner mode), P2P Power Management</li>
+<li>Infrastructure Network (Infrastructure BSS) station (Station) mode / P2P mode / SoftAP mold</li>
+<li>hardware accelerator
+<ul><li>CCMP (CBC-MAC, counting mode)</li>
+<li>TKIP (MIC, RC4) o WAPI (SMS4)</li>
+<li>WEP (RC4)</li>
+<li>CRC</li>
+<li>WPA / WPA2 and WPS support</li>
+<li>Other 802.11i security features:</li></ul></li>
+<li>Pre-Certification</li>
+<li>TSN</li></ul>
+<p>Open interfaces  prepared for a variety of upper EAP authentication methods, such as:
+</p>
+<ul><li>TLS</li>
+<li>PEAP</li>
+<li>LEAP</li>
+<li>SIM</li>
+<li>AKA</li>
+<li>802.11n support (2.4GHz)</li>
+<li>Support MIMO 1x1 and 2x1, STBC, A-MPDU and A-MSDU aggregation, 0.4s guard interval</li>
+<li>WMM saving U-APSD</li>
+<li>use with multi-queue QoS management, in line with 802.11e standard multimedia data traffic optimization methods</li>
+<li>Follow the UMA, and certified by UMA</li>
+<li>802.1h / RFC1042 frame encapsulation</li>
+<li>hash DMA data transfer operation, the CPU usage to a minimum</li>
+<li>antenna diversity and choice (by software management hardware)</li>
+<li>the clock / power gating and follow the 802.11 standard power management combined, according to the current connection, enter OK dynamically adjusted to achieve the lowest energy consumption</li>
+<li>ratio can be adjusted to set an optimum algorithm for the missing data and the Tx power transfer rate based on the actual SNR and packet</li></ul>
+<p>Rate 
+</p>
+<ul><li>MAC layer automatic retransmission and automatic response, to avoid packet loss occurs when the host is running slow</li>
+<li>seamless roaming support</li>
+<li>Configurable packet traffic arbitration and tailored, based on the slave processor design combining a series of Bluetooth chip vendors to provide flexible and precise time-Bluetooth coexistence support</li>
+<li>support dual / single antenna Bluetooth coexistence with syncing WiFi / Bluetooth capability</li></ul>
+<h3><span class="mw-headline" id="Power_Management">Power Management</span></h3>
+<p>Chip can tune into the following states: 
+</p>
+<ul><li>off (OFF): CHIP_PD pin is in a low power state. RTC failure. All registers are emptied.</li>
+<li>deep sleep (DEEP_SLEEP): RTC open, other parts of the chip are closed. RTC internal recovery memory to save the basic WiFi connection information.</li>
+<li>sleep (SLEEP): Only RTC running. Crystal oscillator stops. Any part of the wake (MAC, host, RTC timer, external interrupt) will make the wake of the chip.</li>
+<li>Wake (WAKEUP): In this state, the system from a sleep state to start (PWR) status. Crystal oscillator and PLL are converted enabled state.</li></ul>
+<p>￼￼* on state (ON): High-speed clock can run, 
+And sent to each clock control register is enabled 
+Modules. Each module, including the CPU, including the implementation of relatively low-level clock gating. When the system works, you can WAITI instructions to turn off the CPU's internal clock.
+</p><p><a href="./File_Esp8266_power_mgmt.png" class="image"><img alt="Esp8266 power mgmt.png" src="./images/thumb/c/c3/Esp8266_power_mgmt.png/50px-Esp8266_power_mgmt.png" decoding="async" width="50" height="70" srcset="./images/thumb/c/c3/Esp8266_power_mgmt.png/75px-Esp8266_power_mgmt.png 1.5x, ./images/thumb/c/c3/Esp8266_power_mgmt.png/100px-Esp8266_power_mgmt.png 2x" /></a>
+</p><p><br />
+</p>
+<h3><span class="mw-headline" id="Clock_Management">Clock Management</span></h3>
+<h4><span class="mw-headline" id="High_Frequency_Clock">High Frequency Clock</span></h4>
+<p>ESP8266 on high frequency clock is used to drive two Tx and Rx mixer, which is generated by the internal oscillator and an external oscillator. Crystal frequency between 26MHz to 52MHz float. 
+Although the internal crystal oscillator of the calibration range of the crystal so that the clock generator to meet the conditions, but in general, the crystal quality is still obtained a proper phase noise factors to be considered. When the crystal is used, or because of the frequency offset, rather than the best choice for quality, the maximum capacity of the data processing system and will reduce the sensitivity of the wifi. Please refer to the following instructions to measure the frequency offset.
+</p><p><br />
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Variables</th>
+<th>Symbol</th>
+<th>Min</th>
+<th>Max</th>
+<th>Units
+</th></tr>
+<tr>
+<td>Frequency</td>
+<td>Fxo</td>
+<td>52</td>
+<td>MHz
+</td></tr>
+<tr>
+<td>Load capacitance</td>
+<td>Cl</td>
+<td></td>
+<td>32</td>
+<td>pF
+</td></tr>
+<tr>
+<td>Dynamic capacitance</td>
+<td>Cm</td>
+<td>2</td>
+<td>5</td>
+<td>pF
+</td></tr>
+<tr>
+<td>Serial resistance</td>
+<td>Rs</td>
+<td>0</td>
+<td>65</td>
+<td>Ω
+</td></tr>
+<tr>
+<td>Frequency tolerance</td>
+<td>Fxo</td>
+<td>-15</td>
+<td>15</td>
+<td>ppm
+</td></tr>
+<tr>
+<td>Frequency vs Temperature (-25C ~ 75C)</td>
+<td>Fxo,Temp</td>
+<td>-15</td>
+<td>15</td>
+<td>ppm
+</td></tr></tbody></table>
+<h4><span class="mw-headline" id="External_Reference_Requirements">External Reference Requirements</span></h4>
+<p>At 26MHz external clock frequency between 52MHz. In order to make a well-functioning radio receiver, the clock will 
+Must have the following characteristics:
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Variables</th>
+<th>Symbol</th>
+<th>Min</th>
+<th>Max</th>
+<th>Units
+</th></tr>
+<tr>
+<td>Clock amplitude</td>
+<td>Vxo</td>
+<td>0.2</td>
+<td>1</td>
+<td>Vpp
+</td></tr>
+<tr>
+<td>External clock accuracy</td>
+<td>Fxo,EXT</td>
+<td>-15</td>
+<td>15</td>
+<td>ppm
+</td></tr>
+<tr>
+<td>Phase Noise @ 1kHz offset, 40MHz clock</td>
+<td></td>
+<td></td>
+<td>-120</td>
+<td>dBc/Hz
+</td></tr>
+<tr>
+<td>Phase Noise @ 10kHz offset, 40MHz clock</td>
+<td></td>
+<td></td>
+<td>-130</td>
+<td>dBc/Hz
+</td></tr>
+<tr>
+<td>Phase Noise @ 100kHz offset, 40MHz clock</td>
+<td></td>
+<td></td>
+<td>-138</td>
+<td>dBc/Hz
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Radio_receivers">Radio receivers</span></h3>
+<p>ESP8266 radio receiver mainly includes the following modules: 
+</p>
+<ul><li>2.4GHz receiver</li>
+<li>2.4GHz transmitter</li>
+<li>High-speed clock generator and crystal oscillator</li>
+<li>Real-time clock</li>
+<li>bias and regulators</li>
+<li>Power Management</li></ul>
+<h4><span class="mw-headline" id="Channel_Frequency">Channel Frequency</span></h4>
+<p>According IEEE802.11bgn standard, RF transceiver supports the following channels:
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Channel</th>
+<th>Freq.</th>
+<th>Channel</th>
+<th>Freq.
+</th></tr>
+<tr>
+<td>1</td>
+<td>2412</td>
+<td>8</td>
+<td>2447
+</td></tr>
+<tr>
+<td>2</td>
+<td>2417</td>
+<td>9</td>
+<td>2452
+</td></tr>
+<tr>
+<td>3</td>
+<td>2422</td>
+<td>10</td>
+<td>2457
+</td></tr>
+<tr>
+<td>4</td>
+<td>2427</td>
+<td>11</td>
+<td>2462
+</td></tr>
+<tr>
+<td>5</td>
+<td>2432</td>
+<td>12</td>
+<td>2467
+</td></tr>
+<tr>
+<td>6</td>
+<td>2437</td>
+<td>13</td>
+<td>2472
+</td></tr>
+<tr>
+<td>7</td>
+<td>2442</td>
+<td>14</td>
+<td>2484
+</td></tr></tbody></table>
+<h4><span class="mw-headline" id="2.4GHz_receiver">2.4GHz receiver</span></h4>
+<p>2.4GHz RF signal receiver down into quadrature baseband signal, with two high-resolution, high-speed ADC and the latter into a digital signal. In order to accommodate different signal channels, a radio receiver integrated RF filters, automatic gain control (AGC), DC offset compensation circuit and a baseband filter.
+</p>
+<h4><span class="mw-headline" id="2.4GHz_transmitter">2.4GHz transmitter</span></h4>
+<p>2.4 GHz transmitter orthogonal frequency baseband signals up to 2.4GHz, using high-power CMOS power amplifier to drive the antenna. Further use of the digital calibration improves the linearity of the power amplifier to achieve the average power of + 19dBm in 802.11b transmission, the transmission reaches + 16dBm 802.11n average power, features super. 
+To offset defects in the radio receiver is also calibrated by other measures such as: 
+</p>
+<ul><li>carrier leakage</li>
+<li>I / Q phase matching, and</li>
+<li>baseband nonlinear</li></ul>
+<p>This will reduce the time and equipment required for testing.
+</p>
+<h4><span class="mw-headline" id="Clock_generator">Clock generator</span></h4>
+<p>The clock generator generates the receiver and transmitter 2.4GHz clock signal all of its components are integrated on the chip, 
+Include: 
+</p>
+<ul><li>inductor</li>
+<li>varactor</li>
+<li>closed-loop filter</li></ul>
+<p>Clock generator contains a built-in calibration circuit and self-test circuitry. Clock phase and quadrature phase noise through the optimal calibration algorithm processing patent on the chip, in order to ensure that the receiver and transmitter to achieve the best performance.
+</p>
+<h2><span class="mw-headline" id="AT_Commands">AT Commands</span></h2>
+<ul><li>Tnx to <a rel="nofollow" class="external free" href="../www.electrodragon.com/w/Wi07c">http://www.electrodragon.com/w/Wi07c</a></li></ul>
+<h3><span class="mw-headline" id="Format">Format</span></h3>
+<ul><li>Baud rate at 57600</li>
+<li>x is the commands</li></ul>
+<table class="wikitable sortable">
+
+<tbody><tr>
+<th>Set</th>
+<th>Inquiry</th>
+<th>Test</th>
+<th>Execute
+</th></tr>
+<tr>
+<td>AT+&lt;x&gt;=&lt;…&gt;</td>
+<td>AT+&lt;x&gt;?</td>
+<td>AT+&lt;x&gt;=?</td>
+<td>AT+&lt;x&gt;
+</td></tr>
+<tr>
+<td>AT+CWMODE=&lt;mode&gt;</td>
+<td>AT+CWMODE?</td>
+<td>AT+CWMODE=?</td>
+<td>-
+</td></tr>
+<tr>
+<td>Set the network mode</td>
+<td>Check current mode</td>
+<td>Return which modes supported</td>
+<td>-
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Commands">Commands</span></h3>
+<ul><li>carefully there are must be no any spaces between the " and IP address or port</li></ul>
+<table class="wikitable sortable">
+
+<tbody><tr>
+<th>Commands</th>
+<th>Description</th>
+<th>Type</th>
+<th>Set/Execute</th>
+<th>Inquiry</th>
+<th>test</th>
+<th>Parameters</th>
+<th>Examples
+</th></tr>
+<tr>
+<td>AT+RST</td>
+<td>restart the module</td>
+<td>basic</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-
+</td></tr>
+<tr>
+<td>AT+CWMODE</td>
+<td>wifi mode</td>
+<td>wifi</td>
+<td>AT+CWMODE=&lt;mode&gt;</td>
+<td>AT+CWMODE?</td>
+<td>AT+CWMODE=?</td>
+<td>1= Sta, 2= AP, 3=both
+</td></tr>
+<tr>
+<td>AT+CWJAP</td>
+<td>join the AP</td>
+<td>wifi</td>
+<td>AT+ CWJAP =&lt;ssid&gt;,&lt; pwd &gt;</td>
+<td>AT+ CWJAP?</td>
+<td>-</td>
+<td>ssid = ssid, pwd = wifi password
+</td></tr>
+<tr>
+<td>AT+CWLAP</td>
+<td>list the AP</td>
+<td>wifi</td>
+<td>AT+CWLAP</td>
+<td></td>
+<td></td>
+<td>
+</td></tr>
+<tr>
+<td>AT+CWQAP</td>
+<td>quit the AP</td>
+<td>wifi</td>
+<td>AT+CWQAP</td>
+<td>-</td>
+<td>AT+CWQAP=?</td>
+<td>
+</td></tr>
+<tr>
+<td>AT+ CWSAP</td>
+<td>set the parameters of AP</td>
+<td>wifi</td>
+<td>AT+ CWSAP= &lt;ssid&gt;,&lt;pwd&gt;,&lt;chl&gt;, &lt;ecn&gt;</td>
+<td>AT+ CWSAP?</td>
+<td></td>
+<td>ssid, pwd, chl = channel, ecn = encryption</td>
+<td>Connect to your router: ：AT+CWJAP="YOURSSID","helloworld"; and check if connected: AT+CWJAP?
+</td></tr>
+<tr>
+<td>AT+ CIPSTATUS</td>
+<td>get the connection status</td>
+<td>TCP/IP</td>
+<td>AT+ CIPSTATUS</td>
+<td></td>
+<td></td>
+<td>
+</td></tr>
+<tr>
+<td>AT+CIPSTART</td>
+<td>set up TCP or UDP connection</td>
+<td>TCP/IP</td>
+<td>1)single connection (+CIPMUX=0) AT+CIPSTART= &lt;type&gt;,&lt;addr&gt;,&lt;port&gt;; 2) multiple connection (+CIPMUX=1) AT+CIPSTART= &lt;id&gt;&lt;type&gt;,&lt;addr&gt;, &lt;port&gt;</td>
+<td>-</td>
+<td>AT+CIPSTART=?</td>
+<td>id = 0-4, type = TCP/UDP, addr = IP address, port= port</td>
+<td>Connect to another TCP server, set multiple connection first: AT+CIPMUX=1; connect:  AT+CIPSTART=4,"TCP","X1.X2.X3.X4",9999
+</td></tr>
+<tr>
+<td>AT+CIPSEND</td>
+<td>send data</td>
+<td>TCP/IP</td>
+<td>1)single connection(+CIPMUX=0) AT+CIPSEND=&lt;length&gt;; 2) multiple connection (+CIPMUX=1) AT+CIPSEND= &lt;id&gt;,&lt;length&gt;</td>
+<td></td>
+<td>AT+CIPSEND=?</td>
+<td></td>
+<td>send data: AT+CIPSEND=4,15 and then enter the data
+</td></tr>
+<tr>
+<td>AT+CIPCLOSE</td>
+<td>close TCP or UDP connection</td>
+<td>TCP/IP</td>
+<td>AT+CIPCLOSE=&lt;id&gt; or AT+CIPCLOSE</td>
+<td></td>
+<td>AT+CIPCLOSE=?</td>
+<td>
+</td></tr>
+<tr>
+<td>AT+CIFSR</td>
+<td>Get IP address</td>
+<td>TCP/IP</td>
+<td>AT+CIFSR</td>
+<td></td>
+<td>AT+ CIFSR=?</td>
+<td>
+</td></tr>
+<tr>
+<td>AT+ CIPMUX</td>
+<td>set mutiple connection</td>
+<td>TCP/IP</td>
+<td>AT+ CIPMUX=&lt;mode&gt;</td>
+<td>AT+ CIPMUX?</td>
+<td></td>
+<td>0 for single connection 1 for mutiple connection
+</td></tr>
+<tr>
+<td>AT+ CIPSERVER</td>
+<td>set as server</td>
+<td>TCP/IP</td>
+<td>AT+ CIPSERVER= &lt;mode&gt;[,&lt;port&gt; ]</td>
+<td></td>
+<td></td>
+<td>mode 0 to close server mode, mode 1 to open; port = port</td>
+<td>turn on as a TCP server:  AT+CIPSERVER=1,8888, check the self server IP address: AT+CIFSR=?
+</td></tr>
+<tr>
+<td>+IPD</td>
+<td>received data</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>
+</td></tr></tbody></table>
+<h2><span class="mw-headline" id="Pin_Definition">Pin Definition</span></h2>
+<p><b>There are multiple versions of the model, check the source where you bought the module.</b>
+</p>
+<ul class="gallery mw-gallery-traditional">
+		<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+			<div class="thumb" style="width: 150px;"><div style="margin:15px auto;"><a href="./File_ESP8266_interface.jpg" class="image" title="Module version 1"><img alt="Module version 1" src="./images/thumb/d/d7/ESP8266_interface.jpg/65px-ESP8266_interface.jpg" decoding="async" width="65" height="120" srcset="./images/thumb/d/d7/ESP8266_interface.jpg/98px-ESP8266_interface.jpg 1.5x, ./images/thumb/d/d7/ESP8266_interface.jpg/131px-ESP8266_interface.jpg 2x" /></a></div></div>
+			<div class="gallerytext">
+<p>Module version 1
+</p>
+			</div>
+		</div></li>
+</ul>
+<!-- 
+NewPP limit report
+Cached time: 20261104003150
+Cache expiry: 86400
+Reduced expiry: false
+Complications: [show‐toc]
+[SMW] In‐text annotation parser time: 0.007 seconds
+CPU time usage: 0.059 seconds
+Real time usage: 0.066 seconds
+Preprocessor visited node count: 209/1000000
+Post‐expand include size: 1308/2097152 bytes
+Template argument size: 159/2097152 bytes
+Highest expansion depth: 5/100
+Expensive parser function count: 1/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 661/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   11.718      1 Template:Project
+100.00%   11.718      1 -total
+-->
+
+<!-- Saved in parser cache with key nurdspace_wiki:pcache:idhash:941-0!dateformat=default and timestamp 20261104003150 and revision id 5231.
+ -->
+</div>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="./index__38f0a546">https://nurdspace.nl/index.php?title=ESP8266&amp;oldid=5231</a>"</div></div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="./Special_Categories" title="Special:Categories">Category</a>: <ul><li><a href="./Category_Projects" title="Category:Projects">Projects</a></li></ul></div></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigation menu</h2>
+	<div id="mw-head">
+		
+
+<nav id="p-personal" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" aria-labelledby="p-personal-label" role="navigation"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Personal tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="pt-login" class="mw-list-item"><a href="./index__6c9c502c" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o"><span>Log in</span></a></li></ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+
+<nav id="p-namespaces" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-namespaces-label" role="navigation"  >
+	<h3
+		id="p-namespaces-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Namespaces</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main" class="selected mw-list-item"><a href="./ESP8266" title="View the content page [c]" accesskey="c"><span>Page</span></a></li><li id="ca-talk" class="new mw-list-item"><a href="./index__68809e24" rel="discussion" title="Discussion about the content page (page does not exist) [t]" accesskey="t"><span>Discussion</span></a></li></ul>
+		
+	</div>
+</nav>
+
+			
+
+<nav id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	/>
+	<label
+		id="p-variants-label"
+		 aria-label="Change language variant"
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+
+<nav id="p-views" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" aria-labelledby="p-views-label" role="navigation"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Views</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="ca-view" class="selected mw-list-item"><a href="./ESP8266"><span>Read</span></a></li><li id="ca-viewsource" class="mw-list-item"><a href="./index__4bd6ca6b" title="This page is protected.&#10;You can view its source [e]" accesskey="e"><span>View source</span></a></li><li id="ca-history" class="mw-list-item"><a href="./index__044d3383" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li></ul>
+		
+	</div>
+</nav>
+
+			
+
+<nav id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	/>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<div>
+			<h3 >
+				<label for="searchInput">Search</label>
+			</h3>
+		<form action="./index" id="searchform"
+			class="vector-search-box-form">
+			<div id="simpleSearch"
+				class="vector-search-box-inner"
+				 data-search-loc="header-navigation">
+				<input class="vector-search-box-input"
+					 type="search" name="search" placeholder="Search NURDspace" aria-label="Search NURDspace" autocapitalize="sentences" title="Search NURDspace [f]" accesskey="f" id="searchInput"
+				>
+				<input type="hidden" name="title" value="Special:Search">
+				<input id="mw-searchButton"
+					 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search the pages for this text" value="Search">
+				<input id="searchButton"
+					 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
+			</div>
+		</form>
+	</div>
+</div>
+
+		</div>
+	</div>
+	
+
+<div id="mw-panel">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" id="logo" href="./Main_Page"
+			title="Visit the main page"></a>
+	</div>
+	<script>
+            let r = 255
+            let g = 0
+            let b = 0
+
+            function rgb(r, g, b){
+                return "rgb("+r+","+g+","+b+")"
+            }
+
+            function logoTimer() {
+                if (r < 255 && g == 0 && b == 0) {
+                    r++
+                } else if (r == 255 && g < 255 && b == 0) {
+                    g++
+                } else if (r > 0 && g == 255 && b == 0) {
+                    r--
+                } else if (r == 0 && g == 255 && b < 255) {
+                    b++
+                } else if (r == 0 && g > 0 && b == 255) {
+                    g--
+                } else if (r < 255 && g == 0 && b == 255) {
+                    r++
+                } else if (r == 255 && g== 0 && b > 0) {
+                    b--
+                }
+                document.getElementById("logo").style.backgroundColor = rgb(r, g, b)
+            }
+
+            setInterval(logoTimer, 25)
+	</script>
+	
+
+<nav id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="n-Home" class="mw-list-item"><a href="./Main_Page"><span>Home</span></a></li><li id="n-About-the-Space" class="mw-list-item"><a href="./Space"><span>About the Space</span></a></li><li id="n-Events" class="mw-list-item"><a href="./Events"><span>Events</span></a></li><li id="n-Tools" class="mw-list-item"><a href="./Tools"><span>Tools</span></a></li><li id="n-Projects" class="mw-list-item"><a href="./Projects"><span>Projects</span></a></li><li id="n-Members" class="mw-list-item"><a href="./Category_Members"><span>Members</span></a></li><li id="n-Committees" class="mw-list-item"><a href="./Committees"><span>Committees</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="./Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r"><span>Recent changes</span></a></li></ul>
+		
+	</div>
+</nav>
+
+	
+
+<nav id="p-tb" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere" class="mw-list-item"><a href="./Special_WhatLinksHere/ESP8266" title="A list of all wiki pages that link here [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="./Special_RecentChangesLinked/ESP8266" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="./Special_SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li><li id="t-permalink" class="mw-list-item"><a href="./index__38f0a546" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="./index__8c0e639d" title="More information about this page"><span>Page information</span></a></li><li id="t-smwbrowselink" class="mw-list-item"><a href="./Special_Browse/_ESP8266" rel="search"><span>Browse properties</span></a></li></ul>
+		
+	</div>
+</nav>
+
+	
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 30 November 2014, at 19:57.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="./NURDspace_Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="./NURDspace_About">About NURDspace</a></li>
+	<li id="footer-places-disclaimer"><a href="./NURDspace_General_disclaimer">Disclaimers</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-poweredbyico"><a href="../www.mediawiki.org/index.html"><img src="./resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="./resources/assets/poweredby_mediawiki_132x47.png 1.5x, ./resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a><a href="../www.semantic-mediawiki.org/wiki/Semantic_MediaWiki"><img src="data:image/png;base64,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ScG2HrRkyRIsFouw2+0pqqpeDVwuhBgnSVKSJEnifJkWvbt+b/s3kmyaqqrlmqbtBb6QJGl9SEjISYfDofmlWmD7/y/4QwUI9ZzIAAAAWHRFWHRjb21tZW50AEZpbGUgc291cmNlOiBodHRwczovL3d3dy5zZW1hbnRpYy1tZWRpYXdpa2kub3JnL3dpa2kvRmlsZTpTTVdfcG93ZXJlZGJ5XzI1MjAucG5nR/HgGQAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMS0wNy0wMlQxNTozMTo1NSswMjowMJD7GggAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjEtMDctMDJUMTU6MzE6NTUrMDI6MDDhpqK0AAAAPHRFWHRzb2Z0d2FyZQAvdXNyL3NoYXJlL2RvYy9pbWFnZW1hZ2ljay02LWNvbW1vbi9odG1sL2luZGV4Lmh0bWx15G87AAAAGHRFWHRUaHVtYjo6RG9jdW1lbnQ6OlBhZ2VzADGn/7svAAAAGHRFWHRUaHVtYjo6SW1hZ2U6OkhlaWdodAA4ODHPniohAAAAGHRFWHRUaHVtYjo6SW1hZ2U6OldpZHRoADI1MjDhfK24AAAAGXRFWHRUaHVtYjo6TWltZXR5cGUAaW1hZ2UvcG5nP7JWTgAAABd0RVh0VGh1bWI6Ok1UaW1lADE2MjUyMzI3MTXeTZeiAAAAEnRFWHRUaHVtYjo6U2l6ZQAxMzVLQkL58MQeAAAAAElFTkSuQmCC" alt="Powered by Semantic MediaWiki" class="smw-footer" width="88" height="31" loading="lazy"/></a></li>
+</ul>
+
+
+<!-- Uncomment to enable black snow
+
+	<div id="snow"></div>
+
+	<script type="module">
+	//import the Snow module
+	import * as Snow from '/snow.js'
+
+	// Snow script included on the page, already.
+	window.onload = function () {
+	    var snow = new Snow.default({
+		id: 'snow'
+	    });
+
+	    //Can run the snowfall by calling:
+	    snow.start();
+	}
+	</script>
+
+-->
+
+</footer>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"smw":{"limitreport-intext-parsertime":0.007},"limitreport":{"cputime":"0.059","walltime":"0.066","ppvisitednodes":{"value":209,"limit":1000000},"postexpandincludesize":{"value":1308,"limit":2097152},"templateargumentsize":{"value":159,"limit":2097152},"expansiondepth":{"value":5,"limit":100},"expensivefunctioncount":{"value":1,"limit":100},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":661,"limit":5000000},"timingprofile":["100.00%   11.718      1 Template:Project","100.00%   11.718      1 -total"]},"cachereport":{"timestamp":"20261104003150","ttl":86400,"transientcontent":false}}});mw.config.set({"wgBackendResponseTime":86});});</script>
+</body>
+</html>

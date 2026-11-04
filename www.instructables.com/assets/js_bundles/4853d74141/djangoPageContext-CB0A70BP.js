@@ -1,0 +1,1 @@
+import{r as e}from"./rolldown-runtime-hePW80VL.js";import{t}from"./react-Cvdyeg_0.js";var n=(0,e(t(),1).createContext)({}),r=e=>{if(!e)return{};try{return JSON.parse(e.innerHTML)}catch(e){return console.error(`error getting django page context`,e),{}}},i=()=>r(document.getElementById(`js-page-context`));export{i as n,r,n as t};

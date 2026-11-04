@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      html, body, #mapDiv {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="mapDiv"></div>
+      
+    <script nonce="p9_4g3RpORN_vdb1yA8Wng">
+      function onEmbedLoad() {
+        initEmbed([null,null,null,null,null,[[[2,"spotlit",null,null,null,null,null,[null,null,null,null,null,null,null,null,null,null,11,null,[null,null,null,null,null,null,null,null,null,null,null,null,null,1]]]],null,null,[[null,null,null,null,null,null,null,null,null,null,null,null,null,[[["4625334934631513025","9160497377035912773"],"/g/11rn55q2d3",null,[403802834,498415554],null,null,null,null,null,null,null,null,null,null,"gcid:electronics_company"],0,0,null,null,0,null,0,0]]]],null,["tr",""],[null,null,null,"/maps/api/js/ApplicationService.GetEntityDetails","/maps/embed/upgrade204",null,"/maps/embed/record204"],null,null,null,null,null,null,null,null,"LnvrapivEayli-gPr5DT-Q0",null,null,null,[[[3039.297449591461,49.8415554,40.38028339999999],[0,0,0],null,13.10000038146973],null,0,[["0x40307d9df1ea7bc1:0x7f209fd47c1f8645","Robotzade, Pr. 79A Bülbül, Baku 1014",[40.3802834,49.8415554],"9160497377035912773"],"Robotzade",["Pr. 79A Bülbül","Baku 1014"],4.800000190734863,"136 yorum","https://search.google.com/local/reviews?placeid=ChIJwXvq8Z19MEARRYYffNSfIH8\u0026q=Robotzade\u0026hl=tr\u0026gl=AZ",null,"077 233 11 00",null,null,null,["http://www.robotzade.az/","robotzade.az",null,null,",AOvVaw09cIzgCw_JTphGcZZR7upn,,2ahUKEwiY_tvC-u6XAxWs0gIHHS_INN8Q61goDnoECAAQEg,"],"Elektronik Şirketi","Pr. 79A Bülbül, Bakı 1014",null,null,null,null,null,null,null,null,null,null,null,null,null,"ChIJwXvq8Z19MEARRYYffNSfIH8",null,null,"2ahUKEwiY_tvC-u6XAxWs0gIHHS_INN8Q8BcoAHoECAAQAQ",null,null,["tel:0772331100"],null,null,null,1,["2ahUKEwiY_tvC-u6XAxWs0gIHHS_INN8QqtMBKAh6BAgAEAo",["8HGF9RJR+4J"],["9RJR+4J Bakü"],2],[[["Çarşamba",3,[2026,11,4],[["09:00–18:00",[[9],[18]]]],0,1],["Perşembe",4,[2026,11,5],[["10:00–18:00",[[10],[18]]]],0,1],["Cuma",5,[2026,11,6],[["09:00–18:00",[[9],[18]]]],0,1],["Cumartesi",6,[2026,11,7],[["09:00–14:00",[[9],[14]]]],0,1],["Pazar",7,[2026,11,8],[["Kapalı"]],0,2],["Pazartesi",1,[2026,11,9],[["09:00–18:00",[[9],[18]]]],0,1],["Salı",2,[2026,11,10],[["09:00–18:00",[[9],[18]]]],0,1]],[["Çarşamba",3,[2026,11,4],[["09:00–18:00",[[9],[18]]]],0,1],null,5,null,["Kapalı ⋅ Açılış zamanı: Per 10:00",[[0,6,[null,[4292030248,4294097077]]]]],["Kapalı ⋅ Açılış zamanı: Per 10:00",[[0,6,[null,[4292030248,4294097077]]]]],null,[24],["Kapalı",[[0,6,[null,[4292030248,4294097077]]]]]],3,null,null,null,1]]],null,null,null,0,null,null,null,null,null,null,[1]]);
+      }
+      function onApiLoad() {
+        var embed = document.createElement('script');
+        embed.src = "../../maps.gstatic.com/maps-api-v3/embed/js/66/13d/intl/tr_ALL/init_embed.js";
+        document.body.appendChild(embed);
+      }
+    </script>
+    <link rel="preload" href="../../maps.gstatic.com/maps-api-v3/embed/js/66/13d/intl/tr_ALL/init_embed.js" nonce="p9_4g3RpORN_vdb1yA8Wng" as="script" />
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y&amp;paint_origin=&amp;libraries=geometry,search&amp;v=weekly&amp;loading=async&amp;language=tr&amp;experimentation=allowed&amp;callback=onApiLoad" nonce="p9_4g3RpORN_vdb1yA8Wng" async defer></script>
+  </body>
+</html>

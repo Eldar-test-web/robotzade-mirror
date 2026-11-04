@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html  lang="en-US" class="respon">
+<head id="head"><title>
+	Support Services | Digi International
+</title><meta charset="UTF-8" /> 
+<meta name="robots" content="noindex,nofollow" /> 
+<meta name="msvalidate.01" content="B43A9E654726694F328698DDB04182B8" />
+<meta name="msvalidate.01" content="990D82D10A4D5FC959E1432C8AEDED15" />
+<meta name="apple-mobile-web-app-title" content="Digi">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="apple-touch-icon" href="../images/apple-icon.png"> 
+<link href="../Digi/media/Marketing/favicon.ico" type="image/x-icon" rel="shortcut icon"/>
+<link href="../Digi/media/Marketing/favicon.ico" type="image/x-icon" rel="icon"/>
+<script type="text/javascript">var country_code = 'AZ'; var region_code = '';</script><script>var cdn_country_code="{CDN_COUNTRY_CODE}";</script><link href="../CMSPages/GetResource__d1d396d4" rel="stylesheet" type="text/css" />
+<script src="../js/bootstrap.js"></script>
+<script src="../CMSPages/GetResource__f9c98c68"></script>
+<!--<script src="../CMSPages/GetResource__1a18f3fc"></script>-->
+<meta name="business-unit" content="">
+<script>var kentico_set_bu = '';</script>
+<link href="../CMSPages/GetResource__be49cb84" rel="stylesheet" type="text/css" />
+<script src="../js/main.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  
+}, false);
+</script>
+<link href="../CMSPages/GetResource__05c5cadb" rel="stylesheet" type="text/css" />
+<script src="../js/nav.js"></script>
+<link href="../CMSPages/GetResource__7c5a502b" rel="stylesheet" type="text/css" /><script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+
+  console.log('AWS Request Header: ' + country_code);
+  if (getthecookie('cloudfront-viewer-country') != '') {
+    console.log('cloudfront-viewer-country: ' + getthecookie('cloudfront-viewer-country'));
+  }
+
+  const eu_countries = new RegExp('AT|BE|BG|CH|CY|CZ|DE|DK|EE|ES|FI|FR|GR|HR|HU|IE|IT|LT|LU|LV|MT|NL|PL|PO|PT|RO|SE|SI|SK|UK|GB');
+
+  function is_eu() {
+    if (typeof country_code !== 'undefined') {
+      var is_ca = country_code === 'US' && typeof region_code !== 'undefined' && region_code === 'CA';
+      if (country_code.match(eu_countries) || country_code == '' || is_ca) { return true; } else { return false; }
+    } else { return true; }
+  }
+
+  function is_tracking_set() {
+    if (getthecookie('tracking_opt_in') == 'yes') { return true;
+    } else { return false; }
+  }
+
+  // Initialize Google Consent Mode with default settings
+  set_deny_consent();
+
+  var track_script = document.createElement('script');
+  track_script.innerHTML = "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='../../www.googletagmanager.com/gtm__54457931.js'+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TPWV5V');";
+  
+  if(is_tracking_set() || (!is_eu() && getthecookie('tracking_opt_in') != 'no')) {
+    // Update consent if user has opted in or is not in the EU
+    set_update_accept_consent();
+    document.head.appendChild(track_script);
+    dataLayer.push({ 
+      event: 'clarityConsent', 
+      consentGranted: true 
+    });
+  }
+</script>
+<link rel="canonical" href="../support-old" />
+<link rel="alternate" hreflang="en" href="../index.html">
+<link rel="alternate" hreflang="de" href="../../de.digi.com/index.html">
+<link rel="alternate" hreflang="es" href="../../es.digi.com/index.html">
+<link rel="alternate" hreflang="zh" href="../../zh.digi.com/index.html">
+<link rel="alternate" hreflang="fr" href="../../fr.digi.com/index.html">
+<script src="../../cdn.weglot.com/weglot.min.js"></script>
+<script>
+    Weglot.initialize({
+        api_key: 'wg_6bb9d9bb1bda3c8c0bb9274c0a536d093',
+      hide_switcher: true
+    });
+</script><script src="../CMSPages/GetResource__59cae36d"></script>
+<script src="../js/support-survey-v2.js"></script></head>
+<body class="index"  >
+    <form method="post" action="./support-old__f5c2f7f7" id="form">
+<input type="hidden" name="__CMSCsrfToken" id="__CMSCsrfToken" value="qftZEyBmapIua5OqXsnIy3x5+KD9fAEIuGHwx6U2xRa1x8ZtdQR4G4a9YatA/jga4913OuciUXLHbZ6Vs0zgoDjckXg=" />
+
+
+<input type="hidden" name="lng" id="lng" value="en-US" />
+<script type="text/javascript">
+	//<![CDATA[
+
+function PM_Postback(param) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); } if(window.CMSContentManager) { CMSContentManager.allowSubmit = true; }; __doPostBack('m$am',param); }
+function PM_Callback(param, callback, ctx) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }if (window.CMSContentManager) { CMSContentManager.storeContentChangedStatus(); };WebForm_DoCallback('m$am',param,callback,ctx,null,true); }
+//]]>
+</script>
+<script src="../ScriptResource__51ba3c54" type="text/javascript"></script>
+<script type="text/javascript">
+	//<![CDATA[
+
+var CMS = CMS || {};
+CMS.Application = {
+  "language": "en",
+  "imagesUrl": "/CMSPages/GetResource.ashx?image=%5bImages.zip%5d%2f",
+  "isDebuggingEnabled": false,
+  "applicationUrl": "/",
+  "isDialog": false,
+  "isRTL": "false"
+};
+
+//]]>
+</script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A5343185" />
+    
+    <div id="ctxM">
+
+</div>
+    
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe title="GA No Script Tracking" src="../../www.googletagmanager.com/ns__6fececa0"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+
+
+
+
+<div class="support-services index">
+	<div id="subbanner">
+	  <div class="inside">
+			<a href="../portal" class="buttonsmall">Expert Support Login</a>
+	    <div class="text"><h1>Support <span class="digigreen">Services<span></h1>
+			<span class="teaser">Get the help you need via our Technical Support team and online resources.</span></div>
+	    <img src="../../images.digi.com/subpage-banner-support.jpg" alt="" class="background" />
+	    <span class="corner"><a href="javascript:scroll_down_to('#tools');"><img src="../../images.digi.com/subpage-banner-corner-support.png" alt="" /></a></span>
+	  </div>
+	</div>
+	<div class="inside">
+	<h4 class="subheading">Digi International&reg; offers multiple support levels to meet your needs.</h4>
+
+	<div class="tierflextop">
+		<a href="mailto:tech.support@digi.com" class="colthree">
+			<span class="heading">Base Support</span>
+			<span class="cover">Support program for our <br />do-it-yourself customer.</span>
+			<span class="text">
+				<span class="icon"><img src="../images/support-icon-services-base.png" alt="Digi Base" /><br />Hours Response<br /> Time</span>
+				<span class="features">
+					<span class="item">Email Support</span>
+					<span class="item">Device Configuration Assistance</span>
+					<span class="item">Device Connectivity Support</span>
+					<span class="item">Feature/Functionality Inquiries</span>
+					<span class="item">Firmware Upgrade Assistance</span>
+					<span class="item">RA Assistance</span>
+					<span class="item">Bug Reporting</span>
+					<span class="item">Base Support Registration Required</span>
+				</span>
+				<span class="btncontainer"><span class="buttonsmall">Email Support</span></span>
+			</span>
+		</a>
+		<a href="./compare-support-services" class="colthree">
+			<span class="heading">Expert Support</span>
+			<span class="cover">Support program for our customers needing hands-on assistance.</span>
+			<span class="text">
+				<span class="icon"><img src="../images/support-icon-services-expert.png" alt="Digi Expert" /><br />Hours Response<br /> Time</span>
+				<span class="features">
+					<span class="item">All Digi Base Services, Plus</span>
+					<span class="item">Priority Case Response</span>
+					<span class="item">Phone Support</span>
+					<span class="item">Customer Portal</span>
+					<span class="item">Network Troubleshooting</span>
+					<span class="item">Solution Troubleshooting</span>
+					<span class="item">Integration with 3rd Party Devices</span>
+					<span class="item">Code Debugging/Support</span>
+                  <span class="item">Best Effort Support for EOL and non-warranty Products</span>
+				</span>
+				<span class="btncontainer"><span class="buttonsmall">Learn More</span></span>
+			</span>
+		</a>
+		<a href="./professional-services" class="colthree">
+			<span class="heading">Professional Services</span>
+			<span class="cover">Additional services for customers with large implementations, end-to-end solutions or complex network installations.</span>
+			<span class="text">
+				<span class="icon"><img src="../images/support-icon-services-pro.png" alt="Digi Professional" /><br />Add-on Services</span>
+				<span class="features">
+					<span class="item">Mobile or Web Application Development</span>
+					<span class="item">Python Development</span>
+					<span class="item">Site Surveys</span>
+					<span class="item">On-site Support</span>
+					<span class="item">Installation Services</span>
+					<span class="item">Implementation Services</span>
+					<span class="item">Customer Specific Device Configuration and Activation Services</span>
+					<span class="item">Customer Training</span>
+				</span>
+				<span class="btncontainer"><span class="buttonsmall">Learn More</span></span>
+			</span>
+		</a>
+	</div><!-- END TIERFLEXTOP -->
+
+	<div id="compare">
+		<a href="./compare-support-services" class="alllink">COMPARE SUPPORT SERVICES</a>
+	</div>
+</div>
+<div class="tier" id="policy">
+	<div class="inside">
+		<h2>Digi Support Policy</h2>
+		<div class="tierflextop">
+			<div><img src="../digi/media/icons/icon-featured-environment.png" alt=""></div>
+		<div>
+			<p>Digi will provide Base support for the duration of the hardware warranty period. Expert support and extended warranties can be purchased separately.</p>
+ 
+<p>Software maintenance will be offered after the software warranty period for the duration of the hardware warranty and up to the End of Software Release Date. This includes commercially reasonable efforts to address deficiencies and update security features. Customers may be required to upgrade to a current version of firmware and/or implement other changes on the device to implement these updates.</p>
+ 
+<p>When we announce a product End of Life date, we will define an End of Software Release Date which will be 1 year past the Last Time Ship date.</p>
+ 
+<p>Digi strongly recommends that customers subscribe to Digi Remote Manager cloud service (“DRM”) which enables wireless remote updating of software and firmware in Digi products for security patches and feature upgrades.</p>
+ 
+<p>Customers that choose not to subscribe to DRM or do not use DRM for software and firmware updates are responsible for manually updating their Digi products. On occasion, a Digi product may require a firmware or software upgrade to address a security update, address deficiencies or provide new functionality to address a customer need. A solid upgrade strategy is essential to ensure the maximum life and benefit of your Digi product.</p>
+		</div>
+		</div>
+		<hr class="divider" />
+	</div>
+</div>
+	<div class="tier" id="tools">
+		<div class="inside">
+			<h2>Support Tools</h2>
+			<h4 class="subheading">All Digi customers have access to firmware and drivers, knowledge bases and peer-to-peer support forums, and complete product documentation.</h4>
+
+			<div class="embeddedsearch">
+				<input type="hidden" value="support" id="tab" name="tab" />
+  			<input type="text" id="qs" name="q" placeholder="Search support" /><input type="submit" class="button" value="" onclick="SearchButtonClick(); return false;"  />
+			</div>
+
+			<div class="tierflextop">
+				<div class="colfour coltool" id="downloads">
+					<h4>Support Downloads</h4>
+					<a href="./supporttype__4f5454a4">Drivers</a>
+					<a href="./supporttype__ba92dba5">Firmware Updates</a>
+					<a href="./supporttype__50686528">Documentation</a>
+					<a href="./supporttype__032849e9">Diagnostics, Utilities &amp; MIBS</a>
+					<a href="./supporttype__ecdc30b6">Cabling</a>
+					<a href="./supporttype__44edc019">Embedded Patches</a>
+					<a href="./supporttype__59eae356">Sample Applications</a>
+				</div>
+				<div class="colfour coltool" id="resources">
+					<h4>Support Resources</h4>
+					<a href="./forum">Support Forums</a>
+					<a href="./knowledge-base">Knowledge Base</a>
+					<a href="../../github.com/digidotcom">Software Libraries on GitHub</a>
+					<a href="../wiki/developer">Developer Wiki</a>
+					<a href="../resources/security">Security Center</a>
+					<a href="../resources/certifications">Certifications</a>
+				  <a href="../aboutdigi/environment">RoHS Compliance</a>
+				</div>
+				<div class="colfour coltool" id="mysupport">
+					<h4>My Support</h4>
+					<a href="../../portal.digi.com/index.html">Expert Support Login</a>
+					<a href="mailto:tech.support@digi.com">Email Support</a>
+					<a href="./customerservices/warranty">Base Support Registration</a>
+					<a href="./return-authorization-policy">Return Authorization (RA) Policy</a>
+					<a href="mailto:maintenance@digi.com">Report a Bug</a>
+				</div>
+				<div class="colfour coltool noshow" id="recentviewed">
+					<h4>Recently Viewed</h4>
+					<div id="recent"></div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+<div class="tier resourcedownload">
+	<div class="inside">
+		<div class="coltwo"><a href="../resources/library/data-sheets/digi-tech-services-datasheet"><img src="../getattachment/resources/library/data-sheets/digi-tech-services-datasheet/thumbnail.jpg" alt="Support Services Datasheet" /></a></div>
+		<div class="coltwo">
+			<h4>Download the Support Services Datasheet</h4>
+			<p>Whether you are a Digi customer, channel partner, distributor, or solution partner, Digi Technical Services is at the ready to offer an exceptionally broad range of support services to help you resolve issues, create innovative products, and get to market faster with higher-quality solutions.</p>
+			<a href="../resources/library/data-sheets/digi-tech-services-datasheet" class="button">Download</a>
+		</div>
+	</div>
+</div>
+        
+</div>
+<script>
+	var urlextension = '';
+	function SearchButtonClick() {
+		window.location.assign('/search/results?tab=support&q=' + $("#qs").val());
+	}
+	$(document).ready(function() {
+		if ((window.location.hash == "#product-support") || (window.location.hash == "#support-tools")) {
+			setTimeout(function(){ scroll_down_to('#tools'); }, 800);
+		}
+	});
+</script>
+<script type="text/javascript" src="../CMSScripts/Custom/support-livefilter.js"></script>
+
+<a href="./index" onclick="scroll_down_to('body'); return false;" class="scrollup"><img src="../digi/media/home/scroll-arrow-up.png" alt="Scroll to top of page" /></a>
+    
+      <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="tFKD0SSai1luoaQ5iBgGDaVxnKHAaodqT760HhbUXZebJZC+By17fDtKxtUBfsi65hJvBBCRLVtcvZJzkofT3o30nWyibC2bg3Ew8IBIYLPF7eeo3Q8iIlRP24gUAz5R8kLAPdVUbjm5QTfs3aoZnzTOPgc+qxIA9L5+VwxATmtVKLJV+G4A/0IijSFHbhNn7/RWEQ6xpWQs6MFAUn2ZHIy3Eofd61U7vOVEFXWfAb5Qe15HrUWX79B42kuqjQiIn4eAuYhm9z5KLIAregqkOKhf4KNueCXZaLp9GBUY6tOB6BUroP6ucixda3KCEO+bLtiixnkox8DaUdyKqAph96Pw/g3tgHSLBGyMrrPeJC+mvdKTG0wkmhLiMOO7W9MnXe8/zpYkcbp6h+m74V8T9TQHAANNQ7qkLqoSP4TwnNBMmQydPaUR2EnPjXtzerdX7zXyKH51ZtmNERYo514A//RtXlE=" />
+  <script type="text/javascript">
+      //<![CDATA[
+      if (window.WebForm_InitCallback) {
+        __theFormPostData = '';
+        __theFormPostCollection = new Array();
+        window.WebForm_InitCallback();
+      }
+      //]]>
+    </script>
+  </form>
+</body>
+</html>

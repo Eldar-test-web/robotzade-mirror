@@ -1,0 +1,2802 @@
+<!doctype html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#" data-theme="system">
+<head>
+  <meta charset="utf-8">
+  <link rel="mask-icon" href="./assets/adafruit_favicon-fa25640e.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" href="./assets/favicon-5362a6c7.ico" />
+
+    <title>Overview | Superhero Power Plant | Adafruit Learning System</title>
+
+    
+
+<link rel="canonical" href="./superhero-power-plant/overview" />
+
+<meta name="guide-title" content="Superhero Power Plant">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@adafruit">
+<meta name="twitter:title" content="Superhero Power Plant">
+<meta name="twitter:description" content="Inspired by Iron Man&#39;s Arc Reactor!">
+<meta name="twitter:image:src" content="https://cdn-learn.adafruit.com/guides/images/000/000/382/medium800/flora_reactor_1800.png">
+<meta name="twitter:domain" content="https://learn.adafruit.com">
+
+<meta property="og:site_name" content="Adafruit Learning System" />
+<meta property="og:title" content="Superhero Power Plant" />
+<meta property="og:description" content="Channel your inner Tony Stark and build a wearable glowing reactor using some laser-etched parts and GEMMA, Adafruit&#39;s super tiny wearable electronics platform." />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="https://cdn-learn.adafruit.com/guides/images/000/000/382/medium800/flora_reactor_1800.png" />
+<meta property="og:url" content="https://learn.adafruit.com/superhero-power-plant/overview" />
+
+<script type="application/ld+json" nonce="1+ti5DZJvMJ3U5XzcO/Zkw==">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "Superhero Power Plant",
+    "description": "Channel your inner Tony Stark and build a wearable glowing reactor using some laser-etched parts and GEMMA, Adafruit&#39;s super tiny wearable electronics platform.",
+    "image": "https://cdn-learn.adafruit.com/guides/images/000/000/382/medium800/flora_reactor_1800.png",
+    "url": "https://learn.adafruit.com/superhero-power-plant/overview",
+    "publisher": "Adafruit",
+    "datePublished": "2013-10-02T12:21:46-04:00",
+    "author": {
+      "@type": "Person",
+      "name": "Becky Stern"
+    }
+  }
+</script>
+
+
+  
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="ErqEPcc96xzTacpajThFa4pnTgP6LmyLPIMOEWsJiEMg4hZh1VczvZ3EayoqB4XViAeP3BwPxv5cOz5aJwtHOA" />
+  <meta name="shop-uri" content="https://www.adafruit.com">
+  <link rel="alternate" type="application/atom+xml" title="ATOM" href="./feed" />
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="./feed" />
+  <link rel="stylesheet" href="./assets/application-8813e530.css" data-turbo-track="reload" media="screen" />
+  <link rel="preload" href="../cdn-shop.adafruit.com/fonts/proximanova/proximanova-light-webfont.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../cdn-shop.adafruit.com/fonts/proximanova/proximanova-regular-webfont.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../cdn-shop.adafruit.com/fonts/proximanova/proximanova-semibold-webfont.woff2" as="font" type="font/woff2" crossorigin>
+  <script nonce="1+ti5DZJvMJ3U5XzcO/Zkw==">
+  var dataLayer = [];
+  function gtag(){dataLayer.push(arguments);}
+</script>
+
+  <!-- Google Tag Manager -->
+  <script nonce="1+ti5DZJvMJ3U5XzcO/Zkw==">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '../www.googletagmanager.com/gtm__54457931.js'+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PRPXBQ6');</script>
+  <!-- End Google Tag Manager -->
+
+  <script nonce="1+ti5DZJvMJ3U5XzcO/Zkw==">
+    gtag('js', new Date());
+  </script>
+
+    <script nonce="1+ti5DZJvMJ3U5XzcO/Zkw==">
+    gtag("event", "view_item_list", {
+      item_list_id: "382:2489",
+      item_list_name: "superhero-power-plant/overview",
+      items: [
+  {
+    "item_id": "3501",
+    "item_name": "Adafruit GEMMA M0 - Miniature wearable electronic platform",
+    "affiliation": "Featured Product"
+  },
+  {
+    "item_id": "1222",
+    "item_name": "Adafruit GEMMA v2 - Miniature wearable electronic platform",
+    "affiliation": "Featured Product"
+  },
+  {
+    "item_id": "1463",
+    "item_name": "NeoPixel Ring - 16 x 5050 RGB LED with Integrated Drivers",
+    "affiliation": "Featured Product"
+  },
+  {
+    "item_id": "1260",
+    "item_name": "Flora RGB Smart NeoPixel version 3 - Pack of 4",
+    "affiliation": "Featured Product"
+  },
+  {
+    "item_id": "727",
+    "item_name": "3 x AAA Battery Holder with On/Off Switch and 2-Pin JST",
+    "affiliation": "Featured Product"
+  },
+  {
+    "item_id": "1131",
+    "item_name": "JST-PH Battery Extension Cable - 500mm",
+    "affiliation": "Featured Product"
+  },
+  {
+    "item_id": "617",
+    "item_name": "Alkaline AAA batteries - 2 pack",
+    "affiliation": "Featured Product"
+  },
+  {
+    "item_id": "1311",
+    "item_name": "Hook-up Wire Spool Set - 22AWG Solid Core - 6 x 25 ft",
+    "affiliation": "Featured Product"
+  },
+  {
+    "item_id": "1657",
+    "item_name": "Gemma M0 Starter Pack",
+    "affiliation": "Featured Product"
+  },
+  {
+    "item_id": "1849",
+    "item_name": "Adafruit Gemma Sensor Starter Pack",
+    "affiliation": "Featured Product"
+  },
+  {
+    "item_id": "1850",
+    "item_name": "Adafruit Gemma Sequin Starter Pack",
+    "affiliation": "Featured Product"
+  }
+]
+    });
+
+  </script>
+
+
+  <meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"> -->
+
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  <script type="application/ld+json" nonce="1+ti5DZJvMJ3U5XzcO/Zkw==">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "url": "https://learn.adafruit.com/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://learn.adafruit.com/search?q={search_term}",
+        "query-input": "required name=search_term"
+      }
+    }
+  </script>
+    <script src="./assets/application-52fc8f18.js" data-turbo-track="reload" type="module" nonce="1+ti5DZJvMJ3U5XzcO/Zkw=="></script>
+</head>
+
+<body class="application pages show production" data-rails-env="production">
+    <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="../www.googletagmanager.com/ns__c766560b"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <div id="outer-wrapper">
+    <div id="inner-wrapper">
+      
+      <nav class="skip-links" aria-label="Skip links">
+  <ul>
+    <li><a data-turbo="false" href="./superhero-power-plant__21015941">Skip to main content</a></li>
+      <li><a data-turbo="false" href="./superhero-power-plant__21015941">Skip to article content</a></li>
+
+  </ul>
+</nav>
+
+
+        <div id="messaging-wrapper" class="messages-container" data-load="https://www.adafruit.com/api/multi_message.php"></div>
+
+
+      <header id="adafruit-header" aria-label="Adafruit header">
+  <div id="small-header">
+  <div class="first-row">
+      <nav aria-label="Adafruit applications menu">
+    <ul class="application-links">
+      <li><a aria-label="Adafruit Shop" href="../www.adafruit.com/index.html">Shop</a></li>
+      <li class="selected"><a aria-label="Adafruit Learning System" href="./index.html">Learn</a></li>
+      <li><a aria-label="Adafruit Blog" href="../blog.adafruit.com/index.html">Blog</a></li>
+      <li><a aria-label="Adafruit Forums and Support" href="../forums.adafruit.com/index.html">Forums</a></li>
+      <li><a aria-label="Adafruit IO, the internet of things" href="../io.adafruit.com/index.html">IO</a></li>
+      <li><a aria-label="Adafruit Youtube Videos" href="https://www.youtube.com/adafruit/live">LIVE!</a></li>
+
+        <li><a aria-label="Adafruit product box subscription" href="../www.adabox.com/index.html">AdaBox</a></li>
+    </ul>
+  </nav>
+
+  </div>
+
+  <div class="second-row">
+    <div class="row-content">
+      <div id="mobile-header-logo">
+        <a href="./index.html">
+        <img id="small-logo" height="50" width="50" alt="Adafruit Logo" src="./logos/adafruit_logo_small__d6f0fa7b.png" />
+</a>      </div>
+
+      <button id="mobile-menu-button" class="c-hamburger c-hamburger--htx">
+        <span>toggle menu</span>
+      </button>
+
+      <div id="mobile-search-wrapper">
+        <form action="./search" method="get">
+          <label for="mobile-search" style="display:none;">Search</label>
+
+          <input id="mobile-search" type="text" name="q" autocomplete="off"
+            data-app-id="W9DMM4OTH0"
+            data-app-key="28a76a2b87be38db12283ebda329425a"
+            data-app-index="learn_guides_production"
+            data-app-uri="https://learn.adafruit.com" />
+
+          <button type="submit" aria-label="Submit search"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+
+      <a id="mobile-header-cart" href="../www.adafruit.com/shopping_cart">
+        <span class="small-cart-count" aria-live="polite">0</span>
+        <i class="fa fa-shopping-cart"></i>
+</a>    </div>
+  </div>
+
+  <nav id="small-header-nav">
+    <div id="small-menu">
+      <ul>
+          <li class="account-info">
+            <a href="./users/sign_in">Sign In</a> | <a href="../accounts.adafruit.com/index.html">Create Account</a>
+          </li>
+        <li><a href="../adafruit-playground.com/index.html">Playground</a></li>
+          <li><a href="./guides/latest">New Guides</a></li>
+          <li><a href="./groups">Series</a></li>
+          <li><a href="../www.adafruit.com/wishlists">Wishlists</a></li>
+          <li>
+            <a class="random-guide-link" aria-label="View a Random Guide" href="./guides/random">
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+       viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<g>
+  <g>
+    <path fill="currentColor" d="M478.578,244.475H278.047c-3.81,0-7.42,0.78-10.829,1.961l56.305-56.305c6.306-6.306,9.759-14.706,9.759-23.64
+      c0-8.935-3.454-17.335-9.759-23.64L190.282,9.609c-12.589-12.611-34.692-12.611-47.281,0L9.759,142.85
+      C3.454,149.156,0,157.556,0,166.491s3.454,17.335,9.759,23.64l133.242,133.242c6.306,6.306,14.683,9.759,23.64,9.759
+      c8.957,0,17.335-3.454,23.64-9.759l56.305-56.305c-1.181,3.409-1.961,7.019-1.961,10.829v200.531
+      c0,18.427,14.995,33.422,33.422,33.422h200.531c18.427,0,33.422-14.995,33.422-33.422V277.897
+      C512,259.47,497.005,244.475,478.578,244.475z M182.394,271.368c-4.345,4.345-10.049,6.506-15.753,6.506
+      s-11.408-2.161-15.753-6.506c-8.712-8.69-8.712-22.816,0-31.506c8.69-8.712,22.816-8.712,31.506,0
+      C191.106,248.552,191.106,262.679,182.394,271.368z M182.394,182.244c-4.345,4.345-10.049,6.506-15.753,6.506
+      c-5.704,0-11.408-2.161-15.753-6.506c-8.712-8.69-8.712-22.816,0-31.506c8.69-8.712,22.816-8.712,31.506,0
+      C191.106,159.428,191.106,173.554,182.394,182.244z M182.394,93.119c-4.345,4.345-10.049,6.506-15.753,6.506
+      c-5.704,0-11.408-2.161-15.753-6.506c-8.712-8.69-8.712-22.816,0-31.506c8.69-8.712,22.816-8.712,31.506,0
+      C191.106,70.303,191.106,84.429,182.394,93.119z M311.469,467.287c-12.277,0-22.281-9.982-22.281-22.281
+      c0-12.299,10.004-22.281,22.281-22.281c12.277,0,22.281,9.982,22.281,22.281C333.75,457.305,323.746,467.287,311.469,467.287z
+       M311.469,333.6c-12.277,0-22.281-9.982-22.281-22.281c0-12.299,10.004-22.281,22.281-22.281c12.277,0,22.281,9.982,22.281,22.281
+      C333.75,323.618,323.746,333.6,311.469,333.6z M378.313,400.444c-12.277,0-22.281-9.982-22.281-22.281
+      c0-12.299,10.004-22.281,22.281-22.281s22.281,9.982,22.281,22.281C400.594,390.462,390.59,400.444,378.313,400.444z
+       M445.156,467.287c-12.277,0-22.281-9.982-22.281-22.281c0-12.299,10.004-22.281,22.281-22.281s22.281,9.982,22.281,22.281
+      C467.438,457.305,457.433,467.287,445.156,467.287z M445.156,333.6c-12.277,0-22.281-9.982-22.281-22.281
+      c0-12.299,10.004-22.281,22.281-22.281s22.281,9.982,22.281,22.281C467.438,323.618,457.433,333.6,445.156,333.6z"/>
+  </g>
+</g>
+</svg>
+</a>
+          </li>
+      </ul>
+    </div>
+
+    <div id="mobile-search-results"></div>
+  </nav>
+</div>
+
+
+  <div id="large-header">
+    <nav class="first-row" aria-label="Adafruit main site">
+      <div class="row-content">
+          <nav aria-label="Adafruit applications menu">
+    <ul class="application-links">
+      <li><a aria-label="Adafruit Shop" href="../www.adafruit.com/index.html">Shop</a></li>
+      <li class="selected"><a aria-label="Adafruit Learning System" href="./index.html">Learn</a></li>
+      <li><a aria-label="Adafruit Blog" href="../blog.adafruit.com/index.html">Blog</a></li>
+      <li><a aria-label="Adafruit Forums and Support" href="../forums.adafruit.com/index.html">Forums</a></li>
+      <li><a aria-label="Adafruit IO, the internet of things" href="../io.adafruit.com/index.html">IO</a></li>
+      <li><a aria-label="Adafruit Youtube Videos" href="https://www.youtube.com/adafruit/live">LIVE!</a></li>
+
+        <li><a aria-label="Adafruit product box subscription" href="../www.adabox.com/index.html">AdaBox</a></li>
+    </ul>
+  </nav>
+
+
+        <div id="account">
+            <span class="sign-out"><a href="./users/sign_in">Sign In</a></span>
+          <div class="cart">
+            <a aria-label="Shopping Cart, 0 items" aria-live="polite" href="../www.adafruit.com/shopping_cart">
+              <i class="fa fa-shopping-cart"></i> 0
+</a>          </div>
+        </div>
+      </div>
+    </nav>
+
+    <nav class="second-row" aria-label="Adafruit Learn application">
+      <div class="row-content">
+        <div class="left-content">
+          <div id="logo">
+            <a title="Adafruit Learning System" href="./index.html">
+              <img alt="Adafruit Logo" src="./logos/logo_2x__d6f0fa7b.png" />
+</a>          </div>
+          <ul class="main-nav-links">
+            <li class="dropdown with-overlay">
+              <button class="dropdown-label nav-link" aria-haspopup="true">Explore & Learn</button>
+              <div class="dropdown-container">
+                <div class="dropdown-content" tabindex="-1">
+                    <div class="flyout">
+      <div class="three-panels">
+        <div class="first-column">
+          <div class="content-header">
+            <span class="title">Learn Categories</span>
+          </div>
+          <div class="categories">
+            <ul>
+                <li>
+                  <a href="./category/3d-printing">3D Printing</a>
+                </li>
+                <li>
+                  <a href="./category/adabox">AdaBox</a>
+                </li>
+                <li>
+                  <a href="./category/adafruit-products">Adafruit Products</a>
+                </li>
+                <li>
+                  <a href="./category/arduino">Arduino Compatibles</a>
+                </li>
+                <li>
+                  <a href="./category/breakout-boards">Breakout Boards</a>
+                </li>
+                <li>
+                  <a href="./category/circuit-playground">Circuit Playground</a>
+                </li>
+                <li>
+                  <a href="./category/circuitpython">CircuitPython</a>
+                </li>
+                <li>
+                  <a href="./category/clue">CLUE</a>
+                </li>
+                <li>
+                  <a href="./category/community-support">Community Support</a>
+                </li>
+                <li>
+                  <a href="./category/components">Components</a>
+                </li>
+                <li>
+                  <a href="./category/crickit">Crickit</a>
+                </li>
+                <li>
+                  <a href="./category/customer-projects">Customer &amp; Partner Projects</a>
+                </li>
+                <li>
+                  <a href="./category/development-boards">Development Boards</a>
+                </li>
+                <li>
+                  <a href="./category/educators">Educators</a>
+                </li>
+                <li>
+                  <a href="./category/el">EL Wire/Tape/Panel</a>
+                </li>
+                <li>
+                  <a href="./category/feather">Feather</a>
+                </li>
+                <li>
+                  <a href="./category/gaming-1">Gaming</a>
+                </li>
+            </ul>
+            <ul>
+                  <li>
+                    <a href="./category/hacks">Hacks</a>
+                  </li>
+                  <li>
+                    <a href="./category/internet-of-things-iot">Internet of Things - IOT</a>
+                  </li>
+                  <li>
+                    <a href="./category/lcds-and-displays">LCDs &amp; Displays</a>
+                  </li>
+                  <li>
+                    <a href="./category/leds">LEDs</a>
+                  </li>
+                  <li>
+                    <a href="./category/machine-learning">Machine Learning</a>
+                  </li>
+                  <li>
+                    <a href="./category/makecode">MakeCode</a>
+                  </li>
+                  <li>
+                    <a href="./category/maker-business">Maker Business</a>
+                  </li>
+                  <li>
+                    <a href="./category/micro-bit">micro:bit</a>
+                  </li>
+                  <li>
+                    <a href="./category/microcontrollers">Microcontrollers</a>
+                  </li>
+                  <li>
+                    <a href="./category/programming">Programming</a>
+                  </li>
+                  <li>
+                    <a href="./category/raspberry-pi">Raspberry Pi</a>
+                  </li>
+                  <li>
+                    <a href="./category/robotics">Robotics &amp; CNC</a>
+                  </li>
+                  <li>
+                    <a href="./category/sensors">Sensors</a>
+                  </li>
+                  <li>
+                    <a href="./category/stemma">STEMMA</a>
+                  </li>
+                  <li>
+                    <a href="./category/tools">Tools</a>
+                  </li>
+                  <li>
+                    <a href="./category/trellis">Trellis</a>
+                  </li>
+                  <li>
+                    <a href="./category/wearables">Wearables</a>
+                  </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="middle-column">
+        </div>
+
+        <div class="last-column hide-md">
+          <section class="image-content-card">
+  <img loading="lazy" aria-hidden="true" alt="Explore, Groups to get your gears turning" src="./assets/headlines/stemma-690676c3.jpg" />
+
+  <div class="text">
+    <div class="main">
+      <span>Explore</span>
+    </div>
+
+    <div class="tagline">
+      <span>Groups to get your gears turning</span>
+    </div>
+  </div>
+
+  <div class="button">
+    <a title="Groups to get your gears turning, Explore" href="./explore">Explore Groups</a>
+  </div>
+</section>
+
+      </div>
+    </div>
+  </div>
+
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-link">
+              <a class="new-guides-link" href="./guides/latest">New Guides</a>
+            </li>
+            <li class="nav-link">
+              <a href="../adafruit-playground.com/index.html">Playground</a>
+            </li>
+            <li class="nav-link">
+              <a class="random-guide-link" aria-label="View a Random Guide" href="./guides/random">
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+       viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<g>
+  <g>
+    <path fill="currentColor" d="M478.578,244.475H278.047c-3.81,0-7.42,0.78-10.829,1.961l56.305-56.305c6.306-6.306,9.759-14.706,9.759-23.64
+      c0-8.935-3.454-17.335-9.759-23.64L190.282,9.609c-12.589-12.611-34.692-12.611-47.281,0L9.759,142.85
+      C3.454,149.156,0,157.556,0,166.491s3.454,17.335,9.759,23.64l133.242,133.242c6.306,6.306,14.683,9.759,23.64,9.759
+      c8.957,0,17.335-3.454,23.64-9.759l56.305-56.305c-1.181,3.409-1.961,7.019-1.961,10.829v200.531
+      c0,18.427,14.995,33.422,33.422,33.422h200.531c18.427,0,33.422-14.995,33.422-33.422V277.897
+      C512,259.47,497.005,244.475,478.578,244.475z M182.394,271.368c-4.345,4.345-10.049,6.506-15.753,6.506
+      s-11.408-2.161-15.753-6.506c-8.712-8.69-8.712-22.816,0-31.506c8.69-8.712,22.816-8.712,31.506,0
+      C191.106,248.552,191.106,262.679,182.394,271.368z M182.394,182.244c-4.345,4.345-10.049,6.506-15.753,6.506
+      c-5.704,0-11.408-2.161-15.753-6.506c-8.712-8.69-8.712-22.816,0-31.506c8.69-8.712,22.816-8.712,31.506,0
+      C191.106,159.428,191.106,173.554,182.394,182.244z M182.394,93.119c-4.345,4.345-10.049,6.506-15.753,6.506
+      c-5.704,0-11.408-2.161-15.753-6.506c-8.712-8.69-8.712-22.816,0-31.506c8.69-8.712,22.816-8.712,31.506,0
+      C191.106,70.303,191.106,84.429,182.394,93.119z M311.469,467.287c-12.277,0-22.281-9.982-22.281-22.281
+      c0-12.299,10.004-22.281,22.281-22.281c12.277,0,22.281,9.982,22.281,22.281C333.75,457.305,323.746,467.287,311.469,467.287z
+       M311.469,333.6c-12.277,0-22.281-9.982-22.281-22.281c0-12.299,10.004-22.281,22.281-22.281c12.277,0,22.281,9.982,22.281,22.281
+      C333.75,323.618,323.746,333.6,311.469,333.6z M378.313,400.444c-12.277,0-22.281-9.982-22.281-22.281
+      c0-12.299,10.004-22.281,22.281-22.281s22.281,9.982,22.281,22.281C400.594,390.462,390.59,400.444,378.313,400.444z
+       M445.156,467.287c-12.277,0-22.281-9.982-22.281-22.281c0-12.299,10.004-22.281,22.281-22.281s22.281,9.982,22.281,22.281
+      C467.438,457.305,457.433,467.287,445.156,467.287z M445.156,333.6c-12.277,0-22.281-9.982-22.281-22.281
+      c0-12.299,10.004-22.281,22.281-22.281s22.281,9.982,22.281,22.281C467.438,323.618,457.433,333.6,445.156,333.6z"/>
+  </g>
+</g>
+</svg>
+</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="right-content">
+            <div class="search-wrapper">
+              <div id="search-info" data-page=""
+                data-app-id="W9DMM4OTH0"
+                data-app-key="28a76a2b87be38db12283ebda329425a"
+                data-app-index="learn_guides_production"
+                data-app-uri="https://learn.adafruit.com"></div>
+              <div id="search"></div>
+              <i class="fa fa-search"></i>
+            </div>
+        </div>
+
+      </div>
+    </nav>
+  </div>
+</header>
+
+      <turbo-frame id="flash"></turbo-frame>
+      <main id="main-content">
+        <div id="main-content-container" tabindex="-1">
+
+            <div class="toolbar-primary ">
+    <div class="content">
+      <div class="left-content">
+        <div class="breadcrumbs" aria-label="Breadcrumbs">
+          <a href="./index.html"><i class='fa fa-home' role='img' title="Learn home"></i></a>
+
+            <i class="fa fa-chevron-right separator"></i>
+            Superhero Power Plant
+        </div>
+      </div>
+
+      <div class="right-content">
+        
+      </div>
+    </div>
+  </div>
+
+
+          
+
+
+
+<article id="content-wrapper" lang="en" class="single-page" data-page-id="2489" data-guide-id="382">
+
+  
+
+  <header aria-label="Guide information" class="title-header">
+  <h1 class="title">Superhero Power Plant</h1>
+  <p>Inspired by Iron Man&#39;s Arc Reactor!</p>
+  <div class="details">
+      <img alt="Image for user bekathwia" class="user-image" src="../secure.gravatar.com/avatar/527af8577d5c3f4e0f080460920ee3cc__dc40a754" />
+
+      <div class="metadata">
+          <div class="byline">
+    by
+    <a aria-label="Guide author" data-turbo="false" href="./u/bekathwia">Becky Stern</a>
+
+  </div>
+
+        <div class="updated">
+            published October 02, 2013, last edited January 22, 2025<br>
+
+        </div>
+        <div class="small">
+          posted in   <a href="./category/leds">LEDs</a>/
+<a href="./category/led-pixels">LED Pixels</a>
+  <a href="./category/arduino">Arduino Compatibles</a>/
+<a href="./category/gemma">Adafruit GEMMA</a>
+<a href="./category/wearables">Wearables</a>
+
+        </div>
+      </div>
+  </div>
+
+  <div class="buttons">
+
+    <span id="guide-favorite" class="button">
+  <span data-controller="modals">
+    <a data-action="./click-&gt;modals" class="bg-btn-secondary" aria-label="Select to Save this guide." href="./guides/382/favorites">
+      <i class="fa fa-bookmark-o"></i> Save
+</a>    <div class="dialog-container modal"
+     id="favorites-modal"
+     data-modals-target="modal"
+     aria-labelledby="dialog-title"
+     aria-hidden="true">
+  <div class="dialog-overlay" data-a11y-dialog-hide></div>
+  <div class="dialog-content dialog-small">
+    <div class="dialog-header">
+      <div>
+      <h5 class="dialog-title">New Favorite</h5>
+      </div>
+      <a href="./superhero-power-plant__21015941" class="dialog-close" data-a11y-dialog-hide="favorites-modal" aria-label="Close this dialog window">&times;</a>
+    </div>
+    <div class="dialog-body">
+        <p>Please <a href="./users/sign_in">sign in</a> to include this guide in your list of favorites.</p>
+        <p>You will be redirected back to this guide once you <a href="./users/sign_in">sign in</a>, and can then save this guide as one of your favorites.</p>
+    </div>
+    <div class="dialog-footer">
+      <a href="./superhero-power-plant__21015941" class="dialog-close" data-a11y-dialog-hide="favorites-modal" aria-label="Close this dialog window">Close</a>
+    </div>
+  </div><!-- /.modal-content -->
+</div><!-- /.modal -->
+
+  </span>
+</span>
+
+
+    <span class="button">
+  <a class="bg-btn-secondary remote-modal" data-remote="true" data-method="get" href="./guides/382/user_page_associations/new">
+    <i class="fa fa-link"></i> Link Note
+</a></span>
+
+
+
+      <a class="bg-btn-secondary button" href="../cdn-learn.adafruit.com/downloads/pdf/superhero-power-plant.pdf">
+          <i class="fa fa-download"></i> Download
+</a>
+  </div>
+</header>
+
+
+  <div class="left-sidebar-layout" role="region" aria-label="Page content">
+    <div class="sidebar">
+  <nav aria-label="Guide navigation">
+      <div class="data-group">
+        <ul class="nested-page-list" aria-label="Guide pages">
+           <li class='parent' data-controller="collapse">
+
+      <a href="./superhero-power-plant__21015941" class="active published" aria-current="page">Overview</a>
+
+
+</li>
+ <li class='parent' data-controller="collapse">
+
+      <a href="./superhero-power-plant__21015941" class=" published">Laser it</a>
+
+
+</li>
+ <li class='parent' data-controller="collapse">
+
+      <a href="./superhero-power-plant__21015941" class=" published">Circuit Diagram</a>
+
+
+</li>
+ <li class='parent' data-controller="collapse">
+
+      <a href="./superhero-power-plant__21015941" class=" published">Build Circuit</a>
+
+
+</li>
+ <li class='parent' data-controller="collapse">
+
+      <a href="./superhero-power-plant__21015941" class=" published">Arduino Code</a>
+
+
+</li>
+ <li class='parent' data-controller="collapse">
+
+      <a href="./superhero-power-plant__21015941" class=" published">CircuitPython Code</a>
+
+
+</li>
+ <li class='parent' data-controller="collapse">
+
+      <a href="./superhero-power-plant__21015941" class=" published">Affix Faceplate</a>
+
+
+</li>
+ <li class='parent' data-controller="collapse">
+
+      <a href="./superhero-power-plant__21015941" class=" published">Wear it!</a>
+
+
+</li>
+
+        </ul>
+
+        <div class="single-page-spacer"></div>
+        <ul class="nested-page-list" aria-label="Guide resources">
+          <li>
+                <a href="./superhero-power-plant">Multiple pages</a>
+          </li>
+          <li>
+                <div id="feedback_page_2489">
+      <a data-turbo-stream="true" class="feedback-link" title="Feedback? Corrections?" rel="nofollow" href="./feedback/new__4618469f">
+            Feedback?  Corrections?
+</a>    </div>
+
+          </li>
+          <li>
+            <a href="./superhero-power-plant__21015941">Text View</a>
+          </li>
+        </ul>
+      </div>
+
+    
+
+      <section class="list-with-header">
+        <div class="list-header">
+          Guide Products
+          <span class="view-all">
+            <a class="featured-products-link" href="./superhero-power-plant/featured_products">view all</a>
+          </span>
+        </div>
+
+        <ul class="small-product-list">
+            
+
+  <li class="small-product-content-card">
+    <input type="hidden" name="product_analytics_3501" id="product_analytics_3501" value="{
+  &quot;item_list_id&quot;: 441,
+  &quot;item_list_name&quot;: &quot;neopixel-ring-bangle-bracelet&quot;,
+  &quot;items&quot;: {
+    &quot;item_id&quot;: 3501,
+    &quot;item_name&quot;: &quot;Adafruit GEMMA M0 - Miniature wearable electronic platform&quot;,
+    &quot;affiliation&quot;: &quot;Featured Product&quot;
+  }
+}" class="product-json" />
+
+    <div class="product-image">
+          <video class="video-preview product-asset" preload="auto" muted="muted" loop="loop" playsinline poster="../cdn-shop.adafruit.com/product-videos/640x480/3501-05.jpg" aria-hidden=true>
+      <source data-src="../cdn-shop.adafruit.com/product-videos/640x480/3501-05.mp4">
+      <source data-src="../cdn-shop.adafruit.com/product-videos/640x480/3501-05.webm" type="video/webm; codecs=vp8,vorbis">
+      Your browser does not support the video tag.
+    </video>
+  <img class='image-preview product-asset' src='../cdn-shop.adafruit.com/product-videos/640x480/3501-05.jpg' loading='lazy' alt='Pink polished fingers holding a Adafruit GEMMA M0 - Miniature wearable electronic platform. ' />
+
+    </div>
+
+    <div class="product-details">
+        <span class="featured-badge">Featured</span>
+
+      <div>
+        <a class="product-title" href="../www.adafruit.com/product/3501">Adafruit GEMMA M0 - Miniature wearable electronic platform</a>
+      </div>
+
+        <div class="product-price">$9.95</div>
+
+      <a id="3501-product" class="product-buy btn-primary " data-pid="3501" data-qty="1" data-name="Adafruit GEMMA M0 - Miniature wearable electronic platform" target="_blank" aria-live="polite" rel="noopener noreferrer" href="../www.adafruit.com/product/3501">Add  to Cart</a>
+    </div>
+  </li>
+
+            
+
+  <li class="small-product-content-card">
+    <input type="hidden" name="product_analytics_1222" id="product_analytics_1222" value="{
+  &quot;item_list_id&quot;: 441,
+  &quot;item_list_name&quot;: &quot;neopixel-ring-bangle-bracelet&quot;,
+  &quot;items&quot;: {
+    &quot;item_id&quot;: 1222,
+    &quot;item_name&quot;: &quot;Adafruit GEMMA v2 - Miniature wearable electronic platform&quot;,
+    &quot;affiliation&quot;: &quot;Featured Product&quot;
+  }
+}" class="product-json" />
+
+    <div class="product-image">
+        <img class='image-preview product-asset' src='../cdn-shop.adafruit.com/640x480/1222-04.jpg' loading='lazy' alt='Purple poslished fingers holding a Adafruit GEMMA v2 - Miniature wearable electronic platform. ' />
+
+    </div>
+
+    <div class="product-details">
+        <span class="featured-badge">Featured</span>
+
+      <div>
+        <a class="product-title" href="../www.adafruit.com/product/1222">Adafruit GEMMA v2 - Miniature wearable electronic platform</a>
+      </div>
+
+
+      <a id="1222-product" class="notify product-buy btn-primary " data-pid="1222" data-qty="1" data-name="Adafruit GEMMA v2 - Miniature wearable electronic platform" target="_blank" aria-live="polite" rel="noopener noreferrer" href="../www.adafruit.com/product/1222">No Longer Stocked</a>
+    </div>
+  </li>
+
+            
+
+  <li class="small-product-content-card">
+    <input type="hidden" name="product_analytics_1463" id="product_analytics_1463" value="{
+  &quot;item_list_id&quot;: 343,
+  &quot;item_list_name&quot;: &quot;kaleidoscope-eyes-neopixel-led-goggles-trinket-gemma&quot;,
+  &quot;items&quot;: {
+    &quot;item_id&quot;: 1463,
+    &quot;item_name&quot;: &quot;NeoPixel Ring - 16 x 5050 RGB LED with Integrated Drivers&quot;,
+    &quot;affiliation&quot;: &quot;Featured Product&quot;
+  }
+}" class="product-json" />
+
+    <div class="product-image">
+        <img class='image-preview product-asset' src='../cdn-shop.adafruit.com/640x480/1463-00.jpg' loading='lazy' alt='Hand holding NeoPixel Ring with 16 x 5050 RGB LED, lit up rainbow' />
+
+    </div>
+
+    <div class="product-details">
+        <span class="featured-badge">Featured</span>
+
+      <div>
+        <a class="product-title" href="../www.adafruit.com/product/1463">NeoPixel Ring - 16 x 5050 RGB LED with Integrated Drivers</a>
+      </div>
+
+        <div class="product-price">$9.95</div>
+
+      <a id="1463-product" class="product-buy btn-primary " data-pid="1463" data-qty="1" data-name="NeoPixel Ring - 16 x 5050 RGB LED with Integrated Drivers" target="_blank" aria-live="polite" rel="noopener noreferrer" href="../www.adafruit.com/product/1463">Add  to Cart</a>
+    </div>
+  </li>
+
+            
+
+  <li class="small-product-content-card">
+    <input type="hidden" name="product_analytics_1260" id="product_analytics_1260" value="{
+  &quot;item_list_id&quot;: 491,
+  &quot;item_list_name&quot;: &quot;neopixel-tiara&quot;,
+  &quot;items&quot;: {
+    &quot;item_id&quot;: 1260,
+    &quot;item_name&quot;: &quot;Flora RGB Smart NeoPixel version 3 - Pack of 4&quot;,
+    &quot;affiliation&quot;: &quot;Featured Product&quot;
+  }
+}" class="product-json" />
+
+    <div class="product-image">
+        <img class='image-preview product-asset' src='../cdn-shop.adafruit.com/640x480/1260-09.jpg' loading='lazy' alt='Overhead shot of four, black, round LED breakouts.' />
+
+    </div>
+
+    <div class="product-details">
+        <span class="featured-badge">Featured</span>
+
+      <div>
+        <a class="product-title" href="../www.adafruit.com/product/1260">Flora RGB Smart NeoPixel version 3 - Pack of 4</a>
+      </div>
+
+
+      <a id="1260-product" class="notify product-buy btn-primary " data-pid="1260" data-qty="1" data-name="Flora RGB Smart NeoPixel version 3 - Pack of 4" target="_blank" aria-live="polite" rel="noopener noreferrer" href="../www.adafruit.com/product/1260">Out of Stock</a>
+    </div>
+  </li>
+
+            
+
+  <li class="small-product-content-card">
+    <input type="hidden" name="product_analytics_727" id="product_analytics_727" value="{
+  &quot;item_list_id&quot;: 285,
+  &quot;item_list_name&quot;: &quot;firewalker-led-sneakers&quot;,
+  &quot;items&quot;: {
+    &quot;item_id&quot;: 727,
+    &quot;item_name&quot;: &quot;3 x AAA Battery Holder with On/Off Switch and 2-Pin JST&quot;,
+    &quot;affiliation&quot;: &quot;Featured Product&quot;
+  }
+}" class="product-json" />
+
+    <div class="product-image">
+        <img class='image-preview product-asset' src='../cdn-shop.adafruit.com/640x480/727-07.jpg' loading='lazy' alt='Front angled shot of 3 x AAA battery holder with on-off switch and 2-pin JST PH connector.' />
+
+    </div>
+
+    <div class="product-details">
+        <span class="featured-badge">Featured</span>
+
+      <div>
+        <a class="product-title" href="../www.adafruit.com/product/727">3 x AAA Battery Holder with On/Off Switch and 2-Pin JST</a>
+      </div>
+
+        <div class="product-price">$1.95</div>
+
+      <a id="727-product" class="product-buy btn-primary " data-pid="727" data-qty="1" data-name="3 x AAA Battery Holder with On/Off Switch and 2-Pin JST" target="_blank" aria-live="polite" rel="noopener noreferrer" href="../www.adafruit.com/product/727">Add  to Cart</a>
+    </div>
+  </li>
+
+            
+
+  <li class="small-product-content-card">
+    <input type="hidden" name="product_analytics_1131" id="product_analytics_1131" value="{
+  &quot;item_list_id&quot;: 2915,
+  &quot;item_list_name&quot;: &quot;clue-case&quot;,
+  &quot;items&quot;: {
+    &quot;item_id&quot;: 1131,
+    &quot;item_name&quot;: &quot;JST-PH Battery Extension Cable - 500mm&quot;,
+    &quot;affiliation&quot;: &quot;Featured Product&quot;
+  }
+}" class="product-json" />
+
+    <div class="product-image">
+        <img class='image-preview product-asset' src='../cdn-shop.adafruit.com/640x480/1131-00.jpg' loading='lazy' alt='Front shot of JST-PH Battery Extension Cable.' />
+
+    </div>
+
+    <div class="product-details">
+        <span class="featured-badge">Featured</span>
+
+      <div>
+        <a class="product-title" href="../www.adafruit.com/product/1131">JST-PH Battery Extension Cable - 500mm</a>
+      </div>
+
+        <div class="product-price">$1.95</div>
+
+      <a id="1131-product" class="product-buy btn-primary " data-pid="1131" data-qty="1" data-name="JST-PH Battery Extension Cable - 500mm" target="_blank" aria-live="polite" rel="noopener noreferrer" href="../www.adafruit.com/product/1131">Add  to Cart</a>
+    </div>
+  </li>
+
+            
+
+  <li class="small-product-content-card">
+    <input type="hidden" name="product_analytics_617" id="product_analytics_617" value="{
+  &quot;item_list_id&quot;: 836,
+  &quot;item_list_name&quot;: &quot;sound-sample-sweater&quot;,
+  &quot;items&quot;: {
+    &quot;item_id&quot;: 617,
+    &quot;item_name&quot;: &quot;Alkaline AAA batteries - 2 pack&quot;,
+    &quot;affiliation&quot;: &quot;Featured Product&quot;
+  }
+}" class="product-json" />
+
+    <div class="product-image">
+        <img class='image-preview product-asset' src='../cdn-shop.adafruit.com/640x480/617-01.jpg' loading='lazy' alt='Angled shot of 2 Alkaline AAA batteries.' />
+
+    </div>
+
+    <div class="product-details">
+        <span class="featured-badge">Featured</span>
+
+      <div>
+        <a class="product-title" href="../www.adafruit.com/product/617">Alkaline AAA batteries - 2 pack</a>
+      </div>
+
+
+      <a id="617-product" class="notify product-buy btn-primary " data-pid="617" data-qty="1" data-name="Alkaline AAA batteries - 2 pack" target="_blank" aria-live="polite" rel="noopener noreferrer" href="../www.adafruit.com/product/617">No Longer Stocked</a>
+    </div>
+  </li>
+
+            
+
+  <li class="small-product-content-card">
+    <input type="hidden" name="product_analytics_1311" id="product_analytics_1311" value="{
+  &quot;item_list_id&quot;: 1983,
+  &quot;item_list_name&quot;: &quot;data-logging-with-feather-and-circuitpython&quot;,
+  &quot;items&quot;: {
+    &quot;item_id&quot;: 1311,
+    &quot;item_name&quot;: &quot;Hook-up Wire Spool Set - 22AWG Solid Core - 6 x 25 ft&quot;,
+    &quot;affiliation&quot;: &quot;Featured Product&quot;
+  }
+}" class="product-json" />
+
+    <div class="product-image">
+        <img class='image-preview product-asset' src='../cdn-shop.adafruit.com/640x480/1311-04.jpg' loading='lazy' alt='Hook-up Wire Spool Set in box with 6 colorful wires coming out' />
+
+    </div>
+
+    <div class="product-details">
+        <span class="featured-badge">Featured</span>
+
+      <div>
+        <a class="product-title" href="../www.adafruit.com/product/1311">Hook-up Wire Spool Set - 22AWG Solid Core - 6 x 25 ft</a>
+      </div>
+
+        <div class="product-price">$15.95</div>
+
+      <a id="1311-product" class="product-buy btn-primary " data-pid="1311" data-qty="1" data-name="Hook-up Wire Spool Set - 22AWG Solid Core - 6 x 25 ft" target="_blank" aria-live="polite" rel="noopener noreferrer" href="../www.adafruit.com/product/1311">Add  to Cart</a>
+    </div>
+  </li>
+
+
+          <li>
+            <a class="full-size" href="./superhero-power-plant/featured_products">
+              View product details
+              <i class="fa fa-chevron-right" aria-hidden="true"></i>
+</a>          </li>
+        </ul>
+      </section>
+
+  </nav>
+</div>
+
+
+    <div class="right-content" id="article-body" tabindex="-1">
+
+      <div class="badges headline-badges">
+      <div class="badge favorites-count " title="Saves" aria-label="This many users have saved this guide">
+        129
+      </div>
+
+
+    <div class="badge skill-level" title="Skill Level" aria-label="Guide skill level">
+      Intermediate
+    </div>
+
+    <div class="badge skill-level" title="Guide Type" aria-label="Guide type">
+      Project guide
+    </div>
+
+  <turbo-frame id="display_reactions"></turbo-frame>
+</div>
+
+
+            <h2>
+              <span id="overview">Overview</span>
+            </h2>
+
+            <section class="page-content">
+                <div class="" role="region" aria-label="Page content">
+          <div class="embed-element">
+  <div class='build-video'><lite-youtube videoid="5yR6ekf0bgU" params="feature=oembed" style="background-image: url('data:image/jpeg;base64,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');">
+  <a href="http://www.youtube.com/watch?v=5yR6ekf0bgU" class="lty-playbtn" title="Superhero Power Plant - Iron Man Costume Reactor">
+    <span class="lyt-visually-hidden">Play Video: Superhero Power Plant - Iron Man Costume Reactor</span>
+  </a>
+</lite-youtube>
+</div>
+</div>
+
+
+      <div class="text-element">
+  
+      <p>Planning an epic Iron Man costume for Halloween or Comic Con, or looking for that iconic piece that turns a plain t-shirt into Tony Stark? Look no further, for in this guide we'll show you how to make your own electronic glowing reactor with a cool pulsing effect. <br><br>You can even customize it once complete, go for red, purple, green, pink: Whatever color will power you up! Or change the pulse rate or effects to add a special touch.</p>
+    
+</div>
+
+      <div class="alert-element alert-info" role="note">
+  <span class="alert-icon" aria-hidden="true"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M25 50a25 25 0 1 0 0-50 25 25 0 0 0 0 50zm0-37.5a2.338 2.338 0 0 1 2.344 2.344V25.78A2.338 2.338 0 0 1 25 28.125a2.338 2.338 0 0 1-2.344-2.344V14.844A2.338 2.338 0 0 1 25 12.5zm-3.125 21.875a3.125 3.125 0 1 1 6.25 0 3.125 3.125 0 0 1-6.25 0z" fill="currentColor"/>
+</svg>
+</span>
+  <span class="visually-hidden">Text emphasized with a blue exclamation: </span>
+  <span class="alert-content">This guide was written for the 'original' Gemma board, but can be done with either the original or M0 Gemma. We recommend the Gemma M0 as it is easier to use and is more compatible with modern computers!</span>
+</div>
+
+      <div class="text-element">
+  
+      <p>This is a simple soldering+crafts project, but before you begin, please review the following prerequisite guides:</p>
+<ul>
+<li>
+<a href="../http/learn.adafruit.com/introducing-gemma">Introducing GEMMA</a>&nbsp;or <a href="./adafruit-gemma-m0">Introducing Gemma M0</a>
+</li>
+<li><a href="./adafruit-neopixel-uberguide">Adafruit NeoPixel Überguide</a></li>
+</ul>
+<p>Vector designs by Dano Wall. Vice photo by John de Cristofaro. <br><br>Parts list:</p>
+<ul>
+<li>
+<a href="../www.adafruit.com/products/1222">GEMMA v2</a>&nbsp;or <a href="../www.adafruit.com/product/3501">GEMMA M0</a> wearable microcontroller</li>
+<li><a href="../www.adafruit.com/products/1463">NeoPixel ring</a></li>
+<li>single <a href="../www.adafruit.com/products/1260">FLORA NeoPixel</a>
+</li>
+<li><a href="../www.adafruit.com/products/1311">solid-core hookup wire</a></li>
+<li><a href="../www.adafruit.com/products/1131">JST extension cable</a></li>
+<li>
+<a href="../www.adafruit.com/products/727">3xAAA battery pack</a> with <a href="../www.adafruit.com/products/617">batteries</a>
+</li>
+<li>2x laser-cut/etched acrylic in clear or white (<a href="../www.thingiverse.com/thing_157296">files on Thingiverse</a>)</li>
+<li>elastic</li>
+<li>safety pin or velcro</li>
+<li>E6000 craft glue or hot melt glue</li>
+<li>needle and thread</li>
+<li>tracing/printer paper</li>
+</ul>
+<p>Tools:</p>
+<ul>
+<li>
+<a href="../www.adafruit.com/products/180">soldering iron</a> &amp; <a href="../www.adafruit.com/products/145">solder</a>
+</li>
+<li><a href="../www.adafruit.com/products/291">helping third hand tool</a></li>
+<li><a href="../www.adafruit.com/products/146">pliers</a></li>
+<li><a href="../www.adafruit.com/products/527">wire strippers</a></li>
+<li><a href="../www.adafruit.com/products/152">flush snips</a></li>
+<li>scissors</li>
+</ul>
+    
+</div>
+
+        <figure class="element image-element">
+    <a href="./assets/11359">
+        <img class="11359-asset"
+             srcset="../cdn-learn.adafruit.com/assets/assets/000/011/359/small360/flora_reactor_1800__56e04ccf.png 360w, ../cdn-learn.adafruit.com/assets/assets/000/011/359/medium640/flora_reactor_1800__56e04ccf.png 640w, ../cdn-learn.adafruit.com/assets/assets/000/011/359/medium800/flora_reactor_1800__56e04ccf.png 800w, ../cdn-learn.adafruit.com/assets/assets/000/011/359/large1024/flora_reactor_1800__56e04ccf.png 1024w"
+              sizes="(max-width: 360px) 360px, (max-width: 640px) 640px, (max-width: 800px) 800px, 1024px"
+             src="../cdn-learn.adafruit.com/assets/assets/000/011/359/medium800/flora_reactor_1800__56e04ccf.png"
+             loading="lazy"
+             alt="" />
+</a>  </figure>
+
+        <figure class="element image-element">
+    <a href="./assets/13532">
+        <img class="13532-asset"
+             srcset="../cdn-learn.adafruit.com/assets/assets/000/013/532/small360/gemma_DSC_3790__7c2400ab.jpg 360w, ../cdn-learn.adafruit.com/assets/assets/000/013/532/medium640/gemma_DSC_3790__7c2400ab.jpg 640w, ../cdn-learn.adafruit.com/assets/assets/000/013/532/medium800/gemma_DSC_3790__7c2400ab.jpg 800w, ../cdn-learn.adafruit.com/assets/assets/000/013/532/large1024/gemma_DSC_3790__7c2400ab.jpg 1024w"
+              sizes="(max-width: 360px) 360px, (max-width: 640px) 640px, (max-width: 800px) 800px, 1024px"
+             src="../cdn-learn.adafruit.com/assets/assets/000/013/532/medium800/gemma_DSC_3790__7c2400ab.jpg"
+             loading="lazy"
+             alt="" />
+</a>  </figure>
+
+  </div>
+
+
+              <div class="page-last-updated">
+  <p>Page last edited September 26, 2013</p>
+</div>
+
+            </section>
+            <h2>
+              <span id="laser-it">Laser it</span>
+            </h2>
+
+            <section class="page-content">
+                <div class="" role="region" aria-label="Page content">
+        <figure class="element image-element">
+    <a href="./assets/11234">
+        <img class="11234-asset"
+             srcset="../cdn-learn.adafruit.com/assets/assets/000/011/234/small360/flora_IMG_2505__746a295e.jpg 360w, ../cdn-learn.adafruit.com/assets/assets/000/011/234/medium640/flora_IMG_2505__746a295e.jpg 640w, ../cdn-learn.adafruit.com/assets/assets/000/011/234/medium800/flora_IMG_2505__746a295e.jpg 800w, ../cdn-learn.adafruit.com/assets/assets/000/011/234/large1024/flora_IMG_2505__746a295e.jpg 1024w"
+              sizes="(max-width: 360px) 360px, (max-width: 640px) 640px, (max-width: 800px) 800px, 1024px"
+             src="../cdn-learn.adafruit.com/assets/assets/000/011/234/medium800/flora_IMG_2505__746a295e.jpg"
+             loading="lazy"
+             alt="" />
+</a>  </figure>
+
+      <div class="text-element">
+  Download the <a href="../www.thingiverse.com/thing_157296">vector files for this project from Thingiverse</a> (Iron Man 3-inspired version available, too). Inking the engraved portion with a dry erase marker really brings out the detail. We layer two of these together for a neat 3D effect then later we'll wrap wire through the provided holes and indents to hold them together.
+</div>
+
+        <figure class="element image-element">
+    <a href="./assets/11235">
+        <img class="11235-asset"
+             srcset="../cdn-learn.adafruit.com/assets/assets/000/011/235/small360/flora_IMG_2508__4d99f944.jpg 360w, ../cdn-learn.adafruit.com/assets/assets/000/011/235/medium640/flora_IMG_2508__4d99f944.jpg 640w, ../cdn-learn.adafruit.com/assets/assets/000/011/235/medium800/flora_IMG_2508__4d99f944.jpg 800w, ../cdn-learn.adafruit.com/assets/assets/000/011/235/large1024/flora_IMG_2508__4d99f944.jpg 1024w"
+              sizes="(max-width: 360px) 360px, (max-width: 640px) 640px, (max-width: 800px) 800px, 1024px"
+             src="../cdn-learn.adafruit.com/assets/assets/000/011/235/medium800/flora_IMG_2508__4d99f944.jpg"
+             loading="lazy"
+             alt="" />
+</a>  </figure>
+
+      <div class="text-element">
+  
+      
+      
+      Hairline features are vector cuts, everything else is engraved. <br><br> Our settings, using a 60 Watt Epilog: <br>Raster speed 50%, raster power 50%, vector speed 40%, vector power 100%, vector frequency 5000 <br>Have fun!
+    
+    
+    
+</div>
+
+        <figure class="element image-element">
+    <a href="./assets/11361">
+        <img class="11361-asset"
+             srcset="../cdn-learn.adafruit.com/assets/assets/000/011/361/small360/flora_iron-man-arc-reactor-adafruit-06__e89a4b42.jpg 360w, ../cdn-learn.adafruit.com/assets/assets/000/011/361/medium640/flora_iron-man-arc-reactor-adafruit-06__e89a4b42.jpg 640w, ../cdn-learn.adafruit.com/assets/assets/000/011/361/medium800/flora_iron-man-arc-reactor-adafruit-06__e89a4b42.jpg 800w, ../cdn-learn.adafruit.com/assets/assets/000/011/361/large1024/flora_iron-man-arc-reactor-adafruit-06__e89a4b42.jpg 1024w"
+              sizes="(max-width: 360px) 360px, (max-width: 640px) 640px, (max-width: 800px) 800px, 1024px"
+             src="../cdn-learn.adafruit.com/assets/assets/000/011/361/medium800/flora_iron-man-arc-reactor-adafruit-06__e89a4b42.jpg"
+             loading="lazy"
+             alt="" />
+</a>  </figure>
+
+  </div>
+
+
+              <div class="page-last-updated">
+  <p>Page last edited September 26, 2013</p>
+</div>
+
+            </section>
+            <h2>
+              <span id="circuit-diagram">Circuit Diagram</span>
+            </h2>
+
+            <section class="page-content">
+                <div class="" role="region" aria-label="Page content">
+      <div class="alert-element alert-info" role="note">
+  <span class="alert-icon" aria-hidden="true"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M25 50a25 25 0 1 0 0-50 25 25 0 0 0 0 50zm0-37.5a2.338 2.338 0 0 1 2.344 2.344V25.78A2.338 2.338 0 0 1 25 28.125a2.338 2.338 0 0 1-2.344-2.344V14.844A2.338 2.338 0 0 1 25 12.5zm-3.125 21.875a3.125 3.125 0 1 1 6.25 0 3.125 3.125 0 0 1-6.25 0z" fill="currentColor"/>
+</svg>
+</span>
+  <span class="visually-hidden">Text emphasized with a blue exclamation: </span>
+  <span class="alert-content">This diagram uses the original Gemma but you can also use the Gemma v2 or M0 with the exact same wiring!</span>
+</div>
+
+        <figure class="element image-element">
+    <a href="./assets/11421">
+        <img class="11421-asset"
+             srcset="../cdn-learn.adafruit.com/assets/assets/000/011/421/small360/flora_adafruit-arc-reactor-diagram__602dde6f.jpg 360w, ../cdn-learn.adafruit.com/assets/assets/000/011/421/medium640/flora_adafruit-arc-reactor-diagram__602dde6f.jpg 640w, ../cdn-learn.adafruit.com/assets/assets/000/011/421/medium800/flora_adafruit-arc-reactor-diagram__602dde6f.jpg 800w, ../cdn-learn.adafruit.com/assets/assets/000/011/421/large1024/flora_adafruit-arc-reactor-diagram__602dde6f.jpg 1024w"
+              sizes="(max-width: 360px) 360px, (max-width: 640px) 640px, (max-width: 800px) 800px, 1024px"
+             src="../cdn-learn.adafruit.com/assets/assets/000/011/421/medium800/flora_adafruit-arc-reactor-diagram__602dde6f.jpg"
+             loading="lazy"
+             alt="" />
+</a>  </figure>
+
+      <div class="text-element">
+  
+      GEMMA Vout -&gt; NeoPixel Ring Vcc and single FLORA pixel +<br>GEMMA D1 -&gt; NeoPixel Ring Data IN<br>GEMMA GND -&gt; NeoPixel Ring Gnd and single FLORA pixel -<br>NeoPixel Ring Data OUT -&gt; single FLORA pixel inward-facing arrow
+    
+</div>
+
+  </div>
+
+
+              <div class="page-last-updated">
+  <p>Page last edited September 26, 2013</p>
+</div>
+
+            </section>
+            <h2>
+              <span id="build-it">Build Circuit</span>
+            </h2>
+
+            <section class="page-content">
+                <div class="" role="region" aria-label="Page content">
+      <div class="side-element">
+    <div class="side-images">
+      <div class="anchor-anchor">
+        <a href="./superhero-power-plant__21015941" class='anchor-link'><span class='fa fa-link'></span></a>
+      </div>
+      <span id="step-2827972"  class='anchor-link-target'></span>
+      <div class="side-image-display">
+    <img class='11362-asset medium-side-image' src='../cdn-learn.adafruit.com/assets/assets/000/011/362/medium640/flora_iron-man-arc-reactor-adafruit-00__4cc5dbf5.jpg' alt='flora_iron-man-arc-reactor-adafruit-00.jpg' loading='lazy' />
+
+    <a class="side-image-link" aria-label="View larger image" href="./elements/2827972/assets/11362/exhibit">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Pro 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc.--><path d="M328 32c-13.3 0-24 10.7-24 24s10.7 24 24 24l70.1 0L256 222.1 113.9 80 184 80c13.3 0 24-10.7 24-24s-10.7-24-24-24L56 32C42.7 32 32 42.7 32 56l0 128c0 13.3 10.7 24 24 24s24-10.7 24-24l0-70.1L222.1 256 80 398.1 80 328c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 128c0 13.3 10.7 24 24 24l128 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-70.1 0L256 289.9 398.1 432 328 432c-13.3 0-24 10.7-24 24s10.7 24 24 24l128 0c13.3 0 24-10.7 24-24l0-128c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 70.1L289.9 256 432 113.9l0 70.1c0 13.3 10.7 24 24 24s24-10.7 24-24l0-128c0-13.3-10.7-24-24-24L328 32z"/></svg>
+
+</a></div>
+
+  <div class="image-gallery">
+      <div class="small-side">
+        <a href="./elements/2827972/assets/11362/exhibit">
+            <img class='11362-asset small-side-image' src='../cdn-learn.adafruit.com/assets/assets/000/011/362/medium640/flora_iron-man-arc-reactor-adafruit-00__4cc5dbf5.jpg' alt='flora_iron-man-arc-reactor-adafruit-00.jpg' loading='lazy' />
+</a>      </div>
+      <div class="small-side">
+        <a href="./elements/2827972/assets/11364/exhibit">
+            <img class='11364-asset small-side-image' src='../cdn-learn.adafruit.com/assets/assets/000/011/364/medium640/flora_iron-man-arc-reactor-adafruit-01__cf93ad2b.jpg' alt='flora_iron-man-arc-reactor-adafruit-01.jpg' loading='lazy' />
+</a>      </div>
+      <div class="small-side">
+        <a href="./elements/2827972/assets/11366/exhibit">
+            <img class='11366-asset small-side-image' src='../cdn-learn.adafruit.com/assets/assets/000/011/366/medium640/flora_iron-man-arc-reactor-adafruit-02__678a519f.jpg' alt='flora_iron-man-arc-reactor-adafruit-02.jpg' loading='lazy' />
+</a>      </div>
+      <div class="small-side">
+        <a href="./elements/2827972/assets/11369/exhibit">
+            <img class='11369-asset small-side-image' src='../cdn-learn.adafruit.com/assets/assets/000/011/369/medium640/flora_iron-man-arc-reactor-adafruit-03__5ab7b002.jpg' alt='flora_iron-man-arc-reactor-adafruit-03.jpg' loading='lazy' />
+</a>      </div>
+  </div>
+
+    </div>
+  <div class="side-text"><div class="text">Using solid-core wire for stiffness, solder short wires to all four junctions on the NeoPixel ring. Orient all wires to stick down through the pixel ring, and solder its output to the inward-facing arrow on a FLORA NeoPixel.<br><br>This center pixel will sit back in space more than the pixel ring, adding a bit more space for diffusion behind the faceplate.</div></div>
+</div>
+
+      <div class="side-element">
+    <div class="side-images">
+      <div class="anchor-anchor">
+        <a href="./superhero-power-plant__21015941" class='anchor-link'><span class='fa fa-link'></span></a>
+      </div>
+      <span id="step-2827973"  class='anchor-link-target'></span>
+      <div class="side-image-display">
+    <img class='11372-asset medium-side-image' src='../cdn-learn.adafruit.com/assets/assets/000/011/372/medium640/flora_iron-man-arc-reactor-adafruit-04__7c227d99.jpg' alt='flora_iron-man-arc-reactor-adafruit-04.jpg' loading='lazy' />
+
+    <a class="side-image-link" aria-label="View larger image" href="./elements/2827973/assets/11372/exhibit">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Pro 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc.--><path d="M328 32c-13.3 0-24 10.7-24 24s10.7 24 24 24l70.1 0L256 222.1 113.9 80 184 80c13.3 0 24-10.7 24-24s-10.7-24-24-24L56 32C42.7 32 32 42.7 32 56l0 128c0 13.3 10.7 24 24 24s24-10.7 24-24l0-70.1L222.1 256 80 398.1 80 328c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 128c0 13.3 10.7 24 24 24l128 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-70.1 0L256 289.9 398.1 432 328 432c-13.3 0-24 10.7-24 24s10.7 24 24 24l128 0c13.3 0 24-10.7 24-24l0-128c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 70.1L289.9 256 432 113.9l0 70.1c0 13.3 10.7 24 24 24s24-10.7 24-24l0-128c0-13.3-10.7-24-24-24L328 32z"/></svg>
+
+</a></div>
+
+  <div class="image-gallery">
+      <div class="small-side">
+        <a href="./elements/2827973/assets/11372/exhibit">
+            <img class='11372-asset small-side-image' src='../cdn-learn.adafruit.com/assets/assets/000/011/372/medium640/flora_iron-man-arc-reactor-adafruit-04__7c227d99.jpg' alt='flora_iron-man-arc-reactor-adafruit-04.jpg' loading='lazy' />
+</a>      </div>
+      <div class="small-side">
+        <a href="./elements/2827973/assets/11375/exhibit">
+            <img class='11375-asset small-side-image' src='../cdn-learn.adafruit.com/assets/assets/000/011/375/medium640/flora_iron-man-arc-reactor-adafruit-05__c9d535cf.jpg' alt='flora_iron-man-arc-reactor-adafruit-05.jpg' loading='lazy' />
+</a>      </div>
+  </div>
+
+    </div>
+  <div class="side-text"><div class="text">Carefully solder the rest of the wire connections according to the <a href="./superhero-power-plant/circuit-diagram">circuit diagram</a>. The single pixel will sit back to back with GEMMA, not quite on the same plane as the pixel ring.</div></div>
+</div>
+
+  </div>
+
+
+              <div class="page-last-updated">
+  <p>Page last edited September 26, 2013</p>
+</div>
+
+            </section>
+            <h2>
+              <span id="arduino-code">Arduino Code</span>
+            </h2>
+
+            <section class="page-content">
+                <div class="" role="region" aria-label="Page content">
+        <figure class="element image-element">
+    <a href="./assets/46278">
+        <img class="46278-asset"
+             srcset="../cdn-learn.adafruit.com/assets/assets/000/046/278/small360/gemma_flora_iron-man-arc-reactor-adafruit-07__6677194c.jpg 360w, ../cdn-learn.adafruit.com/assets/assets/000/046/278/medium640/gemma_flora_iron-man-arc-reactor-adafruit-07__6677194c.jpg 640w, ../cdn-learn.adafruit.com/assets/assets/000/046/278/medium800/gemma_flora_iron-man-arc-reactor-adafruit-07__6677194c.jpg 800w, ../cdn-learn.adafruit.com/assets/assets/000/046/278/large1024/gemma_flora_iron-man-arc-reactor-adafruit-07__6677194c.jpg 1024w"
+              sizes="(max-width: 360px) 360px, (max-width: 640px) 640px, (max-width: 800px) 800px, 1024px"
+             src="../cdn-learn.adafruit.com/assets/assets/000/046/278/medium800/gemma_flora_iron-man-arc-reactor-adafruit-07__6677194c.jpg"
+             loading="lazy"
+             alt="" />
+</a>  </figure>
+
+      <div class="alert-element alert-info" role="note">
+  <span class="alert-icon" aria-hidden="true"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M25 50a25 25 0 1 0 0-50 25 25 0 0 0 0 50zm0-37.5a2.338 2.338 0 0 1 2.344 2.344V25.78A2.338 2.338 0 0 1 25 28.125a2.338 2.338 0 0 1-2.344-2.344V14.844A2.338 2.338 0 0 1 25 12.5zm-3.125 21.875a3.125 3.125 0 1 1 6.25 0 3.125 3.125 0 0 1-6.25 0z" fill="currentColor"/>
+</svg>
+</span>
+  <span class="visually-hidden">Text emphasized with a blue exclamation: </span>
+  <span class="alert-content">The Arduino code presented below works equally well on all versions of GEMMA: v1, v2 and M0. But if you have an M0 board, consider using the CircuitPython code on the next page of this guide, no Arduino IDE required!</span>
+</div>
+
+      <div class="text-element">
+  
+      
+      <p>If this is your first time using GEMMA, work through the <a href="./introducing-gemma">Introducing G</a><a href="./introducing-gemma">EMMA (original)</a> or <a href="./adafruit-gemma-m0">Introducing Gemma M0 guide</a> first; you need to customize some settings in the Arduino IDE. Once you have it up and running (test the 'blink' sketch), then follow the instructions on the following page for installing the NeoPixel library:</p>
+<h2><div class="anchor-anchor"><a href="./superhero-power-plant__21015941" class="anchor-link"><span class="fa fa-link"></span></a><span id="neopixel-uberguide-arduino-library-installation-2865952" class="anchor-link-target"></span></div>
+<span id="neopixel-uberguide-arduino-library-installation" class="anchor-link-target"></span><strong><a href="./adafruit-neopixel-uberguide/arduino-library-installation">NeoPixel Überguide:&nbsp;Arduino Library Installation</a></strong>
+</h2>
+    
+    
+</div>
+
+      <div class="text-element">
+  
+      
+      
+      
+      
+      <p>Plug in your circuit via USB and test that all LEDs are functioning properly with the NeoPixel example sketch 'strandtest.' Please refer to <a href="./introducing-gemma">Introducing GEMMA</a> and the <a href="./adafruit-neopixel-uberguide">NeoPixel Überguide</a> if you haven't before.<br><br>Once you've verified your wiring is correct, load your desired color code or the sketch below that gently pulses the LEDs blue.</p>
+    
+    
+    
+    
+    
+</div>
+
+          <div class="code-element" aria-label="Code element"
+     data-controller="elements--code-expander"
+     data-elements--code-expander-line-count-value="69"
+     >
+  <div class="download-code ">
+        <a data-turbo="false" class="download-button" href="./elements/2865954/download">
+          <i class="fa fa-cloud"></i> Download File
+</a>    <div class="code-copy-container">
+      <a href="./superhero-power-plant__21015941" class="code-copy-button"><i class="fa fa-clipboard"></i> Copy Code</a>
+    </div>
+  </div>
+  <pre class="code-text-only" style="display: none;">// SPDX-FileCopyrightText: 2017 Tony Sherwood for Adafruit Industries
+//
+// SPDX-License-Identifier: MIT
+
+//Superhero Power Plant
+//fades all pixels subtly
+//code by Tony Sherwood for Adafruit Industries
+
+#include &lt;Adafruit_NeoPixel.h&gt;
+
+#define PIN 1
+
+// Parameter 1 = number of pixels in strip
+// Parameter 2 = pin number (most are valid)
+// Parameter 3 = pixel type flags, add together as needed:
+//   NEO_KHZ800  800 KHz bitstream (most NeoPixel products w/WS2812 LEDs)
+//   NEO_KHZ400  400 KHz (classic &#39;v1&#39; (not v2) FLORA pixels, WS2811 drivers)
+//   NEO_GRB     Pixels are wired for GRB bitstream (most NeoPixel products)
+//   NEO_RGB     Pixels are wired for RGB bitstream (v1 FLORA pixels, not v2)
+Adafruit_NeoPixel strip = Adafruit_NeoPixel(17, PIN, NEO_GRB + NEO_KHZ800);
+
+int alpha; // Current value of the pixels
+int dir = 1; // Direction of the pixels... 1 = getting brighter, 0 = getting dimmer
+int flip; // Randomly flip the direction every once in a while
+int minAlpha = 25; // Min value of brightness
+int maxAlpha = 100; // Max value of brightness
+int alphaDelta = 5; // Delta of brightness between times through the loop
+
+void setup() {
+  strip.begin();
+  strip.show(); // Initialize all pixels to &#39;off&#39;
+}
+
+void loop() {
+  flip = random(32);
+  if(flip &gt; 20) {
+    dir = 1 - dir;
+  }
+  // Some example procedures showing how to display to the pixels:
+  if (dir == 1) {
+    alpha += alphaDelta;
+  }
+  if (dir == 0) {
+    alpha -= alphaDelta;
+  }
+  if (alpha &lt; minAlpha) {
+    alpha = minAlpha;
+    dir = 1;
+  }
+  if (alpha &gt; maxAlpha) {
+    alpha = maxAlpha;
+    dir = 0;
+  }
+  // Change the line below to alter the color of the lights
+  // The numbers represent the Red, Green, and Blue values
+  // of the lights, as a value between 0(off) and 1(max brightness)
+  //
+  // EX:
+  // colorWipe(strip.Color(alpha, 0, alpha/2)); // Pink
+  colorWipe(strip.Color(0, 0, alpha)); // Blue
+}
+
+// Fill the dots one after the other with a color
+void colorWipe(uint32_t c) {
+  for(uint16_t i=0; i&lt;strip.numPixels(); i++) {
+      strip.setPixelColor(i, c);
+      strip.show();
+  }
+}
+</pre>
+  <div class="code-preview-container has-line-numbers collapsed"
+       data-elements--code-expander-target="container"
+       >
+    <pre class="line-number-gutter" aria-hidden="true">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69</pre>
+    <pre class="prettyprint
+                
+                embed
+                language-cpp">// SPDX-FileCopyrightText: 2017 Tony Sherwood for Adafruit Industries
+//
+// SPDX-License-Identifier: MIT
+
+//Superhero Power Plant
+//fades all pixels subtly
+//code by Tony Sherwood for Adafruit Industries
+
+#include &lt;Adafruit_NeoPixel.h&gt;
+
+#define PIN 1
+
+// Parameter 1 = number of pixels in strip
+// Parameter 2 = pin number (most are valid)
+// Parameter 3 = pixel type flags, add together as needed:
+//   NEO_KHZ800  800 KHz bitstream (most NeoPixel products w/WS2812 LEDs)
+//   NEO_KHZ400  400 KHz (classic &#39;v1&#39; (not v2) FLORA pixels, WS2811 drivers)
+//   NEO_GRB     Pixels are wired for GRB bitstream (most NeoPixel products)
+//   NEO_RGB     Pixels are wired for RGB bitstream (v1 FLORA pixels, not v2)
+Adafruit_NeoPixel strip = Adafruit_NeoPixel(17, PIN, NEO_GRB + NEO_KHZ800);
+
+int alpha; // Current value of the pixels
+int dir = 1; // Direction of the pixels... 1 = getting brighter, 0 = getting dimmer
+int flip; // Randomly flip the direction every once in a while
+int minAlpha = 25; // Min value of brightness
+int maxAlpha = 100; // Max value of brightness
+int alphaDelta = 5; // Delta of brightness between times through the loop
+
+void setup() {
+  strip.begin();
+  strip.show(); // Initialize all pixels to &#39;off&#39;
+}
+
+void loop() {
+  flip = random(32);
+  if(flip &gt; 20) {
+    dir = 1 - dir;
+  }
+  // Some example procedures showing how to display to the pixels:
+  if (dir == 1) {
+    alpha += alphaDelta;
+  }
+  if (dir == 0) {
+    alpha -= alphaDelta;
+  }
+  if (alpha &lt; minAlpha) {
+    alpha = minAlpha;
+    dir = 1;
+  }
+  if (alpha &gt; maxAlpha) {
+    alpha = maxAlpha;
+    dir = 0;
+  }
+  // Change the line below to alter the color of the lights
+  // The numbers represent the Red, Green, and Blue values
+  // of the lights, as a value between 0(off) and 1(max brightness)
+  //
+  // EX:
+  // colorWipe(strip.Color(alpha, 0, alpha/2)); // Pink
+  colorWipe(strip.Color(0, 0, alpha)); // Blue
+}
+
+// Fill the dots one after the other with a color
+void colorWipe(uint32_t c) {
+  for(uint16_t i=0; i&lt;strip.numPixels(); i++) {
+      strip.setPixelColor(i, c);
+      strip.show();
+  }
+}
+</pre>
+  </div>
+  <div class="code-bottom-bar">
+      <button class="code-expand-button"
+              aria-expanded="false"
+              data-elements--code-expander-target="button"
+              data-action="./click-_elements--code-expander"
+              data-line-count="69">
+        <i class="fa fa-chevron-down"></i> Show all 69 lines
+      </button>
+      <a target="_blank" rel="noopener noreferrer" class="code-github-link" href="../github.com/adafruit/Adafruit_Learning_System_Guides/blob/main/Superhero_Power_Plant/Superhero_Power_Plant">
+        <i class="fa fa-github"></i>
+        View on GitHub
+</a>  </div>
+</div>
+
+
+  </div>
+
+
+              <div class="page-last-updated">
+  <p>Page last edited September 26, 2013</p>
+</div>
+
+            </section>
+            <h2>
+              <span id="circuitpython-code">CircuitPython Code</span>
+            </h2>
+
+            <section class="page-content">
+                <div class="" role="region" aria-label="Page content">
+        <figure class="element image-element">
+    <a href="./assets/46292">
+        <img class="46292-asset"
+             srcset="../cdn-learn.adafruit.com/assets/assets/000/046/292/small360/gemma_CircuitPython-Gemma-w-Blinka__d2715cdf.jpg 360w, ../cdn-learn.adafruit.com/assets/assets/000/046/292/medium640/gemma_CircuitPython-Gemma-w-Blinka__d2715cdf.jpg 640w, ../cdn-learn.adafruit.com/assets/assets/000/046/292/medium800/gemma_CircuitPython-Gemma-w-Blinka__d2715cdf.jpg 800w, ../cdn-learn.adafruit.com/assets/assets/000/046/292/large1024/gemma_CircuitPython-Gemma-w-Blinka__d2715cdf.jpg 1024w"
+              sizes="(max-width: 360px) 360px, (max-width: 640px) 640px, (max-width: 800px) 800px, 1024px"
+             src="../cdn-learn.adafruit.com/assets/assets/000/046/292/medium800/gemma_CircuitPython-Gemma-w-Blinka__d2715cdf.jpg"
+             loading="lazy"
+             alt="" />
+</a>  </figure>
+
+      <div class="text-element">
+  
+  
+      
+      
+      
+      
+      
+      <p><strong>GEMMA&nbsp;M0</strong> boards can&nbsp;run <strong>CircuitPython</strong>&nbsp;— a different approach to programming compared to Arduino sketches. In fact, <strong>CircuitPython comes&nbsp;factory pre-loaded on GEMMA&nbsp;M0</strong>. If you’ve overwritten it with an Arduino sketch, or just want to learn the basics of setting up and using CircuitPython, this is explained in the <a href="./adafruit-gemma-m0/circuitpython-setup-1"><strong>Adafruit GEMMA&nbsp;M0 guide</strong></a>.</p>
+    
+    
+    
+    
+    
+    
+
+</div>
+
+      <div class="alert-element alert-info" role="note">
+  <span class="alert-icon" aria-hidden="true"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M25 50a25 25 0 1 0 0-50 25 25 0 0 0 0 50zm0-37.5a2.338 2.338 0 0 1 2.344 2.344V25.78A2.338 2.338 0 0 1 25 28.125a2.338 2.338 0 0 1-2.344-2.344V14.844A2.338 2.338 0 0 1 25 12.5zm-3.125 21.875a3.125 3.125 0 1 1 6.25 0 3.125 3.125 0 0 1-6.25 0z" fill="currentColor"/>
+</svg>
+</span>
+  <span class="visually-hidden">Text emphasized with a blue exclamation: </span>
+  <span class="alert-content">These directions are specific to the “M0” GEMMA board. The original GEMMA with an 8-bit AVR microcontroller doesn’t run CircuitPython…for those boards, use the Arduino sketch on the prior page of this guide.</span>
+</div>
+
+      <div class="text-element">
+  
+        <p>Below is CircuitPython code that works&nbsp;similarly to&nbsp;the Arduino sketch shown on a prior page. To use this, plug the GEMMA M0 into USB…it should show up on your computer as a small <strong>flash drive</strong>…then edit the file “<strong>code.py</strong>” with your text editor of choice. Select and copy the code below and paste it into that file, <strong>entirely replacing its contents</strong> (don’t mix it in with lingering bits of old code). When you save the file, the code should <strong>start running almost immediately</strong>&nbsp;(if not, see notes at the bottom of this page).</p>
+<p><strong>If GEMMA M0 doesn’t show up as a&nbsp;drive, follow the GEMMA M0 guide link above to prepare the board for CircuitPython.</strong></p>
+      
+</div>
+
+          <div class="code-element" aria-label="Code element"
+     data-controller="elements--code-expander"
+     data-elements--code-expander-line-count-value="40"
+     >
+  <div class="download-code ">
+        <a data-turbo="false" class="download-button" href="./elements/2865966/download__2ffde321">
+          <i class="fa fa-cloud"></i> Download Project Bundle
+</a>    <div class="code-copy-container">
+      <a href="./superhero-power-plant__21015941" class="code-copy-button"><i class="fa fa-clipboard"></i> Copy Code</a>
+    </div>
+  </div>
+  <pre class="code-text-only" style="display: none;"># SPDX-FileCopyrightText: 2017 Phillip Burgess for Adafruit Industries
+#
+# SPDX-License-Identifier: MIT
+
+import board
+import neopixel
+
+try:
+    import urandom as random  # for v1.0 API support
+except ImportError:
+    import random
+
+num_pix = 17  # Number of NeoPixels
+pix_pin = board.D1  # Pin where NeoPixels are connected
+strip = neopixel.NeoPixel(pix_pin, num_pix)
+
+min_alpha = 0.1  # Minimum brightness
+max_alpha = 0.4  # Maximum brightness
+alpha = (min_alpha + max_alpha) / 2  # Start in middle
+alpha_delta = 0.01  # Amount to change brightness each time through loop
+alpha_up = True  # If True, brightness increasing, else decreasing
+
+strip.fill([0, 0, 255])  # Fill blue, or change to R,G,B of your liking
+
+while True:  # Loop forever...
+    if random.randint(1, 5) == 5:  # 1-in-5 random chance
+        alpha_up = not alpha_up  # of reversing direction
+    if alpha_up:  # Increasing brightness?
+        alpha += alpha_delta  # Add some amount
+        if alpha &gt;= max_alpha:  # At or above max?
+            alpha = max_alpha  # Limit to max
+            alpha_up = False  # and switch direction
+    else:  # Else decreasing brightness
+        alpha -= alpha_delta  # Subtract some amount
+        if alpha &lt;= min_alpha:  # At or below min?
+            alpha = min_alpha  # Limit to min
+            alpha_up = True  # and switch direction
+
+    strip.brightness = alpha  # Set brightness to 0.0 to 1.0
+    strip.write()  # and issue data to LED strip
+</pre>
+  <div class="code-preview-container has-line-numbers collapsed"
+       data-elements--code-expander-target="container"
+       >
+    <pre class="line-number-gutter" aria-hidden="true">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40</pre>
+    <pre class="prettyprint
+                
+                embed
+                language-python"># SPDX-FileCopyrightText: 2017 Phillip Burgess for Adafruit Industries
+#
+# SPDX-License-Identifier: MIT
+
+import board
+import neopixel
+
+try:
+    import urandom as random  # for v1.0 API support
+except ImportError:
+    import random
+
+num_pix = 17  # Number of NeoPixels
+pix_pin = board.D1  # Pin where NeoPixels are connected
+strip = neopixel.NeoPixel(pix_pin, num_pix)
+
+min_alpha = 0.1  # Minimum brightness
+max_alpha = 0.4  # Maximum brightness
+alpha = (min_alpha + max_alpha) / 2  # Start in middle
+alpha_delta = 0.01  # Amount to change brightness each time through loop
+alpha_up = True  # If True, brightness increasing, else decreasing
+
+strip.fill([0, 0, 255])  # Fill blue, or change to R,G,B of your liking
+
+while True:  # Loop forever...
+    if random.randint(1, 5) == 5:  # 1-in-5 random chance
+        alpha_up = not alpha_up  # of reversing direction
+    if alpha_up:  # Increasing brightness?
+        alpha += alpha_delta  # Add some amount
+        if alpha &gt;= max_alpha:  # At or above max?
+            alpha = max_alpha  # Limit to max
+            alpha_up = False  # and switch direction
+    else:  # Else decreasing brightness
+        alpha -= alpha_delta  # Subtract some amount
+        if alpha &lt;= min_alpha:  # At or below min?
+            alpha = min_alpha  # Limit to min
+            alpha_up = True  # and switch direction
+
+    strip.brightness = alpha  # Set brightness to 0.0 to 1.0
+    strip.write()  # and issue data to LED strip
+</pre>
+  </div>
+  <div class="code-bottom-bar">
+      <button class="code-expand-button"
+              aria-expanded="false"
+              data-elements--code-expander-target="button"
+              data-action="./click-_elements--code-expander"
+              data-line-count="40">
+        <i class="fa fa-chevron-down"></i> Show all 40 lines
+      </button>
+      <a target="_blank" rel="noopener noreferrer" class="code-github-link" href="../github.com/adafruit/Adafruit_Learning_System_Guides/blob/main/Superhero_Power_Plant/code">
+        <i class="fa fa-github"></i>
+        View on GitHub
+</a>  </div>
+</div>
+
+
+      <div class="text-element">
+  
+  
+      
+      
+      
+      
+      
+      <p>This code requires the <strong>neopixel.py</strong> library. A factory-fresh board will have this already installed. If you’ve just reloaded the board with CircuitPython, create the “lib” directory and then <a href="../github.com/adafruit/Adafruit_CircuitPython_NeoPixel">download neopixel.py from Github</a>.</p>
+    
+    
+    
+    
+    
+    
+
+</div>
+
+  </div>
+
+
+              <div class="page-last-updated">
+  <p>Page last edited September 26, 2013</p>
+</div>
+
+            </section>
+            <h2>
+              <span id="affix-faceplate">Affix Faceplate</span>
+            </h2>
+
+            <section class="page-content">
+                <div class="" role="region" aria-label="Page content">
+      <div class="side-element">
+    <div class="side-images">
+      <div class="anchor-anchor">
+        <a href="./superhero-power-plant__21015941" class='anchor-link'><span class='fa fa-link'></span></a>
+      </div>
+      <span id="step-2827785"  class='anchor-link-target'></span>
+      <div class="side-image-display">
+    <img class='11363-asset medium-side-image' src='../cdn-learn.adafruit.com/assets/assets/000/011/363/medium640/flora_iron-man-arc-reactor-adafruit-08__c1b076af.jpg' alt='flora_iron-man-arc-reactor-adafruit-08.jpg' loading='lazy' />
+
+    <a class="side-image-link" aria-label="View larger image" href="./elements/2827785/assets/11363/exhibit">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Pro 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc.--><path d="M328 32c-13.3 0-24 10.7-24 24s10.7 24 24 24l70.1 0L256 222.1 113.9 80 184 80c13.3 0 24-10.7 24-24s-10.7-24-24-24L56 32C42.7 32 32 42.7 32 56l0 128c0 13.3 10.7 24 24 24s24-10.7 24-24l0-70.1L222.1 256 80 398.1 80 328c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 128c0 13.3 10.7 24 24 24l128 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-70.1 0L256 289.9 398.1 432 328 432c-13.3 0-24 10.7-24 24s10.7 24 24 24l128 0c13.3 0 24-10.7 24-24l0-128c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 70.1L289.9 256 432 113.9l0 70.1c0 13.3 10.7 24 24 24s24-10.7 24-24l0-128c0-13.3-10.7-24-24-24L328 32z"/></svg>
+
+</a></div>
+
+  <div class="image-gallery">
+      <div class="small-side">
+        <a href="./elements/2827785/assets/11363/exhibit">
+            <img class='11363-asset small-side-image' src='../cdn-learn.adafruit.com/assets/assets/000/011/363/medium640/flora_iron-man-arc-reactor-adafruit-08__c1b076af.jpg' alt='flora_iron-man-arc-reactor-adafruit-08.jpg' loading='lazy' />
+</a>      </div>
+      <div class="small-side">
+        <a href="./elements/2827785/assets/11365/exhibit">
+            <img class='11365-asset small-side-image' src='../cdn-learn.adafruit.com/assets/assets/000/011/365/medium640/flora_iron-man-arc-reactor-adafruit-09__1eed3fde.jpg' alt='flora_iron-man-arc-reactor-adafruit-09.jpg' loading='lazy' />
+</a>      </div>
+      <div class="small-side">
+        <a href="./elements/2827785/assets/11371/exhibit">
+            <img class='11371-asset small-side-image' src='../cdn-learn.adafruit.com/assets/assets/000/011/371/medium640/flora_iron-man-arc-reactor-adafruit-10__afa91905.jpg' alt='flora_iron-man-arc-reactor-adafruit-10.jpg' loading='lazy' />
+</a>      </div>
+      <div class="small-side">
+        <a href="./elements/2827785/assets/11374/exhibit">
+            <img class='11374-asset small-side-image' src='../cdn-learn.adafruit.com/assets/assets/000/011/374/medium640/flora_iron-man-arc-reactor-adafruit-11__e75ae829.jpg' alt='flora_iron-man-arc-reactor-adafruit-11.jpg' loading='lazy' />
+</a>      </div>
+  </div>
+
+    </div>
+  <div class="side-text"><div class="text">Strip your copper wire and insert through one set of slots in the stacked acrylic pieces. Hide the ends to the back side of the faceplate and use pliers to squeeze the wires into a tight fit. Our thick wire couldn't be wrapped multiple times around, so we cut each loop at the back and started with a fresh loop. The wire ends will be hidden so the back doesn't have to look pretty!</div></div>
+</div>
+
+      <div class="side-element">
+    <div class="side-images">
+      <div class="anchor-anchor">
+        <a href="./superhero-power-plant__21015941" class='anchor-link'><span class='fa fa-link'></span></a>
+      </div>
+      <span id="step-2827786"  class='anchor-link-target'></span>
+      <div class="side-image-display">
+    <img class='11377-asset medium-side-image' src='../cdn-learn.adafruit.com/assets/assets/000/011/377/medium640/flora_iron-man-arc-reactor-adafruit-12__7fe95e3d.jpg' alt='flora_iron-man-arc-reactor-adafruit-12.jpg' loading='lazy' />
+
+    <a class="side-image-link" aria-label="View larger image" href="./elements/2827786/assets/11377/exhibit">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Pro 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc.--><path d="M328 32c-13.3 0-24 10.7-24 24s10.7 24 24 24l70.1 0L256 222.1 113.9 80 184 80c13.3 0 24-10.7 24-24s-10.7-24-24-24L56 32C42.7 32 32 42.7 32 56l0 128c0 13.3 10.7 24 24 24s24-10.7 24-24l0-70.1L222.1 256 80 398.1 80 328c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 128c0 13.3 10.7 24 24 24l128 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-70.1 0L256 289.9 398.1 432 328 432c-13.3 0-24 10.7-24 24s10.7 24 24 24l128 0c13.3 0 24-10.7 24-24l0-128c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 70.1L289.9 256 432 113.9l0 70.1c0 13.3 10.7 24 24 24s24-10.7 24-24l0-128c0-13.3-10.7-24-24-24L328 32z"/></svg>
+
+</a></div>
+
+  <div class="image-gallery">
+      <div class="small-side">
+        <a href="./elements/2827786/assets/11377/exhibit">
+            <img class='11377-asset small-side-image' src='../cdn-learn.adafruit.com/assets/assets/000/011/377/medium640/flora_iron-man-arc-reactor-adafruit-12__7fe95e3d.jpg' alt='flora_iron-man-arc-reactor-adafruit-12.jpg' loading='lazy' />
+</a>      </div>
+      <div class="small-side">
+        <a href="./elements/2827786/assets/11388/exhibit">
+            <img class='11388-asset small-side-image' src='../cdn-learn.adafruit.com/assets/assets/000/011/388/medium640/flora_iron-man-arc-reactor-adafruit-13__9dcdf072.jpg' alt='flora_iron-man-arc-reactor-adafruit-13.jpg' loading='lazy' />
+</a>      </div>
+  </div>
+
+    </div>
+  <div class="side-text"><div class="text">Continue this process to place five or six loops in each slot until they are all filed with faux "coils."</div></div>
+</div>
+
+        <figure class="element image-element">
+    <a href="./assets/11392">
+        <img class="11392-asset"
+             srcset="../cdn-learn.adafruit.com/assets/assets/000/011/392/small360/flora_iron-man-arc-reactor-adafruit-15__f6f73e64.jpg 360w, ../cdn-learn.adafruit.com/assets/assets/000/011/392/medium640/flora_iron-man-arc-reactor-adafruit-15__f6f73e64.jpg 640w, ../cdn-learn.adafruit.com/assets/assets/000/011/392/medium800/flora_iron-man-arc-reactor-adafruit-15__f6f73e64.jpg 800w, ../cdn-learn.adafruit.com/assets/assets/000/011/392/large1024/flora_iron-man-arc-reactor-adafruit-15__f6f73e64.jpg 1024w"
+              sizes="(max-width: 360px) 360px, (max-width: 640px) 640px, (max-width: 800px) 800px, 1024px"
+             src="../cdn-learn.adafruit.com/assets/assets/000/011/392/medium800/flora_iron-man-arc-reactor-adafruit-15__f6f73e64.jpg"
+             loading="lazy"
+             alt="" />
+</a>  </figure>
+
+      <div class="text-element">
+  The arc reactor in Iron Man 3 has a different design without wires. We used white acrylic and a blue dry-erase marker in the etchings to achieve the above effect.
+</div>
+
+        <figure class="element image-element">
+    <a href="./assets/11393">
+        <img class="11393-asset"
+             srcset="../cdn-learn.adafruit.com/assets/assets/000/011/393/small360/flora_iron-man-arc-reactor-adafruit-16__c9fae4b4.jpg 360w, ../cdn-learn.adafruit.com/assets/assets/000/011/393/medium640/flora_iron-man-arc-reactor-adafruit-16__c9fae4b4.jpg 640w, ../cdn-learn.adafruit.com/assets/assets/000/011/393/medium800/flora_iron-man-arc-reactor-adafruit-16__c9fae4b4.jpg 800w, ../cdn-learn.adafruit.com/assets/assets/000/011/393/large1024/flora_iron-man-arc-reactor-adafruit-16__c9fae4b4.jpg 1024w"
+              sizes="(max-width: 360px) 360px, (max-width: 640px) 640px, (max-width: 800px) 800px, 1024px"
+             src="../cdn-learn.adafruit.com/assets/assets/000/011/393/medium800/flora_iron-man-arc-reactor-adafruit-16__c9fae4b4.jpg"
+             loading="lazy"
+             alt="" />
+</a>  </figure>
+
+      <div class="text-element">
+  Dab some E6000 adhesive on the back of the coils, and gently glue the circuit assembly to it. Don't press so hard that the metal wire comes in contact with the pixel ring PCB-- the glue acts as an insulator. E6000 dries clear and flexible in about 24 hours.
+</div>
+
+        <figure class="element image-element">
+    <a href="./assets/11400">
+        <img class="11400-asset"
+             srcset="../cdn-learn.adafruit.com/assets/assets/000/011/400/small360/flora_iron-man-arc-reactor-adafruit-17__20e46da5.jpg 360w, ../cdn-learn.adafruit.com/assets/assets/000/011/400/medium640/flora_iron-man-arc-reactor-adafruit-17__20e46da5.jpg 640w, ../cdn-learn.adafruit.com/assets/assets/000/011/400/medium800/flora_iron-man-arc-reactor-adafruit-17__20e46da5.jpg 800w, ../cdn-learn.adafruit.com/assets/assets/000/011/400/large1024/flora_iron-man-arc-reactor-adafruit-17__20e46da5.jpg 1024w"
+              sizes="(max-width: 360px) 360px, (max-width: 640px) 640px, (max-width: 800px) 800px, 1024px"
+             src="../cdn-learn.adafruit.com/assets/assets/000/011/400/medium800/flora_iron-man-arc-reactor-adafruit-17__20e46da5.jpg"
+             loading="lazy"
+             alt="" />
+</a>  </figure>
+
+      <div class="text-element">
+  If you're in a rush you <i>can</i> use hot melt glue. It's inferior to E6000 in almost every way, but it will get the job done fast.
+</div>
+
+  </div>
+
+
+              <div class="page-last-updated">
+  <p>Page last edited September 26, 2013</p>
+</div>
+
+            </section>
+            <h2>
+              <span id="wear-it">Wear it!</span>
+            </h2>
+
+            <section class="page-content">
+                <div class="" role="region" aria-label="Page content">
+      <div class="side-element">
+    <div class="side-images">
+      <div class="anchor-anchor">
+        <a href="./superhero-power-plant__21015941" class='anchor-link'><span class='fa fa-link'></span></a>
+      </div>
+      <span id="step-2827793"  class='anchor-link-target'></span>
+      <div class="side-image-display">
+    <img class='11367-asset medium-side-image' src='../cdn-learn.adafruit.com/assets/assets/000/011/367/medium640/flora_iron-man-arc-reactor-adafruit-18__1e8a70d8.jpg' alt='flora_iron-man-arc-reactor-adafruit-18.jpg' loading='lazy' />
+
+    <a class="side-image-link" aria-label="View larger image" href="./elements/2827793/assets/11367/exhibit">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Pro 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2025 Fonticons, Inc.--><path d="M328 32c-13.3 0-24 10.7-24 24s10.7 24 24 24l70.1 0L256 222.1 113.9 80 184 80c13.3 0 24-10.7 24-24s-10.7-24-24-24L56 32C42.7 32 32 42.7 32 56l0 128c0 13.3 10.7 24 24 24s24-10.7 24-24l0-70.1L222.1 256 80 398.1 80 328c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 128c0 13.3 10.7 24 24 24l128 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-70.1 0L256 289.9 398.1 432 328 432c-13.3 0-24 10.7-24 24s10.7 24 24 24l128 0c13.3 0 24-10.7 24-24l0-128c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 70.1L289.9 256 432 113.9l0 70.1c0 13.3 10.7 24 24 24s24-10.7 24-24l0-128c0-13.3-10.7-24-24-24L328 32z"/></svg>
+
+</a></div>
+
+  <div class="image-gallery">
+      <div class="small-side">
+        <a href="./elements/2827793/assets/11367/exhibit">
+            <img class='11367-asset small-side-image' src='../cdn-learn.adafruit.com/assets/assets/000/011/367/medium640/flora_iron-man-arc-reactor-adafruit-18__1e8a70d8.jpg' alt='flora_iron-man-arc-reactor-adafruit-18.jpg' loading='lazy' />
+</a>      </div>
+      <div class="small-side">
+        <a href="./elements/2827793/assets/11370/exhibit">
+            <img class='11370-asset small-side-image' src='../cdn-learn.adafruit.com/assets/assets/000/011/370/medium640/flora_iron-man-arc-reactor-adafruit-19__2f06fda7.jpg' alt='flora_iron-man-arc-reactor-adafruit-19.jpg' loading='lazy' />
+</a>      </div>
+      <div class="small-side">
+        <a href="./elements/2827793/assets/11373/exhibit">
+            <img class='11373-asset small-side-image' src='../cdn-learn.adafruit.com/assets/assets/000/011/373/medium640/flora_iron-man-arc-reactor-adafruit-20__953be32f.jpg' alt='flora_iron-man-arc-reactor-adafruit-20.jpg' loading='lazy' />
+</a>      </div>
+      <div class="small-side">
+        <a href="./elements/2827793/assets/11376/exhibit">
+            <img class='11376-asset small-side-image' src='../cdn-learn.adafruit.com/assets/assets/000/011/376/medium640/flora_iron-man-arc-reactor-adafruit-22__075bbe1b.jpg' alt='flora_iron-man-arc-reactor-adafruit-22.jpg' loading='lazy' />
+</a>      </div>
+  </div>
+
+    </div>
+  <div class="side-text"><div class="text">Thread a piece of elastic long enough to go around your chest through the circuit, between GEMMA and the NeoPixel Ring.<br><br>To keep it from obscuring the center pixel, cinch the elastic in one spot with a few stitches, then align that spot with the circuit.<br><br>Use a safety pin or velcro to secure the strap.</div></div>
+</div>
+
+        <figure class="element image-element">
+    <a href="./assets/11390">
+        <img class="11390-asset"
+             srcset="../cdn-learn.adafruit.com/assets/assets/000/011/390/small360/flora_iron-man-arc-reactor-adafruit-23__76db9a7c.jpg 360w, ../cdn-learn.adafruit.com/assets/assets/000/011/390/medium640/flora_iron-man-arc-reactor-adafruit-23__76db9a7c.jpg 640w, ../cdn-learn.adafruit.com/assets/assets/000/011/390/medium800/flora_iron-man-arc-reactor-adafruit-23__76db9a7c.jpg 800w, ../cdn-learn.adafruit.com/assets/assets/000/011/390/large1024/flora_iron-man-arc-reactor-adafruit-23__76db9a7c.jpg 1024w"
+              sizes="(max-width: 360px) 360px, (max-width: 640px) 640px, (max-width: 800px) 800px, 1024px"
+             src="../cdn-learn.adafruit.com/assets/assets/000/011/390/medium800/flora_iron-man-arc-reactor-adafruit-23__76db9a7c.jpg"
+             loading="lazy"
+             alt="" />
+</a>  </figure>
+
+      <div class="text-element">
+  Use a <a href="../www.adafruit.com/products/1131" target="_blank">JST extension cable</a> and <a href="../www.adafruit.com/products/727" target="_blank" title="Link: http://www.adafruit.com/products/727">3xAAA battery pack</a> tucked in your pocket for many hours of glow time. We experimented with using a <a href="../www.adafruit.com/products/783" target="_blank">coincell battery pack</a> as well, but it only lasted for about an hour.
+</div>
+
+        <figure class="element image-element">
+    <a href="./assets/11391">
+        <img class="11391-asset"
+             srcset="../cdn-learn.adafruit.com/assets/assets/000/011/391/small360/flora_iron-man-arc-reactor-adafruit-24__35baa187.jpg 360w, ../cdn-learn.adafruit.com/assets/assets/000/011/391/medium640/flora_iron-man-arc-reactor-adafruit-24__35baa187.jpg 640w, ../cdn-learn.adafruit.com/assets/assets/000/011/391/medium800/flora_iron-man-arc-reactor-adafruit-24__35baa187.jpg 800w, ../cdn-learn.adafruit.com/assets/assets/000/011/391/large1024/flora_iron-man-arc-reactor-adafruit-24__35baa187.jpg 1024w"
+              sizes="(max-width: 360px) 360px, (max-width: 640px) 640px, (max-width: 800px) 800px, 1024px"
+             src="../cdn-learn.adafruit.com/assets/assets/000/011/391/medium800/flora_iron-man-arc-reactor-adafruit-24__35baa187.jpg"
+             loading="lazy"
+             alt="" />
+</a>  </figure>
+
+        <figure class="element image-element">
+    <a href="./assets/11394">
+        <img class="11394-asset"
+             srcset="../cdn-learn.adafruit.com/assets/assets/000/011/394/small360/flora_iron-man-arc-reactor-adafruit-25__7df11433.jpg 360w, ../cdn-learn.adafruit.com/assets/assets/000/011/394/medium640/flora_iron-man-arc-reactor-adafruit-25__7df11433.jpg 640w, ../cdn-learn.adafruit.com/assets/assets/000/011/394/medium800/flora_iron-man-arc-reactor-adafruit-25__7df11433.jpg 800w, ../cdn-learn.adafruit.com/assets/assets/000/011/394/large1024/flora_iron-man-arc-reactor-adafruit-25__7df11433.jpg 1024w"
+              sizes="(max-width: 360px) 360px, (max-width: 640px) 640px, (max-width: 800px) 800px, 1024px"
+             src="../cdn-learn.adafruit.com/assets/assets/000/011/394/medium800/flora_iron-man-arc-reactor-adafruit-25__7df11433.jpg"
+             loading="lazy"
+             alt="" />
+</a>  </figure>
+
+  </div>
+
+
+              <div class="page-last-updated">
+  <p>Page last edited September 26, 2013</p>
+</div>
+
+            </section>
+    </div>
+  </div>
+</article>
+
+    <div class="related-guides-wrapper">
+  <section class="content-card-group-preview">
+  <div class="group-preview-headline">
+    <div class="title">
+      Related Guides
+    </div>
+
+    
+  </div>
+
+  <a class="scroll-back"><i class="fa fa-angle-left"></i></a>
+  <div class="content-card-group-container">
+    <div class="content-card-group">
+      <!-- Update templates/guides/guide.mustache in tandom -->
+<div class="guide-preview content-card">
+    <a aria-hidden="true" tabindex="-1" href="./flora-rgb-smart-pixels">
+      <div class="image-container">
+        <img loading="lazy" alt="Four small, round black LED boards with four golden solder pads are arranged on a dark surface. Each board contains a central square RGB smart LED." class="image-preview" src="../cdn-learn.adafruit.com/guides/cropped_images/000/000/147/medium640/1260-00__f0b3df33.jpg" />
+
+      </div>
+</a>
+  <div class="bottom-section">
+    <div class="content">
+      <a class="title" aria-label="Guide title" href="./flora-rgb-smart-pixels">Sewable NeoPixels</a>
+          <div class="author">
+      By
+      <a aria-label="Guide author" data-turbo="false" href="./u/jwcooper">
+        <span class="name">Justin Cooper</span>
+</a>    </div>
+
+    </div>
+
+    <div class="badges">
+    <div class="badge product-guide" aria-label="Product guide">
+      Product Guide
+    </div>
+
+  <div class="badge favorites " title="Saved 126 times" aria-label="This guide has been saved 126 times">
+    <span>126</span>
+  </div>
+
+</div>
+
+  </div>
+</div>
+<!-- Update templates/guides/guide.mustache in tandom -->
+<div class="guide-preview content-card">
+    <a aria-hidden="true" tabindex="-1" href="./adafruit-neopixel-uberguide">
+      <div class="image-container">
+        <img loading="lazy" alt="LED strip displaying a gradient of colors from red to green, connected by wires. Strip is coiled on a dark surface." class="image-preview" src="../cdn-learn.adafruit.com/guides/cropped_images/000/000/350/medium640/glamour__27018217.jpg" />
+
+      </div>
+</a>
+  <div class="bottom-section">
+    <div class="content">
+      <a class="title" aria-label="Guide title" href="./adafruit-neopixel-uberguide">Adafruit NeoPixel Überguide</a>
+          <div class="author">
+      By
+      <a aria-label="Guide author" data-turbo="false" href="./u/pburgess">
+        <span class="name">Phillip Burgess</span>
+</a>    </div>
+
+    </div>
+
+    <div class="badges">
+    <div class="badge product-guide" aria-label="Product guide">
+      Product Guide
+    </div>
+
+  <div class="badge favorites " title="Saved 1140 times" aria-label="This guide has been saved 1140 times">
+    <span>1.14K</span>
+  </div>
+
+</div>
+
+  </div>
+</div>
+<!-- Update templates/guides/guide.mustache in tandom -->
+<div class="guide-preview content-card">
+    <a aria-hidden="true" tabindex="-1" href="./superhero-power-gauntlet">
+      <div class="image-container">
+        <img loading="lazy" alt="A person holds a red and gold Iron Man glove with an illuminated pulse cannon in the palm. The background features a blue sign." class="image-preview" src="../cdn-learn.adafruit.com/guides/cropped_images/000/001/429/medium640/TonyAndTheGlove__2833d3cd.png" />
+
+      </div>
+</a>
+  <div class="bottom-section">
+    <div class="content">
+      <a class="title" aria-label="Guide title" href="./superhero-power-gauntlet">Superhero Power Gauntlet</a>
+          <div class="author">
+      By
+      <a aria-label="Guide author" data-turbo="false" href="./u/richa1">
+        <span class="name">Richard Albritton</span>
+</a>    </div>
+
+    </div>
+
+    <div class="badges">
+    <div class="badge" aria-label="Guide skill level">
+      beginner
+    </div>
+
+  <div class="badge favorites " title="Saved 26 times" aria-label="This guide has been saved 26 times">
+    <span>26</span>
+  </div>
+
+</div>
+
+  </div>
+</div>
+<!-- Update templates/guides/guide.mustache in tandom -->
+<div class="guide-preview content-card">
+    <a aria-hidden="true" tabindex="-1" href="./adafruit-ltc4311-i2c-extender-active-terminator">
+      <div class="image-container">
+        <img loading="lazy" alt="Breadboard setup with a microcontroller connected to an OLED display and sensors via STEMMA QT I2C cables. A large coil of cable is connected to a terminal block of an LTC4311 I2C Extender / Active Terminator." class="image-preview" src="../cdn-learn.adafruit.com/guides/cropped_images/000/003/128/medium640/LTC4311_wired_up__42e885cb.jpg" />
+
+      </div>
+</a>
+  <div class="bottom-section">
+    <div class="content">
+      <a class="title" aria-label="Guide title" href="./adafruit-ltc4311-i2c-extender-active-terminator">Adafruit LTC4311 I2C Extender / Active Terminator</a>
+          <div class="author">
+      By
+      <a aria-label="Guide author" data-turbo="false" href="./u/kattni">
+        <span class="name">Kattni Rembor</span>
+</a>    </div>
+
+    </div>
+
+    <div class="badges">
+    <div class="badge product-guide" aria-label="Product guide">
+      Product Guide
+    </div>
+
+  <div class="badge favorites " title="Saved 28 times" aria-label="This guide has been saved 28 times">
+    <span>28</span>
+  </div>
+
+</div>
+
+  </div>
+</div>
+<!-- Update templates/guides/guide.mustache in tandom -->
+<div class="guide-preview content-card">
+    <a aria-hidden="true" tabindex="-1" href="./icicle-crown-with-pebble-pixels-wled">
+      <div class="image-container">
+          <video class="video-preview lazy" preload="auto" muted="muted" loop="loop" playsinline tabindex="-1" poster="../cdn-learn.adafruit.com/guides/cropped_images/000/004/167/medium640thumb/crowngif3__a56723ff.gif" aria-hidden="true">
+      <source data-src="../cdn-learn.adafruit.com/guides/cropped_images/000/004/167/medium640mp4/crowngif3__a56723ff.mp4"></source>
+      <source data-src="../cdn-learn.adafruit.com/guides/cropped_images/000/004/167/medium640webm/crowngif3__a56723ff.webm" type="video/webm; codecs=vp8,vorbis"></source>
+      Your browser does not support the video tag. This links to the guide Icicle Crown with Pebble Pixels &amp; WLED.
+  </video>
+<img loading="lazy" alt="A person wears Icicle Crown made of translucent, icicle-like structures illuminated with blue and white LEDs. The background is a deep red." class="image-preview" src="../cdn-learn.adafruit.com/guides/cropped_images/000/004/167/medium640thumb/crowngif3__a56723ff.gif" />
+
+      </div>
+</a>
+  <div class="bottom-section">
+    <div class="content">
+      <a class="title" aria-label="Guide title" href="./icicle-crown-with-pebble-pixels-wled">Icicle Crown with Pebble Pixels &amp; WLED</a>
+          <div class="author">
+      By
+      <a aria-label="Guide author" data-turbo="false" href="./u/firepixie">
+        <span class="name">Erin St Blaine</span>
+</a>    </div>
+
+    </div>
+
+    <div class="badges">
+    <div class="badge" aria-label="Guide skill level">
+      intermediate
+    </div>
+
+  <div class="badge favorites " title="Saved 5 times" aria-label="This guide has been saved 5 times">
+    <span>5</span>
+  </div>
+
+</div>
+
+  </div>
+</div>
+<!-- Update templates/guides/guide.mustache in tandom -->
+<div class="guide-preview content-card">
+    <a aria-hidden="true" tabindex="-1" href="./neopixel-nanoring-gemma">
+      <div class="image-container">
+          <video class="video-preview lazy" preload="auto" muted="muted" loop="loop" playsinline tabindex="-1" poster="../cdn-learn.adafruit.com/guides/cropped_images/000/002/341/medium640thumb/NanoRing__f8da68c0.gif" aria-hidden="true">
+      <source data-src="../cdn-learn.adafruit.com/guides/cropped_images/000/002/341/medium640mp4/NanoRing__f8da68c0.mp4"></source>
+      <source data-src="../cdn-learn.adafruit.com/guides/cropped_images/000/002/341/medium640webm/NanoRing__f8da68c0.webm" type="video/webm; codecs=vp8,vorbis"></source>
+      Your browser does not support the video tag. This links to the guide NeoPixel NanoRing.
+  </video>
+<img loading="lazy" alt="A hand wearing a black ring with glowing LEDs connected by a black twisted wire. " class="image-preview" src="../cdn-learn.adafruit.com/guides/cropped_images/000/002/341/medium640thumb/NanoRing__f8da68c0.gif" />
+
+      </div>
+</a>
+  <div class="bottom-section">
+    <div class="content">
+      <a class="title" aria-label="Guide title" href="./neopixel-nanoring-gemma">NeoPixel NanoRing</a>
+          <div class="author">
+      By
+      <a aria-label="Guide author" data-turbo="false" href="./u/AmeliaT">
+        <span class="name">Amelia T</span>
+</a>    </div>
+
+    </div>
+
+    <div class="badges">
+    <div class="badge" aria-label="Guide skill level">
+      intermediate
+    </div>
+
+  <div class="badge favorites " title="Saved 50 times" aria-label="This guide has been saved 50 times">
+    <span>50</span>
+  </div>
+
+</div>
+
+  </div>
+</div>
+<!-- Update templates/guides/guide.mustache in tandom -->
+<div class="guide-preview content-card">
+    <a aria-hidden="true" tabindex="-1" href="./adafruit-metro-rp2040">
+      <div class="image-container">
+        <img loading="lazy" alt="A Metro RP2040 microcontroller board with a USB port and multiple pin headers is partially visible against a gray background." class="image-preview" src="../cdn-learn.adafruit.com/guides/cropped_images/000/003/856/medium640/MRP_top_angle__695ea02b.jpg" />
+
+      </div>
+</a>
+  <div class="bottom-section">
+    <div class="content">
+      <a class="title" aria-label="Guide title" href="./adafruit-metro-rp2040">Adafruit Metro RP2040</a>
+          <div class="author">
+      By
+      <a aria-label="Guide author" data-turbo="false" href="./u/kattni">
+        <span class="name">Kattni Rembor</span>
+</a>    </div>
+
+    </div>
+
+    <div class="badges">
+    <div class="badge product-guide" aria-label="Product guide">
+      Product Guide
+    </div>
+
+  <div class="badge favorites " title="Saved 14 times" aria-label="This guide has been saved 14 times">
+    <span>14</span>
+  </div>
+
+</div>
+
+  </div>
+</div>
+<!-- Update templates/guides/guide.mustache in tandom -->
+<div class="guide-preview content-card">
+    <a aria-hidden="true" tabindex="-1" href="./clue-coffee-scale">
+      <div class="image-container">
+          <video class="video-preview lazy" preload="auto" muted="muted" loop="loop" playsinline tabindex="-1" poster="../cdn-learn.adafruit.com/guides/cropped_images/000/003/635/medium640thumb/espresso_action__d62bf150.gif" aria-hidden="true">
+      <source data-src="../cdn-learn.adafruit.com/guides/cropped_images/000/003/635/medium640mp4/espresso_action__d62bf150.mp4"></source>
+      <source data-src="../cdn-learn.adafruit.com/guides/cropped_images/000/003/635/medium640webm/espresso_action__d62bf150.webm" type="video/webm; codecs=vp8,vorbis"></source>
+      Your browser does not support the video tag. This links to the guide Clue Coffee Scale.
+  </video>
+<img loading="lazy" alt="A Clue microcontroller with a display is attached to a coffee machine, showing coffee and scale readings. Wires connect the microcontroller to sensors." class="image-preview" src="../cdn-learn.adafruit.com/guides/cropped_images/000/003/635/medium640thumb/espresso_action__d62bf150.gif" />
+
+      </div>
+</a>
+  <div class="bottom-section">
+    <div class="content">
+      <a class="title" aria-label="Guide title" href="./clue-coffee-scale">Clue Coffee Scale</a>
+          <div class="author">
+      By
+      <a aria-label="Guide author" data-turbo="false" href="./u/CGrover">
+        <span class="name">Jan Goolsbey</span>
+</a>    </div>
+
+    </div>
+
+    <div class="badges">
+    <div class="badge" aria-label="Guide skill level">
+      beginner
+    </div>
+
+  <div class="badge favorites " title="Saved 25 times" aria-label="This guide has been saved 25 times">
+    <span>25</span>
+  </div>
+
+</div>
+
+  </div>
+</div>
+<!-- Update templates/guides/guide.mustache in tandom -->
+<div class="guide-preview content-card">
+    <a aria-hidden="true" tabindex="-1" href="./circuit-playground-treasure-hunt">
+      <div class="image-container">
+        <img loading="lazy" alt="Four circular Circuit Playground Express circuit boards are overlaid on a world map, each with colorful wave signals. Numbers 1, 2, 3, and a question mark label the boards." class="image-preview" src="../cdn-learn.adafruit.com/guides/cropped_images/000/002/114/medium640/treasure_map__92a30f50.jpg" />
+
+      </div>
+</a>
+  <div class="bottom-section">
+    <div class="content">
+      <a class="title" aria-label="Guide title" href="./circuit-playground-treasure-hunt">Circuit Playground Express Treasure Hunt</a>
+          <div class="author">
+      By
+      <a aria-label="Guide author" data-turbo="false" href="./u/caternuson">
+        <span class="name">Carter Nelson</span>
+</a>    </div>
+
+    </div>
+
+    <div class="badges">
+    <div class="badge" aria-label="Guide skill level">
+      beginner
+    </div>
+
+  <div class="badge favorites " title="Saved 26 times" aria-label="This guide has been saved 26 times">
+    <span>26</span>
+  </div>
+
+</div>
+
+  </div>
+</div>
+<!-- Update templates/guides/guide.mustache in tandom -->
+<div class="guide-preview content-card">
+    <a aria-hidden="true" tabindex="-1" href="./the-foul-fowl-keyboard-injection-payload-gemma-m0">
+      <div class="image-container">
+        <img loading="lazy" alt="A monitor displays the word &quot;HACKED!&quot; with a digital angry duck graphic. Several cables are holding up a GEMMA M0 microcontroller." class="image-preview" src="../cdn-learn.adafruit.com/guides/cropped_images/000/001/965/medium640/hackedFF__68d86d45.jpg" />
+
+      </div>
+</a>
+  <div class="bottom-section">
+    <div class="content">
+      <a class="title" aria-label="Guide title" href="./the-foul-fowl-keyboard-injection-payload-gemma-m0">The Foul Fowl -- Keystroke Injection Attack Tool...</a>
+          <div class="author">
+      By
+      <a aria-label="Guide author" data-turbo="false" href="./u/johnpark">
+        <span class="name">John Park</span>
+</a>    </div>
+
+    </div>
+
+    <div class="badges">
+    <div class="badge" aria-label="Guide skill level">
+      intermediate
+    </div>
+
+  <div class="badge favorites " title="Saved 26 times" aria-label="This guide has been saved 26 times">
+    <span>26</span>
+  </div>
+
+</div>
+
+  </div>
+</div>
+<!-- Update templates/guides/guide.mustache in tandom -->
+<div class="guide-preview content-card">
+    <a aria-hidden="true" tabindex="-1" href="./3d-printed-starro-face-mask">
+      <div class="image-container">
+          <video class="video-preview lazy" preload="auto" muted="muted" loop="loop" playsinline tabindex="-1" poster="../cdn-learn.adafruit.com/guides/cropped_images/000/003/417/medium640thumb/hero-loop-a__e687dc03.gif" aria-hidden="true">
+      <source data-src="../cdn-learn.adafruit.com/guides/cropped_images/000/003/417/medium640mp4/hero-loop-a__e687dc03.mp4"></source>
+      <source data-src="../cdn-learn.adafruit.com/guides/cropped_images/000/003/417/medium640webm/hero-loop-a__e687dc03.webm" type="video/webm; codecs=vp8,vorbis"></source>
+      Your browser does not support the video tag. This links to the guide 3D Printed Starro Face Mask.
+  </video>
+<img loading="lazy" alt="A 3D-printed starro face mask with a central LCD screen animated eye design is mounted on a mannequin head. The mask features a blue and pink color scheme." class="image-preview" src="../cdn-learn.adafruit.com/guides/cropped_images/000/003/417/medium640thumb/hero-loop-a__e687dc03.gif" />
+
+      </div>
+</a>
+  <div class="bottom-section">
+    <div class="content">
+      <a class="title" aria-label="Guide title" href="./3d-printed-starro-face-mask">3D Printed Starro Face Mask</a>
+          <div class="author">
+      By
+      <a aria-label="Guide author" data-turbo="false" href="./u/pixil3d">
+        <span class="name">Ruiz Brothers</span>
+</a>    </div>
+
+    </div>
+
+    <div class="badges">
+    <div class="badge" aria-label="Guide skill level">
+      beginner
+    </div>
+
+  <div class="badge favorites " title="Saved 21 times" aria-label="This guide has been saved 21 times">
+    <span>21</span>
+  </div>
+
+</div>
+
+  </div>
+</div>
+<!-- Update templates/guides/guide.mustache in tandom -->
+<div class="guide-preview content-card">
+    <a aria-hidden="true" tabindex="-1" href="./cpx-musical-glove">
+      <div class="image-container">
+          <video class="video-preview lazy" preload="auto" muted="muted" loop="loop" playsinline tabindex="-1" poster="../cdn-learn.adafruit.com/guides/cropped_images/000/002/469/medium640thumb/CPXMusicalGlove__a4c35b48.gif" aria-hidden="true">
+      <source data-src="../cdn-learn.adafruit.com/guides/cropped_images/000/002/469/medium640mp4/CPXMusicalGlove__a4c35b48.mp4"></source>
+      <source data-src="../cdn-learn.adafruit.com/guides/cropped_images/000/002/469/medium640webm/CPXMusicalGlove__a4c35b48.webm" type="video/webm; codecs=vp8,vorbis"></source>
+      Your browser does not support the video tag. This links to the guide Circuit Playground Musical Glove.
+  </video>
+<img loading="lazy" alt="A Circuit Playground Express board is attached to a green glove, with wires connected to its pads. The board is positioned on the back of the hand, sensing movement." class="image-preview" src="../cdn-learn.adafruit.com/guides/cropped_images/000/002/469/medium640thumb/CPXMusicalGlove__a4c35b48.gif" />
+
+      </div>
+</a>
+  <div class="bottom-section">
+    <div class="content">
+      <a class="title" aria-label="Guide title" href="./cpx-musical-glove">Circuit Playground Musical Glove</a>
+          <div class="author">
+      By
+      <a aria-label="Guide author" data-turbo="false" href="./u/KathyCeceri">
+        <span class="name">Kathy Ceceri</span>
+</a>    </div>
+
+    </div>
+
+    <div class="badges">
+    <div class="badge" aria-label="Guide skill level">
+      beginner
+    </div>
+
+  <div class="badge favorites " title="Saved 57 times" aria-label="This guide has been saved 57 times">
+    <span>57</span>
+  </div>
+
+</div>
+
+  </div>
+</div>
+<!-- Update templates/guides/guide.mustache in tandom -->
+<div class="guide-preview content-card">
+    <a aria-hidden="true" tabindex="-1" href="./bluetooth-neopixel-lightbox">
+      <div class="image-container">
+        <img loading="lazy" alt="Hands trace LED illustrations on a lightbox, highlighting various LED shapes and sizes on translucent paper." class="image-preview" src="../cdn-learn.adafruit.com/guides/cropped_images/000/002/508/medium640/led_strips_tracing__ebf913f8.jpg" />
+
+      </div>
+</a>
+  <div class="bottom-section">
+    <div class="content">
+      <a class="title" aria-label="Guide title" href="./bluetooth-neopixel-lightbox">Bluetooth Controlled NeoPixel Lightbox</a>
+          <div class="author">
+      By
+      <a aria-label="Guide author" data-turbo="false" href="./u/dastels">
+        <span class="name">Dave Astels</span>
+</a>    </div>
+
+    </div>
+
+    <div class="badges">
+    <div class="badge" aria-label="Guide skill level">
+      beginner
+    </div>
+
+  <div class="badge favorites " title="Saved 24 times" aria-label="This guide has been saved 24 times">
+    <span>24</span>
+  </div>
+
+</div>
+
+  </div>
+</div>
+<!-- Update templates/guides/guide.mustache in tandom -->
+<div class="guide-preview content-card">
+    <a aria-hidden="true" tabindex="-1" href="./jack-o-theremin">
+      <div class="image-container">
+        <img loading="lazy" alt="A hand hovers near a pumpkin with electronic components, including two eyes/nose/mouth and a ultrasonic sensor embedded in the surface." class="image-preview" src="../cdn-learn.adafruit.com/guides/cropped_images/000/002/242/medium640/build_138__23a8747a.jpg" />
+
+      </div>
+</a>
+  <div class="bottom-section">
+    <div class="content">
+      <a class="title" aria-label="Guide title" href="./jack-o-theremin">Jack-o-Theremin</a>
+          <div class="author">
+      By
+      <a aria-label="Guide author" data-turbo="false" href="./u/SophyWong">
+        <span class="name">Sophy Wong</span>
+</a>    </div>
+
+    </div>
+
+    <div class="badges">
+    <div class="badge" aria-label="Guide skill level">
+      beginner
+    </div>
+
+  <div class="badge favorites " title="Saved 12 times" aria-label="This guide has been saved 12 times">
+    <span>12</span>
+  </div>
+
+</div>
+
+  </div>
+</div>
+<!-- Update templates/guides/guide.mustache in tandom -->
+<div class="guide-preview content-card">
+    <a aria-hidden="true" tabindex="-1" href="./yoga-pose-chime">
+      <div class="image-container">
+        <img loading="lazy" alt="A brass singing bowl is placed next to a breadboard setup with a CLUE microcontroller. Wires connect components for a timer project." class="image-preview" src="../cdn-learn.adafruit.com/guides/cropped_images/000/003/002/medium640/yoga-2217__cccece4e.jpg" />
+
+      </div>
+</a>
+  <div class="bottom-section">
+    <div class="content">
+      <a class="title" aria-label="Guide title" href="./yoga-pose-chime">Yoga Pose Chime</a>
+          <div class="author">
+      By
+      <a aria-label="Guide author" data-turbo="false" href="./u/johnpark">
+        <span class="name">John Park</span>
+</a>    </div>
+
+    </div>
+
+    <div class="badges">
+    <div class="badge" aria-label="Guide skill level">
+      beginner
+    </div>
+
+  <div class="badge favorites " title="Saved 20 times" aria-label="This guide has been saved 20 times">
+    <span>20</span>
+  </div>
+
+</div>
+
+  </div>
+</div>
+<!-- Update templates/guides/guide.mustache in tandom -->
+<div class="guide-preview content-card">
+    <a aria-hidden="true" tabindex="-1" href="./make-it-glow-how-to-solder-neopixels-a-beginners-guide">
+      <div class="image-container">
+          <video class="video-preview lazy" preload="auto" muted="muted" loop="loop" playsinline tabindex="-1" poster="../cdn-learn.adafruit.com/guides/cropped_images/000/002/991/medium640thumb/how_to_solder_neopixels__b6945083.gif" aria-hidden="true">
+      <source data-src="../cdn-learn.adafruit.com/guides/cropped_images/000/002/991/medium640mp4/how_to_solder_neopixels__b6945083.mp4"></source>
+      <source data-src="../cdn-learn.adafruit.com/guides/cropped_images/000/002/991/medium640webm/how_to_solder_neopixels__b6945083.webm" type="video/webm; codecs=vp8,vorbis"></source>
+      Your browser does not support the video tag. This links to the guide Make It Glow: How to Solder NeoPixels, A Beginner&#39;s Guide.
+  </video>
+<img loading="lazy" alt="LED strips display various colors and patterns, including solid, gradient, and chasing effects. Different LED types are shown in parallel rows." class="image-preview" src="../cdn-learn.adafruit.com/guides/cropped_images/000/002/991/medium640thumb/how_to_solder_neopixels__b6945083.gif" />
+
+      </div>
+</a>
+  <div class="bottom-section">
+    <div class="content">
+      <a class="title" aria-label="Guide title" href="./make-it-glow-how-to-solder-neopixels-a-beginners-guide">Make It Glow: How to Solder NeoPixels, A Beginner&#39;s...</a>
+          <div class="author">
+      By
+      <a aria-label="Guide author" data-turbo="false" href="./u/firepixie">
+        <span class="name">Erin St Blaine</span>
+</a>    </div>
+
+    </div>
+
+    <div class="badges">
+    <div class="badge" aria-label="Guide skill level">
+      beginner
+    </div>
+
+  <div class="badge favorites " title="Saved 131 times" aria-label="This guide has been saved 131 times">
+    <span>131</span>
+  </div>
+
+</div>
+
+  </div>
+</div>
+<!-- Update templates/guides/guide.mustache in tandom -->
+<div class="guide-preview content-card">
+    <a aria-hidden="true" tabindex="-1" href="./twinkly-ear-warmer">
+      <div class="image-container">
+          <video class="video-preview lazy" preload="auto" muted="muted" loop="loop" playsinline tabindex="-1" poster="../cdn-learn.adafruit.com/guides/cropped_images/000/002/837/medium640thumb/MakeCodeEar__6b791d29.gif" aria-hidden="true">
+      <source data-src="../cdn-learn.adafruit.com/guides/cropped_images/000/002/837/medium640mp4/MakeCodeEar__6b791d29.mp4"></source>
+      <source data-src="../cdn-learn.adafruit.com/guides/cropped_images/000/002/837/medium640webm/MakeCodeEar__6b791d29.webm" type="video/webm; codecs=vp8,vorbis"></source>
+      Your browser does not support the video tag. This links to the guide Twinkly Earwarmer Headband.
+  </video>
+<img loading="lazy" alt="A purple fabric headband with felt leaves and flowers features a glowing pink LED on one side. The LED is connected to a purple wire." class="image-preview" src="../cdn-learn.adafruit.com/guides/cropped_images/000/002/837/medium640thumb/MakeCodeEar__6b791d29.gif" />
+
+      </div>
+</a>
+  <div class="bottom-section">
+    <div class="content">
+      <a class="title" aria-label="Guide title" href="./twinkly-ear-warmer">Twinkly Earwarmer Headband</a>
+          <div class="author">
+      By
+      <a aria-label="Guide author" data-turbo="false" href="./u/KathyCeceri">
+        <span class="name">Kathy Ceceri</span>
+</a>    </div>
+
+    </div>
+
+    <div class="badges">
+    <div class="badge" aria-label="Guide skill level">
+      beginner
+    </div>
+
+  <div class="badge favorites " title="Saved 8 times" aria-label="This guide has been saved 8 times">
+    <span>8</span>
+  </div>
+
+</div>
+
+  </div>
+</div>
+
+    </div>
+  </div>
+  <a class="scroll-forward"><i class="fa fa-angle-right"></i></a>
+</section>
+
+</div>
+
+
+
+
+<div class="dialog-container modal"
+     id="create-wishlist-modal"
+     data-modals-target="modal"
+     aria-labelledby="dialog-title"
+     aria-hidden="true">
+  <div class="dialog-overlay" data-a11y-dialog-hide></div>
+  <div class="dialog-content">
+    <div class="dialog-header">
+      <h5 class="dialog-title">Create Wishlist</h5>
+      <a href="./superhero-power-plant__21015941" class="dialog-close" data-a11y-dialog-hide="create-wishlist-modal" aria-label="Close this dialog window">&times;</a>
+    </div>
+    <form>
+      <div class="dialog-body">
+        <div class="form-group">
+          <label for="wishlist_title">Title</label>
+          <input type="text" name="wishlist_title" id="wishlist_title" />
+        </div>
+
+        <div class="form-group">
+          <label for="wishlist_description">Description</label>
+          <textarea name="wishlist_description" id="wishlist_description">
+</textarea>
+        </div>
+      </div>
+      <div class="dialog-footer">
+        <input type="submit" name="commit" value="Create Wishlist" class="btn-primary" id="create-wishlist" data-disable-with="Create Wishlist" />
+        <a href="./superhero-power-plant__21015941" class="dialog-close" data-a11y-dialog-hide="create-wishlist-modal" aria-label="Close this dialog window">Close</a>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+        </div>
+
+        <div id="search-container">
+  <div class="toolbar-primary">
+    <div class="content">
+      <div class="left-content">
+        <div class="breadcrumbs">
+          <a href="./index.html" aria-label="Home page"><i class='fa fa-home'></i></a>
+          <i class="fa fa-chevron-right separator"></i> Search <i class="fa fa-chevron-right separator"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sub-header">
+    <div class="header-intro">
+      <h1 class="title">Search</h1>
+    </div>
+
+    <div class="header-main-content-wrapper">
+      <div class="header-main-content">
+        <div id="search-refinements" class="breakdown">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="search-content left-sidebar-layout">
+    <div>
+      <div class="facets-wrapper">
+        <h5 class="search-refinement-header">Categories</h5>
+        <div id="search-categories"></div>
+      </div>
+    </div>
+
+    <div>
+      <div id="search-results" class="search-content-card-group"></div>
+
+      <div id="search-pagination" class="pagination"></div>
+    </div>
+  </div>
+</div>
+
+
+        <div id='main-content-overlay'></div>
+      </main>
+        <footer id="adafruit-footer">
+    <div class="footer-container">
+      <div>
+        <ul>
+          <li>
+            <a href="../www.adafruit.com/contact_us">Contact Us</a>
+          </li>
+          <li>
+            <a href="../forums.adafruit.com/index.html">Tech Support Forums</a>
+          </li>
+          <li>
+            <a href="../www.adafruit.com/faq">FAQs</a>
+          </li>
+          <li>
+            <a href="../www.adafruit.com/shippinginfo">Shipping &amp; Returns</a>
+          </li>
+          <li>
+            <a href="../www.adafruit.com/free">Freebies</a>
+          </li>
+          <li>
+            <a href="../www.adafruit.com/terms_of_service">Terms of Service</a>
+          </li>
+          <li>
+            <a href="../www.adafruit.com/privacy">Privacy &amp; Legal</a>
+          </li>
+          <li>
+            <a href="../www.adafruit.com/accessibility">Website Accessibility</a>
+          </li>
+          <li>
+            <a href="./llms">LLMs.txt</a>
+          </li>
+        </ul>
+        <button type="button" class="theme-toggle "
+  data-controller="theme" data-action="./theme"
+  aria-label="Change color theme (current: system)">
+  <i class="fa fa-circle-half-stroke" aria-hidden="true" data-theme-target="icon"></i>
+    <span data-theme-target="label">Theme: System</span>
+</button>
+
+      </div>
+      <div>
+        <ul>
+          <li>
+            <a href="../www.adafruit.com/about">About Us</a>
+          </li>
+          <li>
+            <a href="../www.adafruit.com/press">Press</a>
+          </li>
+          <li>
+            <a href="../www.adafruit.com/educators">Educators</a>
+          </li>
+          <li>
+            <a href="../www.adafruit.com/distributors">Distributors</a>
+          </li>
+          <li>
+            <a href="../jobs.adafruit.com/index.html">Jobs</a>
+          </li>
+          <li>
+            <a href="../www.adafruit.com/category/14">Gift Cards</a>
+          </li>
+        </ul>
+      </div>
+      <aside>
+        <div class="quote">"The walls between art and engineering exist only in our minds"</div>
+        <div class="quote-attribution"><a href="../en.wikipedia.org/wiki/Theo_Jansen">Theo Jansen</a></div>
+      </aside>
+    </div>
+    <div class="footer-container bottom">
+      <a title="About Adafruit" id="footer-logo" href="./index.html">
+        <img alt="Adafruit Logo" src="./logos/adafruit_logo_small__d6f0fa7b.png" />
+</a>
+      <div class="social-links">
+        <a href="https://www.instagram.com/adafruit/" target="_blank" rel="noopener noreferrer" aria-label="Adafruit on Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+
+        <a href="https://twitter.com/adafruit/" target="_blank" rel="noopener noreferrer" aria-label="Adafruit on Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+
+        <a class="mastodon-logo" href="../fosstodon.org/@adafruit" target="_blank" rel="noopener noreferrer" aria-label="Adafruit on Mastodon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216.4144 232.00976"><path class="logo" d="M211.80734 139.0875c-3.18125 16.36625-28.4925 34.2775-57.5625 37.74875-15.15875 1.80875-30.08375 3.47125-45.99875 2.74125-26.0275-1.1925-46.565-6.2125-46.565-6.2125 0 2.53375.15625 4.94625.46875 7.2025 3.38375 25.68625 25.47 27.225 46.39125 27.9425 21.11625.7225 39.91875-5.20625 39.91875-5.20625l.8675 19.09s-14.77 7.93125-41.08125 9.39c-14.50875.7975-32.52375-.365-53.50625-5.91875C9.23234 213.82 1.40609 165.31125.20859 116.09125c-.365-14.61375-.14-28.39375-.14-39.91875 0-50.33 32.97625-65.0825 32.97625-65.0825C49.67234 3.45375 78.20359.2425 107.86484 0h.72875c29.66125.2425 58.21125 3.45375 74.8375 11.09 0 0 32.975 14.7525 32.975 65.0825 0 0 .41375 37.13375-4.59875 62.915" fill="currentColor"/><path d="M177.50984 80.077v60.94125h-24.14375v-59.15c0-12.46875-5.24625-18.7975-15.74-18.7975-11.6025 0-17.4175 7.5075-17.4175 22.3525v32.37625H96.20734V85.42325c0-14.845-5.81625-22.3525-17.41875-22.3525-10.49375 0-15.74 6.32875-15.74 18.7975v59.15H38.90484V80.077c0-12.455 3.17125-22.3525 9.54125-29.675 6.56875-7.3225 15.17125-11.07625 25.85-11.07625 12.355 0 21.71125 4.74875 27.8975 14.2475l6.01375 10.08125 6.015-10.08125c6.185-9.49875 15.54125-14.2475 27.8975-14.2475 10.6775 0 19.28 3.75375 25.85 11.07625 6.36875 7.3225 9.54 17.22 9.54 29.675" fill="#000"/></svg></a>
+
+        <a href="https://www.facebook.com/adafruitindustries" target="_blank" rel="noopener noreferrer" aria-label="Adafruit on Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+
+        <a href="https://www.youtube.com/adafruit" target="_blank" rel="noopener noreferrer" aria-label="Adafruit on YouTube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+
+        <a href="../github.com/adafruit" target="_blank" rel="noopener noreferrer" aria-label="Adafruit on Github"><i class="fa fa-github" aria-hidden="true"></i></a>
+
+        <a class="tiktok-logo" aria-label="Adafruit on TikTok" href="https://www.tiktok.com/@adafruit"  target="_blank" rel="noopener noreferrer"><svg viewBox="3 2 20 22" xmlns="http://www.w3.org/2000/svg"><path class="logo" d="M19.8059 7.50695C18.7771 7.50695 17.8278 7.16612 17.0655 6.59113C16.1912 5.93198 15.5631 4.9651 15.3412 3.85069C15.2863 3.57534 15.2567 3.29119 15.2539 3H12.3149V11.0308L12.3114 15.4297C12.3114 16.6057 11.5455 17.6029 10.4839 17.9536C10.1758 18.0553 9.8431 18.1036 9.49663 18.0846C9.05438 18.0603 8.63995 17.9268 8.27975 17.7113C7.51322 17.2529 6.99351 16.4212 6.97942 15.4698C6.95724 13.9829 8.15933 12.7706 9.64522 12.7706C9.93852 12.7706 10.2202 12.8185 10.4839 12.9054V10.7104V9.92134C10.2058 9.88015 9.92268 9.85867 9.63641 9.85867C8.01004 9.85867 6.48894 10.5347 5.40164 11.7526C4.57982 12.6731 4.08687 13.8473 4.01082 15.0786C3.91117 16.6962 4.50306 18.2339 5.65093 19.3683C5.81959 19.5349 5.9967 19.6895 6.1819 19.8321C7.16604 20.5894 8.36919 21 9.63641 21C9.92268 21 10.2058 20.9789 10.4839 20.9377C11.6677 20.7623 12.7599 20.2204 13.6219 19.3683C14.681 18.3215 15.2662 16.9318 15.2726 15.4526L15.2574 8.88369C15.7627 9.27347 16.3152 9.596 16.9081 9.84635C17.8303 10.2354 18.8081 10.4326 19.8144 10.4322V8.29814V7.50625C19.8151 7.50695 19.8066 7.50695 19.8059 7.50695Z" fill="currentColor"/></svg></a>
+
+        <a class="tumblr-logo" aria-label="Adafruit on Tumblr" href="../adafruit.tumblr.com/index.html" target="_blank" rel="noopener noreferrer"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
+
+        <a class="threads-logo" href="../www.threads.net/@adafruit" target="_blank" rel="noopener noreferrer" aria-label="Adafruit on Threads"><span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M331.5 235.7c2.2 .9 4.2 1.9 6.3 2.8c29.2 14.1 50.6 35.2 61.8 61.4c15.7 36.5 17.2 95.8-30.3 143.2c-36.2 36.2-80.3 52.5-142.6 53h-.3c-70.2-.5-124.1-24.1-160.4-70.2c-32.3-41-48.9-98.1-49.5-169.6V256v-.2C17 184.3 33.6 127.2 65.9 86.2C102.2 40.1 156.2 16.5 226.4 16h.3c70.3 .5 124.9 24 162.3 69.9c18.4 22.7 32 50 40.6 81.7l-40.4 10.8c-7.1-25.8-17.8-47.8-32.2-65.4c-29.2-35.8-73-54.2-130.5-54.6c-57 .5-100.1 18.8-128.2 54.4C72.1 146.1 58.5 194.3 58 256c.5 61.7 14.1 109.9 40.3 143.3c28 35.6 71.2 53.9 128.2 54.4c51.4-.4 85.4-12.6 113.7-40.9c32.3-32.2 31.7-71.8 21.4-95.9c-6.1-14.2-17.1-26-31.9-34.9c-3.7 26.9-11.8 48.3-24.7 64.8c-17.1 21.8-41.4 33.6-72.7 35.3c-23.6 1.3-46.3-4.4-63.9-16c-20.8-13.8-33-34.8-34.3-59.3c-2.5-48.3 35.7-83 95.2-86.4c21.1-1.2 40.9-.3 59.2 2.8c-2.4-14.8-7.3-26.6-14.6-35.2c-10-11.7-25.6-17.7-46.2-17.8H227c-16.6 0-39 4.6-53.3 26.3l-34.4-23.6c19.2-29.1 50.3-45.1 87.8-45.1h.8c62.6 .4 99.9 39.5 103.7 107.7l-.2 .2zm-156 68.8c1.3 25.1 28.4 36.8 54.6 35.3c25.6-1.4 54.6-11.4 59.5-73.2c-13.2-2.9-27.8-4.4-43.4-4.4c-4.8 0-9.6 .1-14.4 .4c-42.9 2.4-57.2 23.2-56.2 41.8l-.1 .1z"/></svg></span></a>
+
+        <a class="discord-logo" aria-label="Adafruit on Discord" href="../adafru.it/discord" target="_blank" rel="noopener noreferrer"><svg style="height: 1em; margin-bottom: -0.15em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127.14 96.36"><path fill="currentColor" d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z"/></svg></a>
+
+        <a class="bluesky-logo" aria-label="Adafruit on Bluesky" href="../bsky.app/profile/adafruit" target="_blank" rel="noopener noreferrer"><svg style="height: 1em; margin-bottom: -0.15em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M111.8 62.2C170.2 105.9 233 194.7 256 242.4c23-47.6 85.8-136.4 144.2-180.2c42.1-31.6 110.3-56 110.3 21.8c0 15.5-8.9 130.5-14.1 149.2C478.2 298 412 314.6 353.1 304.5c102.9 17.5 129.1 75.5 72.5 133.5c-107.4 110.2-154.3-27.6-166.3-62.9l0 0c-1.7-4.9-2.6-7.8-3.3-7.8s-1.6 3-3.3 7.8l0 0c-12 35.3-59 173.1-166.3 62.9c-56.5-58-30.4-116 72.5-133.5C100 314.6 33.8 298 15.7 233.1C10.4 214.4 1.5 99.4 1.5 83.9c0-77.8 68.2-53.4 110.3-21.8z"/></svg>
+</a>
+      </div>
+      <div class="footer-messaging">
+        <a href="../www.adafruit.com/about">A Minority and Woman-owned Business Enterprise (M/WBE)</a>
+      </div>
+    </div>
+  </footer>
+
+    </div>
+  </div>
+
+  <div id="remote-modal-wrapper"></div>
+</body>
+</html>

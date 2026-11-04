@@ -1,0 +1,1 @@
+"use strict";(globalThis.chunk_box_enduser_app||=[]).push([["zcm"],{Md(s,u,c){c.d(u,{},{B:()=>"23.836.0"})}}]);

@@ -1,0 +1,426 @@
+@charset "UTF-8";
+
+.contest-details {
+  --indent-base: 1em;
+  --indent-li-extra: 1.5em;
+  --indent-base-rtl: 1.5em;
+  --indent-li-extra-rtl: 0.75em;
+}
+.contest-details p,
+.contest-details ol,
+.contest-details ul,
+.contest-details pre,
+.contest-details blockquote,
+.contest-details h1,
+.contest-details h2,
+.contest-details h3,
+.contest-details h4,
+.contest-details h5,
+.contest-details h6 {
+  counter-reset: list-1 list-2 list-3 list-4 list-5 list-6 list-7 list-8 list-9;
+}
+.contest-details ol {
+  padding: 0;
+  list-style: none;
+  counter-reset: list-num;
+}
+.contest-details ol > li,
+.contest-details ul > li {
+  margin-left: 1em;
+}
+.contest-details ol li[data-list=bullet] {
+  list-style: disc;
+}
+.contest-details li::before {
+  display: inline-block;
+  margin-right: 0.3em;
+  text-align: right;
+  white-space: nowrap;
+  width: 1.2em;
+}
+.contest-details li:not(.ql-direction-rtl)::before {
+  margin-left: -1.5em;
+}
+.contest-details ol li[data-list=ordered] {
+  counter-reset: list-1 list-2 list-3 list-4 list-5 list-6 list-7 list-8 list-9;
+  counter-increment: list-num;
+}
+.contest-details ol li[data-list=ordered]::before {
+  content: counter(list-num, decimal) ". ";
+}
+.contest-details ol li.ql-indent-1 {
+  counter-increment: list-1;
+}
+.contest-details ol li[data-list=ordered].ql-indent-1::before {
+  content: counter(list-1, lower-alpha) ". ";
+}
+.contest-details ol li.ql-indent-1 {
+  counter-reset: list-2 list-3 list-4 list-5 list-6 list-7 list-8 list-9;
+}
+.contest-details ol li.ql-indent-2 {
+  counter-increment: list-2;
+}
+.contest-details ol li[data-list=ordered].ql-indent-2::before {
+  content: counter(list-2, lower-roman) ". ";
+}
+.contest-details ol li.ql-indent-2 {
+  counter-reset: list-3 list-4 list-5 list-6 list-7 list-8 list-9;
+}
+.contest-details ol li.ql-indent-3 {
+  counter-increment: list-3;
+}
+.contest-details ol li[data-list=ordered].ql-indent-3::before {
+  content: counter(list-3, decimal) ". ";
+}
+.contest-details ol li.ql-indent-3 {
+  counter-reset: list-4 list-5 list-6 list-7 list-8 list-9;
+}
+.contest-details ol li.ql-indent-4 {
+  counter-increment: list-4;
+}
+.contest-details ol li[data-list=ordered].ql-indent-4::before {
+  content: counter(list-4, lower-alpha) ". ";
+}
+.contest-details ol li.ql-indent-4 {
+  counter-reset: list-5 list-6 list-7 list-8 list-9;
+}
+.contest-details ol li.ql-indent-5 {
+  counter-increment: list-5;
+}
+.contest-details ol li[data-list=ordered].ql-indent-5::before {
+  content: counter(list-5, lower-roman) ". ";
+}
+.contest-details ol li.ql-indent-5 {
+  counter-reset: list-6 list-7 list-8 list-9;
+}
+.contest-details ol li.ql-indent-6 {
+  counter-increment: list-6;
+}
+.contest-details ol li[data-list=ordered].ql-indent-6::before {
+  content: counter(list-6, decimal) ". ";
+}
+.contest-details ol li.ql-indent-6 {
+  counter-reset: list-7 list-8 list-9;
+}
+.contest-details ol li.ql-indent-7 {
+  counter-increment: list-7;
+}
+.contest-details ol li[data-list=ordered].ql-indent-7::before {
+  content: counter(list-7, lower-alpha) ". ";
+}
+.contest-details ol li.ql-indent-7 {
+  counter-reset: list-8 list-9;
+}
+.contest-details ol li.ql-indent-8 {
+  counter-increment: list-8;
+}
+.contest-details ol li[data-list=ordered].ql-indent-8::before {
+  content: counter(list-8, lower-roman) ". ";
+}
+.contest-details ol li.ql-indent-8 {
+  counter-reset: list-9;
+}
+.contest-details ol li.ql-indent-9 {
+  counter-increment: list-9;
+}
+.contest-details ol li[data-list=ordered].ql-indent-9::before {
+  content: counter(list-9, decimal) ". ";
+}
+.contest-details .ql-indent-1:not(.ql-direction-rtl) {
+  margin-left: calc(var(--indent-base) * 1);
+}
+.contest-details li.ql-indent-1:not(.ql-direction-rtl) {
+  margin-left: calc(var(--indent-base) * 1 + var(--indent-li-extra));
+}
+.contest-details .ql-indent-1.ql-direction-rtl.ql-align-right {
+  margin-right: calc(var(--indent-base-rtl) * 1);
+}
+.contest-details li.ql-indent-1.ql-direction-rtl.ql-align-right {
+  margin-right: calc(var(--indent-base-rtl) * 1 + var(--indent-li-extra-rtl));
+}
+.contest-details .ql-indent-2:not(.ql-direction-rtl) {
+  margin-left: calc(var(--indent-base) * 2);
+}
+.contest-details li.ql-indent-2:not(.ql-direction-rtl) {
+  margin-left: calc(var(--indent-base) * 2 + var(--indent-li-extra));
+}
+.contest-details .ql-indent-2.ql-direction-rtl.ql-align-right {
+  margin-right: calc(var(--indent-base-rtl) * 2);
+}
+.contest-details li.ql-indent-2.ql-direction-rtl.ql-align-right {
+  margin-right: calc(var(--indent-base-rtl) * 2 + var(--indent-li-extra-rtl));
+}
+.contest-details .ql-indent-3:not(.ql-direction-rtl) {
+  margin-left: calc(var(--indent-base) * 3);
+}
+.contest-details li.ql-indent-3:not(.ql-direction-rtl) {
+  margin-left: calc(var(--indent-base) * 3 + var(--indent-li-extra));
+}
+.contest-details .ql-indent-3.ql-direction-rtl.ql-align-right {
+  margin-right: calc(var(--indent-base-rtl) * 3);
+}
+.contest-details li.ql-indent-3.ql-direction-rtl.ql-align-right {
+  margin-right: calc(var(--indent-base-rtl) * 3 + var(--indent-li-extra-rtl));
+}
+.contest-details .ql-indent-4:not(.ql-direction-rtl) {
+  margin-left: calc(var(--indent-base) * 4);
+}
+.contest-details li.ql-indent-4:not(.ql-direction-rtl) {
+  margin-left: calc(var(--indent-base) * 4 + var(--indent-li-extra));
+}
+.contest-details .ql-indent-4.ql-direction-rtl.ql-align-right {
+  margin-right: calc(var(--indent-base-rtl) * 4);
+}
+.contest-details li.ql-indent-4.ql-direction-rtl.ql-align-right {
+  margin-right: calc(var(--indent-base-rtl) * 4 + var(--indent-li-extra-rtl));
+}
+.contest-details .ql-indent-5:not(.ql-direction-rtl) {
+  margin-left: calc(var(--indent-base) * 5);
+}
+.contest-details li.ql-indent-5:not(.ql-direction-rtl) {
+  margin-left: calc(var(--indent-base) * 5 + var(--indent-li-extra));
+}
+.contest-details .ql-indent-5.ql-direction-rtl.ql-align-right {
+  margin-right: calc(var(--indent-base-rtl) * 5);
+}
+.contest-details li.ql-indent-5.ql-direction-rtl.ql-align-right {
+  margin-right: calc(var(--indent-base-rtl) * 5 + var(--indent-li-extra-rtl));
+}
+.contest-details .ql-indent-6:not(.ql-direction-rtl) {
+  margin-left: calc(var(--indent-base) * 6);
+}
+.contest-details li.ql-indent-6:not(.ql-direction-rtl) {
+  margin-left: calc(var(--indent-base) * 6 + var(--indent-li-extra));
+}
+.contest-details .ql-indent-6.ql-direction-rtl.ql-align-right {
+  margin-right: calc(var(--indent-base-rtl) * 6);
+}
+.contest-details li.ql-indent-6.ql-direction-rtl.ql-align-right {
+  margin-right: calc(var(--indent-base-rtl) * 6 + var(--indent-li-extra-rtl));
+}
+.contest-details .ql-indent-7:not(.ql-direction-rtl) {
+  margin-left: calc(var(--indent-base) * 7);
+}
+.contest-details li.ql-indent-7:not(.ql-direction-rtl) {
+  margin-left: calc(var(--indent-base) * 7 + var(--indent-li-extra));
+}
+.contest-details .ql-indent-7.ql-direction-rtl.ql-align-right {
+  margin-right: calc(var(--indent-base-rtl) * 7);
+}
+.contest-details li.ql-indent-7.ql-direction-rtl.ql-align-right {
+  margin-right: calc(var(--indent-base-rtl) * 7 + var(--indent-li-extra-rtl));
+}
+.contest-details .ql-indent-8:not(.ql-direction-rtl) {
+  margin-left: calc(var(--indent-base) * 8);
+}
+.contest-details li.ql-indent-8:not(.ql-direction-rtl) {
+  margin-left: calc(var(--indent-base) * 8 + var(--indent-li-extra));
+}
+.contest-details .ql-indent-8.ql-direction-rtl.ql-align-right {
+  margin-right: calc(var(--indent-base-rtl) * 8);
+}
+.contest-details li.ql-indent-8.ql-direction-rtl.ql-align-right {
+  margin-right: calc(var(--indent-base-rtl) * 8 + var(--indent-li-extra-rtl));
+}
+.contest-details .ql-indent-9:not(.ql-direction-rtl) {
+  margin-left: calc(var(--indent-base) * 9);
+}
+.contest-details li.ql-indent-9:not(.ql-direction-rtl) {
+  margin-left: calc(var(--indent-base) * 9 + var(--indent-li-extra));
+}
+.contest-details .ql-indent-9.ql-direction-rtl.ql-align-right {
+  margin-right: calc(var(--indent-base-rtl) * 9);
+}
+.contest-details li.ql-indent-9.ql-direction-rtl.ql-align-right {
+  margin-right: calc(var(--indent-base-rtl) * 9 + var(--indent-li-extra-rtl));
+}
+.contest-details .ql-video {
+  display: block;
+  max-width: 100%;
+}
+.contest-details .ql-video.ql-align-center {
+  margin: 0 auto;
+}
+.contest-details .ql-video.ql-align-right {
+  margin: 0 0 0 auto;
+}
+.contest-details .ql-align-center {
+  text-align: center;
+}
+.contest-details .ql-align-justify {
+  text-align: justify;
+}
+.contest-details .ql-align-right {
+  text-align: right;
+}
+.contest-details blockquote {
+  border-left: 4px solid var(--gray-light4);
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding-left: 16px;
+}
+.contest-details code,
+.contest-details pre {
+  background-color: var(--gray-light2);
+  border-radius: 3px;
+}
+.contest-details pre {
+  white-space: pre;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 5px 10px;
+}
+.contest-details code {
+  font-size: 85%;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+.contest-details code::before,
+.contest-details code::after {
+  content: " ";
+  letter-spacing: -2px;
+}
+.contest-details pre.ql-syntax {
+  background-color: var(--gray-dark4);
+  color: var(--gray-light1);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.ql-code-block-container {
+  background-color: black !important;
+  font-family: monospace !important;
+  color: white !important;
+  padding: 1em !important;
+  border-radius: 8px !important;
+  overflow-x: scroll !important;
+  white-space: pre !important;
+  max-height: 50ch;
+  overflow-y: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "artifakt-legend", Arial, sans-serif;
+  font-weight: 700;
+}
+
+.responsive-header {
+  min-height: 80px;
+  border-bottom: 1px solid var(--gray-light3);
+  background-color: var(--white);
+}
+
+.menu {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+.site-announcements .site-announcement {
+  position: relative;
+  background-color: var(--yellow-highlight);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+.site-announcements .site-announcement-text {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--gray-dark4);
+}
+.site-announcements .site-announcement-text a {
+  color: var(--gray-dark4);
+  font-weight: 700;
+  text-decoration: underline;
+}
+.site-announcements .site-announcement-close {
+  margin-right: 8px;
+}
+.site-announcements .site-announcement-close a,
+.site-announcements .site-announcement-close button {
+  display: block;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  text-decoration: none;
+}
+.site-announcements .site-announcement-close a svg path,
+.site-announcements .site-announcement-close button svg path {
+  fill: var(--gray-dark4);
+}
+.site-announcements .site-announcement-close a:hover svg path,
+.site-announcements .site-announcement-close button:hover svg path {
+  fill: var(--white);
+}
+
+.site-announcements-page .site-announcement {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 4px;
+  background-color: rgba(250, 172, 24, 0.1);
+  border: 1px solid var(--orange);
+  padding: 18px 10px 16px;
+  margin: 0 auto 15px;
+}
+.site-announcements-page .site-announcement-text {
+  font-size: 16px;
+  max-width: 980px;
+  margin: 0 auto;
+  text-align: center;
+}
+.site-announcements-page .site-announcement-text a {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+body.has-django-content main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+body.has-django-content #react-container,
+body.has-django-content #react-container > div {
+  display: contents;
+}
+
+body.has-django-content #react-container > div > main {
+  display: none;
+}
+
+body.has-django-content.is-spa-navigated main > :not(#react-container) {
+  display: none;
+}
+
+body.has-django-content.is-spa-navigated #react-container > div > main {
+  display: block;
+  flex: 1 0 auto;
+  order: 2;
+  min-width: 0;
+}
+
+body.has-django-content #site-header {
+  order: 1;
+}
+
+body.has-django-content main > :not(#react-container) {
+  flex: 1 0 auto;
+  order: 2;
+}
+
+body.has-django-content #footer {
+  order: 3;
+  margin-top: auto;
+}

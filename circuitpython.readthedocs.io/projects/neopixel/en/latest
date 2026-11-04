@@ -1,0 +1,332 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" />
+  <meta name="readthedocs-addons-api-version" content="1"><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adafruit CircuitPython NeoPixel &mdash; Adafruit CircuitPython NeoPixel Library 1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="./latest/_static/pygments.css" />
+      <link rel="stylesheet" type="text/css" href="./latest/_static/css/theme.css" />
+      <link rel="stylesheet" type="text/css" href="./latest/_static/custom.css" />
+
+  
+    <link rel="shortcut icon" href="./latest/_static/favicon.ico"/>
+      <script src="./latest/_static/jquery.js"></script>
+      <script src="./latest/_static/_sphinx_javascript_frameworks_compat.js"></script>
+      <script src="./latest/_static/documentation_options.js"></script>
+      <script src="./latest/_static/doctools.js"></script>
+      <script src="./latest/_static/sphinx_highlight.js"></script>
+    <script src="./latest/_static/js/theme.js"></script>
+    <script src="./latest/_static/js/versions.js"></script>
+    <link rel="index" title="Index" href="./latest/genindex" />
+    <link rel="search" title="Search" href="./latest/search" />
+    <link rel="next" title="Simple test" href="./latest/examples" /> 
+<script async type="text/javascript" src="../../../_/static/javascript/readthedocs-addons.js"></script><meta name="readthedocs-project-slug" content="adafruit-circuitpython-neopixel" /><meta name="readthedocs-version-slug" content="latest" /><meta name="readthedocs-resolver-filename" content="/" /><meta name="readthedocs-http-status" content="200" /></head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="./latest" class="icon icon-home">
+            Adafruit CircuitPython NeoPixel Library
+          </a>
+              <div class="switch-menus">
+                <div class="version-switch"></div>
+                <div class="language-switch"></div>
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="./latest/search" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="./latest">Adafruit CircuitPython NeoPixel</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Examples</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="./latest/examples">Simple test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="./latest/examples">RPI simple test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="./latest/examples">Pixel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="./latest/examples">Rainbow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="./latest/examples">Bouncing ball</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">API Reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="./latest/api">API Reference</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Related Products</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="../../../../www.adafruit.com/category/168">Adafruit NeoPixel Products</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Other Links</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="../../../../github.com/adafruit/Adafruit_CircuitPython_NeoPixel/releases/latest">Download from GitHub</a></li>
+<li class="toctree-l1"><a class="reference external" href="../../../../circuitpython.org/libraries">Download Library Bundle</a></li>
+<li class="toctree-l1"><a class="reference external" href="../../../../learn.adafruit.com/adafruit-neopixel-uberguide">Adafruit NeoPixel Uberguide</a></li>
+<li class="toctree-l1"><a class="reference external" href="../../../../docs.circuitpython.org/index.html">CircuitPython Reference Documentation</a></li>
+<li class="toctree-l1"><a class="reference external" href="../../../../forums.adafruit.com/viewforum__b8c1aa40">CircuitPython Support Forum</a></li>
+<li class="toctree-l1"><a class="reference external" href="../../../../adafru.it/discord">Discord Chat</a></li>
+<li class="toctree-l1"><a class="reference external" href="../../../../learn.adafruit.com/index.html">Adafruit Learning System</a></li>
+<li class="toctree-l1"><a class="reference external" href="../../../../blog.adafruit.com/index.html">Adafruit Blog</a></li>
+<li class="toctree-l1"><a class="reference external" href="../../../../www.adafruit.com/index.html">Adafruit Store</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="./latest">Adafruit CircuitPython NeoPixel Library</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="./latest" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Adafruit CircuitPython NeoPixel</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="./latest/_sources/index.rst" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="adafruit-circuitpython-neopixel">
+<h1>Adafruit CircuitPython NeoPixel<a class="headerlink" href="./latest" title="Link to this heading"></a></h1>
+<a class="reference external image-reference" href="../../../../docs.circuitpython.org/projects/neopixel/en/latest"><img alt="Documentation Status" src="../../../../readthedocs.org/projects/adafruit-circuitpython-neopixel/badge__23c35c3b" />
+</a>
+<a class="reference external image-reference" href="../../../../adafru.it/discord"><img alt="Discord" src="../../../../github.com/adafruit/Adafruit_CircuitPython_Bundle/blob/main/badges/adafruit_discord.svg" />
+</a>
+<a class="reference external image-reference" href="../../../../github.com/adafruit/Adafruit_CircuitPython_NeoPixel/actions"><img alt="Build Status" src="../../../../github.com/adafruit/Adafruit_CircuitPython_NeoPixel/workflows/Build_CI/badge.svg" />
+</a>
+<a class="reference external image-reference" href="../../../../github.com/astral-sh/ruff"><img alt="Code Style: Ruff" src="../../../../img.shields.io/endpoint__4304cf19" />
+</a>
+<p>Higher level NeoPixel driver that presents the strip as a sequence. This is a
+supercharged version of the original MicroPython driver. Its now more like a
+normal Python sequence and features slice support, <code class="docutils literal notranslate"><span class="pre">repr</span></code> and <code class="docutils literal notranslate"><span class="pre">len</span></code> support.</p>
+<p>Colors are stored as tuples by default. However, you can also use int hex syntax
+to set values similar to colors on the web. For example, <code class="docutils literal notranslate"><span class="pre">0x100000</span></code> (<code class="docutils literal notranslate"><span class="pre">#100000</span></code>
+on the web) is equivalent to <code class="docutils literal notranslate"><span class="pre">(0x10,</span> <span class="pre">0,</span> <span class="pre">0)</span></code>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The int hex API represents the brightness of the white pixel when
+present by setting the RGB channels to identical values. For example, full
+white is 0xffffff but is actually (0, 0, 0, 0xff) in the tuple syntax. Setting
+a pixel value with an int will use the white pixel if the RGB channels are
+identical. For full, independent, control of each color component use the
+tuple syntax.</p>
+</div>
+</section>
+<section id="dependencies">
+<h1>Dependencies<a class="headerlink" href="./latest" title="Link to this heading"></a></h1>
+<p>This driver depends on:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="../../../../github.com/adafruit/circuitpython">Adafruit CircuitPython</a></p></li>
+<li><p><a class="reference external" href="../../../../github.com/adafruit/Adafruit_CircuitPython_Pixelbuf">Adafruit CircuitPython Pixelbuf library</a></p></li>
+</ul>
+<p>Please ensure all dependencies are available on the CircuitPython filesystem.
+This is easily achieved by downloading
+<a class="reference external" href="../../../../github.com/adafruit/Adafruit_CircuitPython_Bundle">the Adafruit library and driver bundle</a>.</p>
+</section>
+<section id="installing-from-pypi">
+<h1>Installing from PyPI<a class="headerlink" href="./latest" title="Link to this heading"></a></h1>
+<p>On supported GNU/Linux systems like the Raspberry Pi, you can install the driver locally <a class="reference external" href="../../../../pypi.org/project/adafruit-circuitpython-neopixel">from
+PyPI</a>. To install for current user:</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>pip3<span class="w"> </span>install<span class="w"> </span>adafruit-circuitpython-neopixel
+</pre></div>
+</div>
+<p>To install system-wide (this may be required in some cases):</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>pip3<span class="w"> </span>install<span class="w"> </span>adafruit-circuitpython-neopixel
+</pre></div>
+</div>
+<p>To install in a virtual environment in your current project:</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>mkdir<span class="w"> </span>project-name<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">cd</span><span class="w"> </span>project-name
+python3<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>.venv
+<span class="nb">source</span><span class="w"> </span>.venv/bin/activate
+pip3<span class="w"> </span>install<span class="w"> </span>adafruit-circuitpython-neopixel
+</pre></div>
+</div>
+</section>
+<section id="usage-example">
+<h1>Usage Example<a class="headerlink" href="./latest" title="Link to this heading"></a></h1>
+<p>This example demonstrates the library with the single built-in NeoPixel on the
+<a class="reference external" href="../../../../www.adafruit.com/product/3403">Feather M0 Express</a> and
+<a class="reference external" href="../../../../www.adafruit.com/product/3505">Metro M0 Express</a>.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">board</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">neopixel</span>
+
+<span class="n">pixels</span> <span class="o">=</span> <span class="n">neopixel</span><span class="o">.</span><span class="n">NeoPixel</span><span class="p">(</span><span class="n">board</span><span class="o">.</span><span class="n">NEOPIXEL</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="n">pixels</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>This example demonstrates the library with the ten built-in NeoPixels on the
+<a class="reference external" href="../../../../www.adafruit.com/product/3333">Circuit Playground Express</a>. It turns
+off <code class="docutils literal notranslate"><span class="pre">auto_write</span></code> so that all pixels are updated at once when the <code class="docutils literal notranslate"><span class="pre">show</span></code>
+method is called.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">board</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">neopixel</span>
+
+<span class="n">pixels</span> <span class="o">=</span> <span class="n">neopixel</span><span class="o">.</span><span class="n">NeoPixel</span><span class="p">(</span><span class="n">board</span><span class="o">.</span><span class="n">NEOPIXEL</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="n">auto_write</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">pixels</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+<span class="n">pixels</span><span class="p">[</span><span class="mi">9</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+<span class="n">pixels</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>This example demonstrates using a single NeoPixel tied to a GPIO pin and with
+a <code class="docutils literal notranslate"><span class="pre">pixel_order</span></code> to specify the color channel order. Note that <code class="docutils literal notranslate"><span class="pre">bpp</span></code> does not
+need to be specified as it is computed from the supplied <code class="docutils literal notranslate"><span class="pre">pixel_order</span></code>.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">board</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">neopixel</span>
+
+<span class="n">pixel</span> <span class="o">=</span> <span class="n">neopixel</span><span class="o">.</span><span class="n">NeoPixel</span><span class="p">(</span><span class="n">board</span><span class="o">.</span><span class="n">D0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">pixel_order</span><span class="o">=</span><span class="n">neopixel</span><span class="o">.</span><span class="n">RGBW</span><span class="p">)</span>
+<span class="n">pixel</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">30</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="setup-for-sudo-less-usage-on-raspberry-pi-boards">
+<h1>Setup for sudo-less usage on Raspberry Pi boards<a class="headerlink" href="./latest" title="Link to this heading"></a></h1>
+<ol class="arabic">
+<li><p>Enable both SPI and Serial port hardware (Serial interface). Do it by <code class="docutils literal notranslate"><span class="pre">raspi-config</span></code> tool or manually by adding</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">dtparam</span><span class="o">=</span><span class="n">spi</span><span class="o">=</span><span class="n">on</span>
+<span class="n">enable_uart</span><span class="o">=</span><span class="mi">1</span>
+</pre></div>
+</div>
+<p>to the <code class="docutils literal notranslate"><span class="pre">/boot/config.txt</span></code></p>
+</li>
+<li><p>Reboot the Pi to apply the changes - the hardware setup takes place during boot.</p></li>
+<li><p>Connect LED’s DIN to <code class="docutils literal notranslate"><span class="pre">GPIO10</span></code> (physical pin 19)</p></li>
+</ol>
+<p>When initializing the <code class="docutils literal notranslate"><span class="pre">NeoPixel</span></code> object <strong>always</strong> do it with <code class="docutils literal notranslate"><span class="pre">board.D10</span></code> (GPIO10)</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">board</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">neopixel</span>
+
+<span class="n">DATA_PIN</span> <span class="o">=</span> <span class="n">board</span><span class="o">.</span><span class="n">D10</span>
+<span class="n">pixel</span> <span class="o">=</span> <span class="n">neopixel</span><span class="o">.</span><span class="n">NeoPixel</span><span class="p">(</span><span class="n">DATA_PIN</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Now you can execute the code using <code class="docutils literal notranslate"><span class="pre">python</span></code> without <code class="docutils literal notranslate"><span class="pre">sudo</span></code></p>
+</section>
+<section id="documentation">
+<h1>Documentation<a class="headerlink" href="./latest" title="Link to this heading"></a></h1>
+<p>API documentation for this library can be found on <a class="reference external" href="../../../../docs.circuitpython.org/projects/neopixel/en/latest">Read the Docs</a>.</p>
+<p>For information on building library documentation, please check out <a class="reference external" href="../../../../learn.adafruit.com/creating-and-sharing-a-circuitpython-library/sharing-our-docs-on-readthedocs">this guide</a>.</p>
+</section>
+<section id="contributing">
+<h1>Contributing<a class="headerlink" href="./latest" title="Link to this heading"></a></h1>
+<p>Contributions are welcome! Please read our <a class="reference external" href="../../../../github.com/adafruit/Adafruit_CircuitPython_NeoPixel/blob/main/CODE_OF_CONDUCT">Code of Conduct</a>
+before contributing to help this project stay welcoming.</p>
+</section>
+<section id="table-of-contents">
+<h1>Table of Contents<a class="headerlink" href="./latest" title="Link to this heading"></a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Examples</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="./latest/examples">Simple test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="./latest/examples">RPI simple test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="./latest/examples">Pixel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="./latest/examples">Rainbow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="./latest/examples">Bouncing ball</a></li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">API Reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="./latest/api">API Reference</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="./latest/api"><code class="xref any docutils literal notranslate"><span class="pre">neopixel</span></code> - NeoPixel strip driver</a></li>
+<li class="toctree-l2"><a class="reference internal" href="./latest/api"><code class="docutils literal notranslate"><span class="pre">BGR</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="./latest/api"><code class="docutils literal notranslate"><span class="pre">GRB</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="./latest/api"><code class="docutils literal notranslate"><span class="pre">GRBW</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="./latest/api"><code class="docutils literal notranslate"><span class="pre">NeoPixel</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="./latest/api"><code class="docutils literal notranslate"><span class="pre">NeoPixel.show()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="./latest/api"><code class="docutils literal notranslate"><span class="pre">NeoPixel.fill()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="./latest/api"><code class="docutils literal notranslate"><span class="pre">NeoPixel.brightness</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="./latest/api"><code class="docutils literal notranslate"><span class="pre">NeoPixel.deinit()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="./latest/api"><code class="docutils literal notranslate"><span class="pre">NeoPixel.n</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="./latest/api"><code class="docutils literal notranslate"><span class="pre">NeoPixel.write()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="./latest/api"><code class="docutils literal notranslate"><span class="pre">RGB</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="./latest/api"><code class="docutils literal notranslate"><span class="pre">RGBW</span></code></a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Related Products</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="../../../../www.adafruit.com/category/168">Adafruit NeoPixel Products</a></li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Other Links</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="../../../../github.com/adafruit/Adafruit_CircuitPython_NeoPixel/releases/latest">Download from GitHub</a></li>
+<li class="toctree-l1"><a class="reference external" href="../../../../circuitpython.org/libraries">Download Library Bundle</a></li>
+<li class="toctree-l1"><a class="reference external" href="../../../../learn.adafruit.com/adafruit-neopixel-uberguide">Adafruit NeoPixel Uberguide</a></li>
+<li class="toctree-l1"><a class="reference external" href="../../../../docs.circuitpython.org/index.html">CircuitPython Reference Documentation</a></li>
+<li class="toctree-l1"><a class="reference external" href="../../../../forums.adafruit.com/viewforum__b8c1aa40">CircuitPython Support Forum</a></li>
+<li class="toctree-l1"><a class="reference external" href="../../../../adafru.it/discord">Discord Chat</a></li>
+<li class="toctree-l1"><a class="reference external" href="../../../../learn.adafruit.com/index.html">Adafruit Learning System</a></li>
+<li class="toctree-l1"><a class="reference external" href="../../../../blog.adafruit.com/index.html">Adafruit Blog</a></li>
+<li class="toctree-l1"><a class="reference external" href="../../../../www.adafruit.com/index.html">Adafruit Store</a></li>
+</ul>
+</div>
+</section>
+<section id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="./latest" title="Link to this heading"></a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="./latest/genindex"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="./latest/py-modindex"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="./latest/search"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="./latest/examples" class="btn btn-neutral float-right" title="Simple test" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2017 - 2026 Scott Shawcroft &amp; Damien P. George.</p>
+  </div>
+
+  Built with <a href="../../../../www.sphinx-doc.org/index.html">Sphinx</a> using a
+    <a href="../../../../github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="../../../../readthedocs.org/index.html">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

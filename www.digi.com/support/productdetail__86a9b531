@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head id="head"><meta charset="UTF-8" /><meta http-equiv="Content-Type" content="text/html" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>
+	Support Resources
+</title><link rel="icon" href="../dc/siteicon/favicon-32" type="image/x-icon" /><meta name="robots" content="noindex" /><meta name="Keywords" /><meta name="Description" content="Browse by product line for access to firmware and drivers, support documentation, solution guides and more." /><meta name="og:url" content="https://hub.digi.com/support/products/" /><meta name="og:title" content="Support Resources" /><meta name="og:description" content="Support Products" /><meta name="og:image" content="https://hub.digi.com/dp/path=/image/digi/logo/" /><meta name="og:type" content="website" /><meta http-equiv="x-ua-compatible" content="IE=Edge" />
+<meta name="msvalidate.01" content="990D82D10A4D5FC959E1432C8AEDED15" />
+<meta name="contentType" content="Support Resource">
+<link href="../CMSPages/GetResource__0a15783d" rel="stylesheet" type="text/css" media="screen, print" />
+<script type="text/javascript" src="../CMSScripts/Custom/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="../CMSScripts/Custom/jquery.mobile.touchevents.min.js"></script>
+<script type="text/javascript" src="../CMSScripts/Custom/jquery.hoverintent.min.js"></script>
+<script type="text/javascript" src="../CMSScripts/Custom/jquery.simplePagination.js"></script>
+<script type="text/javascript" src="../CMSScripts/Custom/script.js"></script>
+<script type="text/javascript" src="../CMSScripts/Custom/compare.js"></script>
+<script>
+  function is_tracking_set() {
+    if (getthecookie('tracking_opt_in') == 'yes') {
+      return true;
+    } else {
+      return false;
+    }
+  }
+  var track_script = document.createElement('script');
+  track_script.innerHTML = "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='../../www.googletagmanager.com/gtm__54457931.js'+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TPWV5V');";
+  if(is_tracking_set()) { document.head.appendChild(track_script); }
+</script>
+<script async src="../js/insert-digi-nav.js"></script>
+<!--[if lte IE 9]>
+<link href="../CMSPages/GetResource__4d137a9a" rel="stylesheet" type="text/css" media="screen, print" />
+<script src="../CMSScripts/Custom/placeholders.js" type="text/javascript"></script>
+<script src="../CMSScripts/Custom/jquery.columnizer.js" type="text/javascript"></script>
+<script>
+$(document).ready(function () {
+    columnize();
+});
+</script>
+<![endif]-->
+<script>
+$(document).ready(function () {
+  replace_old_kb_links();
+});
+</script>
+<!--[if lte IE 8]>
+<link href="../CMSPages/GetResource__cf0dbf22" rel="stylesheet" type="text/css" media="screen, print" />
+<![endif]-->
+<link rel="preconnect" href="../../fonts.googleapis.com/index.html">
+<link rel="preconnect" href="../../fonts.gstatic.com/index.html" crossorigin>
+<link href="../../fonts.googleapis.com/css2__2af2697f.css" rel="stylesheet">
+<link href="../../fonts.googleapis.com/css2__7230fdf2.css" rel="stylesheet">
+<link rel="stylesheet" href="../../cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<script src="../../cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script src="../CMSPages/GetResource__59cae36d"></script>
+<script src="../js/support-survey-v2.js"></script>
+<script src="../js/insert-ai-button.js"></script>
+<script src="../js/critical-notes.js"></script>
+<script src="../features/support-banner.js"></script>
+<script type="text/javascript">window.DocsBotAI=window.DocsBotAI||{},DocsBotAI.init=function(c){return new Promise(function(e,o){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="../../widget.docsbot.ai/chat.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n),t.addEventListener("load",function(){window.DocsBotAI.mount({id:c.id,supportCallback:c.supportCallback,identify:c.identify,options:c.options,signature:c.signature});var t;t=function(n){return new Promise(function(e){if(document.querySelector(n))return e(document.querySelector(n));var o=new MutationObserver(function(t){document.querySelector(n)&&(e(document.querySelector(n)),o.disconnect())});o.observe(document.body,{childList:!0,subtree:!0})})},t&&t("#docsbotai-root").then(e).catch(o)}),t.addEventListener("error",function(t){o(t.message)})})};</script>
+<script type="text/javascript">
+  DocsBotAI.init({id: "my4YXyYm6SQ5ewtD75RN/wxepOdO8DrIY3Hgszjip"});
+</script><script type="text/javascript">var viewerCountryCode = 'CG';</script><script type="text/javascript">var GB_AuthUserID = '5e59a0c2-7e6d-4a77-a626-124ab7c6126c';
+var KNVEY_AuthUserID = '5e59a0c2-7e6d-4a77-a626-124ab7c6126c';</script><link rel="canonical" href="../../hub.digi.com/support/products" /><link href="../../www.knvey.app/media/css/knvey-components.min.css" rel="stylesheet" /><script type="text/javascript" data-src="./index" src="../media/js/knvey-digi-support-site-bundle.min.js"></script><script type="text/javascript" data-src="./index" src="../media/js/digi-knvey-support-site-blocks-bundle.min.js"></script><link rel="stylesheet" type="text/css" data-src="./index" href="../media/css/support-site-bundle.min.css"></link></head>
+<body id="body" data-page-path="/support/products/" data-pid="UGFnZS0z" data-ptid="UGFnZVRlbXBsYXRlLTI=" data-stid="U2l0ZVRlbXBsYXRlLTI=">
+    <div id="content"><div class="site-template-container">
+    <div class="main-site-container fluid-container">
+        <div class="placeholder-row" style=""><div class="page-template-container" id="support-site-product-landing">
+    <div class="support-site-breadcrumb-list list-block-container" id="support-site-breadcrumb-list" data-list-block-id="support-site-breadcrumb-list" data-list-content-block-id="1" data-list-content-container-id="1" data-collection-id="0" data-list-block-item-count="3" data-list-block-total-item-count="0" data-lbid="TGlzdEJsb2NrLTE=">
+    <div class="container support-site-breadcrumb-container" id="row-container">
+        <div class="row fluid-row" data-ig-content-container="1" data-content-container-id="full-row-container" id="full-row-container" data-list-block-list-container="1"><div class="content-block-container" id="support-site-breadcrumb-list-item" data-content-block-id="support-site-breadcrumb-list-item" data-index="1" data-index-type="odd" data-content-type="Page" data-content-id="1" data-dynamic-path="/page/home/" data-search-tag-paths="" data-funnel-tag-paths="" data-cid="UGFnZS0x">
+    <div class="breadcrumb-item-container">
+        <a href="../index.html"><p class="breadcrumb-item-label">Home</p></a>
+    </div>
+</div><div class="content-block-container" id="support-site-breadcrumb-list-item" data-content-block-id="support-site-breadcrumb-list-item" data-index="2" data-index-type="even" data-content-type="Page" data-content-id="2" data-dynamic-path="/page/support/home/" data-search-tag-paths="" data-funnel-tag-paths="" data-cid="UGFnZS0y">
+    <div class="breadcrumb-item-container">
+        <a href="./"><p class="breadcrumb-item-label">Support</p></a>
+    </div>
+</div><div class="content-block-container" id="support-site-breadcrumb-list-item" data-content-block-id="support-site-breadcrumb-list-item" data-index="3" data-index-type="odd" data-content-type="Page" data-content-id="3" data-dynamic-path="/page/support/products/" data-search-tag-paths="site/section/support-site" data-funnel-tag-paths="" data-cid="UGFnZS0z">
+    <div class="breadcrumb-item-container">
+        <a href="./products" title="Support Resources"><p class="breadcrumb-item-label">Products</p></a>
+    </div>
+</div></div>
+    </div>
+</div>
+    <div class="container product-landing-headline-container" data-ig-content-container="1" data-content-container-id="row-container" id="row-container">
+        <div class="row" data-ig-content-container="1" data-content-container-id="full-row-container" id="full-row-container">
+            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-7 col-xl-7" data-ig-content-container="1" id="col-7-container" data-content-container-id="col-7-container">
+                <div class="content-block-container" id="support-site-support-resources-headline" data-content-block-id="support-site-support-resources-headline" data-dynamic-id="35828ca5-890f-4b53-a078-da43a99ddd5b" data-cbid="Q29udGVudEJsb2NrLTY=">
+    <div id="support-site-h1" data-base-block-id="support-site-h1" class="">
+        <h1>Support Resources</h1>
+    </div>
+</div>
+            </div>
+            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-5" data-ig-content-container="1" id="col-5-container" data-content-container-id="col-5-container">
+                <div class="content-block-container" id="support-site-search-form-input" data-content-block-id="support-site-search-form-input" data-dynamic-id="095917dd-978d-43e9-8afb-7b9f53fd3506" data-cbid="Q29udGVudEJsb2NrLTg=">
+    <div class="row" data-ig-content-container="1" data-content-container-id="full-row-container" id="full-row-container">
+        <div class="col-12" data-ig-content-container="1" data-content-container-id="col-12-container" id="col-12-container">
+            <div class="search-form-input-container">
+                <div class="input-group">
+                    <span class="icon-clear-search-text button-icon"></span>
+                    <input class="form-control" placeholder="Search Support Resources" data-ig-id="b0b251f8-7f3f-8c10-69ee-8a327b47d2bc" data-ig-layout-title-icon="? " data-ig-layout-title-dynamic-icon=" ">
+                    <div class="icon-search-magnifying-glass search-icon"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+    <div class="container product-landing-primary-container" id="row-container">
+        <div class="row product-landing-primary-row" id="row-container">
+            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9" id="row-container">
+                <div class="content-block-container" id="support-site-page-summary" data-content-block-id="support-site-page-summary" data-dynamic-id="5c4e9540-9455-4681-84a4-486b8c4271b1" data-cbid="Q29udGVudEJsb2NrLTU=">
+    <section class="page-summary"><p>
+    Browse by product line for access to firmware and drivers, support documentation, solution guides and more.
+</p>
+<h6 class="cta-obsolete-product-information">
+    For Obsolete product information,&nbsp;<a href="./products/obsolete">click here</a>.
+</h6></section>
+</div>
+                <div class="list-block-container" id="product-landing-nav-list-block" data-list-block-id="product-landing-nav-list-block" data-ig-list-block-id="2"></div>
+                <div class="placeholder-row" style=""><div class="page-template-container"></div></div>
+            </div>
+            <div class="col-10 col-xs-10 col-sm-8 col-md-6 col-lg-3 col-xl-3" id="row-container">
+                <div class="list-block-container" id="support-site-frequently-viewed" data-list-block-id="support-site-frequently-viewed" data-ig-list-block-id="3" data-list-block-item-count="0" data-list-block-total-item-count="0" data-lbid="TGlzdEJsb2NrLTM="></div>
+            </div>
+        </div>
+    </div>
+</div></div>
+    </div>
+</div></div>
+    <div id="analytics"></div>
+    
+    
+</body>
+</html><div class="ribbon grey carrot carrot-pad">
+        <div class="container">
+            <h2 class="mb-5">Access To Support Expertise</h2>
+            <div class="row">
+                <div class="col col-12 col-md-9">
+                    <div class="row justify-content-center">
+                        <div class="col col-6 col-md-4 text-center mb-4 mb-md-0">
+                            <a href="./contact-support" class="link-black">
+                                <img src="../digi/media/icons/support-contact-alt.svg" alt="Email Technical Support"
+                                    class="mb-3"><br>
+                                <span class="h6">Open a Support Case</span></a>
+
+                        </div>
+                        <div class="col col-6 col-md-4 text-center mb-5 mb-md-0">
+                            <a href="./knowledge-base" class="link-black">
+                                <img src="../digi/media/icons/support-knowledgebase.svg" alt="Knowledge base articles"
+                                    class="mb-3"><br>
+                                <span class="h6">Knowledge Base Articles</span></a>
+
+                        </div>
+                        <div class="col col-6 col-md-4 text-center mb-5 mb-md-0">
+                            <a href="../../forums.digi.com/index.html" class="link-black">
+                                <img src="../digi/media/icons/support-forum.svg" alt="Community Forum" class="mb-3"><br>
+                                <span class="h6">Community Forum</span></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-12 col-md-3 border-left">
+                    <p><a href="../customer-portal" class="link-circle-arrow-bg-b"><span>Customer Portal <span
+                                    class="wcircle">Login</span></span></a></p>
+                    <ul class="type-green-bullets">
+                        <li><span>Warranty registration</span></li>
+                        <li><span>Manage firmware subscriptions</span></li>
+                        <li><span>Personalize your support library</span></li>
+                        <li><span>Product Change Notices (PCN)</span></li>
+                    </ul>
+                    <p><a href="../../hub.digi.com/dp/path=/support/asset/customer-portal-user-guide" target="_blank"
+                            rel="noopener noreferrer" class="link-dark-circle-g-b">Customer Portal User's Guide</a></p>
+                </div>
+            </div>
+        </div>
+    </div>

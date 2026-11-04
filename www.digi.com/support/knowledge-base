@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html  lang="en-US" class="respon">
+<head id="head"><title>
+	Knowledge Base | Digi International
+</title><meta charset="UTF-8" /> 
+<meta name="keywords" content="knowledge base, kbase" /> 
+<meta name="msvalidate.01" content="B43A9E654726694F328698DDB04182B8" />
+<meta name="msvalidate.01" content="990D82D10A4D5FC959E1432C8AEDED15" />
+<meta name="apple-mobile-web-app-title" content="Digi">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="apple-touch-icon" href="../images/apple-icon.png"> 
+<link href="../Digi/media/Marketing/favicon.ico" type="image/x-icon" rel="shortcut icon"/>
+<link href="../Digi/media/Marketing/favicon.ico" type="image/x-icon" rel="icon"/>
+<script type="text/javascript">var country_code = 'AZ'; var region_code = '';</script><script>var cdn_country_code="{CDN_COUNTRY_CODE}";</script><link href="../CMSPages/GetResource__d1d396d4" rel="stylesheet" type="text/css" />
+<script src="../js/bootstrap.js"></script>
+<script src="../CMSPages/GetResource__f9c98c68"></script>
+<!--<script src="../CMSPages/GetResource__1a18f3fc"></script>-->
+<meta name="business-unit" content="">
+<script>var kentico_set_bu = '';</script>
+<link href="../CMSPages/GetResource__be49cb84" rel="stylesheet" type="text/css" />
+<script src="../js/main.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  
+}, false);
+</script>
+<link href="../CMSPages/GetResource__05c5cadb" rel="stylesheet" type="text/css" />
+<script src="../js/nav.js"></script>
+<link href="../CMSPages/GetResource__7c5a502b" rel="stylesheet" type="text/css" /><script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+
+  console.log('AWS Request Header: ' + country_code);
+  if (getthecookie('cloudfront-viewer-country') != '') {
+    console.log('cloudfront-viewer-country: ' + getthecookie('cloudfront-viewer-country'));
+  }
+
+  const eu_countries = new RegExp('AT|BE|BG|CH|CY|CZ|DE|DK|EE|ES|FI|FR|GR|HR|HU|IE|IT|LT|LU|LV|MT|NL|PL|PO|PT|RO|SE|SI|SK|UK|GB');
+
+  function is_eu() {
+    if (typeof country_code !== 'undefined') {
+      var is_ca = country_code === 'US' && typeof region_code !== 'undefined' && region_code === 'CA';
+      if (country_code.match(eu_countries) || country_code == '' || is_ca) { return true; } else { return false; }
+    } else { return true; }
+  }
+
+  function is_tracking_set() {
+    if (getthecookie('tracking_opt_in') == 'yes') { return true;
+    } else { return false; }
+  }
+
+  // Initialize Google Consent Mode with default settings
+  set_deny_consent();
+
+  var track_script = document.createElement('script');
+  track_script.innerHTML = "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='../../www.googletagmanager.com/gtm__54457931.js'+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TPWV5V');";
+  
+  if(is_tracking_set() || (!is_eu() && getthecookie('tracking_opt_in') != 'no')) {
+    // Update consent if user has opted in or is not in the EU
+    set_update_accept_consent();
+    document.head.appendChild(track_script);
+    dataLayer.push({ 
+      event: 'clarityConsent', 
+      consentGranted: true 
+    });
+  }
+</script><link rel="alternate" hreflang="en" href="../index.html">
+<link rel="alternate" hreflang="de" href="../../de.digi.com/index.html">
+<link rel="alternate" hreflang="es" href="../../es.digi.com/index.html">
+<link rel="alternate" hreflang="zh" href="../../zh.digi.com/index.html">
+<link rel="alternate" hreflang="fr" href="../../fr.digi.com/index.html">
+<script src="../../cdn.weglot.com/weglot.min.js"></script>
+<script>
+    Weglot.initialize({
+        api_key: 'wg_6bb9d9bb1bda3c8c0bb9274c0a536d093',
+      hide_switcher: true
+    });
+</script><script src="../CMSPages/GetResource__59cae36d"></script>
+<script src="../js/support-survey-v2.js"></script><script src="../CMSScripts/Custom/knowledgebase.js"></script>
+<script>
+	$(document).ready(function(){
+		$('.SearchDialog .form-control').attr("placeholder", "Enter a search keyword");
+	});
+	</script>
+
+<script type="text/javascript">
+  function searchGetParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+var wait_custom_page_attributes = { "query": searchGetParameterByName("searchtext") }; 
+</script>
+
+<link rel="canonical" href="./knowledge-base">
+<style>
+  .knowledgebase #searchCat { max-width: 300px; }
+  .knowledgebase .SearchDialog { width: 100%; margin: 0 0 36px 0; max-width: 600px; }
+  .knowledgebase .SearchDialog .form-group { width: 100%; }
+  .knowledgebase #searchCat select { border-radius: 0;border: 1px solid #cfd5d3;height: 66px;line-height: 66px; } 
+  .knowledgebase .ContentCheckBoxList.checkbox input { width: 20px; height: 20px; margin: 0 8px 0 0; }
+  .knowledgebase .ContentCheckBoxList.checkbox label { vertical-align: middle;  }
+  @media (max-width: 767px) {
+      .knowledgebase #searchCat select { height: 44px;line-height: 44px; } 
+    }
+  #bingsearch #kb_category { border-radius: 0; max-width: 40%; height: 54px;  }
+        #bingsearch #searchinput #kb_search { height: 54px; }
+        #bingsearch #searchinput { padding: 0; }
+        #bingsearch #searchinput input.button  { width: 54px; height: 54px; }
+  #bingsearch { margin: 0; }
+  </style>
+<script>
+        function setup_kb_search() {
+            function send_kb_search() {
+                var search_url = '/support/knowledge-base/search?searchtext=';
+                    var searchtext = '';
+                    var searchcategory = '';
+                    var searchobsolete = '';
+                    if (document.querySelector("#kb_category").value != '0') {
+                        searchcategory = '&category=' + document.querySelector("#kb_category").value;
+                    }
+                    if (document.getElementById('obsolete').checked) {
+                        searchobsolete += '&obsolete=0';
+                    } else {
+                        searchobsolete += '&obsolete=1';
+                    }
+                    search_url += encodeURIComponent(document.querySelector("#kb_search").value) + searchcategory + searchobsolete;
+                    window.location = search_url;
+            }
+            document.querySelector("#kb_search").addEventListener("keypress",(e)=>{
+                if (e.keyCode == 13) {
+                    e.preventDefault();
+                    send_kb_search();
+                }
+            });
+            document.querySelector("#kb_click").addEventListener("click",(e)=>{
+                e.preventDefault();
+                send_kb_search();
+            });
+        }
+        digi_ready(function() {
+            setup_kb_search();
+        });
+    </script>
+<script type="text/javascript">window.DocsBotAI=window.DocsBotAI||{},DocsBotAI.init=function(c){return new Promise(function(e,o){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="../../widget.docsbot.ai/chat.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n),t.addEventListener("load",function(){window.DocsBotAI.mount({id:c.id,supportCallback:c.supportCallback,identify:c.identify,options:c.options,signature:c.signature});var t;t=function(n){return new Promise(function(e){if(document.querySelector(n))return e(document.querySelector(n));var o=new MutationObserver(function(t){document.querySelector(n)&&(e(document.querySelector(n)),o.disconnect())});o.observe(document.body,{childList:!0,subtree:!0})})},t&&t("#docsbotai-root").then(e).catch(o)}),t.addEventListener("error",function(t){o(t.message)})})};</script>
+<script type="text/javascript">
+  DocsBotAI.init({id: "my4YXyYm6SQ5ewtD75RN/wxepOdO8DrIY3Hgszjip"});
+</script></head>
+<body class="LTR Unknown ENUS ContentBody"  >
+    <form method="post" action="./knowledge-base__f989decb" id="form">
+<input type="hidden" name="__CMSCsrfToken" id="__CMSCsrfToken" value="uVS+69OB7f6O6xrLDpZfRvvBfL3vpT7vHX51FR+MK0si4qfUxv7rSpkaAaUzQQU+t01WdMDjxnYUrigg0z9ExcNPunw=" />
+
+
+<input type="hidden" name="lng" id="lng" value="en-US" />
+<script type="text/javascript">
+	//<![CDATA[
+
+function PM_Postback(param) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); } if(window.CMSContentManager) { CMSContentManager.allowSubmit = true; }; __doPostBack('m$am',param); }
+function PM_Callback(param, callback, ctx) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }if (window.CMSContentManager) { CMSContentManager.storeContentChangedStatus(); };WebForm_DoCallback('m$am',param,callback,ctx,null,true); }
+//]]>
+</script>
+<script src="../ScriptResource__51ba3c54" type="text/javascript"></script>
+<script type="text/javascript">
+	//<![CDATA[
+
+var CMS = CMS || {};
+CMS.Application = {
+  "language": "en",
+  "imagesUrl": "/CMSPages/GetResource.ashx?image=%5bImages.zip%5d%2f",
+  "isDebuggingEnabled": false,
+  "applicationUrl": "/",
+  "isDialog": false,
+  "isRTL": "false"
+};
+
+//]]>
+</script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A5343185" />
+    
+    <div id="ctxM">
+
+</div>
+    
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe title="GA No Script Tracking" src="../../www.googletagmanager.com/ns__6fececa0"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><nav id="digi-nav">
+    <div id="digi-nav-skip">
+        <div class="digi-container">
+            <a href="./knowledge-base" id="skip-to-content">Skip to content <span aria-hidden="true">→</span></a>
+            <a href="./knowledge-base" id="skip-to-footer">Skip to footer <span aria-hidden="true">→</span></a>
+            <a href="./knowledge-base" id="skip-to-search">Skip to search <span aria-hidden="true">→</span></a>
+        </div>
+    </div>
+    <div class="digi-container" id="digi-nav-container">
+        <div id="digi-nav-logo">
+            <a href="../index.html" title="Home" id="logo-link">
+                <img src="../digi/media/navs/logo-digi-svg.svg" class="has-dark-theme" alt="Digi Logo" id="logo-digi">
+                <span id="logo-tagline" class="dnt">Connect with <br />Confidence</span>
+            </a>
+        </div>
+        <div id="digi-nav-nav">
+            <div id="nav-upper">
+                <select id="digi-languages" title="Switch Language" class="dnt" onchange="change_language(this.value);return false;">
+                    <option value="en">English</option>
+                    <option value="de">Deutsch</option>
+                    <option value="es">Español</option>
+                    <option value="fr">Français</option>
+                    <option value="zh">中文</option>
+                </select>
+                <ul id="nav-upper-items">
+                    <li><a href="../blog">Blog</a></li>
+                    <li><a href="../sign-in">Sign In</a></li>
+                    <li> <a href="../how-to-buy">How to Buy</a></li>
+                </ul>
+            </div>
+            <a href="../contactus" class="digi-button" id="digi-nav-contact">Contact Us</a>
+            <div data-state="closed" id="digi-nav-search">
+                <button type="button" id="digi-nav-search-link" title="Click to toggle Search" aria-haspopup="true" aria-expanded="false" aria-label="Click to toggle Search">
+                    <span id="icon-search">
+                        <span id="icon-search-circle"></span>
+                        <span id="icon-search-handle"></span>
+                    </span>
+                </button>
+                <div class="digi-dropdown">
+                    <div class="digi-container">
+                        <label for="digi-q" id="digi-q-label">Search</label><input type="text" value="" placeholder="Search or ask a question" id="digi-q" name="digi-q" aria-labelledby="digi-q-label">
+                        <div id="digi-nav-popular"><h4>Popular Searches: </h4> <a href="../products/embedded-systems/digi-xbee/digi-xbee-tools/xctu">XCTU</a> <a href="../products/embedded-systems/digi-xbee">XBee</a> <a href="../products/networking/infrastructure-management/usb-connectivity/usb-over-ip/anywhereusb">AnywhereUSB</a> <a href="../products/networking/cellular-routers/industrial">Industrial Routers</a> <a href="./">Drivers &amp; Firmware</a></div>
+                    </div>
+                </div>
+            </div>
+            <div id="digi-menu" data-state="closed">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div id="nav-lower">
+                <div id="nav-items">
+                    <ul>
+                        <li id="digi-nav-solutions" data-state="closed"><a href="../solutions" title="Click to toggle solutions menu" aria-haspopup="true" aria-expanded="false">Solutions<span class="dropdown-arrow"></span></a>
+                            <div class="digi-dropdown">
+                                <div class="digi-container">
+                                    <a href="../solutions" class="nav-home">Solutions Home</a>
+                                    <div class="digi-row">
+                                        <div class="digi-col">
+                                            <a href="../solutions/by-industry" class="digi-mb-4"><h5>By Industry</h5></a>
+                                            <a href="../solutions/by-industry/agriculture">Agriculture</a> 
+                                            <a href="../solutions/by-industry/education">Education</a>
+                                            <a href="../solutions/by-industry/energy-and-utilities">Energy and Utilities</a>
+                                            <a href="../solutions/by-industry/industrial">Industrial</a>
+                                            <a href="../solutions/by-industry/medical">Medical</a>
+                                            <a href="../solutions/by-industry/oil-and-gas">Oil and Gas</a>
+                                            <a href="../solutions/by-industry/retail">Retail</a>
+                                            <a href="../solutions/by-industry/smart-cities">Smart Cities</a>
+                                            <a href="../solutions/by-industry/transportation">Transportation</a>
+                                            <a href="../solutions/by-industry" class="digi-link-more">All Industries</a>
+                                        </div>
+                                        <div class="digi-col">
+                                            <a href="../solutions/by-application" class="digi-mb-4"><h5>By Application</h5></a>
+                                            <a href="../solutions/by-application/asset-and-inventory-monitoring">Asset and Inventory Management</a>
+                                            <a href="../solutions/by-application/digital-signage">Digital Signage</a>
+                                            <a href="../solutions/by-application/environmental-monitoring">Environmental Monitoring</a>
+                                            <a href="../solutions/by-application/green-technology">Green Technology</a>
+                                            <a href="../solutions/by-application/logistics">Logistics</a>
+                                            <a href="../solutions/by-application/public-safety-networks">Public Safety and Emergency Services</a>
+                                            <a href="../solutions/by-application/public-transit">Public Transit</a>
+                                            <a href="../solutions/by-application/traffic-management">Traffic Management</a>
+                                            <a href="../solutions/by-application" class="digi-link-more">All Applications</a>
+                                        </div>
+                                        <div class="digi-col">
+                                            <a href="../solutions/by-technology" class="digi-mb-4"><h5>By Technology</h5></a>
+                                            <a href="../solutions/by-technology/5g">5G Connectivity</a>
+                                            <a href="../solutions/by-technology/anterix-spectrum">Anterix Spectrum</a>
+                                            <a href="../solutions/by-technology/dani">Digi Artificial Network Intelligence (DANI)</a>
+                                            <a href="../solutions/by-technology/edge-computing">Edge Computing</a>
+                                            <a href="../solutions/by-technology/lorawan">LoRaWAN</a>
+                                            <a href="../solutions/by-technology/mcp-server">MCP Server</a>
+                                            <a href="../solutions/by-technology/usb-over-ip">USB Over IP</a>
+                                            <a href="../solutions/by-technology/wi-sun">Wi-SUN</a>
+                                            <a href="../solutions/by-technology/zigbee-wireless-standard">Zigbee Wireless Mesh</a>
+                                            <a href="../solutions/by-technology" class="digi-link-more">All Technologies</a>
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li id="digi-nav-products" data-state="closed"><a href="../products" aria-haspopup="true" aria-expanded="false" title="Click to toggle products menu">Products<span class="dropdown-arrow"></span></a>
+                            <div class="digi-dropdown">
+                                <div class="digi-container">
+                                <a href="../products" class="nav-home">Products Home</a>
+                                    <div class="digi-row digi-mb-4">
+                                        <div class="digi-col">
+                                            <a href="../products/embedded-systems"><h4>Embedded Systems</h4></a>
+                                            <div class="digi-row">
+                                                <div class="digi-col">
+                                                    <h5 class="has-submenu"><a href="../products/embedded-systems/digi-xbee">Digi XBee</a><span class="submenu-arrow"></span></h5>
+                                                    <div class="digi-submenu-2">
+                                                    <a href="../products/embedded-systems/digi-xbee" class="digi-mobile-sub">Digi XBee Home</a>
+                                                    <a href="../products/embedded-systems/digi-xbee/cellular-modems">Cellular Modems</a>
+                                                    <a href="../products/embedded-systems/digi-xbee/rf-modules">RF Modules</a>
+                                                    <a href="../products/embedded-systems/digi-xbee/digi-xbee-gateways">Gateways and Border Routers</a>
+                                                    <a href="../products/embedded-systems/digi-xbee/development-kits">Development Kits</a>
+                                                    <a href="../products/embedded-systems/digi-xbee/digi-xbee-tools">Software and Tools</a>
+                                                    <div class="digi-submenu-3 digi-cols-2">
+                                                        <a href="../products/embedded-systems/digi-xbee/digi-xbee-tools/digi-xbee-studio">XBee Studio</a>
+                                                        <a href="../products/embedded-systems/digi-xbee/digi-xbee-tools/xctu">XCTU</a>
+                                                        <a href="../products/embedded-systems/digi-xbee/digi-xbee-tools/digi-xbee-global-connect">Global Connect Data Plans</a>
+                                                    </div>
+                                                    <h5 class="digi-mt-3 no-hold-m"><a href="../products/embedded-systems/digi-xbee/wi-sun">Digi XBee for Wi-SUN</a></h5>
+                                                    </div>
+                                                </div>
+                                                <div class="digi-col">
+                                                    <h5 class="has-submenu"><a href="../products/embedded-systems/digi-connectcore">Digi ConnectCore</a><span class="submenu-arrow"></span></h5>
+                                                    <div class="digi-submenu-2">
+                                                    <a href="../products/embedded-systems/digi-connectcore" class="digi-mobile-sub">Digi ConnectCore Home</a>
+                                                    <a href="../products/embedded-systems/digi-connectcore/system-on-modules">System-on-Modules</a>
+                                                    <a href="../products/embedded-systems/digi-connectcore/single-board-computers">Single Board Computers</a>
+                                                    <a href="../products/embedded-systems/digi-connectcore/development-kits">Development Kits</a>
+                                                    <span class="digi-submenu-heading">Software and Tools</span>
+                                                    <div class="digi-submenu-3">
+                                                        <a href="../products/embedded-systems/digi-connectcore/software-and-tools/cloud-services">Cloud Services</a>
+                                                        <a href="../products/embedded-systems/digi-connectcore/software-and-tools/security-services">Security Services</a>
+                                                    </div>
+                                                    </div>
+                                                  <h5 class="digi-mt-3 no-hold-m"><a href="../products/embedded-systems/digi-x-on">Digi X-ON</a></h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="digi-col">
+                                            <a href="../products/networking"><h4>Cellular and Networking</h4></a>
+                                            <div class="digi-row">
+                                                <div class="digi-col">
+                                                    <h5 class="has-submenu"><a href="../products/networking/cellular-routers">Cellular Routers and Extenders</a><span class="submenu-arrow"></span></h5>
+                                                    <div class="digi-submenu-2">
+                                                    <a href="../products/networking/cellular-routers" class="digi-mobile-sub">Cellular Routers and Extenders Home</a>
+                                                    <a href="../products/networking/cellular-routers/enterprise">Enterprise Routers and Extenders</a>
+                                                    <a href="../products/networking/cellular-routers/industrial">Industrial Routers</a>
+                                                    <a href="../products/networking/cellular-routers/transportation">Transportation Routers</a>
+                                                    <span class="digi-submenu-heading">Software and Tools</span>
+                                                    <div class="digi-submenu-3  digi-cols-2">
+                                                        <a href="../products/iot-software-services/digi-remote-manager">Digi Remote Manager</a>
+                                                        <a href="../products/iot-software-services/value-added-services/digi-containers">Digi Containers</a>
+                                                        <a href="../products/models/dg-esim-a">Digi eSIM</a>
+                                                        <a href="../products/iot-software-services/value-added-services/digi-mobile-vpn">Mobile VPN</a>
+                                                        <a href="../products/iot-software-services/value-added-services/modbus-value-added-applications">Modbus Apps</a>
+                                                        <a href="../products/iot-software-services/value-added-services/digi-wan-bonding">WAN Bonding</a>
+                                                        <a href="../products/iot-software-services/value-added-services/dani">DANI</a>
+                                                    </div>
+                                                    <a href="../products/networking/cellular-routers/digi-360" class="digi-weight-800">Digi 360</a>
+                                                    </div>
+                                                </div>
+                                                <div class="digi-col">
+                                                    <h5 class="has-submenu"><a href="../products/networking/infrastructure-management">Infrastructure Management</a><span class="submenu-arrow"></span></h5>
+                                                    <div class="digi-submenu-2">
+                                                    <a href="../products/networking/infrastructure-management" class="digi-mobile-sub">Infrastructure Management Home</a>
+                                                    <a href="../products/networking/infrastructure-management/industrial-automation">Industrial Automation</a>
+                                                    <a href="../products/networking/infrastructure-management/usb-connectivity">USB Connectivity</a>
+                                                    <a href="../products/networking/infrastructure-management/serial-connectivity">Serial Connectivity</a>
+                                                    <a href="../products/networking/infrastructure-management/console-servers">Console Servers</a>
+                                                    <span class="digi-submenu-heading">Software and Tools</span>
+                                                    <div class="digi-submenu-3">
+                                                        <a href="../products/networking/infrastructure-management/software-and-tools/digi-navigator">Digi Navigator</a>
+                                                        <a href="../products/iot-software-services/digi-remote-manager">Digi Remote Manager</a>
+                                                        <a href="../../digiaxess.com/index.html">Digi Axess</a>
+                                                    </div>
+                                                     <a href="../products/networking/infrastructure-management/lifecycle-assurance" class="digi-weight-800">Digi LifeCycle Assurance</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="digi-row" id="digi-subnav-proservices">
+                                        <a href="./professional-services"><h4>Professional Services</h4></a> <a href="./professional-services/managed-connectivity-services">Managed Connectivity Services</a> <a href="./professional-services/implementation-services">Implementation Services</a> <a href="./professional-services/application-development">Application Development</a> <a href="../products/iot-software-services/wireless-design-services">Wireless Design Services</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li id="digi-nav-managed" data-state="closed"><a href="../index.html" title="Click to toggle managed services menu" aria-haspopup="true" aria-expanded="false">Managed Services<span class="dropdown-arrow"></span></a>
+                            <div class="digi-dropdown">
+                                <div class="digi-container">
+                                    <div class="digi-row">
+                                        <div class="digi-col">
+                                            <a href="../index.html" class="digi-mb-4"><h5>Digi</h5></a>
+                                            <a href="../products/networking/cellular-routers/digi-360" class="">Digi 360</a>
+                                            <a href="../products/networking/infrastructure-management/lifecycle-assurance" class="">Digi LifeCycle Assurance</a>
+                                            <a href="../../digiaxess.com/index.html" class="digi-link-external">Digi Axess</a>
+                                            <a href="../products/embedded-systems/digi-x-on" class="">Digi X-ON</a>
+                                            <a href="./professional-services" class="">Professional Services</a>
+                                            <div class="digi-submenu-3">
+                                                <a href="./professional-services/implementation-services">Implementation Services</a>
+                                                <a href="./professional-services/application-development">Application Development</a>
+                                                <a href="../products/iot-software-services/wireless-design-services">Wireless Design Services</a>
+                                            </div>
+                                        </div>
+                                        <div class="digi-col">
+                                            <a href="../../ventusgns.com/index.html" class="digi-mb-4 digi-link-external"><h5>Digi Ventus</h5></a>
+
+                                            <a href="../../ventusgns.com/index.html">Managed Connectivity</a>
+                                            <div class="digi-submenu-3">
+                                                <a href="../../genesis.ventusnetworks.com/login">Genesis</a>
+                                            </div>
+                                        </div>
+                                        <div class="digi-col">
+                                            <a href="../../opengear.com/index.html" class="digi-mb-4 digi-link-external"><h5>Opengear</h5></a>
+                                            <a href="../../opengear.com/solution/NetOps-Automation">NetOps Automation</a>
+                                            <a href="../../opengear.com/solution/network-resilience">Network Resilience</a>
+                                            <a href="../../opengear.com/solution/smart-out-band-management">Out-of-Band Management</a>
+                                        </div>
+                                        <div class="digi-col">
+                                            <a href="../../particle.io/index.html" class="digi-mb-4 digi-link-external"><h5>Particle</h5></a>
+                                            <a href="../../www.particle.io/index.html">Managed Embedded Devices</a>
+                                            <a href="../../www.particle.io/iot-command-center">Particle Console</a>        
+                                        </div>
+                                        <div class="digi-col">
+                                            <a href="../../www.smartsense.co/index.html" class="digi-mb-4 digi-link-external"><h5>SmartSense</h5></a>
+                                            <a href="../../www.smartsense.co/solutions/advanced-analytics">Advanced Asset Analytics</a>
+                                            <a href="../../www.smartsense.co/solutions/asset-monitoring">Asset Monitoring </a>
+                                            <a href="../../www.smartsense.co/solutions/food-safety-monitoring">Food Safety Monitoring</a>
+                                            <a href="../../www.smartsense.co/voyage">Moving Asset Monitoring</a>
+                                            <a href="../../www.smartsense.co/solutions/pharmacy-monitoring">Pharmacy Monitoring</a>
+                                            <a href="../../www.smartsense.co/solutions/vfc-monitoring">VFC Monitoring</a>        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li id="digi-nav-resources" data-state="closed"><a href="../resources" aria-haspopup="true" aria-expanded="false" title="Click to toggle resources menu">Resources<span class="dropdown-arrow"></span></a>
+                            <div class="digi-dropdown">
+                                <div class="digi-container">
+                                <a href="../resources" class="nav-home">Resources Home</a>
+                                    <div class="digi-row">
+                                        <div class="digi-col">
+                                            <a href="../resources/library"><h5>Resource Library</h5></a>
+                                            <a href="../resources/library__9435d618">Datasheets</a>
+                                            <a href="../resources/library__229dcd6a">Ebooks</a>
+                                            <a href="../resources/library__5d392d78">Solution Briefs</a>
+                                            <a href="../resources/library__56e326d9">Technical Briefs</a>
+                                            <a href="../resources/library__4d864485">Videos</a>
+                                            <a href="../resources/library__d671583e">White Papers</a>
+                                            <a href="../resources/library" class="digi-link-more">All Library Resources</a>
+                                        </div>
+                                        <div class="digi-col">
+                                            <a href="../resources/customer-stories">Customer Stories</a>
+                                            <a href="../resources/events">Events</a>
+                                            <a href="../resources/examples-guides">Examples and Guides</a>
+                                            <a href="../resources/definitions">IoT Terminology</a>
+                                            <a href="../resources/graphics">Digi Logos and Photos</a>
+                                            <a href="../resources/certifications">Product Certifications</a>
+                                            <a href="../resources/project-gallery">Project Gallery</a>
+                                            <a href="../resources/security">Security Center</a>
+                                            <a href="../resources/webinars">Webinars</a>
+                                        </div>
+                                        <div class="digi-col">
+                                            <div id="digi-nav-videos" class="loading-spinner"></div>
+                                            <a href="../resources/videos" class="digi-link-more">More Videos</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li id="digi-nav-support" data-state="closed"><a href="./" aria-haspopup="true" aria-expanded="false" title="Click to toggle support menu">Support<span class="dropdown-arrow"></span></a>
+                            <div class="digi-dropdown">
+                                <div class="digi-container">
+                                <a href="./" class="nav-home">Support Home</a>
+                                    <div class="digi-row">
+                                        <div class="digi-col">
+                                            <a href="./"><h5 class="digi-mb-4">Technical Support</h5></a>
+                                            <p class="p-80"><em>Select your product for firmware, drivers, software, knowledge base articles and manuals.</em></p>
+                                            <a href="./" class="digi-button small">Select Your Product</a>
+                                        </div>
+                                        <div class="digi-col">
+                                        <div class="digi-row">
+                                        <div class="digi-col">
+                                            <a href="../../my.digi.com/index.html" class="digi-link-external">Customer Portal</a>
+                                            <a href="../resources/certifications">Product Certifications</a>
+                                            <a href="./professional-services">Professional Services</a>
+                                        </div>
+                                        <div class="digi-col">
+                                            <a href="../resources/security">Security Center</a>
+                                            <a href="../../forums.digi.com/index.html" class="digi-link-external">Support Forum</a>
+                                            <a href="./support-services">Support Services</a>
+                                        </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li id="digi-nav-company" data-state="closed"><a href="../company" aria-haspopup="true" aria-expanded="false" title="Click to toggle support menu">Company<span class="dropdown-arrow"></span></a>
+                            <div class="digi-dropdown">
+                                <div class="digi-container">
+                                <a href="../company" class="nav-home">Company Home</a>
+                                    <div class="digi-row">
+                                        <div class="digi-col">
+                                            <a href="../company" class="digi-mb-4"><h5>About Digi</h5></a>
+                                            <a href="../company/awards">Awards and Recognition</a>
+                                            <a href="../company/careers">Careers</a>
+                                            <a href="../company/history">History</a>
+                                            <a href="../company/investorrelations" class="digi-link-external">Investor Relations</a>
+                                            <a href="../company/leadership">Leadership</a>
+                                            <a href="../company/locations">Locations</a>
+                                            <a href="../company/media-coverage">Media Coverage</a>
+                                            <a href="../company/press-releases">Press Releases</a>
+                                        </div>
+                                        <div class="digi-col">
+                                            <a href="../company/partners" class="digi-mb-4"><h5>Partners</h5></a>
+                                            <a href="../partner-portal">Partner Portal Login</a>
+                                            <a href="../company/partners/network-operators">Network Operators</a>
+                                            <a href="../company/partners/technology-alliances">Technology Alliances</a>
+                                            <a href="../company/partners/value-added-resellers">Value-Added Resellers</a>
+                                        </div>
+                                        <div class="digi-col">                                            
+                                            <div class="digi-company">
+                                                <strong>Opengear, A Digi Company</strong><br>
+                                                Smart Out-of-Band Management<br>
+                                                <a href="../../opengear.com/index.html" class="digi-button small external">Visit Opengear</a>
+                                            </div>
+
+                                            <div class="digi-company">
+                                                <strong>SmartSense by Digi</strong><br>
+                                                Sensing-as-a-Service Solutions<br>
+                                                <a href="../../www.smartsense.co/index.html" class="digi-button small external">Visit SmartSense</a>
+                                            </div>
+
+                                            <div class="digi-company">
+                                                <strong>Digi Ventus</strong><br>
+                                                Managed Connectivity Solutions<br>
+                                                <a href="../../ventus.digi.com/index.html" class="digi-button small external">Visit Digi Ventus</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="digi-mobile"><a href="../blog">Blog</a></li>
+                        <li class="digi-mobile"><a href="../sign-in">Sign In</a></li>
+                        <li class="digi-mobile"><a href="../how-to-buy">How to Buy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+
+<div class="cookietrail" data-swiftype-index="false">
+<div class="inside">
+<a href="../index.html" class="CMSBreadCrumbsLink">Home</a> <span class="separator">/</span> <a href="./" class="CMSBreadCrumbsLink">Support</a> <span class="separator">/</span> <a href="./knowledge-base" class="CMSBreadCrumbsCurrentItem">Knowledge Base</a> 
+</div></div>
+
+
+
+<div class="knowledgebase">
+<div class="interior-heading-type3">
+	<div class="container">
+		<h1>Knowledge Base Articles</h1>
+		<h2>What would you like to know?</h2>
+	</div>
+</div>
+
+<div class="container">
+<div class="ribbon" id="bingsearch">
+    <div class="container container-form">
+        <select name="kb_category" id="kb_category" class="">
+            <option selected="selected" value="0">All</option>
+            <option value="1">Cellular/Transport</option>
+            <option value="2">Connect Sensor/WVA/Z45</option>
+            <option value="3">Digi Remote Manager</option>
+            <option value="4">Embedded</option>
+            <option value="5">Embedded Dev kits</option>
+            <option value="6">Gateways</option>
+            <option value="7">Infrastructure Management</option>
+            <option value="8">LoRaWAN</option>
+            <option value="9">RF</option>
+            <option value="10">RF Dev kits</option> 
+        </select>
+      </div>
+      <div class="container mt-3">
+        <span class="ContentCheckBoxList checkbox">
+            <input id="obsolete" type="checkbox" name="obsolete" checked="checked"><label for="obsolete">Exclude articles about obsolete products</label>
+        </span>
+        </div>
+  <div class="container container-form">
+        <div id="searchinput">
+			<input type="text" id="kb_search" name="kb_search" placeholder="Enter a search keyword"><input type="submit" id="kb_click" value=" " class="button">
+		</div>
+    </div>
+  Looking for product manuals or developer guides?<br />
+  <a href="../search__d90fee4f">Search our documentation</a>
+</div><script>
+$(document).ready(function() {
+init_kbrecent();
+capture_url_for_breadcrumb();
+});
+</script>
+
+</div>
+<div class="inside" id="columns">
+<div class="colthree overflow">
+<h3>Browse By Category</h3>
+<div class="holder">
+<div class="scrollholder">
+<a href="../resources/documentation/digidocs/acl-kb/default">Accelerated</a>
+<hr>
+<a href="./knowledge-base/by-category__566aee70">Cellular/Transport</a>
+<hr /><a href="./knowledge-base/by-category__1b01be1a">Connect Sensor/WVA/Z45</a>
+<hr /><a href="./knowledge-base/by-category__a49ea310">Digi Remote Manager</a>
+<hr /><a href="./knowledge-base/by-category__085a7930">Embedded</a>
+<hr /><a href="./knowledge-base/by-category__6e797375">Embedded Dev kits</a>
+<hr /><a href="./knowledge-base/by-category__4157caaa">Gateways</a>
+<hr /><a href="./knowledge-base/by-category__077e5c56">Infrastructure Management</a>
+<hr /><a href="./knowledge-base/by-category__cb4e89fe">RF</a>
+<hr /><a href="./knowledge-base/by-category__cbd4ecb3">RF Dev kits</a>
+<hr /> </div>
+</div>
+</div><div class="colthree">
+<h3>Newest Articles</h3>
+<div class="holder">
+<a href="./knowledge-base/How-to-Register-your-device">How to Register your Device</a>
+<hr /><a href="./knowledge-base/Recommended-troubleshooting-for-CC-WMX-JM8E-NN-if">Recommended troubleshooting for CC-WMX-JM8E-NN if unit doesn't boot</a>
+<hr /><a href="./knowledge-base/Digi-AnywhereUSB-Plus-Rough-Performance-Data">Digi AnywhereUSB® Plus Performance Data</a>
+<hr /><a href="./knowledge-base/Submitting-an-AnywhereUSB-Plus-issue-to-Digi-Techn">Submitting an AnywhereUSB Plus issue to Digi Technical Support</a>
+<hr /><a href="./knowledge-base/Step-by-Step-Setup-of-AWUSB-Plus-on-Windows-10-(Se">Step by Step Setup of AWUSB Plus on Win10 Service</a>
+<hr /><a href="./knowledge-base/How-to-backup-the-configuration-of-an-AnywhereUSB">How to backup the configuration of an AnywhereUSB Plus device</a>
+<hr /><a href="./knowledge-base/Ethernet-bonding-configuration-on-Digi-AWUSB-Plus">Ethernet bonding configuration on Digi AWUSB Plus</a>
+<hr />
+</div>
+</div><div class="colthree" id="kbrecent">
+<h3>Recently Viewed</h3>
+<div class="holder">
+<div id="recentcontent">
+<span>No recently viewed articles</span>
+</div>
+</div>
+</div></div>
+
+
+
+
+</div>
+<div class="container-full"></div>
+
+
+<div id="digi-footer">
+    <div class="digi-container">
+        <div class="digi-row" id="footer-links">
+            <div class="digi-col" id="footer-logo">
+                <a href="../index.html"><img src="../digi/media/navs/logo-digi-svg.svg" alt="Digi Logo" class="logo has-dark-theme"></a>
+                <h5 class="digi-mt-4"><a href="../company/locations">Contact Information</a></h5>
+                <div id="footer-contact">
+                    <div class="digi-col">
+                        <a href="tel:1-877-912-3444">1-877-912-3444</a>
+                        <a href="tel:952-912-3444">952-912-3444</a>
+                        <a href="../contactus/digi-sales">Contact Digi sales</a>
+                    </div>
+                    <div class="digi-col">
+                        <a href="../resources/security">Security Inquiries</a>
+                    </div>
+                </div>
+                <a href="../newsletter" class="digi-button digi-mt-4">Newsletter Signup</a>
+            </div>
+            <div class="digi-col" id="footer-solutions">
+                <h5><a href="../solutions">Solutions</a></h5>
+                <a href="../solutions/by-industry">By Industry</a>
+                <a href="../solutions/by-application">By Application</a>
+                <a href="../solutions/by-technology">By Technology</a>
+
+                <h5 class="digi-mt-4 digi-mb-1">Packaged Solutions</h5>
+                <a href="../products/networking/cellular-routers/digi-360">Digi 360</a>
+                <a href="../products/networking/infrastructure-management/lifecycle-assurance">Digi LifeCycle Assurance</a>
+                <a href="../products/embedded-systems/digi-x-on">Digi X-ON</a>
+              
+                <h5 class="digi-mt-4 digi-mb-1">Managed Services</h5>
+                <a href="../../opengear.com/index.html">Opengear</a>
+                <a href="../../particle.io/index.html">Particle</a>
+                <a href="../../www.smartsense.co/index.html">SmartSense</a>
+                <a href="../../ventus.digi.com/index.html">Digi Ventus</a>
+
+            </div>
+            <div class="digi-col" id="footer-support">
+            <h5><a href="../products">Products</a></h5>
+                <a href="../products/embedded-systems">Embedded Systems</a>
+                <a href="../products/networking">Cellular and Networking</a>
+                <a href="./professional-services">Professional Services</a>
+            <h5 class="digi-mt-4"><a href="./">Technical Support</a></h5>
+            <a href="../../my.digi.com/index.html">Customer Portal</a>
+            <a href="./return-authorization-policy">Return Authorization (RA) Policy</a>
+            <a href="../../forums.digi.com/index.html">Support Forum</a>
+            <a href="./support-policy">Support Policy</a>
+            <a href="./support-services">Support Services</a>
+            <a href="./warranty">Warranty Registration</a>
+            </div>
+            <div class="digi-col" id="footer-resources">
+            <h5><a href="../resources">Resources</a></h5>
+            <a href="../blog">Blog</a>
+            <a href="../resources/customer-stories">Customer Stories</a>
+            <a href="../resources/graphics">Digi Logos and Photos</a>
+            <a href="../resources/events">Events</a>
+            <a href="../how-to-buy">How to Buy</a>
+            <a href="../resources/library">Resource Library</a>
+            <a href="../sign-in">Sign In</a>
+            <a href="../resources/videos">Videos</a>
+            <a href="../resources/webinars">Webinars</a>
+            </div>
+            <div class="digi-col" id="footer-company">
+            <h5><a href="../company">Company</a></h5>
+            <a href="../company">About Digi</a>
+            <a href="../company/awards">Awards</a>
+            <a href="../company/careers">Careers</a>
+            <a href="../company/environment">Environment</a>
+            <a href="../company/export">Export Policy</a>
+            <a href="../company/investorrelations">Investor Relations</a>
+            <a href="../company/leadership">Leadership</a>
+            <a href="../company/locations">Locations</a>
+            <a href="../company/media-coverage">Media Coverage</a>
+            <a href="../company/sites">Other Digi Sites</a>
+            <a href="../company/press-releases">Press Releases</a>
+            <a href="../company/quality">Quality</a>
+            </div>
+        </div>
+        <div class="digi-row" id="footer-logos">
+            <div class="digi-col" id="footer-ecia">
+                <a href="../company/ecia"><img src="../digi/media/navs/ecia-member-svg.svg" class="has-dark-theme" alt="ECIA Member Logo"></a>
+            </div>
+            <div class="digi-col digi-align-right" id="footer-social">
+                <a href="https://www.linkedin.com/company/digi-international" target="_blank" rel="noopener noreferrer"><img src="../digi/media/navs/footer-social-linked.png" alt="LinkedIn Logo" class="has-dark-theme"></a>
+                <a href="https://www.facebook.com/digi.international/" target="_blank" rel="noopener noreferrer"><img src="../digi/media/navs/footer-social-facebook.png" alt="Facebook Logo" class="has-dark-theme"></a>
+                <a href="https://twitter.com/digidotcom" target="_blank" rel="noopener noreferrer"><img src="../digi/media/navs/footer-social-twitter.png" alt="Twitter Logo" class="has-dark-theme"></a>
+                <a href="https://www.youtube.com/user/Digidotcom" target="_blank" rel="noopener noreferrer"><img src="../digi/media/navs/footer-social-youtube.png" alt="YouTube Logo" class="has-dark-theme"></a>
+                <a href="../../github.com/digidotcom" target="_blank" rel="noopener noreferrer"><img src="../digi/media/navs/footer-social-github.png" alt="GitHub Logo" class="has-dark-theme"></a>
+            </div>
+        </div>
+        <div class="digi-row" id="footer-utility">
+            <div id="footer-legal">
+                <a href="../legal/privacy">Privacy Policy</a> <span class="digi-separator">|</span> <a href="../legal/cookies">Cookie Policy</a> <span class="digi-separator">|</span> <a href="../legal">Legal</a> <span class="digi-separator">|</span> <a href="../sitemap">Site Map</a>           
+            </div>
+            <div id="footer-copyright" class="digi-align-right">&#169; <span id="copyright-year">2026</span> Digi International Inc. All rights reserved.</div>
+        </div>
+    </div>
+</div><a href="./knowledge-base" onclick="scroll_down_to('body'); return false;" class="scrollup"><img src="../digi/media/home/scroll-arrow-up.png" alt="Scroll to top of page" /></a>
+    
+      <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="hy93yFd7AtIEuHSNDwk68WLAdk9e0BAQ1XN2wfqJe6DxnizCS/AgfGgNXJqtv+UM4vvcMt78Jx8HOEAV6NipZpJ+Cqarva6+aNcy4Fx+jFfdOysnni+xv9UHb0LNP4jVHAcwYKKVyMEbHSqqRSZdMPBq0i0DKft+SKtaG/uuzhPnjYMZFYoIKTnJ0J29hXQY8kf0BMgAa9Ocv94/wC7ASHoz4eXlEBFGBivNiX8yy02LVU1GdQtghvwVzktX0DmblldSyfsNVDr5Wts/ptz+74NoVK0nhCGHvWKagMui326mM436uoPzOHWDLd8t/GUJh3Ff69SLyWWR6mUMGP3cAh8Lt8vT+pF1CXqKdoiu9WsU4sk5t+GoGtbKsWEm8wvAJKBfKT+SXh1GRBHqzCwRzMu6xAEp7d0AGT5WOgRdatO9Hwbre4mZQ4vR+Cn4NhC0OEvc5Zls7kQ8oa86GkQbHT7SfCAFSzRtZGAeFmetY9FUKzYGyka6tmo4wBaWJqQng4JaH3tn/zdX0CrFM5g84ban9MSQdr5huzmlt2e0pKnLt5oeVnav/POjrwsBe3nMjVR82BV2oeKsFextpJyTgel1dHAoxuQgK658pCm3ELIBEWCAfkh6EjgYOBojj9chRuU4n1PhFN/R12STg20I9NmpcxH6EBZIrulOIWxrST9htt4k2q8GUDWgcaf2TlQuhX2+IYAYDkzwH7kUdpGfGoHoYm37K2ZyNVeNP0RrXaN2q2rFc0fT4kgo8a7WalyhKQbCtA4DXsvBFua9lFrZELZGx7kctIsLuqSvd6uxb/5DJiilnqqM3OoKJFR6maH2uMjmWp4gk+cEbVAz5IcHwtXMKU1wirIB1a77Ejf+FqONKItsd3w597va74haSlP04i1N9zvHhzsqn8tw7OwuWBG5TOwN+fx8yewqXdizmd18uy3O3D3QIKnKwB++w82arZkulWMflfc4YYJV81ozTv9khdwSBY9Ky5iDyPyaH0Um9JMQa+HkZSj3+CNZs7ESkO7ucOzcB2JIN0e6yJ0K0Om/2US7jDASj64TOnohF6q1QwIoN9O/fk4O6QKztW+zxHliCql50TdxF126bzuykqiaBNaR9LYB0uGejx4aXJloSNiWOoTJy+a/VevSPaSY+dbypX1KIIMagStguJMlT+VKKvvrC6Yi0TVyWFHRSy3TX/ueGA7Y95gcQm/SwKDngjf6pzlKHlKYK1saNn6Eq5EX91Z8dYF8ORrvZGEagB8Uk0mZtm1xe6pzGgJh5XCyMjepC7e+H5/9ZIHSug1EjAx4mxtrLq9ohFdaEE5hyIvDqjHMHW8XlLXG3IAGaXRz0Qf17RKOQ3la/5bR4+pMBWbBwozbQaeUFdvHJHQ/Nhvs432c0AXdV6aLnkCRwIlhqd1H63rsoT0gBufZFsP+MgeQzLcwIV/O62gtMDj4t4G5o7qHCPDDMtBBxGTVmE6pe1SwRuZragl8+z46l3WIO0V1Jv7uCLql8eVDMqWS/Icl3ik4g8CYkz+SbS86AdtnMEX+h0uhYJjSl1LgrZK4otJczNO7MAuE1i7948SbivowibpegpRRdLxLGZCD8Hkn/tfG5i0wpZi0fbuUUyz73IrJNkeviizkF7esUh7KPUJ/kBnZn5A3HEL4t2P2/S7ZlZjs6iG5RYJFpqW2iI77gV5jZeZnFigrDBLZNvse5PM6dcm2jHN2WXwqODbTtO43A3xAJwMyozlHVGRaNxMiBsd5wzVwxtthjuZ5fDMv/+GFvgWAqAv1E3DydIMn1of7qtLGoqDiqq6iB/q0IfquAEqmgD8tlJNm9k9BghSP5JLACQKxhlWt7UKmBJS0Elh8u+tB7jDgNKCNBmcZjj90ZL2Bg1fIyeeii1PBU1tAGOpjAeipfg55MieKFUhmtrdt3CtzLIzTVRfD9GI4Ecgwumdeb/XHLNrhXTfAljtrcNsJZDfG6DpjN7OxUtAInF8Ziq8YcQ==" />
+  <script type="text/javascript">
+      //<![CDATA[
+      if (window.WebForm_InitCallback) {
+        __theFormPostData = '';
+        __theFormPostCollection = new Array();
+        window.WebForm_InitCallback();
+      }
+      //]]>
+    </script>
+  </form>
+</body>
+</html>

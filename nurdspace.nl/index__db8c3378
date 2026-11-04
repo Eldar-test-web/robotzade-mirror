@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF[
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+	<!ENTITY swivt 'http://semantic-mediawiki.org/swivt/1.0#'>
+	<!ENTITY wiki 'http://nurdspace.nl/Special:URIResolver/'>
+	<!ENTITY category 'http://nurdspace.nl/Special:URIResolver/Category-3A'>
+	<!ENTITY property 'http://nurdspace.nl/Special:URIResolver/Property-3A'>
+	<!ENTITY wikiurl 'https://nurdspace.nl/'>
+]>
+
+<rdf:RDF
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:owl ="&owl;"
+	xmlns:swivt="&swivt;"
+	xmlns:wiki="&wiki;"
+	xmlns:category="&category;"
+	xmlns:property="&property;">
+
+	<owl:Ontology rdf:about="https://nurdspace.nl/Special:ExportRDF/ESP8266">
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-11-04T20:40:44+01:00</swivt:creationDate>
+		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
+	</owl:Ontology>
+	<swivt:Subject rdf:about="http://nurdspace.nl/Special:URIResolver/ESP8266">
+		<rdf:type rdf:resource="http://nurdspace.nl/Special:URIResolver/Category-3AProjects"/>
+		<rdfs:label>ESP8266</rdfs:label>
+		<rdfs:isDefinedBy rdf:resource="https://nurdspace.nl/Special:ExportRDF/ESP8266"/>
+		<swivt:page rdf:resource="https://nurdspace.nl/ESP8266"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageContentLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</swivt:wikiPageContentLanguage>
+		<property:Project_Image rdf:resource="&wiki;File-3AESP8266.jpg"/>
+		<property:Project_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ESP8266</property:Project_Name>
+		<property:Project_Niche rdf:resource="&wiki;Electronics"/>
+		<property:Project_Purpose rdf:resource="&wiki;Education"/>
+		<property:Project_Skills rdf:resource="&wiki;Electronics"/>
+		<property:Project_Skills rdf:resource="&wiki;Software"/>
+		<property:Project_Status rdf:resource="&wiki;Getting_parts"/>
+		<property:Tool rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</property:Tool>
+		<property:Tool_Name rdf:resource="&wiki;ESP8266"/>
+		<property:Has_query rdf:resource="&wiki;ESP8266-23_QUERY917e8286c22707b94e1205817bb9cb80"/>
+		<property:Processing_error rdf:resource="&wiki;ESP8266-23_ERR71f787fedd7f50611010d3deb8d37930"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-11-30T18:57:29Z</swivt:wikiPageModificationDate>
+		<property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2456992.289919</property:Modification_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ESP8266</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://nurdspace.nl/Special:URIResolver/ESP8266-23_QUERY917e8286c22707b94e1205817bb9cb80">
+		<swivt:masterPage rdf:resource="&wiki;ESP8266"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plainlist</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Working on::ESP8266]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ESP8266# QUERY917e8286c22707b94e1205817bb9cb80</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://nurdspace.nl/Special:URIResolver/ESP8266-23_ERR71f787fedd7f50611010d3deb8d37930">
+		<swivt:masterPage rdf:resource="&wiki;ESP8266"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Has_improper_value_for rdf:resource="http://nurdspace.nl/Special:URIResolver/Property-3ATool_Image"/>
+		<property:Processing_error_message rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[2,"smw-datavalue-wikipage-property-invalid-title","Tool Image","File:"]</property:Processing_error_message>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ESP8266# ERR71f787fedd7f50611010d3deb8d37930</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://nurdspace.nl/Special:URIResolver/Art-2DNet_on_ESP8266">
+		<rdfs:label>Art-Net on ESP8266</rdfs:label>
+		<rdfs:isDefinedBy rdf:resource="https://nurdspace.nl/Special:ExportRDF/Art-2DNet_on_ESP8266"/>
+		<swivt:page rdf:resource="https://nurdspace.nl/Art-2DNet_on_ESP8266"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageContentLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</swivt:wikiPageContentLanguage>
+		<property:Project_Skills rdf:resource="&wiki;ESP8266"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Art-Net on ESP8266</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://nurdspace.nl/Special:URIResolver/Container_Presence">
+		<rdfs:label>Container Presence</rdfs:label>
+		<rdfs:isDefinedBy rdf:resource="https://nurdspace.nl/Special:ExportRDF/Container_Presence"/>
+		<swivt:page rdf:resource="https://nurdspace.nl/Container_Presence"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageContentLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</swivt:wikiPageContentLanguage>
+		<property:Project_Skills rdf:resource="&wiki;ESP8266"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Container Presence</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://nurdspace.nl/Special:URIResolver/DIY_Ambilight">
+		<rdfs:label>DIY Ambilight</rdfs:label>
+		<rdfs:isDefinedBy rdf:resource="https://nurdspace.nl/Special:ExportRDF/DIY_Ambilight"/>
+		<swivt:page rdf:resource="https://nurdspace.nl/DIY_Ambilight"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageContentLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</swivt:wikiPageContentLanguage>
+		<property:Project_Skills rdf:resource="&wiki;ESP8266"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIY Ambilight</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://nurdspace.nl/Special:URIResolver/Desk_lights">
+		<rdfs:label>Desk lights</rdfs:label>
+		<rdfs:isDefinedBy rdf:resource="https://nurdspace.nl/Special:ExportRDF/Desk_lights"/>
+		<swivt:page rdf:resource="https://nurdspace.nl/Desk_lights"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageContentLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</swivt:wikiPageContentLanguage>
+		<property:Project_Skills rdf:resource="&wiki;ESP8266"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desk lights</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://nurdspace.nl/Special:URIResolver/ESP8266_Bitcoin_SSID_ticker">
+		<rdfs:label>ESP8266 Bitcoin SSID ticker</rdfs:label>
+		<rdfs:isDefinedBy rdf:resource="https://nurdspace.nl/Special:ExportRDF/ESP8266_Bitcoin_SSID_ticker"/>
+		<swivt:page rdf:resource="https://nurdspace.nl/ESP8266_Bitcoin_SSID_ticker"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageContentLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</swivt:wikiPageContentLanguage>
+		<property:Project_Skills rdf:resource="&wiki;ESP8266"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ESP8266 Bitcoin SSID ticker</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://nurdspace.nl/Special:URIResolver/ITHO_Eco_Fan_Controller">
+		<rdfs:label>ITHO Eco Fan Controller</rdfs:label>
+		<rdfs:isDefinedBy rdf:resource="https://nurdspace.nl/Special:ExportRDF/ITHO_Eco_Fan_Controller"/>
+		<swivt:page rdf:resource="https://nurdspace.nl/ITHO_Eco_Fan_Controller"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageContentLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</swivt:wikiPageContentLanguage>
+		<property:Project_Skills rdf:resource="&wiki;ESP8266"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ITHO Eco Fan Controller</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://nurdspace.nl/Special:URIResolver/Messing_with_Sonoff">
+		<rdfs:label>Messing with Sonoff</rdfs:label>
+		<rdfs:isDefinedBy rdf:resource="https://nurdspace.nl/Special:ExportRDF/Messing_with_Sonoff"/>
+		<swivt:page rdf:resource="https://nurdspace.nl/Messing_with_Sonoff"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageContentLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</swivt:wikiPageContentLanguage>
+		<property:Project_Skills rdf:resource="&wiki;ESP8266"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Messing with Sonoff</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://nurdspace.nl/Special:URIResolver/Nurdlights">
+		<rdfs:label>Nurdlights</rdfs:label>
+		<rdfs:isDefinedBy rdf:resource="https://nurdspace.nl/Special:ExportRDF/Nurdlights"/>
+		<swivt:page rdf:resource="https://nurdspace.nl/Nurdlights"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<swivt:wikiPageContentLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</swivt:wikiPageContentLanguage>
+		<property:Project_Skills rdf:resource="&wiki;ESP8266"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nurdlights</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://nurdspace.nl/Special:URIResolver/User-3ABuzz">
+		<rdfs:label>User:buzz</rdfs:label>
+		<rdfs:isDefinedBy rdf:resource="https://nurdspace.nl/Special:ExportRDF/User-3ABuzz"/>
+		<swivt:page rdf:resource="https://nurdspace.nl/User-3ABuzz"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</swivt:wikiNamespace>
+		<swivt:wikiPageContentLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</swivt:wikiPageContentLanguage>
+		<property:Working_on rdf:resource="&wiki;ESP8266"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Buzz</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://nurdspace.nl/Special:URIResolver/User-3AZarya">
+		<rdfs:label>User:Zarya</rdfs:label>
+		<rdfs:isDefinedBy rdf:resource="https://nurdspace.nl/Special:ExportRDF/User-3AZarya"/>
+		<swivt:page rdf:resource="https://nurdspace.nl/User-3AZarya"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</swivt:wikiNamespace>
+		<swivt:wikiPageContentLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</swivt:wikiPageContentLanguage>
+		<property:Working_on rdf:resource="&wiki;ESP8266"/>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zarya</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<owl:ObjectProperty rdf:about="http://nurdspace.nl/Special:URIResolver/Property-3ATool_Name">
+		<rdfs:label>Tool Name</rdfs:label>
+		<rdfs:isDefinedBy rdf:resource="https://nurdspace.nl/Special:ExportRDF/Property-3ATool_Name"/>
+		<swivt:page rdf:resource="https://nurdspace.nl/Property-3ATool_Name"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</swivt:wikiNamespace>
+		<swivt:wikiPageContentLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</swivt:wikiPageContentLanguage>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tool Name</swivt:wikiPageSortKey>
+	</owl:ObjectProperty>
+	<owl:ObjectProperty rdf:about="http://nurdspace.nl/Special:URIResolver/Property-3AProject_Skills">
+		<rdfs:label>Project Skills</rdfs:label>
+		<rdfs:isDefinedBy rdf:resource="https://nurdspace.nl/Special:ExportRDF/Property-3AProject_Skills"/>
+		<swivt:page rdf:resource="https://nurdspace.nl/Property-3AProject_Skills"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</swivt:wikiNamespace>
+		<swivt:wikiPageContentLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</swivt:wikiPageContentLanguage>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Project Skills</swivt:wikiPageSortKey>
+		<swivt:type rdf:resource="http://semantic-mediawiki.org/swivt/1.0#_wpg"/>
+	</owl:ObjectProperty>
+	<owl:ObjectProperty rdf:about="http://nurdspace.nl/Special:URIResolver/Property-3AWorking_on">
+		<rdfs:label>Working on</rdfs:label>
+		<rdfs:isDefinedBy rdf:resource="https://nurdspace.nl/Special:ExportRDF/Property-3AWorking_on"/>
+		<swivt:page rdf:resource="https://nurdspace.nl/Property-3AWorking_on"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</swivt:wikiNamespace>
+		<swivt:wikiPageContentLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</swivt:wikiPageContentLanguage>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Working on</swivt:wikiPageSortKey>
+		<swivt:type rdf:resource="http://semantic-mediawiki.org/swivt/1.0#_wpg"/>
+	</owl:ObjectProperty>
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#creationDate" />
+	<owl:Class rdf:about="http://nurdspace.nl/Special:URIResolver/Category-3AProjects" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#page" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiNamespace" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageContentLanguage" />
+	<owl:ObjectProperty rdf:about="http://nurdspace.nl/Special:URIResolver/Property-3AProject_Image" />
+	<owl:DatatypeProperty rdf:about="http://nurdspace.nl/Special:URIResolver/Property-3AProject_Name" />
+	<owl:ObjectProperty rdf:about="http://nurdspace.nl/Special:URIResolver/Property-3AProject_Niche" />
+	<owl:ObjectProperty rdf:about="http://nurdspace.nl/Special:URIResolver/Property-3AProject_Purpose" />
+	<owl:ObjectProperty rdf:about="http://nurdspace.nl/Special:URIResolver/Property-3AProject_Status" />
+	<owl:DatatypeProperty rdf:about="http://nurdspace.nl/Special:URIResolver/Property-3ATool" />
+	<owl:ObjectProperty rdf:about="http://nurdspace.nl/Special:URIResolver/Property-3AHas_query" />
+	<owl:ObjectProperty rdf:about="http://nurdspace.nl/Special:URIResolver/Property-3AProcessing_error" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageModificationDate" />
+	<owl:DatatypeProperty rdf:about="http://nurdspace.nl/Special:URIResolver/Property-3AModification_date-23aux" />
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageSortKey" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#masterPage" />
+	<owl:DatatypeProperty rdf:about="http://nurdspace.nl/Special:URIResolver/Property-3AQuery_depth" />
+	<owl:DatatypeProperty rdf:about="http://nurdspace.nl/Special:URIResolver/Property-3AQuery_format" />
+	<owl:DatatypeProperty rdf:about="http://nurdspace.nl/Special:URIResolver/Property-3AQuery_size" />
+	<owl:DatatypeProperty rdf:about="http://nurdspace.nl/Special:URIResolver/Property-3AQuery_string" />
+	<owl:ObjectProperty rdf:about="http://nurdspace.nl/Special:URIResolver/Property-3AHas_improper_value_for" />
+	<owl:DatatypeProperty rdf:about="http://nurdspace.nl/Special:URIResolver/Property-3AProcessing_error_message" />
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#type" />
+	<!-- Created by Semantic MediaWiki, https://www.semantic-mediawiki.org/ -->
+</rdf:RDF>

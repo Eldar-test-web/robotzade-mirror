@@ -1,0 +1,1 @@
+var e=`errors/set`,t=`errors/clear`,n=`errors/clearError`,r=(t,n)=>({type:e,payload:{type:t,message:n}}),i=()=>({type:t}),a=e=>({type:n,payload:e});export{i as a,a as i,t as n,r as o,e as r,n as t};

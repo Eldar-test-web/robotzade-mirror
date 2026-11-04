@@ -1,0 +1,2869 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Color Sensor - Waveshare Wiki</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"eb25f07ea9bc875394e6e5b7","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Color_Sensor","wgTitle":"Color Sensor","wgCurRevisionId":68852,"wgRevisionId":68852,"wgArticleId":337,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["I/Os interface"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Color_Sensor","wgRelevantArticleId":337,"wgIsProbablyEditable":!1,"wgRelevantPageIsProbablyEditable":!1,"wgRestrictionEdit":[],"wgRestrictionMove":[]};RLSTATE={"ext.gadget.tabber":"ready","site.styles":"ready",
+"noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","mediawiki.toc.styles":"ready","skins.tweeki.styles":"ready","skins.tweeki.bootstraptheme.styles":"ready","skins.tweeki.externallinks.styles":"ready","skins.tweeki.awesome.styles":"ready"};RLPAGEMODULES=["site","mediawiki.page.startup","mediawiki.page.ready","mediawiki.toc","ext.FancyBoxThumbs","ext.HighlightjsIntegration","skins.tweeki.messages","skins.tweeki.scripts"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});</script>
+<link rel="stylesheet" href="../w/Uy8Yw0y/aAdkk0o__357e169b"/>
+<script async="" src="../w/Uy8Yw0y/aAdkk0o__0951ec9b"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="../w/Uy8Yw0y/aAdkk0o__036c1e59"/>
+<link rel="stylesheet" href="../w/Uy8Yw0y/aAdkk0o__ae02780e"/>
+<meta name="generator" content="MediaWiki 1.35.5"/>
+<meta property="og:image" content="https://www.waveshare.com/w/upload/0/0f/Color-Sensor_l.jpg"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="shortcut icon" href="../w/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="../w/opensearch_desc" title="Waveshare Wiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="../w/api__251f0951"/>
+<link rel="alternate" type="application/atom+xml" title="Waveshare Wiki Atom feed" href="../w/index__2ac42f8e"/>
+<!--[if lt IE 9]><script src="../w/resources/lib/html5shiv/html5shiv.js"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Color_Sensor rootpage-Color_Sensor skin-tweeki action-view tweeki-animateLayout tweeki-non-advanced tweeki-user-anon"><a href="../cdn-cgi/content__93ce6898" aria-hidden="true" rel="nofollow noopener" style="display: none !important; visibility: hidden !important"></a>			<!-- navbar -->
+			<div id="mw-navigation" class="navbar navbar-default navbar-fixed-top navbar-expand-lg fixed-top navbar-light bg-light" role="navigation">
+				<h2>Navigation menu</h2>
+				<div id="mw-head" class="navbar-inner">
+					<div class="container">
+
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+
+							<a href="./Main_Page" class="navbar-brand"><img src="../w/upload/a/a7/Ws-watermark-en.svg" alt="Waveshare Wiki" /></a>
+						</div>
+
+						<div id="navbar" class="navbar-collapse collapse">
+													<ul class="nav navbar-nav">
+							<li class="nav"><a href="./Color_Sensor" id="n-raspberry-pi" class="dropdown-toggle" data-toggle="dropdown">Raspberry Pi <b class="caret"></b></a><ul class="dropdown-menu " role="menu"><li id="n-main_page.2523rpi-boards"><a href="./Main_Page" tabindex="-1">Boards/Kits</a></li><li id="n-main_page.2523rpi-displays"><a href="./Main_Page" tabindex="-1">Displays</a></li><li id="n-main_page.2523rpi-cameras"><a href="./Main_Page" tabindex="-1">Cameras</a></li><li id="n-main_page.2523rpi-expansions"><a href="./Main_Page" tabindex="-1">Expansions</a></li><li id="n-main_page.2523rpi-laptops"><a href="./Main_Page" tabindex="-1">All-in-one</a></li><li id="n-main_page.2523rpi-robots"><a href="./Main_Page" tabindex="-1">Robots</a></li><li id="n-main_page.2523rpi-games"><a href="./Main_Page" tabindex="-1">Portable Gaming</a></li><li id="n-main_page.2523rpi-acces"><a href="./Main_Page" tabindex="-1">Accessories</a></li><li id="n-main_page.2523android-linux-boards"><a href="./Main_Page" tabindex="-1">Other Android/Linux Boards</a></li></ul></li><li class="nav"><a href="./Color_Sensor" id="n-ai" class="dropdown-toggle" data-toggle="dropdown">AI <b class="caret"></b></a><ul class="dropdown-menu " role="menu"><li id="n-main_page.2523jetson-ai-boards"><a href="./Main_Page" tabindex="-1">Boards/Kits</a></li><li id="n-main_page.2523jetson-ai-displays"><a href="./Main_Page" tabindex="-1">Displays</a></li><li id="n-main_page.2523jetson-ai-cameras"><a href="./Main_Page" tabindex="-1">Cameras</a></li><li id="n-main_page.2523jetson-ai-hat"><a href="./Main_Page" tabindex="-1">Expansions</a></li><li id="n-main_page.2523jetson-ai-robots"><a href="./Main_Page" tabindex="-1">Robots</a></li></ul></li><li class="nav"><a href="./Color_Sensor" id="n-displays" class="dropdown-toggle" data-toggle="dropdown">Displays <b class="caret"></b></a><ul class="dropdown-menu " role="menu"><li id="n-main_page.2523display-lcd-oleds"><a href="./Main_Page" tabindex="-1">LCD/OLED</a></li><li id="n-main_page.2523display-e-paper"><a href="./Main_Page" tabindex="-1">e-Paper</a></li></ul></li><li class="nav"><a href="./Color_Sensor" id="n-iot" class="dropdown-toggle" data-toggle="dropdown">IoT <b class="caret"></b></a><ul class="dropdown-menu " role="menu"><li id="n-main_page.2523long-range-wireless-comm"><a href="./Main_Page" tabindex="-1">Long Range Wireless</a></li><li id="n-main_page.2523short-range-wireless-comm"><a href="./Main_Page" tabindex="-1">Short Range Wireless</a></li><li id="n-main_page.2523wired-communication"><a href="./Main_Page" tabindex="-1">Wired Comm / Converter</a></li><li id="n-main_page.2523misc-cameras-av"><a href="./Main_Page" tabindex="-1">Cameras / Audio / Video</a></li><li id="n-main_page.2523misc-sensor-modules"><a href="./Main_Page" tabindex="-1">Sensors</a></li><li id="n-main_page.2523misc-servos-motors"><a href="./Main_Page" tabindex="-1">Motors / Servos</a></li><li id="n-main_page.2523misc-other-modules"><a href="./Main_Page" tabindex="-1">others</a></li></ul></li><li class="nav"><a href="./Color_Sensor" id="n-robotics" class="dropdown-toggle" data-toggle="dropdown">Robotics <b class="caret"></b></a><ul class="dropdown-menu " role="menu"><li id="n-main_page.2523robotics-cars"><a href="./Main_Page" tabindex="-1">Mobile Robots</a></li><li id="n-main_page.2523dog-like-robots"><a href="./Main_Page" tabindex="-1">Dog-like Robots</a></li><li id="n-main_page.2523robotics-drivers-sensors"><a href="./Main_Page" tabindex="-1">Drivers / Sensors</a></li><li id="n-main_page.2523robotics-robot-arms"><a href="./Main_Page" tabindex="-1">Robot Arm / Control</a></li></ul></li><li class="nav"><a href="./Color_Sensor" id="n-mcu.252Ffpga" class="dropdown-toggle" data-toggle="dropdown">MCU/FPGA <b class="caret"></b></a><ul class="dropdown-menu " role="menu"><li id="n-main_page.2523arduino-main-boards"><a href="./Main_Page" tabindex="-1">Arduino</a></li><li id="n-main_page.2523micro.253Abit"><a href="./Main_Page" tabindex="-1">micro:bit</a></li><li id="n-main_page.2523mcu.2farm" class="LPC"><a href="./Main_Page" tabindex="-1">STM32</a></li><li id="n-main_page.2523fpga"><a href="./Main_Page" tabindex="-1">FPGA</a></li></ul></li><li class="nav"><a href="../../service.waveshare.com/index.html" id="n-https.253A.252F.252Fservice.waveshare.com" rel="nofollow" target="_blank">Support</a></li>							</ul>
+						
+													<ul class="nav navbar-nav navbar-right">
+							</ul>
+				<form class="navbar-form navbar-right" action="../w/index" id="searchform">
+					<div class="form-group"><input type="search" name="search" placeholder="Product name search" title="Search Waveshare Wiki [f]" accesskey="f" id="searchInput" class="search-query form-control"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="mw-searchButton" class="searchButton btn hidden"/>
+					</div>
+				</form><ul class="nav navbar-nav navbar-right">							</ul>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<!-- /navbar -->
+					<div id="mw-page-base"></div>
+			<div id="mw-head-base"></div>
+			<a id="top"></a>
+
+			<!-- content -->
+			<div id="contentwrapper" class="user-loggedout not-editable container with-navbar with-navbar-fixed">
+
+				
+				<div class="row">
+					<div class="col-md-offset-2 col-md-10" role="main">
+								<div class="mw-body" id="content">
+			<div id="mw-js-message" style="display:none;"></div>
+									<h1 id="firstHeading" class="firstHeading page-header" lang="en"><span dir="auto">Color Sensor</span></h1>
+									<!-- bodyContent -->
+			<div id="bodyContent">
+								<div id="siteSub">From Waveshare Wiki</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="./Color_Sensor">navigation</a>, 					<a href="./Color_Sensor">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div class="wiki-pages jet-green-color">
+<table id="infotable" class="a-r at-c roundy bgd-green bl-white" style="margin-left: 5px; margin-bottom: 5px; width: 30%;">
+
+<tbody><tr>
+<td>
+<table class="at-c roundy" style="background: transparent;width:100%;">
+
+<tbody><tr>
+<td class="at-c textwhite"><b>Color Sensor</b>
+</td></tr>
+<tr>
+<td class="at-c bgwhite" style="margin:5px;"><a href="../Color-Sensor" title="Color Sensor" target="_blank" rel="nofollow noreferrer noopener"><img alt="Color-Sensor" src="../w/upload/thumb/0/0f/Color-Sensor_l.jpg/300px-Color-Sensor_l.jpg" decoding="async" loading="lazy" width="300" height="225" srcset="../w/upload/thumb/0/0f/Color-Sensor_l.jpg/450px-Color-Sensor_l.jpg 1.5x, ../w/upload/thumb/0/0f/Color-Sensor_l.jpg/600px-Color-Sensor_l.jpg 2x" /></a><br /><br /><small>Color Sensor, complete color detector</small>
+</td></tr></tbody></table>
+</td></tr>
+<tr style="display:none;">
+<td>
+<table class="roundy" style="background: transparent;width:100%;">
+
+<tbody><tr>
+<td class="at-c textwhite"><b>{{{name2}}}</b>
+</td></tr>
+<tr>
+<td class="at-c bgwhite" style="margin:5px;"><br />
+</td></tr></tbody></table>
+</td></tr>
+<tr style="display:none;">
+<td>
+<table class="roundy" style="background: transparent;width:100%;">
+
+<tbody><tr>
+<td class="at-c textwhite"><b>{{{name3}}}</b>
+</td></tr>
+<tr>
+<td class="at-c bgwhite" style="margin:5px;"><br />
+</td></tr></tbody></table>
+</td></tr>
+<tr style="display:none;">
+<td>
+<table class="roundy" style="background: transparent;width:100%;">
+
+<tbody><tr>
+<td class="at-c textwhite"><b>{{{name4}}}</b>
+</td></tr>
+<tr>
+<td class="at-c bgwhite" style="margin:5px;"><br />
+</td></tr></tbody></table>
+</td></tr>
+<tr style="display:none;">
+<td>
+<table class="roundy" style="background: transparent;width:100%;">
+
+<tbody><tr>
+<td class="at-c textwhite"><b>{{{name5}}}</b>
+</td></tr>
+<tr>
+<td class="at-c bgwhite" style="margin:5px;"><br />
+</td></tr></tbody></table>
+</td></tr>
+<tr style="display:none;">
+<td>
+<table class="roundy" style="background: transparent;width:100%;">
+
+<tbody><tr>
+<td class="at-c textwhite"><b>{{{name6}}}</b>
+</td></tr>
+<tr>
+<td class="at-c bgwhite" style="margin:5px;"><br />
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>
+<table class="roundy" style="display:none;">
+<tbody><tr>
+<td style="width:2%;">
+</td>
+<td style="width:3%;">
+</td>
+<th colspan="2" width="90%" class="at-c roundytop bgl-white">Primary Attribute
+</th>
+<td style="width:3%;">
+</td>
+<td style="width:2%;">
+</td></tr>
+<tr>
+<td colspan="6" width="90px" class="at-c roundytl roundytr bgwhite b-green" style="border-width: 0 0 1px 0;"><b>Category:</b> <a href="./Category_Sensor" title="Category:Sensor">Sensor</a>, <a href="./Category_Modules" title="Category:Modules">Modules</a>, <a href="./Category_Light" title="Category:Light">Light</a>
+</td></tr>
+<tr style="display:none;">
+<th colspan="3" width="90px" class="at-r bgwhite b-green" style="border-width: 0 0 1px 0;">{{{userDefinedInfo}}}:
+</th>
+<td colspan="3" class="at-l b-green bgwhite" style="border-width: 0 0 1px 0;">{{{userdefinedvalue}}}
+</td></tr>
+<tr style="display:none;">
+<td colspan="6" width="90px" class="at-c roundybl roundybr bgwhite"><b>Brand:</b> Waveshare
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>
+<table class="a-r roundy" style="display:none;">
+<tbody><tr>
+<td style="width:2%;">
+</td>
+<td style="width:3%;">
+</td>
+<th colspan="2" width="90%" class="at-c roundytop bgl-white">Website
+</th>
+<td style="width:3%;">
+</td>
+<td style="width:2%;">
+</td></tr>
+<tr>
+<td colspan="6" width="90px" class="at-c roundytl roundytr bgwhite b-green" style="border-width: 0 0 1px 0;"><b>International:</b> <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="../Color-Sensor">Waveshare website</a>
+</td></tr>
+<tr>
+<td colspan="6" width="90px" class="at-c roundybl roundybr bgwhite"><b>Chinese:</b> <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="../../www.waveshare.net/shop/Color-Sensor">官方中文站点</a>
+</td></tr></tbody></table>
+</td></tr>
+<tr>
+<td>
+<table class="a-r roundy" style="background: transparent; border-collapse:collapse;width:100%;display:none;">
+<tbody><tr>
+<td style="width:2%;">
+</td>
+<td style="width:3%;">
+</td>
+<th colspan="2" width="90%" class="at-c roundytop bgl-white">Onboard Interfaces
+</th>
+<td style="width:3%;">
+</td>
+<td style="width:2%;">
+</td></tr>
+<tr>
+<td colspan="6" width="90px" class="at-l roundy bgwhite b-green" style="border-width: 0 0 1px 0;">
+<table class="roundy bgwhite fulltable" style="text-align:center;">
+
+<tbody><tr>
+<td class="roundy bl-gray bw-1" style="width:25%;;"><small><b><a href="./Category_I/Os_interface" title="Category:I/Os interface">I/Os</a></b></small>
+</td>
+<td class="roundy bl-gray bw-1" style="width:25%;display:none;"><small></small>
+</td>
+<td class="roundy bl-gray bw-1" style="width:25%;display:none;"><small></small>
+</td>
+<td class="roundy bl-gray bw-1" style="width:25%;display:none;"><small></small>
+</td></tr>
+<tr>
+<td class="roundy bl-gray bw-1" style="width:25%;display:none;"><small></small>
+</td>
+<td class="roundy bl-gray bw-1" style="width:25%;display:none;"><small></small>
+</td>
+<td class="roundy bl-gray bw-1" style="width:25%;display:none;"><small></small>
+</td>
+<td class="roundy bl-gray bw-1" style="width:25%;display:none;"><small></small>
+</td></tr>
+<tr>
+<td class="roundy bl-gray bw-1" style="width:25%;display:none;"><small></small>
+</td>
+<td class="roundy bl-gray bw-1" style="width:25%;display:none;"><small></small>
+</td>
+<td class="roundy bl-gray bw-1" style="width:25%;display:none;"><small></small>
+</td>
+<td class="roundy bl-gray bw-1" style="width:25%;display:none;"><small></small>
+</td></tr>
+<tr>
+<td class="roundy bl-gray bw-1" style="width:25%;display:none;"><small></small>
+</td>
+<td class="roundy bl-gray bw-1" style="width:25%;display:none;"><small></small>
+</td>
+<td class="roundy bl-gray bw-1" style="width:25%;display:none;"><small></small>
+</td>
+<td class="roundy bl-gray bw-1" style="width:25%;display:none;"><small></small>
+</td></tr>
+<tr>
+<td class="roundy bl-gray bw-1" style="width:25%;display:none;"><small></small>
+</td>
+<td class="roundy bl-gray bw-1" style="width:25%;display:none;"><small></small>
+</td>
+<td class="roundy bl-gray bw-1" style="width:25%;display:none;"><small></small>
+</td>
+<td class="roundy bl-gray bw-1" style="width:25%;display:none;"><small></small>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td></tr>
+<tr style="display:none;">
+<td>
+<table class="a-r roundy" style="background: transparent; border-collapse:collapse;width:100%;;display:none;">
+<tbody><tr>
+<td style="width:2%;">
+</td>
+<td style="width:3%;">
+</td>
+<th colspan="2" width="90%" class="at-c roundytop bgl-white">Related Products
+</th>
+<td style="width:3%;">
+</td>
+<td style="width:2%;">
+</td></tr>
+<tr>
+<td colspan="6" width="90px" class="at-l roundy bgwhite b-green" style="border-width: 0 0 1px 0;">
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1"><a href="./Color_Sensor"><span class="tocnumber">1</span> <span class="toctext">Overview</span></a>
+<ul>
+<li class="toclevel-2"><a href="./Color_Sensor"><span class="tocnumber">1.1</span> <span class="toctext">Specifications</span></a></li>
+<li class="toclevel-2"><a href="./Color_Sensor"><span class="tocnumber">1.2</span> <span class="toctext">Working principle</span></a></li>
+<li class="toclevel-2"><a href="./Color_Sensor"><span class="tocnumber">1.3</span> <span class="toctext">Applications</span></a></li>
+<li class="toclevel-2"><a href="./Color_Sensor"><span class="tocnumber">1.4</span> <span class="toctext">Pinouts</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="./Color_Sensor"><span class="tocnumber">2</span> <span class="toctext">Pico Guide</span></a>
+<ul>
+<li class="toclevel-2"><a href="./Color_Sensor"><span class="tocnumber">2.1</span> <span class="toctext">Hardware Connection</span></a></li>
+<li class="toclevel-2"><a href="./Color_Sensor"><span class="tocnumber">2.2</span> <span class="toctext">Download examples</span></a></li>
+<li class="toclevel-2"><a href="./Color_Sensor"><span class="tocnumber">2.3</span> <span class="toctext">Examples</span></a>
+<ul>
+<li class="toclevel-3"><a href="./Color_Sensor"><span class="tocnumber">2.3.1</span> <span class="toctext">C codes</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2"><a href="./Color_Sensor"><span class="tocnumber">2.4</span> <span class="toctext">Python</span></a>
+<ul>
+<li class="toclevel-3"><a href="./Color_Sensor"><span class="tocnumber">2.4.1</span> <span class="toctext">Use in Windows</span></a></li>
+<li class="toclevel-3"><a href="./Color_Sensor"><span class="tocnumber">2.4.2</span> <span class="toctext">Micropython codes</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2"><a href="./Color_Sensor"><span class="tocnumber">2.5</span> <span class="toctext">Expected result</span></a></li>
+<li class="toclevel-2"><a href="./Color_Sensor"><span class="tocnumber">2.6</span> <span class="toctext">Notices</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="./Color_Sensor"><span class="tocnumber">3</span> <span class="toctext">How to Use in STM32</span></a>
+<ul>
+<li class="toclevel-2"><a href="./Color_Sensor"><span class="tocnumber">3.1</span> <span class="toctext">Hardware connection</span></a></li>
+<li class="toclevel-2"><a href="./Color_Sensor"><span class="tocnumber">3.2</span> <span class="toctext">Examples</span></a></li>
+<li class="toclevel-2"><a href="./Color_Sensor"><span class="tocnumber">3.3</span> <span class="toctext">Operation and Result</span></a></li>
+<li class="toclevel-2"><a href="./Color_Sensor"><span class="tocnumber">3.4</span> <span class="toctext">Precautions</span></a></li>
+<li class="toclevel-2"><a href="./Color_Sensor"><span class="tocnumber">3.5</span> <span class="toctext">Code Analysis</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="./Color_Sensor"><span class="tocnumber">4</span> <span class="toctext">Working with Arduino</span></a>
+<ul>
+<li class="toclevel-2"><a href="./Color_Sensor"><span class="tocnumber">4.1</span> <span class="toctext">Hardware connection</span></a></li>
+<li class="toclevel-2"><a href="./Color_Sensor"><span class="tocnumber">4.2</span> <span class="toctext">Examples</span></a></li>
+<li class="toclevel-2"><a href="./Color_Sensor"><span class="tocnumber">4.3</span> <span class="toctext">Operation and Result</span></a></li>
+<li class="toclevel-2"><a href="./Color_Sensor"><span class="tocnumber">4.4</span> <span class="toctext">Precautions</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-1"><a href="./Color_Sensor"><span class="tocnumber">5</span> <span class="toctext">Resources</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="./Color_Sensor"><span class="tocnumber">6</span> <span class="toctext">FAQ</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="./Color_Sensor"><span class="tocnumber">7</span> <span class="toctext">Support</span></a></li>
+</ul>
+</div>
+
+<h1><span class="mw-headline" id="Overview">Overview</span></h1>
+<ul><li>Sensor Chip: TCS3200 (RGB color detector)</li>
+<li>Detects static color, the output is a square wave with frequency directly proportional to incident light intensity.</li>
+<li>Supports fill-light by onboard LEDs.</li></ul>
+<h2><span class="mw-headline" id="Specifications">Specifications</span></h2>
+<ul><li>Sensor Chip: TCS3200 (RGB)</li>
+<li>Power: 3.3V-5.5V</li>
+<li>Identification Type: Static</li>
+<li>Ideal detection distance: 10mm</li>
+<li>Dimension: 36.0mm * 20.6mm</li>
+<li>Mounting holes size: 2.0mm</li></ul>
+<h2><span class="mw-headline" id="Working_principle">Working principle</span></h2>
+<p>TCS3200D contains four types of filters: red filter, green filter, blue filter, and clear with no filter. When the sensor is illuminated by a ray of light, the
+types of filters (blue, green, red, or clear) used by the device can be
+selected by two logic inputs, S2 and S3. Table 2 illustrates the relationship
+among S2, S3, and filter types.
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>S2</th>
+<th>S3</th>
+<th>Filter type
+</th></tr>
+<tr>
+<td>L</td>
+<td>L</td>
+<td>Red
+</td></tr>
+<tr>
+<td>L</td>
+<td>H</td>
+<td>Blue
+</td></tr>
+<tr>
+<td>H</td>
+<td>L</td>
+<td>Clear (no filter)
+</td></tr>
+<tr>
+<td>H</td>
+<td>H</td>
+<td>Green
+</td></tr></tbody></table>
+<p>TCS3200D outputs a square wave (50% duty cycle) with a frequency corresponding to light intensity and color, and the frequency is directly proportional to light intensity. The typical output frequency of TCS3200D is in a range of 2Hz to 500KHz. Users can control frequency values of 100%, 20%, and 2% by two programmable outputs, S0 and S1, as Table 3 shown.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>S0</th>
+<th>S1</th>
+<th>Output Frequency Scaling
+</th></tr>
+<tr>
+<td>L</td>
+<td>L</td>
+<td>Power down
+</td></tr>
+<tr>
+<td>L</td>
+<td>H</td>
+<td>2%
+</td></tr>
+<tr>
+<td>H</td>
+<td>L</td>
+<td>20%
+</td></tr>
+<tr>
+<td>H</td>
+<td>H</td>
+<td>100%
+</td></tr></tbody></table>
+<p>TCS3200D has different sensitivities to red, green, and blue. As a result, the RGB output of pure white is not always 255. Therefore, a white balance adjustment is required after power-up within 2 seconds. Here are the processes.<br />
+</p>
+<ol><li>Place a white paper at the top of the sensor at a distance of 1cm, and input a High-level voltage to the LED port to light up 4 bright white LED indicators.</li>
+<li>The program selects R, G, and B filters respectively, and measures the corresponding RGB values of red, green, and blue.</li>
+<li>Calculate 3 adjustment parameters corresponding to red, green, and blue respectively, and perform automatic white balance adjustment.</li></ol>
+<h2><span class="mw-headline" id="Applications">Applications</span></h2>
+<p>This module can be applied to color sorting, environmental light induction and calibration, test strip reading, color matching tests, etc.
+</p>
+<h2><span class="mw-headline" id="Pinouts">Pinouts</span></h2>
+<p>In the case of working with an MCU:
+</p>
+<ul><li>VCC ↔ 2.7V ~ 5.5V</li>
+<li>GND ↔ power supply ground</li>
+<li>LED ↔ MCU.IO (controlling the 4 white LEDs)</li>
+<li>OUT ↔ MCU.IO (RGB color output frequency)</li>
+<li>S0/S1 ↔ MCU.IO (Output frequency scaling selection inputs)</li>
+<li>S2/S3 ↔ MCU.IO (Photodiode type selection inputs)</li></ul>
+<p>S0/S1 selects the output frequency scaling factor, S2/S3 selects the color filter of red, green, and blue, then OUT outputs a square wave with a frequency proportional to the selected color intensity. The detected color can be determined by the ratio of the intensity of red, green, and blue.<br />
+<font color="red">
+Note:<br />
+</font></p><font color="red">
+<ul><li>Avoids environmental light noise.</li>
+<li>White balance is required when the first time using the module, resetting the module, or changing the light source.</li></ul>
+</font><p><font color="red"></font>
+</p>
+<h1><span class="mw-headline" id="Pico_Guide">Pico Guide</span></h1>
+<p>If you are the first time o use the Pico, you need to first learn how to get started at the Pico before you run other examples. <br />
+The Pico supports C and the Micropython which requires different firmware.<br />
+In most of the examples archives (Demo codes), we provide a Micropython firmware (uf2 file), we recommend you to use the provided firmware to test the board. Because the codes may run abnormally with different firmware.<br />
+If the board is tested to be workable, you can also download the newest firmware from Raspberry Pi and do further programming.<br />
+</p>
+<ul><li>If you want to use C codes, please refer to the C/C++ Guides
+<ul><li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="../../datasheets.raspberrypi.com/pico/raspberry-pi-pico-c-sdk.pdf">Raspberry Pi Pico C/C++ SDK</a></li></ul></li>
+<li>If you want to use Micropython codes, please refer to the Micropython Guides.
+<ul><li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="../../datasheets.raspberrypi.com/pico/raspberry-pi-pico-python-sdk.pdf">Raspberry Pi Pico Python SDK</a></li></ul></li>
+<li>The link of the newest Micropython firmware of Pico
+<ul><li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="../../micropython.org/download/rp2-pico">Micropython firmware of Raspberry Pi Pico</a></li></ul></li>
+<li>Official Guides of Raspberry Pi Pico
+<ul><li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="../../www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico">Document of Raspberry Pi Pico</a></li></ul></li></ul>
+<h2><span class="mw-headline" id="Hardware_Connection">Hardware Connection</span></h2>
+<table class="wikitable">
+<tbody><tr>
+<th>Sensor</th>
+<th>Pico</th>
+<th>Description
+</th></tr>
+<tr>
+<td>VCC</td>
+<td>3.3V</td>
+<td>Power input
+</td></tr>
+<tr>
+<td>GMD</td>
+<td>GND</td>
+<td>Power ground
+</td></tr>
+<tr>
+<td>S0</td>
+<td>GP18</td>
+<td>Combined with S1, select output frequency scaling
+</td></tr>
+<tr>
+<td>S1</td>
+<td>GP19</td>
+<td>Combined with S2, select output frequency scaling
+</td></tr>
+<tr>
+<td>S2</td>
+<td>GP20</td>
+<td>Combined with S3, select output frequency scaling
+</td></tr>
+<tr>
+<td>S3</td>
+<td>GP21</td>
+<td>Combined with S2, select output frequency scaling
+</td></tr>
+<tr>
+<td>OUT</td>
+<td>GP17</td>
+<td>Read the output frequency of RGB
+</td></tr>
+<tr>
+<td>LED</td>
+<td>GP16</td>
+<td>Control the states of 4 LED indicators
+</td></tr></tbody></table>
+<dl><dd><a href="./File_Color-Pico_1.jpg" class="image"><img alt="Color-Pico 1.jpg" src="../w/upload/thumb/3/3b/Color-Pico_1.jpg/500px-Color-Pico_1.jpg" decoding="async" loading="lazy" width="500" height="567" srcset="../w/upload/thumb/3/3b/Color-Pico_1.jpg/750px-Color-Pico_1.jpg 1.5x, ../w/upload/3/3b/Color-Pico_1.jpg 2x" /></a></dd></dl>
+<h2><span class="mw-headline" id="Download_examples">Download examples</span></h2>
+<p>Use the Raspberry Pi as the host device. Open a terminal and run the following commands to download the example.
+</p>
+<pre>sudo apt-get install p7zip-full
+cd ~
+sudo wget  https://files.waveshare.com/upload/3/33/Color-Sensor-code.7z
+7z x Color-Sensor-code.7z -o./Color-Sensor-code
+cd ~/Color-Sensor-code
+cd Pico/c/build/
+</pre>
+<h2><span class="mw-headline" id="Examples">Examples</span></h2>
+<h3><span class="mw-headline" id="C_codes">C codes</span></h3>
+<ul><li>Go into the c directory:</li></ul>
+<pre>cd ~/Color-Sensor-code/Pico/c/
+</pre>
+<ul><li>Add the path of the SDK:</li></ul>
+<pre>cd build
+export PICO_SDK_PATH=../../pico-sdk
+</pre>
+<dl><dd>Note that if the path of your SDK is different, you need to modify the command and use the correct path to export.</dd></dl>
+<ul><li>Generate Makefile and build.</li></ul>
+<pre>cmake ..
+make -j9
+</pre>
+<ul><li>After building, a uf2 file is generated.</li>
+<li>Press and hold the button of Pico, connect it to Raspberry Pi then release the button.</li>
+<li>Copy/Drag the uf2 file to the portable disk (RPI-RP2) recognized.</li></ul>
+<pre>cp main.uf2 /media/pi/RPI-RP2/
+</pre>
+<h2><span class="mw-headline" id="Python">Python</span></h2>
+<h3><span class="mw-headline" id="Use_in_Windows">Use in Windows</span></h3>
+<ul><li>1. Press and hold the BOOTSET button on the Pico board, connect the Pico to the USB port of the computer through the Micro USB cable, and release the button after the computer recognizes a removable hard disk (RPI-RP2).</li>
+<li>2. Copy the rp2-pico-20210418-v1.15.uf2 file in the Python directory to the recognized removable disk (RPI-RP2).</li>
+<li>3. Open Thonny IDE (note: use the latest version of Thonny, otherwise there is no Pico support package, the latest version under Windows is v3.3.3).</li>
+<li>4. Click Tools -&gt; Settings -&gt; Interpreter, and select Pico and the corresponding port as shown in the figure.</li></ul>
+<p><a href="./File_Pico-lcd-0.96-img-config.png" class="image"><img alt="Pico-lcd-0.96-img-config.png" src="../w/upload/c/cd/Pico-lcd-0.96-img-config.png" decoding="async" loading="lazy" width="599" height="512" /></a><br />
+</p>
+<ul><li>File -&gt; Open -&gt; Color Sensor.py, click to run, as shown below:</li></ul>
+<p><a href="./File_Pico-lcd-0.96-img-run.png" class="image"><img alt="Pico-lcd-0.96-img-run.png" src="../w/upload/2/2c/Pico-lcd-0.96-img-run.png" decoding="async" loading="lazy" width="772" height="112" /></a><br />
+</p>
+<h3><span class="mw-headline" id="Micropython_codes">Micropython codes</span></h3>
+<ul><li>Flash the Micropython firmware first.</li>
+<li>Open the Thonny IDE (Menu -&gt; Programming -&gt; Thonny Python IDE).</li>
+<li>【Optional】If the Thonny IDE in the Raspberry Pi is not the new version that supports Pico, please upgrade it first.</li></ul>
+<pre>sudo apt upgrade thonny
+</pre>
+<ul><li>Configure Interpreter, choose Tools -&gt; Options... -&gt; Interpreter, choose MicroPython (Raspberry Pi Pico) and the ttyACM0 port.</li></ul>
+<dl><dd><a href="./File_Pico-lcd-0.96-img-config2.png" class="image" title="400"><img alt="400" src="../w/upload/a/a9/Pico-lcd-0.96-img-config2.png" decoding="async" loading="lazy" width="691" height="588" /></a></dd></dl>
+<ul><li>Click File -&gt; Open..  and browser the micropython codes (Color Sensor.py) to run the codes.</li></ul>
+<h2><span class="mw-headline" id="Expected_result">Expected result</span></h2>
+<ul><li>Place the white paper 1cm above the four bright white LEDs of the sensor.</li>
+<li>Power up the development board. At this time, the LED port is set to a high level, and the four bright white LEDs light up.</li>
+<li>Wait for more than 2 seconds after power-on (the white balance is being adjusted at this time).</li>
+<li>After the adjustment, the sensor is facing the object to be measured, and the serial port outputs the corresponding RGB data.</li></ul>
+<h2><span class="mw-headline" id="Notices">Notices</span></h2>
+<ul><li>Light interference from outside should be avoided, which may affect the result of color identification. It is recommended to place the light source and Color Sensor in a close, light reflection-free box for testing.</li>
+<li>White balance adjustment is required whenever the Color Sensor module is reset or the light source is changed.</li></ul>
+<p>The STM32 examples are based on the STM32F103RBT6 and the STM32H743. The connection provided below is based on the STM32F103RB. If you need to use other STM32 boards, you may need to change the hardware connection and port the code yourself.
+</p>
+<h1><span class="mw-headline" id="How_to_Use_in_STM32">How to Use in STM32</span></h1>
+<h2><span class="mw-headline" id="Hardware_connection_2">Hardware connection</span></h2>
+<table class="wikitable">
+<tbody><tr>
+<th>Sensor</th>
+<th>STM32</th>
+<th>Description
+</th></tr>
+<tr>
+<td>VCC</td>
+<td>3.3V</td>
+<td>Power input
+</td></tr>
+<tr>
+<td>GMD</td>
+<td>GND</td>
+<td>Power ground
+</td></tr>
+<tr>
+<td>S0</td>
+<td>NC</td>
+<td>Combined with S1, select output frequency scaling
+</td></tr>
+<tr>
+<td>S1</td>
+<td>NC</td>
+<td>Combined with S2, select output frequency scaling
+</td></tr>
+<tr>
+<td>S2</td>
+<td>GPIOA.5</td>
+<td>Combined with S3, select output frequency scaling
+</td></tr>
+<tr>
+<td>S3</td>
+<td>GPIOA.4</td>
+<td>Combined with S2, select output frequency scaling
+</td></tr>
+<tr>
+<td>OUT</td>
+<td>GPIOA.0</td>
+<td>Read the output frequency of RGB
+</td></tr>
+<tr>
+<td>LED</td>
+<td>3.3V</td>
+<td>Control the states of 4 LED indicators
+</td></tr></tbody></table>
+<p><font color="#FF0000">Note: The STM32H743 requires S2 to be connected to GPIOA.3.</font> 
+</p>
+<dl><dd><a href="./File_Color-STM32_1.jpg" class="image"><img alt="Color-STM32 1.jpg" src="../w/upload/thumb/0/00/Color-STM32_1.jpg/500px-Color-STM32_1.jpg" decoding="async" loading="lazy" width="500" height="339" srcset="../w/upload/thumb/0/00/Color-STM32_1.jpg/750px-Color-STM32_1.jpg 1.5x, ../w/upload/thumb/0/00/Color-STM32_1.jpg/1000px-Color-STM32_1.jpg 2x" /></a></dd></dl>
+<h2><span class="mw-headline" id="Examples_2">Examples</span></h2>
+<p>The examples are developed based on the HAL libraries. Download the Demo codes archive to your PC. Unzip and find the STM32 project from Color-Sensor-code\STM32\STM32F103RB\MDK-ARM.<br />
+</p>
+<ul><li>Open the Color Sensor.uvprojx file by Keil.</li>
+<li>Build and the project.</li>
+<li>Program the project to your STM32 board.</li>
+<li>Connect the UART1 of your STM32 board to the PC and check the serial data with SSCOM software.</li></ul>
+<dl><dd><a href="./File_Color_STM32_3.png" class="image"><img alt="Color STM32 3.png" src="../w/upload/thumb/3/3c/Color_STM32_3.png/600px-Color_STM32_3.png" decoding="async" loading="lazy" width="600" height="452" srcset="../w/upload/3/3c/Color_STM32_3.png 1.5x" /></a></dd></dl>
+<h2><span class="mw-headline" id="Operation_and_Result">Operation and Result</span></h2>
+<p>1. Place the white paper 1CM above the four bright white LED side of the sensor (hereinafter referred to as the front).<br />
+2. Power on the development board. At this time, the LED port is connected to a high level, and the four high-bright white LEDs are on.<br />
+3. Wait for more than 2 seconds after power on (white balance is being adjusted at this time).<br />
+4. After the adjustment, please put the sensor facing the object to be measured, and the serial port outputs the corresponding RGB data.<br />
+Refer to the color comparison table to know the detected color.<br />
+</p>
+<h2><span class="mw-headline" id="Precautions">Precautions</span></h2>
+<p>1. Avoid the interference of external light during color recognition, otherwise it will affect the result of color recognition.<br />
+Place the Color Sensor and light source etc. in a closed, non-reflective box for testing.<br />
+2. White balance adjustment is required every time the Color Sensor module is restarted or the light source is replaced.<br />
+</p>
+<h2><span class="mw-headline" id="Code_Analysis">Code Analysis</span></h2>
+<p>The processing function is in the main.c file, below the main function.
+</p>
+<pre>void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) //Interrupt callback
+</pre>
+<p>The Arduino example is written for the Arduino UNO. If you want to connect it to other Arduino boards, you may need to change the connection.<br />
+</p>
+<h1><span class="mw-headline" id="Working_with_Arduino">Working with Arduino</span></h1>
+<h2><span class="mw-headline" id="Hardware_connection_3">Hardware connection</span></h2>
+<table class="wikitable">
+<tbody><tr>
+<th>Sensor</th>
+<th>Arduino</th>
+<th>Description
+</th></tr>
+<tr>
+<td>VCC</td>
+<td>5V</td>
+<td>Power input
+</td></tr>
+<tr>
+<td>GMD</td>
+<td>GND</td>
+<td>Power ground
+</td></tr>
+<tr>
+<td>S0</td>
+<td>D6</td>
+<td>Combined with S1, select output frequency scaling
+</td></tr>
+<tr>
+<td>S1</td>
+<td>D5</td>
+<td>Combined with S2, select output frequency scaling
+</td></tr>
+<tr>
+<td>S2</td>
+<td>D4</td>
+<td>Combined with S3, select output frequency scaling
+</td></tr>
+<tr>
+<td>S3</td>
+<td>D3</td>
+<td>Combined with S2, select output frequency scaling
+</td></tr>
+<tr>
+<td>OUT</td>
+<td>D2</td>
+<td>Read the output frequency of RGB
+</td></tr>
+<tr>
+<td>LED</td>
+<td>GP16</td>
+<td>Control the states of 4 LED indicators
+</td></tr></tbody></table>
+<dl><dd><a href="./File_Color-Arduino_1.jpg" class="image"><img alt="Color-Arduino 1.jpg" src="../w/upload/thumb/f/f2/Color-Arduino_1.jpg/400px-Color-Arduino_1.jpg" decoding="async" loading="lazy" width="400" height="241" srcset="../w/upload/thumb/f/f2/Color-Arduino_1.jpg/600px-Color-Arduino_1.jpg 1.5x, ../w/upload/thumb/f/f2/Color-Arduino_1.jpg/800px-Color-Arduino_1.jpg 2x" /></a></dd></dl>
+<h2><span class="mw-headline" id="Examples_3">Examples</span></h2>
+<ul><li>Download the demo codes to your PC and unzip.</li>
+<li>Install the <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="../../www.arduino.cc/en/Main/Software">Arduino IDE</a> on your PC.</li>
+<li>Go into Color-Sensor-code/Arduino/Color_Sensor.</li>
+<li>Run the Color_Senosr.ino file.</li>
+<li>Select the correct Board and the Port.</li></ul>
+<dl><dd><a href="./File_MQ5_Arduino_1.jpg" class="image"><img alt="MQ5 Arduino 1.jpg" src="../w/upload/thumb/a/a9/MQ5_Arduino_1.jpg/500px-MQ5_Arduino_1.jpg" decoding="async" loading="lazy" width="500" height="299" srcset="../w/upload/a/a9/MQ5_Arduino_1.jpg 1.5x" /></a></dd></dl>
+<ul><li>Build the project and upload it to the board.</li>
+<li>Open the serial monitor of the Arduino IDE or the SSCOM software and check the serial data.</li></ul>
+<dl><dd><a href="./File_Color_Arduino_3.png" class="image"><img alt="Color Arduino 3.png" src="../w/upload/thumb/6/6c/Color_Arduino_3.png/500px-Color_Arduino_3.png" decoding="async" loading="lazy" width="500" height="376" srcset="../w/upload/thumb/6/6c/Color_Arduino_3.png/750px-Color_Arduino_3.png 1.5x, ../w/upload/6/6c/Color_Arduino_3.png 2x" /></a></dd></dl>
+<h2><span class="mw-headline" id="Operation_and_Result_2">Operation and Result</span></h2>
+<p>1. Place the white paper 1CM above the four bright white LED side of the sensor (hereinafter referred to as the front).<br />
+2. Power on the development board. At this time, the LED port is connected to a high level, and the four high-bright white LEDs are on.<br />
+3. Wait for more than 2 seconds after power on (white balance is being adjusted at this time).<br />
+4. After the adjustment, please put the sensor facing the object to be measured, and the serial port outputs the corresponding RGB data.<br />
+Refer to the color comparison table to know the detected color.<br />
+</p>
+<h2><span class="mw-headline" id="Precautions_2">Precautions</span></h2>
+<p>1. Avoid the interference of external light during color recognition, otherwise it will affect the result of color recognition.<br />
+Place the Color Sensor and light source etc. in a closed, non-reflective box for testing.<br />
+2. White balance adjustment is required every time the Color Sensor module is restarted or the light source is replaced.<br />
+</p>
+<h1><span class="mw-headline" id="Resources">Resources</span></h1>
+<ul><li><a href="./File_TCS3200.pdf" title="File:TCS3200.pdf">Datasheets</a></li>
+<li><a href="./File_Color-Sensor-UserManual.pdf" title="File:Color-Sensor-UserManual.pdf">User Manual</a></li>
+<li><a href="./File_Color-Sensor-Schematic.pdf" title="File:Color-Sensor-Schematic.pdf">Schematic</a></li>
+<li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="../../files.waveshare.com/upload/3/33/Color-Sensor-code">Demo Code</a></li>
+<li><a href="./Color-Sensor_Software" title="Color-Sensor Software">Software</a></li></ul>
+<h1><span class="mw-headline" id="FAQ">FAQ</span></h1>
+<div class="panel-group">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="./Color_Sensor">
+								Question: Why the color data from the color sensor is different from the actual color?
+
+							</a>
+						</h4>
+					</div>
+					<div id="accordion1" class="panel-collapse collapse in">
+						<div class="panel-body">
+<div>&#160;<b>Answer:</b></div>
+<div>After powered up, the color sensor should have a white balance adjustment before use. Connect the sensor to a development board, and download the corresponding Demo to the development board. Then, place a white object at the top of the sensor in a distance of 1cm and power up the development board. The white balance adjustment will take 3 seconds. When finished, the sensor is ready for color detection. Placing an object to be measured at the front side of the sensor, you will get the actual color of this object.
+</div>
+<div style="display:none;">{{{3}}}</div>
+<div style="display:none;">{{{4}}}</div>
+<p><font color="red" style="display:none;">{{{5}}}</font>
+</p>
+						</div>
+					</div>
+				</div>
+</div>
+<p><br />
+</p>
+<div class="panel-group">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="./Color_Sensor">
+								Question: What other choices do I have?
+
+							</a>
+						</h4>
+					</div>
+					<div id="accordion2" class="panel-collapse collapse in">
+						<div class="panel-body">
+<div>&#160;<b>Answer:</b></div>
+<div>Perhaps you'd like:
+<table style="width:auto;">
+<tbody><tr>
+<td>
+<table class="a-l at-c" style="width:220px;margin:5px;">
+<tbody><tr>
+<th class="textwhite bg-green">
+<p>Color Sensor
+</p>
+</th></tr>
+<tr>
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;"><a href="./Color_Sensor" title="Color Sensor"><img alt="Color-Sensor" src="../w/upload/thumb/1/14/Color-Sensor-1.jpg/290px-Color-Sensor-1.jpg" decoding="async" loading="lazy" width="290" height="218" srcset="../w/upload/1/14/Color-Sensor-1.jpg 1.5x" /></a>
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{2}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{3}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{4}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{5}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{6}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{7}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{8}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{9}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{10}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{11}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{12}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{13}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{14}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{15}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{16}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{17}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{18}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{19}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{20}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{21}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{22}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{23}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{24}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{25}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{26}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{27}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{28}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{29}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{30}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{31}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{32}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{33}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{34}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{35}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{36}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{37}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{38}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{39}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{40}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{41}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{42}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{43}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{44}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{45}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{46}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{47}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{48}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{49}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{50}}}
+</td></tr></tbody></table>
+<table class="a-l at-c" style="width:220px;margin:5px;">
+<tbody><tr>
+<th class="textwhite bg-green">
+<p>Flame Sensor
+</p>
+</th></tr>
+<tr>
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;"><a href="./Flame_Sensor" title="Flame Sensor"><img alt="Flame-Sensor" src="../w/upload/thumb/3/38/Flame-Sensor-1.jpg/290px-Flame-Sensor-1.jpg" decoding="async" loading="lazy" width="290" height="218" srcset="../w/upload/3/38/Flame-Sensor-1.jpg 1.5x" /></a>
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{2}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{3}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{4}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{5}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{6}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{7}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{8}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{9}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{10}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{11}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{12}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{13}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{14}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{15}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{16}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{17}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{18}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{19}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{20}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{21}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{22}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{23}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{24}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{25}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{26}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{27}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{28}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{29}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{30}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{31}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{32}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{33}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{34}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{35}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{36}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{37}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{38}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{39}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{40}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{41}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{42}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{43}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{44}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{45}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{46}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{47}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{48}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{49}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{50}}}
+</td></tr></tbody></table>
+<table class="a-l at-c" style="width:220px;margin:5px;">
+<tbody><tr>
+<th class="textwhite bg-green">
+<p>Hall Sensor
+</p>
+</th></tr>
+<tr>
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;"><a href="./Hall_Sensor" title="Hall Sensor"><img alt="Hall-Sensor" src="../w/upload/thumb/7/78/Hall-Sensor-1.jpg/290px-Hall-Sensor-1.jpg" decoding="async" loading="lazy" width="290" height="218" srcset="../w/upload/7/78/Hall-Sensor-1.jpg 1.5x" /></a>
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{2}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{3}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{4}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{5}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{6}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{7}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{8}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{9}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{10}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{11}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{12}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{13}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{14}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{15}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{16}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{17}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{18}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{19}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{20}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{21}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{22}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{23}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{24}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{25}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{26}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{27}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{28}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{29}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{30}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{31}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{32}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{33}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{34}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{35}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{36}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{37}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{38}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{39}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{40}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{41}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{42}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{43}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{44}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{45}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{46}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{47}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{48}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{49}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{50}}}
+</td></tr></tbody></table>
+<table class="a-l at-c" style="width:220px;margin:5px;">
+<tbody><tr>
+<th class="textwhite bg-green">
+<p>Infrared Reflective Sensor
+</p>
+</th></tr>
+<tr>
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;"><a href="./Infrared_Reflective_Sensor" title="Infrared Reflective Sensor"><img alt="Infrared-Reflective-Sensor-1" src="../w/upload/thumb/4/48/Infrared-Reflective-Sensor-1.jpg/290px-Infrared-Reflective-Sensor-1.jpg" decoding="async" loading="lazy" width="290" height="218" srcset="../w/upload/4/48/Infrared-Reflective-Sensor-1.jpg 1.5x" /></a>
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{2}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{3}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{4}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{5}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{6}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{7}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{8}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{9}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{10}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{11}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{12}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{13}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{14}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{15}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{16}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{17}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{18}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{19}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{20}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{21}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{22}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{23}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{24}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{25}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{26}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{27}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{28}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{29}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{30}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{31}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{32}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{33}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{34}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{35}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{36}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{37}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{38}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{39}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{40}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{41}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{42}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{43}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{44}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{45}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{46}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{47}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{48}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{49}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{50}}}
+</td></tr></tbody></table>
+<table class="a-l at-c" style="width:220px;margin:5px;">
+<tbody><tr>
+<th class="textwhite bg-green">
+<p>Laser Sensor
+</p>
+</th></tr>
+<tr>
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;"><a href="./Laser_Sensor" title="Laser Sensor"><img alt="Laser-Sensor" src="../w/upload/thumb/5/54/Laser-Sensor-1.jpg/290px-Laser-Sensor-1.jpg" decoding="async" loading="lazy" width="290" height="218" srcset="../w/upload/5/54/Laser-Sensor-1.jpg 1.5x" /></a>
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{2}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{3}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{4}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{5}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{6}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{7}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{8}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{9}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{10}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{11}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{12}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{13}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{14}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{15}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{16}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{17}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{18}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{19}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{20}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{21}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{22}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{23}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{24}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{25}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{26}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{27}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{28}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{29}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{30}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{31}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{32}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{33}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{34}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{35}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{36}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{37}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{38}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{39}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{40}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{41}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{42}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{43}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{44}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{45}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{46}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{47}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{48}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{49}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{50}}}
+</td></tr></tbody></table>
+<table class="a-l at-c" style="width:220px;margin:5px;">
+<tbody><tr>
+<th class="textwhite bg-green">
+<p>Liquid Level Sensor
+</p>
+</th></tr>
+<tr>
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;"><a href="./Liquid_Level_Sensor" title="Liquid Level Sensor"><img alt="Liquid-Level-Sensor" src="../w/upload/thumb/9/91/Liquid-Level-Sensor-1.jpg/290px-Liquid-Level-Sensor-1.jpg" decoding="async" loading="lazy" width="290" height="218" srcset="../w/upload/9/91/Liquid-Level-Sensor-1.jpg 1.5x" /></a>
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{2}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{3}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{4}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{5}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{6}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{7}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{8}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{9}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{10}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{11}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{12}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{13}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{14}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{15}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{16}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{17}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{18}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{19}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{20}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{21}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{22}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{23}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{24}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{25}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{26}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{27}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{28}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{29}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{30}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{31}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{32}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{33}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{34}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{35}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{36}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{37}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{38}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{39}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{40}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{41}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{42}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{43}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{44}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{45}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{46}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{47}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{48}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{49}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{50}}}
+</td></tr></tbody></table>
+<table class="a-l at-c" style="width:220px;margin:5px;">
+<tbody><tr>
+<th class="textwhite bg-green">
+<p>Moisture Sensor
+</p>
+</th></tr>
+<tr>
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;"><a href="./Moisture_Sensor" title="Moisture Sensor"><img alt="Moisture-Sensor" src="../w/upload/thumb/2/2c/Moisture-Sensor-1.jpg/290px-Moisture-Sensor-1.jpg" decoding="async" loading="lazy" width="290" height="218" srcset="../w/upload/2/2c/Moisture-Sensor-1.jpg 1.5x" /></a>
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{2}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{3}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{4}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{5}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{6}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{7}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{8}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{9}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{10}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{11}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{12}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{13}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{14}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{15}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{16}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{17}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{18}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{19}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{20}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{21}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{22}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{23}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{24}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{25}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{26}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{27}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{28}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{29}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{30}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{31}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{32}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{33}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{34}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{35}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{36}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{37}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{38}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{39}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{40}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{41}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{42}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{43}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{44}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{45}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{46}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{47}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{48}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{49}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{50}}}
+</td></tr></tbody></table>
+<table class="a-l at-c" style="width:220px;margin:5px;">
+<tbody><tr>
+<th class="textwhite bg-green">
+<p>MQ5 Gas Sensor
+</p>
+</th></tr>
+<tr>
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;"><a href="./MQ-5_Gas_Sensor" title="MQ5 Gas Sensor"><img alt="MQ-5-Gas-Sensor" src="../w/upload/thumb/4/43/MQ-5-Gas-Sensor-1.jpg/290px-MQ-5-Gas-Sensor-1.jpg" decoding="async" loading="lazy" width="290" height="218" srcset="../w/upload/4/43/MQ-5-Gas-Sensor-1.jpg 1.5x" /></a>
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{2}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{3}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{4}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{5}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{6}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{7}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{8}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{9}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{10}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{11}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{12}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{13}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{14}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{15}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{16}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{17}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{18}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{19}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{20}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{21}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{22}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{23}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{24}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{25}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{26}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{27}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{28}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{29}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{30}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{31}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{32}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{33}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{34}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{35}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{36}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{37}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{38}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{39}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{40}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{41}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{42}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{43}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{44}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{45}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{46}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{47}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{48}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{49}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{50}}}
+</td></tr></tbody></table>
+<table class="a-l at-c" style="width:220px;margin:5px;">
+<tbody><tr>
+<th class="textwhite bg-green">
+<p>Rotation Sensor
+</p>
+</th></tr>
+<tr>
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;"><a href="./Rotation_Sensor" title="Rotation Sensor"><img alt="Rotation-Sensor" src="../w/upload/thumb/3/32/Rotation-Sensor-1.jpg/290px-Rotation-Sensor-1.jpg" decoding="async" loading="lazy" width="290" height="218" srcset="../w/upload/3/32/Rotation-Sensor-1.jpg 1.5x" /></a>
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{2}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{3}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{4}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{5}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{6}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{7}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{8}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{9}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{10}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{11}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{12}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{13}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{14}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{15}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{16}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{17}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{18}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{19}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{20}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{21}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{22}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{23}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{24}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{25}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{26}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{27}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{28}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{29}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{30}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{31}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{32}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{33}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{34}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{35}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{36}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{37}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{38}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{39}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{40}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{41}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{42}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{43}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{44}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{45}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{46}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{47}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{48}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{49}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{50}}}
+</td></tr></tbody></table>
+<table class="a-l at-c" style="width:220px;margin:5px;">
+<tbody><tr>
+<th class="textwhite bg-green">
+<p>Sound Sensor
+</p>
+</th></tr>
+<tr>
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;"><a href="./Sound_Sensor" title="Sound Sensor"><img alt="Sound-Sensor" src="../w/upload/thumb/8/8f/Sound-Sensor-1.jpg/290px-Sound-Sensor-1.jpg" decoding="async" loading="lazy" width="290" height="218" srcset="../w/upload/8/8f/Sound-Sensor-1.jpg 1.5x" /></a>
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{2}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{3}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{4}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{5}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{6}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{7}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{8}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{9}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{10}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{11}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{12}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{13}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{14}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{15}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{16}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{17}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{18}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{19}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{20}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{21}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{22}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{23}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{24}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{25}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{26}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{27}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{28}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{29}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{30}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{31}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{32}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{33}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{34}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{35}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{36}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{37}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{38}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{39}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{40}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{41}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{42}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{43}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{44}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{45}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{46}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{47}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{48}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{49}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{50}}}
+</td></tr></tbody></table>
+<table class="a-l at-c" style="width:220px;margin:5px;">
+<tbody><tr>
+<th class="textwhite bg-green">
+<p>DHT11 Temperature-Humidity Sensor
+</p>
+</th></tr>
+<tr>
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;"><a href="./DHT11_Temperature-Humidity_Sensor" title="DHT11 Temperature Humidity Sensor"><img alt="Temperature-Humidity-Sensor" src="../w/upload/thumb/5/5e/Temperature-Humidity-Sensor-1.jpg/290px-Temperature-Humidity-Sensor-1.jpg" decoding="async" loading="lazy" width="290" height="218" srcset="../w/upload/5/5e/Temperature-Humidity-Sensor-1.jpg 1.5x" /></a>
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{2}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{3}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{4}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{5}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{6}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{7}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{8}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{9}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{10}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{11}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{12}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{13}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{14}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{15}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{16}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{17}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{18}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{19}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{20}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{21}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{22}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{23}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{24}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{25}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{26}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{27}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{28}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{29}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{30}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{31}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{32}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{33}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{34}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{35}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{36}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{37}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{38}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{39}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{40}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{41}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{42}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{43}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{44}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{45}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{46}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{47}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{48}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{49}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{50}}}
+</td></tr></tbody></table>
+<table class="a-l at-c" style="width:220px;margin:5px;">
+<tbody><tr>
+<th class="textwhite bg-green">
+<p>Tilt Sensor
+</p>
+</th></tr>
+<tr>
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;"><a href="./Tilt_Sensor" title="Tilt Sensor"><img alt="Tilt-Sensor-1" src="../w/upload/thumb/f/ff/Tilt-Sensor-1.jpg/290px-Tilt-Sensor-1.jpg" decoding="async" loading="lazy" width="290" height="218" srcset="../w/upload/f/ff/Tilt-Sensor-1.jpg 1.5x" /></a>
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{2}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{3}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{4}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{5}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{6}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{7}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{8}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{9}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{10}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{11}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{12}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{13}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{14}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{15}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{16}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{17}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{18}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{19}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{20}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{21}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{22}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{23}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{24}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{25}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{26}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{27}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{28}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{29}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{30}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{31}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{32}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{33}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{34}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{35}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{36}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{37}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{38}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{39}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{40}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{41}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{42}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{43}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{44}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{45}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{46}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{47}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{48}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{49}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{50}}}
+</td></tr></tbody></table>
+<table class="a-l at-c" style="width:220px;margin:5px;">
+<tbody><tr>
+<th class="textwhite bg-green">
+<p>UV Sensor
+</p>
+</th></tr>
+<tr>
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;"><a href="./UV_Sensor" title="UV Sensor"><img alt="UV-Sensor" src="../w/upload/thumb/d/d6/UV-Sensor-1.jpg/290px-UV-Sensor-1.jpg" decoding="async" loading="lazy" width="290" height="218" srcset="../w/upload/d/d6/UV-Sensor-1.jpg 1.5x" /></a>
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{2}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{3}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{4}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{5}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{6}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{7}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{8}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{9}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{10}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{11}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{12}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{13}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{14}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{15}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{16}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{17}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{18}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{19}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{20}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{21}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{22}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{23}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{24}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{25}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{26}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{27}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{28}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{29}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{30}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{31}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{32}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{33}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{34}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{35}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{36}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{37}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{38}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{39}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{40}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{41}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{42}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{43}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{44}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{45}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{46}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{47}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{48}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{49}}}
+</td></tr>
+<tr style="display:none;">
+<td class="at-l roundy-6 bgwhite" style="width:100%;margin:1px;">{{{50}}}
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+</div>
+<div style="display:none;">{{{3}}}</div>
+<div style="display:none;">{{{4}}}</div>
+<p><font color="red" style="display:none;">{{{5}}}</font>
+</p>
+						</div>
+					</div>
+				</div>
+</div>
+<p><br />
+</p>
+<h1><span class="mw-headline" id="Support">Support</span></h1>
+<p><br />
+<br />
+</p>
+<div style="background:linear-gradient(to bottom right,#91C942,#7DB036); border-radius:15px; width:100%;min-width:750px;">
+<div style="display:flex;flex-direction: row;align-items: flex-start;">
+<div style="flex:l; font-size:15px; width:70%; margin-top:20px; margin-bottom:20px; margin-right:40px;padding-left:40px;">
+<p style="font-size:20px; font-weight:bold;">
+Technical Support
+</p>
+<p>
+If you need technical support or have any feedback/review, please click the <b>Submit Now</b> button to submit a ticket, Our support team will check and reply to you within 1 to 2 working days. Please be patient as we make every effort to help you to resolve the issue. 
+<br /> 
+Working Time: 9 AM - 6 PM GMT+8 (Monday to Friday)
+</p>
+</div>
+<div style="margin-top:94px;">
+<div id="service" style="display:flex; flex:r; background-color:#393939; color:white; text-align:center; font-size:20px; border-radius:20px;">
+<p><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="../../service.waveshare.com/index.html">Submit Now</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- 
+NewPP limit report
+Cached time: 20261104194902
+Cache expiry: 0
+Dynamic content: true
+Complications: []
+CPU time usage: 0.425 seconds
+Real time usage: 0.581 seconds
+Preprocessor visited node count: 3200/1000000
+Post‐expand include size: 162472/2097152 bytes
+Template argument size: 130847/2097152 bytes
+Highest expansion depth: 9/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 79794/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  333.726      1 -total
+ 66.68%  222.514      2 Template:FAQ
+ 19.81%   66.119      1 Template:List_of_sensors_pack
+ 15.23%   50.835     13 Template:Itemlist
+  9.22%   30.766      1 Template:Infobox_item
+  8.45%   28.197      1 Template:Color_Sensor_Pico_Guide
+  4.54%   15.138      1 Template:Color_Sensor_STM32_Guide
+  3.89%   12.985      1 Template:Pico_Get_Start
+  3.85%   12.847      1 Template:Color_Sensor_Spec
+  3.59%   11.981      1 Template:Servicebox1
+-->
+</div></div>								<div class="printfooter">
+				Retrieved from "<a dir="ltr" href="../w/index__e514abe4">https://www.waveshare.com/w/index.php?title=Color_Sensor&amp;oldid=68852</a>"				</div>
+												<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden category: <ul><li><a href="./Category_I/Os_interface" title="Category:I/Os interface">I/Os interface</a></li></ul></div></div>												<div class="visualClear"></div>
+							</div>
+			<!-- /bodyContent -->
+		</div>
+						</div>
+				</div>
+			</div>
+			<!-- /content -->
+
+			<!-- sidebar-left -->
+			<div class="sidebar-wrapper sidebar-left-wrapper">
+				<div class="sidebar-container container">
+					<div class="row">
+						<div id="sidebar-left" class="col-md-2 col-md-offset-0">
+							<div id="tweekiTOC"></div>						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /sidebar-left -->
+					<!-- footer -->
+			<div id="footer" role="contentinfo" class="footer container footer-sticky bg-light">
+			<ul id="footer-custom"><li class="dropup"><a href="../w/index__54284e73" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Login / Create Account</a></li></ul><div style="clear:both"></div>			</div>
+			<!-- /footer -->
+		
+<script>
+var fbtFancyBoxOptions = {};
+</script>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.425","walltime":"0.581","ppvisitednodes":{"value":3200,"limit":1000000},"postexpandincludesize":{"value":162472,"limit":2097152},"templateargumentsize":{"value":130847,"limit":2097152},"expansiondepth":{"value":9,"limit":40},"expensivefunctioncount":{"value":0,"limit":100},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":79794,"limit":5000000},"timingprofile":["100.00%  333.726      1 -total"," 66.68%  222.514      2 Template:FAQ"," 19.81%   66.119      1 Template:List_of_sensors_pack"," 15.23%   50.835     13 Template:Itemlist","  9.22%   30.766      1 Template:Infobox_item","  8.45%   28.197      1 Template:Color_Sensor_Pico_Guide","  4.54%   15.138      1 Template:Color_Sensor_STM32_Guide","  3.89%   12.985      1 Template:Pico_Get_Start","  3.85%   12.847      1 Template:Color_Sensor_Spec","  3.59%   11.981      1 Template:Servicebox1"]},"cachereport":{"timestamp":"20261104194902","ttl":0,"transientcontent":true}}});mw.config.set({"wgBackendResponseTime":1128});});</script>	<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a55623b48a65f362',t:'MTc5MzgyMTc0MA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a55623b48a65f362',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

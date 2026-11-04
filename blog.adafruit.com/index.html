@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<title> Adafruit Industries &#8211; Makers, hackers, artists, designers and engineers!</title>
+
+	<meta name='robots' content='max-image-preview:large' />
+<link rel="alternate" type="application/rss+xml" title="Adafruit Industries - Makers, hackers, artists, designers and engineers! &raquo; Feed" href="./feed" />
+<link rel="alternate" type="application/rss+xml" title="Adafruit Industries - Makers, hackers, artists, designers and engineers! &raquo; Comments Feed" href="./comments/feed" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='the-neverending-homepage-css' href='./app/plugins/jetpack/modules/infinite-scroll/infinity.css' media='all' />
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<style id="jetpack-stats-inline-css">
+img#wpstats{display:none}
+/*# sourceURL=jetpack-stats-inline-css */
+</style>
+<link rel='stylesheet' id='wp-syntax-css-css' href='./app/plugins/wp-syntax/css/wp-syntax.css' media='all' />
+<link rel='stylesheet' id='af-core-css' href='./app/themes/adafruit2013/style.css' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='./app/themes/adafruit2013/font-awesome.min.css' media='all' />
+<script id="jquery-core-js" src="./wp/wp-includes/js/jquery/jquery.min.js"></script>
+<script id="jquery-migrate-js" src="./wp/wp-includes/js/jquery/jquery-migrate.min.js"></script>
+<script id="modernizr-js" src="./app/themes/adafruit2013/js/modernizr.js"></script>
+<script id="adafruit.dropdown-js" src="./app/themes/adafruit2013/js/adafruit.dropdown.js"></script>
+<script id="bootstrap.min-js" src="./app/themes/adafruit2013/js/bootstrap.min.js"></script>
+<script id="web-common/adafruit-sites-navigation-js" src="./app/themes/adafruit2013/js/web-common/adafruit-sites-navigation.js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="./wp/xmlrpc__0db0f93c" />
+<meta name="generator" content="WordPress 7.1.4" />
+<link rel="alternate" type="application/feed+json" title="Adafruit Industries - Makers, hackers, artists, designers and engineers! &raquo; JSON Feed" href="./feed/json.js" />
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="./app/themes/adafruit2013/js/html5shiv.js"></script>
+  <script src="./app/themes/adafruit2013/js/respond.min.js"></script>
+<![endif]--><link rel="canonical" href="./index.html" />
+
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Adafruit Industries - Makers, hackers, artists, designers and engineers!" />
+<meta property="og:description" content="electronics, open source hardware, hacking and more..." />
+<meta property="og:url" content="https://blog.adafruit.com/" />
+<meta property="og:site_name" content="Adafruit Industries - Makers, hackers, artists, designers and engineers!" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta property="og:image:width" content="200" />
+<meta property="og:image:height" content="200" />
+<meta property="og:image:alt" content="" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:site" content="@adafruit" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta name="twitter:title" content="Adafruit Industries - Makers, hackers, artists, designers and engineers!" />
+<meta name="twitter:description" content="electronics, open source hardware, hacking and more..." />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel="icon" href="../cdn-blog.adafruit.com/uploads/2020/04/logo_small@2x.png" sizes="32x32" />
+<link rel="icon" href="../cdn-blog.adafruit.com/uploads/2020/04/logo_small@2x.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="../cdn-blog.adafruit.com/uploads/2020/04/logo_small@2x.png" />
+<meta name="msapplication-TileImage" content="https://cdn-blog.adafruit.com/uploads/2020/04/logo_small@2x.png" />
+</head>
+
+<body class="home blog wp-theme-adafruit2013">
+<div class="messages-container">
+	<site-messages class="messages-container" ><div role="alert" data-msg-id="81" class="messaging-container messaging-alert">
+	<div class="msg-container">
+		<div class="message">📮🇺🇸📦🇺🇸Election Day Was Tuesday, November 3 and <a href="./2026/10/28/shipping-alert-adafruit-is-voting-tuesday-november-3-vote-shipping">Adafruit votes!</a> some orders may be delayed 📮🇺🇸📦🇺🇸</div>
+	</div>
+</div></site-messages></div>
+<div id="outer-wrapper">
+<div id="inner-wrapper">
+<header id="adafruit-header" class="hidden-print">
+  <div id="site-header">
+		<div class="row-content">
+			<sites-navigation>
+    <nav aria-label="Adafruit sites">
+        <ol>
+            <li><a href="../www.adafruit.com/index.html">Shop</a></li><li><a href="../learn.adafruit.com/index.html">Learn</a></li><li><a aria-current="true" href="./index.html">Blog</a></li><li><a href="../forums.adafruit.com/index.html">Forums</a></li><li><a href="../io.adafruit.com/index.html">IO</a></li><li><a href="https://www.youtube.com/adafruit/live">LIVE!</a></li><li><a href="../www.adafruit.com/adabox">AdaBox</a></li>
+        </ol>
+    </nav>
+</sites-navigation>			<div class="account-info">
+				<div class="cart">
+					<a aria-label="Shopping cart, 0 items" href="../www.adafruit.com/shopping_cart">
+					<i class="fa fa-shopping-cart"></i> 0					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mobile-header-wrap">
+	<div id="mobile-header">
+		<a aria-label='Adafruit' href="../adafruit.com/index.html">
+			<img src='./app/themes/adafruit2013/images/logos/logo_small@2x.png' id='small-logo' width='50' height='50' title='Adafruit' />		</a>
+		<div id="MobileSearchWrapper" class="mobile-search">
+			<form id="MobileSearchForm" action="./index.html" method="get" role="search">
+				<label id="MobileSearchLabel" for="MobileSearch" style="display:none;">Search</label>
+				<input class="search" type="text" id="MobileSearch" aria-labelledby="MobileSearchLabel" name="s" placeholder="" autocomplete="off" spellcheck="false" autocapitalize="none" autocorrect="off">
+				<button aria-label="Search" id="MobileSearchBtn" class="fa" type="submit"></button>
+			</form>
+		</div>
+		<a class="mobile-header-cart" href="../adafruit.com/shopping_cart">
+			<span class="sr-only">Shopping cart, </span><span class="cart-count">0</span><span class="sr-only">items.</span>
+			<i class="fa fa-shopping-cart"></i>
+		</a>
+	</div>
+</div>
+	<div id="large-header">
+		<div class="second-row">
+			<div class="row-content">
+				<div class="left-content">
+					<div id="logo">
+						<a href="../www.adafruit.com/index.html">
+						<img src='./app/themes/adafruit2013/images/logos/logo_2x.png' id='logo' width='115' height='40' title='Adafruit' />						</a>
+					</div>
+					<ul class="main-nav-links">
+						<li class="dropdown with-overlay">
+							<button class="dropdown-label">News, Resources, &amp; More &hellip;</button>
+							<div class="dropdown-container">
+								<div class="dropdown-content">
+									  <div class="flyouts">
+    <div class="flyout">
+      <div class="container">
+        <div class="flyout-content row">
+
+          <div class="column col-lg-6 col-md-6 col-sm-6">
+            <div class="title categories">
+              <span>Popular Categories</span><a href="./categories">view all</a>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <ul class="links categories">
+																	<li><a href="./category/3d-printing">3D printing (17886)</a>
+																	<li><a href="./category/raspberry-pi">Raspberry Pi (10722)</a>
+																	<li><a href="./category/art">art (8834)</a>
+																	<li><a href="./category/wearables">wearables (5240)</a>
+																	<li><a href="./category/arduino">arduino (4658)</a>
+																	<li><a href="./category/science">science (4616)</a>
+																	<li><a href="./category/circuitpython">CircuitPython (4281)</a>
+																	<li><a href="./category/random">random (3805)</a>
+																	<li><a href="./category/adafruit-learning-system">adafruit learning system (3726)</a>
+																	<li><a href="./category/music">music (3255)</a>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																			              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <ul class="links categories">
+																																																																													<li><a href="./category/costuming">costuming (3060)</a>
+																	<li><a href="./category/cosplay">cosplay (2840)</a>
+																	<li><a href="./category/robotics">robotics (2822)</a>
+																	<li><a href="./category/history">history (2819)</a>
+																	<li><a href="./category/community">community (2718)</a>
+																	<li><a href="./category/educators">educators (2703)</a>
+																	<li><a href="./category/new-products">New Products (2649)</a>
+																	<li><a href="./category/space">space (2621)</a>
+																	<li><a href="./category/holiday">holiday (2519)</a>
+																	<li><a href="./category/ask-an-engineer">ask-an-engineer (2515)</a>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																							                </ul>
+              </div>
+            </div>
+          </div> 
+          <div class="column col-lg-3 col-md-3 col-sm-3">
+			            <div class="title new">
+              <span>New Posts</span><a href="./index.html">view all</a>
+            </div>
+            <ul class="links new">
+									<li>
+						<a href='./2026/11/04/google-gets-nostalgic-ahead-of-zelda-release'><img src='../cdn-blog.adafruit.com/uploads/2026/11/ezgif-1260ddfb269bdabf-356x267.gif'></a>						<div class="blog-flyout-datetime">November 4, 2026 at 2:38 pm</div>
+						<a href="./2026/11/04/google-gets-nostalgic-ahead-of-zelda-release" class="name">Google Gets Nostalgic Ahead of Zelda Release</a>
+						<div class="clear"></div>
+					</li>
+									<li>
+						<a href='./2026/11/04/nasa-navigation-experiment-shows-promise-for-planetary-landings'><img src='../cdn-blog.adafruit.com/uploads/2026/11/a-5-356x267.png'></a>						<div class="blog-flyout-datetime">November 4, 2026 at 2:20 pm</div>
+						<a href="./2026/11/04/nasa-navigation-experiment-shows-promise-for-planetary-landings" class="name">NASA navigation experiment shows promise for&hellip;</a>
+						<div class="clear"></div>
+					</li>
+									<li>
+						<a href='./2026/11/04/remote-mouse-turns-your-smartphone-into-a-handy-pc-remote'><img src='../cdn-blog.adafruit.com/uploads/2026/11/aa-4-356x267.png'></a>						<div class="blog-flyout-datetime">November 4, 2026 at 2:16 pm</div>
+						<a href="./2026/11/04/remote-mouse-turns-your-smartphone-into-a-handy-pc-remote" class="name">Remote Mouse turns your smartphone into a handy PC&hellip;</a>
+						<div class="clear"></div>
+					</li>
+				            </ul>
+          </div>
+          <div class="column col-lg-3 col-md-3 col-sm-3">
+			            <div class="title featured">
+              <span>Featured Posts</span><a href="./category/featured">view all</a>
+            </div>
+            <ul class="links featured">
+									<li>
+						<a href='./2026/11/02/native-american-heritage-month-2026'><img src='../cdn-blog.adafruit.com/uploads/2026/10/native-american-heritage-month-topic-page-1-356x267.jpg'></a>						<div class="blog-flyout-datetime">November 2, 2026 at 8:22 am</div>
+						<a href="./2026/11/02/native-american-heritage-month-2026" class="name">Native American Heritage Month 2026</a>
+						<div class="clear"></div>
+					</li>
+									<li>
+						<a href='./2026/10/28/shipping-alert-adafruit-is-voting-tuesday-november-3-vote-shipping'><img src='../cdn-blog.adafruit.com/uploads/2026/10/adafruit_were_voting_twitter-1300x433-1-356x267.jpg'></a>						<div class="blog-flyout-datetime">October 28, 2026 at 1:49 pm</div>
+						<a href="./2026/10/28/shipping-alert-adafruit-is-voting-tuesday-november-3-vote-shipping" class="name">Shipping Alert – Adafruit is Voting Tuesday,&hellip;</a>
+						<div class="clear"></div>
+					</li>
+									<li>
+						<a href='./2026/10/17/adafruit-new-product-this-week-adafruit-cp2105-friend-usb-to-dual-uart-serial-converters'><img src='../cdn-blog.adafruit.com/uploads/2026/06/adafruit_new_products_hero-e1617299615525-1-356x267.jpg'></a>						<div class="blog-flyout-datetime">October 17, 2026 at 3:00 pm</div>
+						<a href="./2026/10/17/adafruit-new-product-this-week-adafruit-cp2105-friend-usb-to-dual-uart-serial-converters" class="name">Adafruit New Product this Week: Adafruit CP2105&hellip;</a>
+						<div class="clear"></div>
+					</li>
+				            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="right-content">
+					<div id="search-wrapper">
+						<form action="./index.html" method="get">
+							<label for="search" style="display:none;">Search</label>
+							<span class="twitter-typeahead" style="position: relative; display: inline-block;"><input class="tt-hint" type="text" autocomplete="off" spellcheck="off" disabled="" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; background: rgb(255, 255, 255) none repeat scroll 0% 0%;"><input id="search" type="text" name="s" class="tt-query" autocomplete="off" spellcheck="false" style="position: relative; vertical-align: top; background-color: transparent;" dir="auto"><span style="position: absolute; left: -9999px; visibility: hidden; white-space: nowrap; font-family: proxima nova, montserrat, lucida grande, lucida sans unicode, lucida sans, Geneva, Verdana, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 500; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: optimizelegibility; text-transform: none;"></span><span class="tt-dropdown-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none;"></span></span>
+							<i class="fa fa-search"></i>
+							<input type="submit" style="visibility: hidden; position: fixed;">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<div id="content">
+	<div class='breadcrumbs hidden'>
+  <div class="container">
+	  <h2><a href='./index.html'>BLOG</a></h2>
+  </div>
+</div>
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "WebSite",
+	"url": "https://blog.adafruit.com/",
+	"potentialAction": {
+		"@type": "SearchAction",
+		"target": "https://blog.adafruit.com/?s={search_term_string}",
+		"query-input": "required name=search_term_string"
+	}
+}
+</script>
+<div class='container carousel-container hidden-xs'><div id='featuredCarousel' class='carousel slide hidden-xs clearfix' style='clear: both; display: block;'><ol class='carousel-indicators'><li data-target='#featuredCarousel' data-slide-to='0' ></li><li data-target='#featuredCarousel' data-slide-to='1' ></li><li data-target='#featuredCarousel' data-slide-to='2' ></li><li data-target='#featuredCarousel' data-slide-to='3' ></li><li data-target='#featuredCarousel' data-slide-to='4' ></li><li data-target='#featuredCarousel' data-slide-to='5' ></li></ol><div class='carousel-inner'><div class="active item">
+	<a href="./2026/11/02/native-american-heritage-month-2026" class="hero-link" data-pos="0">
+		<div class="item-img-container" style="background-image: url(https://cdn-blog.adafruit.com/uploads/2026/10/native-american-heritage-month-topic-page-1-921x437.jpg);">&nbsp;</div>
+	</a>
+	<div class="hero-caption">
+		<div class="container">
+			<h3>November 2, 2026 AT 8:22 am</h3>
+			<h1 class="storytitle">
+				<a href='./2026/11/02/native-american-heritage-month-2026' rel='bookmark'>Native American Heritage Month 2026</a>
+			</h1>
+			<h3>BY <a href="./author/ben">Ben</a></h3>
+		</div>
+	</div>
+</div><div class=" item">
+	<a href="./2026/10/28/shipping-alert-adafruit-is-voting-tuesday-november-3-vote-shipping" class="hero-link" data-pos="1">
+		<div class="item-img-container" style="background-image: url(https://cdn-blog.adafruit.com/uploads/2026/10/adafruit_were_voting_twitter-1300x433-1.jpg);">&nbsp;</div>
+	</a>
+	<div class="hero-caption">
+		<div class="container">
+			<h3>October 28, 2026 AT 1:49 pm</h3>
+			<h1 class="storytitle">
+				<a href='./2026/10/28/shipping-alert-adafruit-is-voting-tuesday-november-3-vote-shipping' rel='bookmark'>Shipping Alert – Adafruit is Voting Tuesday, November 3 #Vote #Shipping</a>
+			</h1>
+			<h3>BY <a href="./author/ben">Ben</a></h3>
+		</div>
+	</div>
+</div><div class=" item">
+	<a href="./2026/10/17/adafruit-new-product-this-week-adafruit-cp2105-friend-usb-to-dual-uart-serial-converters" class="hero-link" data-pos="2">
+		<div class="item-img-container" style="background-image: url(https://cdn-blog.adafruit.com/uploads/2026/06/adafruit_new_products_hero-e1617299615525-1.jpg);">&nbsp;</div>
+	</a>
+	<div class="hero-caption">
+		<div class="container">
+			<h3>October 17, 2026 AT 3:00 pm</h3>
+			<h1 class="storytitle">
+				<a href='./2026/10/17/adafruit-new-product-this-week-adafruit-cp2105-friend-usb-to-dual-uart-serial-converters' rel='bookmark'>Adafruit New Product this Week: Adafruit CP2105 Friend &#8211; USB to Dual UART Serial Converters</a>
+			</h1>
+			<h3>BY <a href="./author/stephanie">Stephanie</a></h3>
+		</div>
+	</div>
+</div><div class=" item">
+	<a href="./2026/10/13/ada-lovelace-day-2026-ald26-findingada-findingada" class="hero-link" data-pos="3">
+		<div class="item-img-container" style="background-image: url(https://cdn-blog.adafruit.com/uploads/2026/10/adafruit_ada_lovelace_day_1500x500-1-1300x433.jpg);">&nbsp;</div>
+	</a>
+	<div class="hero-caption">
+		<div class="container">
+			<h3>October 13, 2026 AT 8:12 am</h3>
+			<h1 class="storytitle">
+				<a href='./2026/10/13/ada-lovelace-day-2026-ald26-findingada-findingada' rel='bookmark'>Ada Lovelace Day 2026!! #ALD26 @findingada @findingada</a>
+			</h1>
+			<h3>BY <a href="./author/ben">Ben</a></h3>
+		</div>
+	</div>
+</div><div class=" item">
+	<a href="./2026/10/07/shipping-alert-indigenous-peoples-day-monday-october-12" class="hero-link" data-pos="4">
+		<div class="item-img-container" style="background-image: url(https://cdn-blog.adafruit.com/uploads/2026/10/image-1.jpeg);">&nbsp;</div>
+	</a>
+	<div class="hero-caption">
+		<div class="container">
+			<h3>October 7, 2026 AT 11:35 am</h3>
+			<h1 class="storytitle">
+				<a href='./2026/10/07/shipping-alert-indigenous-peoples-day-monday-october-12' rel='bookmark'>Shipping Alert: Indigenous Peoples’ Day – Monday, October 12</a>
+			</h1>
+			<h3>BY <a href="./author/ben">Ben</a></h3>
+		</div>
+	</div>
+</div><div class=" item">
+	<a href="./2026/10/01/🛸stand-by-as-we-beam-into-another-electronichalloween" class="hero-link" data-pos="5">
+		<div class="item-img-container" style="background-image: url(https://cdn-blog.adafruit.com/uploads/2026/09/adafruit_halloween2022_blog-1-1.jpg);">&nbsp;</div>
+	</a>
+	<div class="hero-caption">
+		<div class="container">
+			<h3>October 1, 2026 AT 7:00 am</h3>
+			<h1 class="storytitle">
+				<a href='./2026/10/01/🛸stand-by-as-we-beam-into-another-electronichalloween' rel='bookmark'>🛸Stand By As We Beam Into Another #ElectronicHalloween!</a>
+			</h1>
+			<h3>BY <a href="./author/ben">Ben</a></h3>
+		</div>
+	</div>
+</div></div></div></div><div class="container">
+	<div class="row video-and-news">
+			<div class="fp-video">
+		<a href="https://youtu.be/nkybewytNZM"><i class="fa fa-video-camera"></i><strong>VIDEO</strong> Stitch Different: Embroidery with nOOds</a>
+	</div>
+			<div class="fp-breaking">
+		<a href="./2026/06/24/chris-young-announces-his-retirement-after-14-years-and-55-show-and-tell-appearances"><i class="fa fa-newspaper-o"></i><strong>BREAKING NEWS:</strong> Chris Young announces his retirement after 14 years and 55+ Show and Tell appearances</a>
+	</div>
+	</div>
+</div><div class='front-page-cats container'><div class='row'><div class='cats-container'><div class='fp-cat'><a href='https://www.youtube.com/playlist?list=PL028933C9CA644CFB'>NEW&nbsp;PRODUCT&nbsp;VIDEOS!</a></div><div class='fp-cat'><a href='../learn.adafruit.com/guides/latest'>LATEST&nbsp;AT&nbsp;LEARN!</a></div><div class='fp-cat'><a href='./category/circuitpython'>CircuitPython</a></div><div class='fp-cat'><a href='../io.adafruit.com/index.html'>adafruit.io</a></div><div class='fp-cat'><a href='./category/halloween'>halloween</a></div></div><div class='fp-cat last-cat'><a href='./categories'>all</a></div></div></div>
+	<div class="container post-container">
+	<div class="row post-row post-thumb-only post-669081 post type-post status-publish format-standard has-post-thumbnail hentry category-nintendo category-nintendo-switch tag-google tag-nintendo tag-the-legend-of-zelda tag-zelda" id="post-669081">
+		<div class="col-md-8 post-thumb-container">
+			<a class="post-thumb" href="./2026/11/04/google-gets-nostalgic-ahead-of-zelda-release">
+	<div style="background-image: url('https://cdn-blog.adafruit.com/uploads/2026/11/ezgif-1260ddfb269bdabf.gif');"></div>
+</a>		</div>
+		<div class="col-md-4 post-meta">
+            <div class="meta">
+				<h3><time class="published" datetime="2026-11-04T14:38:37-05:00">November 4, 2026 AT&nbsp;2:38&nbsp;pm</time></h3>
+				<a class="storytitle entry-title" href="./2026/11/04/google-gets-nostalgic-ahead-of-zelda-release" rel="bookmark">
+				Google Gets Nostalgic Ahead of Zelda Release</a></h2>
+				<div class="byline">&#8212;&nbsp;by&nbsp;<a class="author vcard url fn" rel="author external" href="./author/ben">Ben</a> </div>
+            </div>
+			<div class="bottom-meta">
+				<div class="category-and-tags">
+					Filed under: <a href="./category/nintendo" rel="category tag">Nintendo</a>, <a href="./category/nintendo-switch" rel="category tag">Nintendo Switch</a> &#8212;&nbsp;<br />Tags: <a href="./tag/google" rel="tag">google</a>, <a href="./tag/nintendo" rel="tag">nintendo</a>, <a href="./tag/the-legend-of-zelda" rel="tag">the legend of zelda</a>, <a href="./tag/zelda" rel="tag">zelda</a> &#8212;				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	
+	<div class="container post-container">
+	<div class="row post-row post-thumb-only post-669087 post type-post status-publish format-standard has-post-thumbnail hentry category-history category-science tag-lunar-landing tag-nasa tag-splice" id="post-669087">
+		<div class="col-md-8 post-thumb-container">
+			<a class="post-thumb" href="./2026/11/04/nasa-navigation-experiment-shows-promise-for-planetary-landings">
+	<div style="background-image: url('https://cdn-blog.adafruit.com/uploads/2026/11/a-5.png');"></div>
+</a>		</div>
+		<div class="col-md-4 post-meta">
+            <div class="meta">
+				<h3><time class="published" datetime="2026-11-04T14:20:51-05:00">November 4, 2026 AT&nbsp;2:20&nbsp;pm</time></h3>
+				<a class="storytitle entry-title" href="./2026/11/04/nasa-navigation-experiment-shows-promise-for-planetary-landings" rel="bookmark">
+				NASA navigation experiment shows promise for planetary landings</a></h2>
+				<div class="byline">&#8212;&nbsp;by&nbsp;<a class="author vcard url fn" rel="author external" href="./author/anne-barela">Anne&nbsp;Barela</a> </div>
+            </div>
+			<div class="bottom-meta">
+				<div class="category-and-tags">
+					Filed under: <a href="./category/history" rel="category tag">history</a>, <a href="./category/science" rel="category tag">science</a> &#8212;&nbsp;<br />Tags: <a href="./tag/lunar-landing" rel="tag">lunar landing</a>, <a href="./tag/nasa" rel="tag">NASA</a>, <a href="./tag/splice" rel="tag">SPLICE</a> &#8212;				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<div class="container post-container">
+	<div class="row post-row post-thumb-only post-669083 post type-post status-publish format-standard has-post-thumbnail hentry category-computers category-iot tag-remote-mouse" id="post-669083">
+		<div class="col-md-8 post-thumb-container">
+			<a class="post-thumb" href="./2026/11/04/remote-mouse-turns-your-smartphone-into-a-handy-pc-remote">
+	<div style="background-image: url('https://cdn-blog.adafruit.com/uploads/2026/11/aa-4.png');"></div>
+</a>		</div>
+		<div class="col-md-4 post-meta">
+            <div class="meta">
+				<h3><time class="published" datetime="2026-11-04T14:16:03-05:00">November 4, 2026 AT&nbsp;2:16&nbsp;pm</time></h3>
+				<a class="storytitle entry-title" href="./2026/11/04/remote-mouse-turns-your-smartphone-into-a-handy-pc-remote" rel="bookmark">
+				Remote Mouse turns your smartphone into a handy PC remote</a></h2>
+				<div class="byline">&#8212;&nbsp;by&nbsp;<a class="author vcard url fn" rel="author external" href="./author/anne-barela">Anne&nbsp;Barela</a> </div>
+            </div>
+			<div class="bottom-meta">
+				<div class="category-and-tags">
+					Filed under: <a href="./category/computers" rel="category tag">computers</a>, <a href="./category/iot" rel="category tag">internet of things</a> &#8212;&nbsp;<br />Tags: <a href="./tag/remote-mouse" rel="tag">Remote Mouse</a> &#8212;				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<div class="container post-container">
+	<div class="row post-row post-thumb-only post-669078 post type-post status-publish format-standard has-post-thumbnail hentry category-3d-printing category-componentsparts category-engineering category-science tag-dc-motor tag-gearbox tag-go-kart" id="post-669078">
+		<div class="col-md-8 post-thumb-container">
+			<a class="post-thumb" href="./2026/11/04/using-a-cheap-dc-motor-to-make-a-go-kart-go">
+	<div style="background-image: url('https://cdn-blog.adafruit.com/uploads/2026/11/using-a-cheap-dc-motor-to-make-a.jpg');"></div>
+</a>		</div>
+		<div class="col-md-4 post-meta">
+            <div class="meta">
+				<h3><time class="published" datetime="2026-11-04T14:02:10-05:00">November 4, 2026 AT&nbsp;2:02&nbsp;pm</time></h3>
+				<a class="storytitle entry-title" href="./2026/11/04/using-a-cheap-dc-motor-to-make-a-go-kart-go" rel="bookmark">
+				Using a cheap DC motor to make a go-kart go</a></h2>
+				<div class="byline">&#8212;&nbsp;by&nbsp;<a class="author vcard url fn" rel="author external" href="./author/anne-barela">Anne&nbsp;Barela</a> </div>
+            </div>
+			<div class="bottom-meta">
+				<div class="category-and-tags">
+					Filed under: <a href="./category/3d-printing" rel="category tag">3D printing</a>, <a href="./category/componentsparts" rel="category tag">components &amp; parts</a>, <a href="./category/engineering" rel="category tag">Engineering</a>, <a href="./category/science" rel="category tag">science</a> &#8212;&nbsp;<br />Tags: <a href="./tag/dc-motor" rel="tag">dc motor</a>, <a href="./tag/gearbox" rel="tag">gearbox</a>, <a href="./tag/go-kart" rel="tag">go-kart</a> &#8212;				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<div class="container post-container">
+	<div class="row post-row post-thumb-only post-669074 post type-post status-publish format-standard has-post-thumbnail hentry category-gaming category-history category-nintendo category-nintendo-switch tag-easter-egg tag-google tag-zelda" id="post-669074">
+		<div class="col-md-8 post-thumb-container">
+			<a class="post-thumb" href="./2026/11/04/googling-zelda-today-offers-a-glimpse-of-how-search-worked-in-1998">
+	<div style="background-image: url('https://cdn-blog.adafruit.com/uploads/2026/11/banner-33.jpg');"></div>
+</a>		</div>
+		<div class="col-md-4 post-meta">
+            <div class="meta">
+				<h3><time class="published" datetime="2026-11-04T13:54:11-05:00">November 4, 2026 AT&nbsp;1:54&nbsp;pm</time></h3>
+				<a class="storytitle entry-title" href="./2026/11/04/googling-zelda-today-offers-a-glimpse-of-how-search-worked-in-1998" rel="bookmark">
+				Googling &#8220;Zelda&#8221; today offers a glimpse of how search worked in 1998</a></h2>
+				<div class="byline">&#8212;&nbsp;by&nbsp;<a class="author vcard url fn" rel="author external" href="./author/anne-barela">Anne&nbsp;Barela</a> </div>
+            </div>
+			<div class="bottom-meta">
+				<div class="category-and-tags">
+					Filed under: <a href="./category/gaming" rel="category tag">gaming</a>, <a href="./category/history" rel="category tag">history</a>, <a href="./category/nintendo" rel="category tag">Nintendo</a>, <a href="./category/nintendo-switch" rel="category tag">Nintendo Switch</a> &#8212;&nbsp;<br />Tags: <a href="./tag/easter-egg" rel="tag">easter egg</a>, <a href="./tag/google" rel="tag">google</a>, <a href="./tag/zelda" rel="tag">zelda</a> &#8212;				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<div class="container post-container">
+	<div class="row post-row post-thumb-only post-669067 post type-post status-publish format-standard has-post-thumbnail hentry category-art category-history tag-2001-a-space-odyssey tag-bonhams tag-stanley-kubrick" id="post-669067">
+		<div class="col-md-8 post-thumb-container">
+			<a class="post-thumb" href="./2026/11/04/2001-a-space-odyssey-movie-prop-may-sell-for-over-1-million">
+	<div style="background-image: url('https://cdn-blog.adafruit.com/uploads/2026/11/cp-day-26.png');"></div>
+</a>		</div>
+		<div class="col-md-4 post-meta">
+            <div class="meta">
+				<h3><time class="published" datetime="2026-11-04T13:45:06-05:00">November 4, 2026 AT&nbsp;1:45&nbsp;pm</time></h3>
+				<a class="storytitle entry-title" href="./2026/11/04/2001-a-space-odyssey-movie-prop-may-sell-for-over-1-million" rel="bookmark">
+				‘2001: A Space Odyssey’ movie prop may sell for over $1 million</a></h2>
+				<div class="byline">&#8212;&nbsp;by&nbsp;<a class="author vcard url fn" rel="author external" href="./author/anne-barela">Anne&nbsp;Barela</a> </div>
+            </div>
+			<div class="bottom-meta">
+				<div class="category-and-tags">
+					Filed under: <a href="./category/art" rel="category tag">art</a>, <a href="./category/history" rel="category tag">history</a> &#8212;&nbsp;<br />Tags: <a href="./tag/2001-a-space-odyssey" rel="tag">2001: a space odyssey</a>, <a href="./tag/bonhams" rel="tag">Bonhams</a>, <a href="./tag/stanley-kubrick" rel="tag">Stanley Kubrick</a> &#8212;				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<div class="container post-container">
+	<div class="row post-row post-thumb-only post-669071 post type-post status-publish format-standard has-post-thumbnail hentry category-adafruit-io category-adafruit-learning-technologies category-announce category-wifi category-wippersnapper-adafruit-learning-technologies category-wireless tag-adafruit-io tag-beta tag-blank-ssid tag-firmware tag-hidden tag-hidden-ssid tag-hidden-wifi tag-iot-2 tag-no-code tag-open-firmware tag-open-source tag-ssid tag-wifi tag-wippersnapper" id="post-669071">
+		<div class="col-md-8 post-thumb-container">
+			<a class="post-thumb" href="./2026/11/04/hidden-wifi-network-support-adafruit-io-wippersnapper-100-beta-134-released">
+	<div style="background-image: url('https://cdn-blog.adafruit.com/uploads/2025/11/adafruit_20boards_wippersnapper_io-2.jpg');"></div>
+</a>		</div>
+		<div class="col-md-4 post-meta">
+            <div class="meta">
+				<h3><time class="published" datetime="2026-11-04T13:30:00-05:00">November 4, 2026 AT&nbsp;1:30&nbsp;pm</time></h3>
+				<a class="storytitle entry-title" href="./2026/11/04/hidden-wifi-network-support-adafruit-io-wippersnapper-100-beta-134-released" rel="bookmark">
+				Hidden WiFi network support 🕳️🛜🥷 Adafruit IO WipperSnapper 1.0.0 Beta 134 Released!</a></h2>
+				<div class="byline">&#8212;&nbsp;by&nbsp;<a class="author vcard url fn" rel="author external" href="./author/tyeth">Tyeth</a> </div>
+            </div>
+			<div class="bottom-meta">
+				<div class="category-and-tags">
+					Filed under: <a href="./category/adafruit-learning-technologies/adafruit-io" rel="category tag">Adafruit IO</a>, <a href="./category/adafruit-learning-technologies" rel="category tag">adafruit learning technologies</a>, <a href="./category/announce" rel="category tag">announce</a>, <a href="./category/wifi" rel="category tag">WiFi</a>, <a href="./category/adafruit-learning-technologies/wippersnapper-adafruit-learning-technologies" rel="category tag">wippersnapper</a>, <a href="./category/wireless" rel="category tag">wireless</a> &#8212;&nbsp;<br />Tags: <a href="./tag/adafruit-io" rel="tag">Adafruit IO</a>, <a href="./tag/beta" rel="tag">beta</a>, <a href="./tag/blank-ssid" rel="tag">blank SSID</a>, <a href="./tag/firmware" rel="tag">firmware</a>, <a href="./tag/hidden" rel="tag">hidden</a>, <a href="./tag/hidden-ssid" rel="tag">hidden SSID</a>, <a href="./tag/hidden-wifi" rel="tag">hidden wifi</a>, <a href="./tag/iot-2" rel="tag">IoT</a>, <a href="./tag/no-code" rel="tag">no code</a>, <a href="./tag/open-firmware" rel="tag">open firmware</a>, <a href="./tag/open-source" rel="tag">open source</a>, <a href="./tag/ssid" rel="tag">SSID</a>, <a href="./tag/wifi" rel="tag">wifi</a>, <a href="./tag/wippersnapper" rel="tag">wippersnapper</a> &#8212;				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<div class="container post-container">
+	<div class="row post-row post-thumb-only post-669054 post type-post status-publish format-standard has-post-thumbnail hentry category-hacks category-reverse-engineering" id="post-669054">
+		<div class="col-md-8 post-thumb-container">
+			<a class="post-thumb" href="./2026/11/04/jailbreaking-a-cars-navigation-system-just-to-change-the-time">
+	<div style="background-image: url('https://cdn-blog.adafruit.com/uploads/2026/11/bootsel-5.png');"></div>
+</a>		</div>
+		<div class="col-md-4 post-meta">
+            <div class="meta">
+				<h3><time class="published" datetime="2026-11-04T12:21:20-05:00">November 4, 2026 AT&nbsp;12:21&nbsp;pm</time></h3>
+				<a class="storytitle entry-title" href="./2026/11/04/jailbreaking-a-cars-navigation-system-just-to-change-the-time" rel="bookmark">
+				Jailbreaking a car&#8217;s navigation system just to change the time</a></h2>
+				<div class="byline">&#8212;&nbsp;by&nbsp;<a class="author vcard url fn" rel="author external" href="./author/anne-barela">Anne&nbsp;Barela</a> </div>
+            </div>
+			<div class="bottom-meta">
+				<div class="category-and-tags">
+					Filed under: <a href="./category/hacks" rel="category tag">Hacks</a>, <a href="./category/reverse-engineering" rel="category tag">reverse engineering</a> &#8212;&nbsp;				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<div class="container post-container">
+	<div class="row post-row post-thumb-only post-669051 post type-post status-publish format-standard has-post-thumbnail hentry category-esp32-p4 category-gaming category-github category-operating-system category-vintage-computing tag-papp tag-psram" id="post-669051">
+		<div class="col-md-8 post-thumb-container">
+			<a class="post-thumb" href="./2026/11/04/the-esp32-p4-launcher-loads-relocatable-papp-v2-apps-from-an-sd-card">
+	<div style="background-image: url('https://cdn-blog.adafruit.com/uploads/2026/11/banner-32.jpg');"></div>
+</a>		</div>
+		<div class="col-md-4 post-meta">
+            <div class="meta">
+				<h3><time class="published" datetime="2026-11-04T12:11:52-05:00">November 4, 2026 AT&nbsp;12:11&nbsp;pm</time></h3>
+				<a class="storytitle entry-title" href="./2026/11/04/the-esp32-p4-launcher-loads-relocatable-papp-v2-apps-from-an-sd-card" rel="bookmark">
+				The ESP32-P4 launcher loads relocatable PAPP v2 apps from an SD card</a></h2>
+				<div class="byline">&#8212;&nbsp;by&nbsp;<a class="author vcard url fn" rel="author external" href="./author/anne-barela">Anne&nbsp;Barela</a> </div>
+            </div>
+			<div class="bottom-meta">
+				<div class="category-and-tags">
+					Filed under: <a href="./category/espressif/esp32-p4" rel="category tag">ESP32-P4</a>, <a href="./category/gaming" rel="category tag">gaming</a>, <a href="./category/github" rel="category tag">GitHub</a>, <a href="./category/operating-system" rel="category tag">Operating System</a>, <a href="./category/vintage-computing" rel="category tag">vintage computing</a> &#8212;&nbsp;<br />Tags: <a href="./tag/papp" rel="tag">PAPP</a>, <a href="./tag/psram" rel="tag">psram</a> &#8212;				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<div class="container post-container">
+	<div class="row post-row post-thumb-only post-669047 post type-post status-publish format-standard has-post-thumbnail hentry category-art category-history tag-internet-archive tag-typography" id="post-669047">
+		<div class="col-md-8 post-thumb-container">
+			<a class="post-thumb" href="./2026/11/04/internet-archives-alphabet">
+	<div style="background-image: url('https://cdn-blog.adafruit.com/uploads/2026/11/banner-31.jpg');"></div>
+</a>		</div>
+		<div class="col-md-4 post-meta">
+            <div class="meta">
+				<h3><time class="published" datetime="2026-11-04T12:07:18-05:00">November 4, 2026 AT&nbsp;12:07&nbsp;pm</time></h3>
+				<a class="storytitle entry-title" href="./2026/11/04/internet-archives-alphabet" rel="bookmark">
+				Internet Archive&#8217;s alphabet</a></h2>
+				<div class="byline">&#8212;&nbsp;by&nbsp;<a class="author vcard url fn" rel="author external" href="./author/anne-barela">Anne&nbsp;Barela</a> </div>
+            </div>
+			<div class="bottom-meta">
+				<div class="category-and-tags">
+					Filed under: <a href="./category/art" rel="category tag">art</a>, <a href="./category/history" rel="category tag">history</a> &#8212;&nbsp;<br />Tags: <a href="./tag/internet-archive" rel="tag">internet archive</a>, <a href="./tag/typography" rel="tag">typography</a> &#8212;				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<div class="container post-container">
+	<div class="row post-row post-thumb-only post-669043 post type-post status-publish format-standard has-post-thumbnail hentry category-github category-projects category-software tag-docker tag-go tag-tailscale" id="post-669043">
+		<div class="col-md-8 post-thumb-container">
+			<a class="post-thumb" href="./2026/11/04/i-got-tired-of-remembering-ports-for-30-docker-apps-in-my-homelab-heres-how-i-fixed-it">
+	<div style="background-image: url('https://cdn-blog.adafruit.com/uploads/2026/11/i-got-tired-of-remembering-ports.jpg');"></div>
+</a>		</div>
+		<div class="col-md-4 post-meta">
+            <div class="meta">
+				<h3><time class="published" datetime="2026-11-04T11:58:29-05:00">November 4, 2026 AT&nbsp;11:58&nbsp;am</time></h3>
+				<a class="storytitle entry-title" href="./2026/11/04/i-got-tired-of-remembering-ports-for-30-docker-apps-in-my-homelab-heres-how-i-fixed-it" rel="bookmark">
+				I got tired of remembering ports for 30 Docker apps in my homelab. Here&#8217;s how I fixed it</a></h2>
+				<div class="byline">&#8212;&nbsp;by&nbsp;<a class="author vcard url fn" rel="author external" href="./author/anne-barela">Anne&nbsp;Barela</a> </div>
+            </div>
+			<div class="bottom-meta">
+				<div class="category-and-tags">
+					Filed under: <a href="./category/github" rel="category tag">GitHub</a>, <a href="./category/projects" rel="category tag">projects</a>, <a href="./category/software" rel="category tag">software</a> &#8212;&nbsp;<br />Tags: <a href="./tag/docker" rel="tag">Docker</a>, <a href="./tag/go" rel="tag">Go</a>, <a href="./tag/tailscale" rel="tag">Tailscale</a> &#8212;				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<div class="container post-container">
+	<div class="row post-row post-thumb-only post-669038 post type-post status-publish format-standard has-post-thumbnail hentry category-robotics category-science category-sensors tag-biomarkers tag-mit tag-wearable" id="post-669038">
+		<div class="col-md-8 post-thumb-container">
+			<a class="post-thumb" href="./2026/11/04/mit-led-team-receives-funding-to-develop-a-wearable-monitor-for-early-disease-detection">
+	<div style="background-image: url('https://cdn-blog.adafruit.com/uploads/2026/11/blink-2.png');"></div>
+</a>		</div>
+		<div class="col-md-4 post-meta">
+            <div class="meta">
+				<h3><time class="published" datetime="2026-11-04T11:52:08-05:00">November 4, 2026 AT&nbsp;11:52&nbsp;am</time></h3>
+				<a class="storytitle entry-title" href="./2026/11/04/mit-led-team-receives-funding-to-develop-a-wearable-monitor-for-early-disease-detection" rel="bookmark">
+				MIT-led team receives funding to develop a wearable monitor for early disease detection</a></h2>
+				<div class="byline">&#8212;&nbsp;by&nbsp;<a class="author vcard url fn" rel="author external" href="./author/anne-barela">Anne&nbsp;Barela</a> </div>
+            </div>
+			<div class="bottom-meta">
+				<div class="category-and-tags">
+					Filed under: <a href="./category/robotics" rel="category tag">robotics</a>, <a href="./category/science" rel="category tag">science</a>, <a href="./category/sensors" rel="category tag">Sensors</a> &#8212;&nbsp;<br />Tags: <a href="./tag/biomarkers" rel="tag">biomarkers</a>, <a href="./tag/mit" rel="tag">MIT</a>, <a href="./tag/wearable" rel="tag">wearable</a> &#8212;				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<div class="container post-container">
+	<div class="row post-row post-thumb-only post-669034 post type-post status-publish format-standard has-post-thumbnail hentry category-history category-reverse-engineering category-security tag-grocery-stores tag-iot-security tag-refrigeration" id="post-669034">
+		<div class="col-md-8 post-thumb-container">
+			<a class="post-thumb" href="./2026/11/04/how-hackers-are-turning-grocery-store-freezers-into-heaters">
+	<div style="background-image: url('https://cdn-blog.adafruit.com/uploads/2026/11/b-4.png');"></div>
+</a>		</div>
+		<div class="col-md-4 post-meta">
+            <div class="meta">
+				<h3><time class="published" datetime="2026-11-04T11:49:07-05:00">November 4, 2026 AT&nbsp;11:49&nbsp;am</time></h3>
+				<a class="storytitle entry-title" href="./2026/11/04/how-hackers-are-turning-grocery-store-freezers-into-heaters" rel="bookmark">
+				How hackers are turning grocery store freezers into heaters</a></h2>
+				<div class="byline">&#8212;&nbsp;by&nbsp;<a class="author vcard url fn" rel="author external" href="./author/anne-barela">Anne&nbsp;Barela</a> </div>
+            </div>
+			<div class="bottom-meta">
+				<div class="category-and-tags">
+					Filed under: <a href="./category/history" rel="category tag">history</a>, <a href="./category/reverse-engineering" rel="category tag">reverse engineering</a>, <a href="./category/security" rel="category tag">Security</a> &#8212;&nbsp;<br />Tags: <a href="./tag/grocery-stores" rel="tag">grocery stores</a>, <a href="./tag/iot-security" rel="tag">IoT security</a>, <a href="./tag/refrigeration" rel="tag">refrigeration</a> &#8212;				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<div class="container post-container">
+	<div class="row post-row post-thumb-only post-669028 post type-post status-publish format-standard has-post-thumbnail hentry category-bluetooth category-github category-open-source category-raspberry-pi tag-esphome tag-ethernet tag-uext" id="post-669028">
+		<div class="col-md-8 post-thumb-container">
+			<a class="post-thumb" href="./2026/11/04/new-open-source-hardware-uext-module-adds-100mb-ethernet-to-pico-pico2-and-all-esp32s-lacking-wired-ethernet">
+	<div style="background-image: url('https://cdn-blog.adafruit.com/uploads/2026/11/banner-30.jpg');"></div>
+</a>		</div>
+		<div class="col-md-4 post-meta">
+            <div class="meta">
+				<h3><time class="published" datetime="2026-11-04T11:44:08-05:00">November 4, 2026 AT&nbsp;11:44&nbsp;am</time></h3>
+				<a class="storytitle entry-title" href="./2026/11/04/new-open-source-hardware-uext-module-adds-100mb-ethernet-to-pico-pico2-and-all-esp32s-lacking-wired-ethernet" rel="bookmark">
+				New open source hardware UEXT module adds 100MB Ethernet to PICO, PICO2 and all ESP32s lacking wired Ethernet</a></h2>
+				<div class="byline">&#8212;&nbsp;by&nbsp;<a class="author vcard url fn" rel="author external" href="./author/anne-barela">Anne&nbsp;Barela</a> </div>
+            </div>
+			<div class="bottom-meta">
+				<div class="category-and-tags">
+					Filed under: <a href="./category/bluetooth" rel="category tag">bluetooth</a>, <a href="./category/github" rel="category tag">GitHub</a>, <a href="./category/open-source" rel="category tag">open source</a>, <a href="./category/raspberry-pi" rel="category tag">Raspberry Pi</a> &#8212;&nbsp;<br />Tags: <a href="./tag/esphome" rel="tag">ESPHome</a>, <a href="./tag/ethernet" rel="tag">ethernet</a>, <a href="./tag/uext" rel="tag">UEXT</a> &#8212;				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<div class="container post-container">
+	<div class="row post-row post-thumb-only post-669024 post type-post status-publish format-standard has-post-thumbnail hentry category-events category-gaming category-history tag-bruce-potter tag-hackaday tag-supercon" id="post-669024">
+		<div class="col-md-8 post-thumb-container">
+			<a class="post-thumb" href="./2026/11/04/2026-hackaday-supercon-bruce-potters-keynote-explores-the-hacker-mind">
+	<div style="background-image: url('https://cdn-blog.adafruit.com/uploads/2026/11/2026-hackaday-supercon-bruce-pot.jpg');"></div>
+</a>		</div>
+		<div class="col-md-4 post-meta">
+            <div class="meta">
+				<h3><time class="published" datetime="2026-11-04T11:38:47-05:00">November 4, 2026 AT&nbsp;11:38&nbsp;am</time></h3>
+				<a class="storytitle entry-title" href="./2026/11/04/2026-hackaday-supercon-bruce-potters-keynote-explores-the-hacker-mind" rel="bookmark">
+				2026 Hackaday Supercon: Bruce Potter&#8217;s keynote explores the hacker mind</a></h2>
+				<div class="byline">&#8212;&nbsp;by&nbsp;<a class="author vcard url fn" rel="author external" href="./author/anne-barela">Anne&nbsp;Barela</a> </div>
+            </div>
+			<div class="bottom-meta">
+				<div class="category-and-tags">
+					Filed under: <a href="./category/events" rel="category tag">events</a>, <a href="./category/gaming" rel="category tag">gaming</a>, <a href="./category/history" rel="category tag">history</a> &#8212;&nbsp;<br />Tags: <a href="./tag/bruce-potter" rel="tag">Bruce Potter</a>, <a href="./tag/hackaday" rel="tag">hackaday</a>, <a href="./tag/supercon" rel="tag">Supercon</a> &#8212;				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</div> 
+<footer id="adafruit-footer" class="hidden-print">
+	<div class="footer-container">
+		<nav>
+			<ul>
+				<li><a href="../www.adafruit.com/contact">Contact Us</a></li>
+				<li><a href="../forums.adafruit.com/index.html">Tech Support Forums</a></li>
+				<li><a href="../www.adafruit.com/faq">FAQs</a></li>
+				<li><a href="../www.adafruit.com/shipping">Shipping &amp; Returns</a></li>
+				<li><a href="../www.adafruit.com/free">Freebies</a></li>
+				<li><a href="../www.adafruit.com/terms_of_service">Terms of Service</a></li>
+				<li><a href="../www.adafruit.com/privacy">Privacy &amp; Legal</a></li>
+				<li><a href="../www.adafruit.com/accessibility">Website Accessibility</a></li>
+			</ul>
+		</nav>
+		<nav>
+			<ul>
+				<li><a href="../www.adafruit.com/about">About Us</a></li>
+				<li><a href="../www.adafruit.com/press">Press</a></li>
+				<li><a href="../www.adafruit.com/educators">Educators</a></li>
+				<li><a href="../www.adafruit.com/distributors">Distributors</a></li>
+				<li><a href="../jobs.adafruit.com/index.html">Jobs</a></li>
+				<li><a href="../www.adafruit.com/category/14">Gift Cards</a></li>
+			</ul>
+		</nav>
+			</div>
+	<div class="footer-container bottom">
+		<a href="../www.adafruit.com/about" id="footerFlower">
+			<svg viewBox="0 0 196 196" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"><path d="M117.352 104.241c-7.533 1.204-14.03-.304-14.517-3.358-.487-3.054 5.225-6.504 12.759-7.7 7.529-1.196 14.025.304 14.512 3.354.488 3.054-5.22 6.508-12.754 7.704m-7.154 31.459c-2.759 1.404-7.804-2.959-11.267-9.746-3.467-6.796-4.046-13.45-1.283-14.854 2.75-1.4 7.787 2.962 11.258 9.754 3.467 6.787 4.05 13.437 1.292 14.846m-29.675-12.646c-5.388 5.396-11.525 7.996-13.713 5.808-2.191-2.183.404-8.33 5.792-13.725 5.383-5.404 11.52-8.004 13.717-5.817 2.187 2.184-.405 8.334-5.796 13.734M59.902 85.479c1.396-2.759 8.046-2.184 14.833 1.27 6.8 3.455 11.18 8.496 9.775 11.25-1.404 2.75-8.046 2.188-14.841-1.266-6.796-3.454-11.171-8.496-9.767-11.254m39.117-19.971c3.058.475 4.57 6.979 3.375 14.512-1.18 7.534-4.613 13.246-7.675 12.767-3.05-.483-4.567-6.98-3.384-14.508 1.188-7.534 4.625-13.25 7.684-12.771m96.454 20.617c-.633-4.005-2.808-5.15-8.054-6.825-3.984-1.28-30.667-9.78-30.667-9.78s-18.6-7.029-32.383 2.909c-1.859 1.341-3.784 2.866-5.713 4.491 1.621-1.933 3.146-3.854 4.484-5.712 9.908-13.804 2.85-32.396 2.85-32.396s-8.546-26.663-9.834-30.654c-1.687-5.234-2.833-7.409-6.842-8.03-4.016-.637-5.766 1.076-8.983 5.542-2.45 3.392-18.783 26.146-18.783 26.146S69.13 47.333 74.31 63.52c.704 2.171 1.559 4.475 2.513 6.817-1.342-2.142-2.7-4.187-4.054-6.03C62.698 50.626 42.848 51.58 42.848 51.58s-28.004-.109-32.188-.113c-5.508-.02-7.925.409-9.766 4.021-1.842 3.613-.755 5.82 2.5 10.254 2.47 3.38 19.07 25.938 19.07 25.938s10.917 16.616 27.905 16.683c2.283.013 4.729-.092 7.241-.275a100.38 100.38 0 00-6.97 1.988c-16.13 5.35-21.342 24.533-21.342 24.533s-8.759 26.6-10.067 30.583c-1.708 5.225-2.054 7.654.813 10.517 2.87 2.875 5.304 2.52 10.529.796 3.979-1.304 30.566-10.117 30.566-10.117s19.163-5.254 24.475-21.392c.721-2.166 1.375-4.525 1.984-6.958-.18 2.508-.275 4.95-.254 7.233.087 16.992 16.725 27.88 16.725 27.88s22.583 16.541 25.966 19.016c4.45 3.238 6.65 4.325 10.267 2.48 3.608-1.842 4.03-4.259 4.004-9.767-.016-4.184-.183-32.188-.183-32.188s.933-19.854-12.771-29.9c-1.842-1.35-3.88-2.704-6.02-4.037 2.337.941 4.628 1.796 6.812 2.479 16.187 5.162 31.687-7.288 31.687-7.288s22.717-16.37 26.113-18.82c4.458-3.225 6.162-4.996 5.529-9" fill="#fff" fill-rule="nonzero"/></svg>
+		</a>
+		<div class="socialLinks"><a rel="noopener" target="_blank" href="https://www.instagram.com/adafruit/" aria-label="Adafruit on Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a><a rel="noopener" target="_blank" href="https://twitter.com/adafruit/" aria-label="Adafruit on Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a><a rel="noopener" target="_blank" href="../fosstodon.org/@adafruit" aria-label="Adafruit on Mastodon"><svg role="presentation" style="height: 1em; margin-bottom: -0.15em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216.4144 232.00976"><path d="M211.80734 139.0875c-3.18125 16.36625-28.4925 34.2775-57.5625 37.74875-15.15875 1.80875-30.08375 3.47125-45.99875 2.74125-26.0275-1.1925-46.565-6.2125-46.565-6.2125 0 2.53375.15625 4.94625.46875 7.2025 3.38375 25.68625 25.47 27.225 46.39125 27.9425 21.11625.7225 39.91875-5.20625 39.91875-5.20625l.8675 19.09s-14.77 7.93125-41.08125 9.39c-14.50875.7975-32.52375-.365-53.50625-5.91875C9.23234 213.82 1.40609 165.31125.20859 116.09125c-.365-14.61375-.14-28.39375-.14-39.91875 0-50.33 32.97625-65.0825 32.97625-65.0825C49.67234 3.45375 78.20359.2425 107.86484 0h.72875c29.66125.2425 58.21125 3.45375 74.8375 11.09 0 0 32.975 14.7525 32.975 65.0825 0 0 .41375 37.13375-4.59875 62.915" fill="currentColor"/><path d="M177.50984 80.077v60.94125h-24.14375v-59.15c0-12.46875-5.24625-18.7975-15.74-18.7975-11.6025 0-17.4175 7.5075-17.4175 22.3525v32.37625H96.20734V85.42325c0-14.845-5.81625-22.3525-17.41875-22.3525-10.49375 0-15.74 6.32875-15.74 18.7975v59.15H38.90484V80.077c0-12.455 3.17125-22.3525 9.54125-29.675 6.56875-7.3225 15.17125-11.07625 25.85-11.07625 12.355 0 21.71125 4.74875 27.8975 14.2475l6.01375 10.08125 6.015-10.08125c6.185-9.49875 15.54125-14.2475 27.8975-14.2475 10.6775 0 19.28 3.75375 25.85 11.07625 6.36875 7.3225 9.54 17.22 9.54 29.675" fill="#000"/></svg></a><a rel="noopener" target="_blank" href="https://www.facebook.com/adafruitindustries" aria-label="Adafruit on Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a><a rel="noopener" target="_blank" href="https://www.youtube.com/adafruit" aria-label="Adafruit on YouTube"><i class="fa fa-youtube" aria-hidden="true"></i></a><a rel="noopener" target="_blank" href="../github.com/adafruit" aria-label="Adafruit on GitHub"><i class="fa fa-github" aria-hidden="true"></i></a><a rel="noopener" target="_blank" href="https://www.tiktok.com/@adafruit" aria-label="Adafruit on TikTok"><svg role="presentation" style="height: 1em; margin-bottom: -0.15em;" xmlns="http://www.w3.org/2000/svg" viewBox="3 3 18 20"><path d="M19.8059,7.50695c-1.029,0,-1.978,-0.341,-2.74,-0.916c-0.875,-0.659,-1.503,-1.626,-1.725,-2.74c-0.055,-0.276,-0.084,-0.56,-0.087,-0.851h-2.939v8.031l-0.003,4.399c0,1.176,-0.766,2.173,-1.828,2.524c-0.308,0.101,-0.641,0.15,-0.987,0.131c-0.443,-0.025,-0.857,-0.158,-1.217,-0.374c-0.767,-0.458,-1.286,-1.29,-1.3,-2.241c-0.023,-1.487,1.179,-2.699,2.665,-2.699c0.294,0,0.575,0.048,0.839,0.134v-2.195v-0.789c-0.278,-0.041,-0.561,-0.062,-0.847,-0.062c-1.627,0,-3.148,0.676,-4.235,1.894c-0.822,0.92,-1.315,2.094,-1.391,3.326c-0.1,1.617,0.492,3.155,1.64,4.289c0.169,0.167,0.346,0.322,0.531,0.464c0.984,0.757,2.187,1.168,3.455,1.168c0.286,0,0.569,-0.021,0.847,-0.062c1.184,-0.176,2.276,-0.718,3.138,-1.57c1.059,-1.046,1.644,-2.436,1.651,-3.915l-0.015,-6.569c0.505,0.39,1.057,0.712,1.65,0.962c0.922,0.389,1.9,0.587,2.907,0.586v-2.134v-0.792c0,0.001,-0.008,0.001,-0.009,0.001z" fill="currentColor"></path></svg></a><a rel="noopener" target="_blank" href="../adafruit.tumblr.com/index.html" aria-label="Adafruit on Tumblr"><i class="fa fa-tumblr" aria-hidden="true"></i></a><a rel="noopener" target="_blank" href="../www.threads.net/@adafruit" aria-label="Adafruit on Threads"><svg role="presentation" style="height: 1em; margin-bottom: -0.15em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M331.5 235.7c2.2 .9 4.2 1.9 6.3 2.8c29.2 14.1 50.6 35.2 61.8 61.4c15.7 36.5 17.2 95.8-30.3 143.2c-36.2 36.2-80.3 52.5-142.6 53h-.3c-70.2-.5-124.1-24.1-160.4-70.2c-32.3-41-48.9-98.1-49.5-169.6V256v-.2C17 184.3 33.6 127.2 65.9 86.2C102.2 40.1 156.2 16.5 226.4 16h.3c70.3 .5 124.9 24 162.3 69.9c18.4 22.7 32 50 40.6 81.7l-40.4 10.8c-7.1-25.8-17.8-47.8-32.2-65.4c-29.2-35.8-73-54.2-130.5-54.6c-57 .5-100.1 18.8-128.2 54.4C72.1 146.1 58.5 194.3 58 256c.5 61.7 14.1 109.9 40.3 143.3c28 35.6 71.2 53.9 128.2 54.4c51.4-.4 85.4-12.6 113.7-40.9c32.3-32.2 31.7-71.8 21.4-95.9c-6.1-14.2-17.1-26-31.9-34.9c-3.7 26.9-11.8 48.3-24.7 64.8c-17.1 21.8-41.4 33.6-72.7 35.3c-23.6 1.3-46.3-4.4-63.9-16c-20.8-13.8-33-34.8-34.3-59.3c-2.5-48.3 35.7-83 95.2-86.4c21.1-1.2 40.9-.3 59.2 2.8c-2.4-14.8-7.3-26.6-14.6-35.2c-10-11.7-25.6-17.7-46.2-17.8H227c-16.6 0-39 4.6-53.3 26.3l-34.4-23.6c19.2-29.1 50.3-45.1 87.8-45.1h.8c62.6 .4 99.9 39.5 103.7 107.7l-.2 .2zm-156 68.8c1.3 25.1 28.4 36.8 54.6 35.3c25.6-1.4 54.6-11.4 59.5-73.2c-13.2-2.9-27.8-4.4-43.4-4.4c-4.8 0-9.6 .1-14.4 .4c-42.9 2.4-57.2 23.2-56.2 41.8l-.1 .1z"/></svg></a><a rel="noopener" target="_blank" href="../adafru.it/discord" aria-label="Adafruit on Discord"><svg role="presentation" style="height: 1em; margin-bottom: -0.15em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127.14 96.36"><path fill="currentColor" d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z"/></svg></a><a rel="noopener" target="_blank" href="../bsky.app/profile/adafruit" aria-label="Adafruit on BlueSky"><svg role="presentation" style="height: 1em; margin-bottom: -0.15em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M111.8 62.2C170.2 105.9 233 194.7 256 242.4c23-47.6 85.8-136.4 144.2-180.2c42.1-31.6 110.3-56 110.3 21.8c0 15.5-8.9 130.5-14.1 149.2C478.2 298 412 314.6 353.1 304.5c102.9 17.5 129.1 75.5 72.5 133.5c-107.4 110.2-154.3-27.6-166.3-62.9l0 0c-1.7-4.9-2.6-7.8-3.3-7.8s-1.6 3-3.3 7.8l0 0c-12 35.3-59 173.1-166.3 62.9c-56.5-58-30.4-116 72.5-133.5C100 314.6 33.8 298 15.7 233.1C10.4 214.4 1.5 99.4 1.5 83.9c0-77.8 68.2-53.4 110.3-21.8z"/></svg></a></div>
+		<div id="footer-messaging">
+			<a href="../www.adafruit.com/about">A Minority and Woman-owned Business Enterprise (M/WBE)</a>
+		</div>
+	</div>
+</footer>
+</div> </div> 
+		<script type="text/javascript">
+		var infiniteScroll = {"settings":{"id":"content","ajaxurl":"https://blog.adafruit.com/?infinity=scrolling","type":"scroll","wrapper":true,"wrapper_class":"infinite-wrap","footer":true,"click_handle":"1","text":"Older posts","totop":"Scroll back to top","currentday":"04.11.26","order":"DESC","scripts":[],"styles":[],"google_analytics":false,"offset":1,"history":{"host":"blog.adafruit.com","path":"/page/%d/","use_trailing_slashes":true,"parameters":""},"query_args":{"error":"","m":"","p":0,"post_parent":"","subpost":"","subpost_id":"","attachment":"","attachment_id":0,"name":"","pagename":"","page_id":0,"second":"","minute":"","hour":"","day":0,"monthnum":0,"year":0,"w":0,"category_name":"","tag":"","cat":"","tag_id":"","author":"","author_name":"","feed":"","tb":"","paged":0,"meta_key":"","meta_value":"","preview":"","s":"","sentence":"","title":"","fields":"all","menu_order":"","embed":"","category__in":[],"category__not_in":[],"category__and":[],"post__in":[],"post__not_in":[],"post_name__in":[],"tag__in":[],"tag__not_in":[],"tag__and":[],"tag_slug__in":[],"tag_slug__and":[],"post_parent__in":[],"post_parent__not_in":[],"author__in":[],"author__not_in":[],"search_columns":[],"posts_per_page":15,"ignore_sticky_posts":false,"suppress_filters":false,"cache_results":true,"update_post_term_cache":true,"update_menu_item_cache":false,"lazy_load_term_meta":true,"update_post_meta_cache":true,"post_type":"","nopaging":false,"comments_per_page":"50","no_found_rows":false,"order":"DESC"},"query_before":"2026-11-04 14:46:11","last_post_date":"2026-11-04 11:38:47","body_class":"infinite-scroll neverending","loading_text":"Loading new page","stats":"blog=42816698\u0026host=blog.adafruit.com\u0026v=ext\u0026j=1:16.3\u0026x_pagetype=infinite-jetpack"}};
+		</script>
+		<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp/wp-*.php","/wp/wp-admin/*","/uploads/*","/app/*","/app/plugins/*","/app/themes/adafruit2013/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<div id="infinite-footer">
+	<div class="container">
+		<div class="blog-info">
+			<a href="./index.html" onclick="af_stop_scrolling();">Take me to the end</a>
+		</div>
+		<div class="blog-credits">
+			<a id="infinity-blog-title" href="./index.html">Back to top</a>
+		</div>
+	</div>
+</div>
+<script>
+function af_stop_scrolling() {
+	infiniteScroll.scroller.disabled = true;
+	infiniteScroll.scroller.body.classList.add( 'infinity-end' );
+	infiniteScroll.scroller.body.classList.remove( 'infinity-success' );
+	setTimeout(
+		function(){jQuery(window).on("scroll", af_check_for_scroll_restart);},
+		500
+	);
+}
+function af_check_for_scroll_restart() {
+	var windowBottom = jQuery(window).scrollTop() + jQuery(window).height();
+	var footerTop = jQuery('#adafruit-footer').offset().top;
+	if(windowBottom < footerTop) {
+		af_resume_scrolling();
+	}
+}
+function af_resume_scrolling() {
+	infiniteScroll.scroller.disabled = false;
+	infiniteScroll.scroller.body.classList.add( 'infinity-success' )
+	infiniteScroll.scroller.body.classList.remove( 'infinity-end' );
+	jQuery(window).off("scroll", af_check_for_scroll_restart);
+}
+</script>
+<script id="the-neverending-homepage-js" src="./app/plugins/jetpack/_inc/build/infinite-scroll/infinity.min.js"></script>
+<script id="wp-syntax-js-js" src="./app/plugins/wp-syntax/js/wp-syntax.js"></script>
+<script id="jetpack-stats-js-before">
+_stq = window._stq || [];
+_stq.push([ "view", {"v":"ext","blog":"42816698","post":"0","tz":"-5","srv":"blog.adafruit.com","arch_home":"1","j":"1:16.3"} ]);
+_stq.push([ "clickTrackerInit", "42816698", "0" ]);
+//# sourceURL=jetpack-stats-js-before
+</script>
+<script data-wp-strategy="defer" defer fetchpriority="low" id="jetpack-stats-js" src="../stats.wp.com/e-202645.js"></script>
+<script id="adafruit.web-common.site-messages-js" src="./app/themes/adafruit2013/js/web-common/adafruit-site-messages.js"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://blog.adafruit.com/wp/wp-includes/js/wp-emoji-release.min.js?ver=7.1.4"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://blog.adafruit.com/wp/wp-includes/js/wp-emoji-loader.min.js
+</script>
+		<script type="text/javascript">
+			(function() {
+				var extend = function(out) {
+					out = out || {};
+
+					for (var i = 1; i < arguments.length; i++) {
+						if (!arguments[i])
+						continue;
+
+						for (var key in arguments[i]) {
+						if (arguments[i].hasOwnProperty(key))
+							out[key] = arguments[i][key];
+						}
+					}
+
+					return out;
+				};
+				extend( window.infiniteScroll.settings.scripts, ["jquery-core","jquery-migrate","jquery","modernizr","adafruit.dropdown","bootstrap.min","web-common/adafruit-sites-navigation","the-neverending-homepage","wp-syntax-js","jetpack-stats","adafruit.web-common.site-messages"] );
+				extend( window.infiniteScroll.settings.styles, ["wp-img-auto-sizes-contain","the-neverending-homepage","wp-emoji-styles","wp-block-library","classic-theme-styles","wp-block-styles-placeholder","wp-global-styles-placeholder","jetpack-stats","wp-syntax-css","af-core","font-awesome","global-styles","core-block-supports-duotone"] );
+			})();
+		</script>
+				<span id="infinite-aria" aria-live="polite"></span>
+		<script type="text/javascript">
+	function embedAutoHeight() {
+		jQuery('.post iframe').each(function(){
+			var orig = jQuery(this);
+			var ratio = orig.attr("width") / orig.attr("height");
+			var actWidth = orig.width();
+			if(orig.attr("src").lastIndexOf("//instagram.com",0) == 0) {
+				if(actWidth > 612){
+					return;
+				}
+			}
+			orig.attr("width", actWidth);
+			orig.attr("height", (actWidth / ratio));
+		});
+	}
+
+	jQuery(document).ready(function( $ ) {
+		$(window).on('resize', embedAutoHeight);
+		embedAutoHeight();
+		if($('.carousel').length > 0) {
+			var carouselOpts = {};
+			var reduceMotion = false;
+			if(document.cookie.match(/^(.*;)?\s*reduce_motion\s*=\s*1(.*)?$/) !== null) {
+				reduceMotion = true;
+			}
+			if( ! reduceMotion ) {
+				var reduceMotionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+				if( reduceMotionQuery.matches ){
+					reduceMotion = true;
+				}
+			}
+			if( reduceMotion ){
+				carouselOpts['interval'] = 0;
+			}
+
+			$('.carousel').carousel(carouselOpts);
+		}
+	});
+
+</script>
+</body>
+</html>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <id>tag:learn.adafruit.com,2005:/feed</id>
+  <link rel="alternate" type="text/html" href="https://learn.adafruit.com"/>
+  <link rel="self" type="application/atom+xml" href="https://learn.adafruit.com/feed"/>
+  <title>Adafruit Learning System | Latest Published Guides</title>
+  <updated>2026-11-02T14:36:54-05:00</updated>
+  <entry>
+    <id>tag:learn.adafruit.com,2005:Guides::External/4643</id>
+    <published>2026-10-26T09:17:54-04:00</published>
+    <updated>2026-11-04T12:00:14-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://learn.adafruit.com/adafruit-rv-8803-high-accuracy-real-time-clock"/>
+    <url>https://learn.adafruit.com/adafruit-rv-8803-high-accuracy-real-time-clock</url>
+    <title>Adafruit RV-8803 High Accuracy Real Time Clock</title>
+    <content type="html">&lt;p&gt;Excellent time keeping within ±1.5 ppm over STEMMA QT&lt;/p&gt;&lt;p&gt;&lt;a href='https://learn.adafruit.com/adafruit-rv-8803-high-accuracy-real-time-clock'&gt;&lt;img src='https://cdn-learn.adafruit.com/guides/images/000/004/643/medium500/6538-00.jpg?1793020766' /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;For excellent accuracy time-keeping - when your everyday RTC (Real Time Clock) won't do - the Adafruit RV-8803 Precision Real Time Clock Breakout Board is a tick-tock above the rest with excellent ±1.5 ppm (at 0~50°C) accuracy. Thanks to the built-in crystal with temperature compensation management, classic RTC drift is minimized so you don't have to do any time correction with WiFi or GPS to keep current. &lt;br/&gt;&lt;br/&gt;&lt;a href='https://learn.adafruit.com/adafruit-rv-8803-high-accuracy-real-time-clock'&gt;Learn More&lt;/a&gt;&lt;/p&gt;</content>
+    <updated>2026-11-02T14:36:54Z</updated>
+    <author>
+      <name>Liz Clark</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:learn.adafruit.com,2005:Guides::External/4648</id>
+    <published>2026-10-29T16:13:02-04:00</published>
+    <updated>2026-11-02T10:32:06-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://learn.adafruit.com/stitch-different-led-illuminated-embroidery-with-noods"/>
+    <url>https://learn.adafruit.com/stitch-different-led-illuminated-embroidery-with-noods</url>
+    <title>Stitch Different: LED-Illuminated Embroidery with nOOds</title>
+    <content type="html">&lt;p&gt;Make a classic embroidered design glow with flexible LED filaments.&lt;/p&gt;&lt;p&gt;&lt;a href='https://learn.adafruit.com/stitch-different-led-illuminated-embroidery-with-noods'&gt;&lt;img src='https://cdn-learn.adafruit.com/guides/images/000/004/648/medium500thumb/apple_embroidery_reveal_smooth_650x400.gif?1793306327' /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Give a classic logo a glowing upgrade with machine embroidery and Adafruit LED nOOds! This guide explores how to turn an idea into an embroidery design, then stitch it out using a computerized embroidery machine. &lt;br/&gt;&lt;br/&gt;&lt;a href='https://learn.adafruit.com/stitch-different-led-illuminated-embroidery-with-noods'&gt;Learn More&lt;/a&gt;&lt;/p&gt;</content>
+    <updated>2026-11-02T10:17:50Z</updated>
+    <author>
+      <name>Erin St Blaine</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:learn.adafruit.com,2005:Guides::External/4641</id>
+    <published>2026-10-20T14:18:21-04:00</published>
+    <updated>2026-11-04T13:16:14-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://learn.adafruit.com/flac-and-ogg-playback-with-circuitpython"/>
+    <url>https://learn.adafruit.com/flac-and-ogg-playback-with-circuitpython</url>
+    <title>FLAC and Ogg Playback with CircuitPython</title>
+    <content type="html">&lt;p&gt;Your music, your way&lt;/p&gt;&lt;p&gt;&lt;a href='https://learn.adafruit.com/flac-and-ogg-playback-with-circuitpython'&gt;&lt;img src='https://cdn-learn.adafruit.com/guides/images/000/004/641/medium500/hero.jpg?1792594008' /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;CircuitPython with Turbo expands the music encoding playback options to FLAC and Ogg files with fast microcontrollers.&lt;br/&gt;&lt;br/&gt;&lt;a href='https://learn.adafruit.com/flac-and-ogg-playback-with-circuitpython'&gt;Learn More&lt;/a&gt;&lt;/p&gt;</content>
+    <updated>2026-10-30T11:50:32Z</updated>
+    <author>
+      <name>Anne Barela</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:learn.adafruit.com,2005:Guides::External/4642</id>
+    <published>2026-10-21T20:00:27-04:00</published>
+    <updated>2026-11-04T11:13:04-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://learn.adafruit.com/computer-graphics-turbo-demos"/>
+    <url>https://learn.adafruit.com/computer-graphics-turbo-demos</url>
+    <title>Computer Graphics Turbo Demos</title>
+    <content type="html">&lt;p&gt;Classic computer graphics demos in CircuitPython Turbo&lt;/p&gt;&lt;p&gt;&lt;a href='https://learn.adafruit.com/computer-graphics-turbo-demos'&gt;&lt;img src='https://cdn-learn.adafruit.com/guides/images/000/004/642/medium500/cgi-5177.jpg?1793211341' /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Experience these pioneering CG demos on the Fruit Jam running CircuitPython Turbo! VoxelSpace, Cornell Box path tracer, Metaballs, and the Utah teapot and Standford bunny 3D models with shaders.&lt;br/&gt;&lt;br/&gt;&lt;a href='https://learn.adafruit.com/computer-graphics-turbo-demos'&gt;Learn More&lt;/a&gt;&lt;/p&gt;</content>
+    <updated>2026-10-29T17:26:36Z</updated>
+    <author>
+      <name>John Park</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:learn.adafruit.com,2005:Guides::External/4640</id>
+    <published>2026-10-20T10:36:25-04:00</published>
+    <updated>2026-10-28T13:09:04-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://learn.adafruit.com/holiday-brick-wreath"/>
+    <url>https://learn.adafruit.com/holiday-brick-wreath</url>
+    <title>NeoPixel Brick Holiday Wreath</title>
+    <content type="html">&lt;p&gt;Light up a wreath with Sparkle Motion Mini&lt;/p&gt;&lt;p&gt;&lt;a href='https://learn.adafruit.com/holiday-brick-wreath'&gt;&lt;img src='https://cdn-learn.adafruit.com/guides/images/000/004/640/medium500thumb/hero-loop.gif?1792777929' /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;3D print a brick branch inspired wreath for the holidays with NeoPixels and Sparkle Motion Mini&lt;br/&gt;&lt;br/&gt;&lt;a href='https://learn.adafruit.com/holiday-brick-wreath'&gt;Learn More&lt;/a&gt;&lt;/p&gt;</content>
+    <updated>2026-10-27T09:02:48Z</updated>
+    <author>
+      <name>Ruiz Brothers</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:learn.adafruit.com,2005:Guides::External/4639</id>
+    <published>2026-10-14T21:16:15-04:00</published>
+    <updated>2026-10-19T18:10:00-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://learn.adafruit.com/crankfruit"/>
+    <url>https://learn.adafruit.com/crankfruit</url>
+    <title>Crankfruit</title>
+    <content type="html">&lt;p&gt;Playdate-like Lua game player in CircuitPython on Fruit Jam&lt;/p&gt;&lt;p&gt;&lt;a href='https://learn.adafruit.com/crankfruit'&gt;&lt;img src='https://cdn-learn.adafruit.com/guides/images/000/004/639/medium500/crnk-5019.jpg?1792188584' /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Have fun playing crank-based games on an Adafruit Fruit Jam using Lua&lt;br/&gt;&lt;br/&gt;&lt;a href='https://learn.adafruit.com/crankfruit'&gt;Learn More&lt;/a&gt;&lt;/p&gt;</content>
+    <updated>2026-10-19T17:55:54Z</updated>
+    <author>
+      <name>John Park</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:learn.adafruit.com,2005:Guides::External/4637</id>
+    <published>2026-10-13T09:30:58-04:00</published>
+    <updated>2026-11-04T08:33:28-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://learn.adafruit.com/fruit-jam-sstv-reciever"/>
+    <url>https://learn.adafruit.com/fruit-jam-sstv-reciever</url>
+    <title>Fruit Jam SSTV Receiver</title>
+    <content type="html">&lt;p&gt;Catch memes as they surf past on the air waves using a USB SDR and the Fruit Jam&lt;/p&gt;&lt;p&gt;&lt;a href='https://learn.adafruit.com/fruit-jam-sstv-reciever'&gt;&lt;img src='https://cdn-learn.adafruit.com/guides/images/000/004/637/medium500/sstv_guide_photo.png?1792168687' /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Use a USB SDR device and your Fruit Jam to receive, decode, save, and display SSTV images. These images are broadcast on parts of the high frequency spectrum by ham radio operators all around the world. Learn how to setup two kinds of cheap antennas that can capture them. Occasionally the ISS does SSTV events as well, if you want to try your hand at capturing photos from space!&lt;br/&gt;&lt;br/&gt;&lt;a href='https://learn.adafruit.com/fruit-jam-sstv-reciever'&gt;Learn More&lt;/a&gt;&lt;/p&gt;</content>
+    <updated>2026-10-19T12:56:36Z</updated>
+    <author>
+      <name>Tim C</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:learn.adafruit.com,2005:Guides::External/4635</id>
+    <published>2026-10-09T14:44:50-04:00</published>
+    <updated>2026-10-21T15:15:47-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://learn.adafruit.com/4-port-usb-hub-for-ikea-mittzon-desk"/>
+    <url>https://learn.adafruit.com/4-port-usb-hub-for-ikea-mittzon-desk</url>
+    <title>4-Port USB Hub for IKEA Mittzon Desk</title>
+    <content type="html">&lt;p&gt;Customize your desk with an embedded 4-port USB hub&lt;/p&gt;&lt;p&gt;&lt;a href='https://learn.adafruit.com/4-port-usb-hub-for-ikea-mittzon-desk'&gt;&lt;img src='https://cdn-learn.adafruit.com/guides/images/000/004/635/medium500/hero-mittzon-usbhub.jpg?1791913356' /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Use the CH334F Mini 4-Port USB Hub Breakout to make your own USB Hub thats built-in your Ikea Mittzon desk!&lt;br/&gt;&lt;br/&gt;&lt;a href='https://learn.adafruit.com/4-port-usb-hub-for-ikea-mittzon-desk'&gt;Learn More&lt;/a&gt;&lt;/p&gt;</content>
+    <updated>2026-10-19T11:08:57Z</updated>
+    <author>
+      <name>Ruiz Brothers</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:learn.adafruit.com,2005:Guides::External/4629</id>
+    <published>2026-10-01T15:03:18-04:00</published>
+    <updated>2026-11-04T14:45:12-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://learn.adafruit.com/circuitpython-text-to-speech"/>
+    <url>https://learn.adafruit.com/circuitpython-text-to-speech</url>
+    <title>CircuitPython Text to Speech</title>
+    <content type="html">&lt;p&gt;Make your microcontroller talk with Moonshine Klatt and PicoTTS.&lt;/p&gt;&lt;p&gt;&lt;a href='https://learn.adafruit.com/circuitpython-text-to-speech'&gt;&lt;img src='https://cdn-learn.adafruit.com/guides/images/000/004/629/medium500/6200-12.jpg?1791315993' /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Text to speech on the board with two CircuitPython libraries. Moonshine Klatt fits boards with less memory and needs no voice files. It runs on RP2040, ESP32-S3, SAMD51 (M4) and nRF52840 boards. PicoTTS sounds more natural and needs a PSRAM board like the Fruit Jam or Feather RP2350.&lt;br/&gt;&lt;br/&gt;&lt;a href='https://learn.adafruit.com/circuitpython-text-to-speech'&gt;Learn More&lt;/a&gt;&lt;/p&gt;</content>
+    <updated>2026-10-19T11:02:16Z</updated>
+    <author>
+      <name>Mikey Sklar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:learn.adafruit.com,2005:Guides::External/3816</id>
+    <published>2023-05-24T18:51:03-04:00</published>
+    <updated>2026-11-04T13:21:36-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://learn.adafruit.com/supernova-pov-pixel-poi-v2"/>
+    <url>https://learn.adafruit.com/supernova-pov-pixel-poi-v2</url>
+    <title>Supernova POV Pixel Poi V2 with Wireless Controller</title>
+    <content type="html">&lt;p&gt;Control multiple persistence-of-vision props with RF &lt;/p&gt;&lt;p&gt;&lt;a href='https://learn.adafruit.com/supernova-pov-pixel-poi-v2'&gt;&lt;img src='https://cdn-learn.adafruit.com/guides/images/000/003/816/medium500/pov_poi_duet_2.jpeg?1791240648' /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Build your own POV poi and control them remotely with a Feather 2040 RFM69. Send images for your performance in real time with a touchscreen or joystick controller. Make a professional level performance prop and light up the night.&lt;br/&gt;&lt;br/&gt;&lt;a href='https://learn.adafruit.com/supernova-pov-pixel-poi-v2'&gt;Learn More&lt;/a&gt;&lt;/p&gt;</content>
+    <updated>2026-10-19T10:19:21Z</updated>
+    <author>
+      <name>Erin St Blaine</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:learn.adafruit.com,2005:Guides::External/4114</id>
+    <published>2024-10-24T14:59:16-04:00</published>
+    <updated>2026-10-19T10:28:18-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://learn.adafruit.com/adafruit-cp2105-friend-usb-to-dual-uart-serial-converters"/>
+    <url>https://learn.adafruit.com/adafruit-cp2105-friend-usb-to-dual-uart-serial-converters</url>
+    <title>Adafruit CP2105 Friend - USB to Dual UART Serial Converters</title>
+    <content type="html">&lt;p&gt;Two serial UART ports without any hub required&lt;/p&gt;&lt;p&gt;&lt;a href='https://learn.adafruit.com/adafruit-cp2105-friend-usb-to-dual-uart-serial-converters'&gt;&lt;img src='https://cdn-learn.adafruit.com/guides/images/000/004/114/medium500/6065-00.jpg?1729796442' /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;USB is hard, and you just want to transfer your every-day serial data from two serial ports to a single USB port without the complexity of a hub. What now? Enter the Adafruit CP2105 Friend! It has two serial UART ports without any hub required.&lt;br/&gt;&lt;br/&gt;&lt;a href='https://learn.adafruit.com/adafruit-cp2105-friend-usb-to-dual-uart-serial-converters'&gt;Learn More&lt;/a&gt;&lt;/p&gt;</content>
+    <updated>2026-10-19T10:08:17Z</updated>
+    <author>
+      <name>Liz Clark</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:learn.adafruit.com,2005:Guides::External/4638</id>
+    <published>2026-10-13T10:51:36-04:00</published>
+    <updated>2026-11-03T22:50:53-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://learn.adafruit.com/fruit-jam-face-detection"/>
+    <url>https://learn.adafruit.com/fruit-jam-face-detection</url>
+    <title>Fruit Jam Face Detection</title>
+    <content type="html">&lt;p&gt;100% offline person detection with CircuitPython&lt;/p&gt;&lt;p&gt;&lt;a href='https://learn.adafruit.com/fruit-jam-face-detection'&gt;&lt;img src='https://cdn-learn.adafruit.com/guides/images/000/004/638/medium500thumb/Convert_to_GIF_project_-_October_14__2026_at_13.36.15%281%29.gif?1791999558' /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Is someone here? This project can let you know! You can use a Fruit Jam running CircuitPython with a USB webcam to run a local front face detection model from OpenCV and output the camera feed over DVI, When a face is detected, a green box is drawn around the face. This is a great way to add person detection to projects, like a video doorbell, without connecting to The Cloud™️since this runs 100% locally and offline.&lt;br/&gt;&lt;br/&gt;&lt;a href='https://learn.adafruit.com/fruit-jam-face-detection'&gt;Learn More&lt;/a&gt;&lt;/p&gt;</content>
+    <updated>2026-10-14T17:44:25Z</updated>
+    <author>
+      <name>Liz Clark</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:learn.adafruit.com,2005:Guides::External/4630</id>
+    <published>2026-10-02T09:21:23-04:00</published>
+    <updated>2026-11-04T11:40:45-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://learn.adafruit.com/usb-host-sdr-for-am-fm-weather-radio-on-fruit-jam"/>
+    <url>https://learn.adafruit.com/usb-host-sdr-for-am-fm-weather-radio-on-fruit-jam</url>
+    <title>USB Host SDR for AM/FM &amp; Weather Radio on Fruit Jam</title>
+    <content type="html">&lt;p&gt;Tune in to FM radio on your Fruit Jam with a USB SDR.&lt;/p&gt;&lt;p&gt;&lt;a href='https://learn.adafruit.com/usb-host-sdr-for-am-fm-weather-radio-on-fruit-jam'&gt;&lt;img src='https://cdn-learn.adafruit.com/guides/images/000/004/630/medium500/fruit_jam_radio_guide_photo.png?1791403621' /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Listen to live radio broadcasts from your Fruit Jam, played via the TLV320 DAC's 3.5mm output. Use the on-board buttons or a USB keyboard to control the dials. Save your favorite stations as presets for easy access.&lt;br/&gt;&lt;br/&gt;&lt;a href='https://learn.adafruit.com/usb-host-sdr-for-am-fm-weather-radio-on-fruit-jam'&gt;Learn More&lt;/a&gt;&lt;/p&gt;</content>
+    <updated>2026-10-09T13:19:08Z</updated>
+    <author>
+      <name>Tim C</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:learn.adafruit.com,2005:Guides::External/4632</id>
+    <published>2026-10-05T15:53:33-04:00</published>
+    <updated>2026-11-04T14:18:41-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://learn.adafruit.com/fruit-jam-motion-tracking-eyeballs"/>
+    <url>https://learn.adafruit.com/fruit-jam-motion-tracking-eyeballs</url>
+    <title>Fruit Jam Motion Tracking Eyeballs</title>
+    <content type="html">&lt;p&gt;Turbo-powered motion tracking&lt;/p&gt;&lt;p&gt;&lt;a href='https://learn.adafruit.com/fruit-jam-motion-tracking-eyeballs'&gt;&lt;img src='https://cdn-learn.adafruit.com/guides/images/000/004/632/medium500thumb/around.gif?1791394112' /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Do you ever feel like someone or something is watching you? In the case of this project, it is! You can use a Fruit Jam running CircuitPython with a USB webcam to display monster eyes that gaze in the direction of motion captured by the webcam. The CircuitPython code utilizes Turbo helper modules to speed up tasks like drawing the monster eyes and checking for new motion in the camera frames.&lt;br/&gt;&lt;br/&gt;&lt;a href='https://learn.adafruit.com/fruit-jam-motion-tracking-eyeballs'&gt;Learn More&lt;/a&gt;&lt;/p&gt;</content>
+    <updated>2026-10-09T12:43:36Z</updated>
+    <author>
+      <name>Liz Clark</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:learn.adafruit.com,2005:Guides::External/4631</id>
+    <published>2026-10-02T14:07:21-04:00</published>
+    <updated>2026-11-04T03:30:31-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://learn.adafruit.com/led-bubble-hair-extensions-with-motion-controlled-effects"/>
+    <url>https://learn.adafruit.com/led-bubble-hair-extensions-with-motion-controlled-effects</url>
+    <title>LED Bubble Hair Extensions with Motion Controlled Effects</title>
+    <content type="html">&lt;p&gt;Clip-in Hair that reacts when you shake your stuff&lt;/p&gt;&lt;p&gt;&lt;a href='https://learn.adafruit.com/led-bubble-hair-extensions-with-motion-controlled-effects'&gt;&lt;img src='https://cdn-learn.adafruit.com/guides/images/000/004/631/medium500thumb/hairgif.gif?1790986021' /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Seed pixels and a PropMaker Feather make this hair accessory dance! Tilt or shake your head to trigger raindrop animations in your favorite colors. Light up the festival when you dance!&lt;br/&gt;&lt;br/&gt;&lt;a href='https://learn.adafruit.com/led-bubble-hair-extensions-with-motion-controlled-effects'&gt;Learn More&lt;/a&gt;&lt;/p&gt;</content>
+    <updated>2026-10-09T12:37:06Z</updated>
+    <author>
+      <name>Erin St Blaine</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:learn.adafruit.com,2005:Guides::External/4626</id>
+    <published>2026-09-24T16:25:32-04:00</published>
+    <updated>2026-10-29T15:17:36-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://learn.adafruit.com/peppers-ghost-monster-eye"/>
+    <url>https://learn.adafruit.com/peppers-ghost-monster-eye</url>
+    <title>Pepper's Ghost Monster Eye</title>
+    <content type="html">&lt;p&gt;See the ghost-like effect with an Eye&lt;/p&gt;&lt;p&gt;&lt;a href='https://learn.adafruit.com/peppers-ghost-monster-eye'&gt;&lt;img src='https://cdn-learn.adafruit.com/guides/images/000/004/626/medium500thumb/hero-black.gif?1790605601' /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Use a 2.1in round TFT display, Qualia ESP32-S3 and snow globe to create a peppers ghost floating eye!&lt;br/&gt;&lt;br/&gt;&lt;a href='https://learn.adafruit.com/peppers-ghost-monster-eye'&gt;Learn More&lt;/a&gt;&lt;/p&gt;</content>
+    <updated>2026-10-02T13:09:42Z</updated>
+    <author>
+      <name>Ruiz Brothers</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:learn.adafruit.com,2005:Guides::External/4627</id>
+    <published>2026-09-28T15:43:10-04:00</published>
+    <updated>2026-11-04T14:26:44-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://learn.adafruit.com/circuitpython-turbo-sushi-conveyor-belt"/>
+    <url>https://learn.adafruit.com/circuitpython-turbo-sushi-conveyor-belt</url>
+    <title>CircuitPython Turbo Sushi Conveyor Belt</title>
+    <content type="html">&lt;p&gt;Speed up your sushi conveyor belt with CircuitPython Turbo&lt;/p&gt;&lt;p&gt;&lt;a href='https://learn.adafruit.com/circuitpython-turbo-sushi-conveyor-belt'&gt;&lt;img src='https://cdn-learn.adafruit.com/guides/images/000/004/627/medium500thumb/shorterBarSolo.gif?1790865876' /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Back when the Qualia S3 was first released I wanted to run the sushi conveyer belt animation on one of the long bar displays. I tried the project in CircuitPython, but it was way too slow so I had to use Arduino with PlatformIO. Much like Jiro, I never stopped dreaming of sushi and hoped to one day revisit the project and have it run in CircuitPython. With Turbo, that day has finally come.&lt;br/&gt;&lt;br/&gt;&lt;a href='https://learn.adafruit.com/circuitpython-turbo-sushi-conveyor-belt'&gt;Learn More&lt;/a&gt;&lt;/p&gt;</content>
+    <updated>2026-10-02T09:44:54Z</updated>
+    <author>
+      <name>Liz Clark</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:learn.adafruit.com,2005:Guides::External/4597</id>
+    <published>2026-08-26T13:08:17-04:00</published>
+    <updated>2026-11-04T13:51:09-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://learn.adafruit.com/circuitpython-pov-bike-wheel"/>
+    <url>https://learn.adafruit.com/circuitpython-pov-bike-wheel</url>
+    <title>CircuitPython POV Bike Wheel</title>
+    <content type="html">&lt;p&gt;Light up your Bike with Persistence of Vision Images&lt;/p&gt;&lt;p&gt;&lt;a href='https://learn.adafruit.com/circuitpython-pov-bike-wheel'&gt;&lt;img src='https://cdn-learn.adafruit.com/guides/images/000/004/597/medium500/pov_bike_wheel_hero.jpeg?1787941806' /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Paint glowing pictures in the air with CircuitPython and a spinning bike wheel. Upload dozens of images, and pimp your ride in style.&lt;br/&gt;&lt;br/&gt;&lt;a href='https://learn.adafruit.com/circuitpython-pov-bike-wheel'&gt;Learn More&lt;/a&gt;&lt;/p&gt;</content>
+    <updated>2026-09-29T15:59:42Z</updated>
+    <author>
+      <name>Erin St Blaine</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:learn.adafruit.com,2005:Guides::External/4619</id>
+    <published>2026-09-14T15:33:56-04:00</published>
+    <updated>2026-11-04T13:24:53-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://learn.adafruit.com/pixeldust-digital-sand-for-circuitpython"/>
+    <url>https://learn.adafruit.com/pixeldust-digital-sand-for-circuitpython</url>
+    <title>PixelDust Digital Sand for CircuitPython</title>
+    <content type="html">&lt;p&gt;Let the grains fall where they may.&lt;/p&gt;&lt;p&gt;&lt;a href='https://learn.adafruit.com/pixeldust-digital-sand-for-circuitpython'&gt;&lt;img src='https://cdn-learn.adafruit.com/guides/images/000/004/619/medium500thumb/metro_rp2350_sand_simulation.gif?1789652465' /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;This demo takes advantage of the CircuitPython Turbo speed up and the Picogame module to render sand particles and simulate gravity and physics. This type of demo used to require C or Arduino level code to look smooth, but now it's possible with CircuitPython.&lt;br/&gt;&lt;br/&gt;&lt;a href='https://learn.adafruit.com/pixeldust-digital-sand-for-circuitpython'&gt;Learn More&lt;/a&gt;&lt;/p&gt;</content>
+    <updated>2026-09-29T15:43:32Z</updated>
+    <author>
+      <name>Tim C</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:learn.adafruit.com,2005:Guides::External/4623</id>
+    <published>2026-09-17T09:16:46-04:00</published>
+    <updated>2026-11-04T01:35:04-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://learn.adafruit.com/adafruit-tcs3448-14-channel-light-color-sensor-breakout"/>
+    <url>https://learn.adafruit.com/adafruit-tcs3448-14-channel-light-color-sensor-breakout</url>
+    <title>Adafruit TCS3448 14-Channel Light / Color Sensor Breakout</title>
+    <content type="html">&lt;p&gt;14 channels of light over I2C&lt;/p&gt;&lt;p&gt;&lt;a href='https://learn.adafruit.com/adafruit-tcs3448-14-channel-light-color-sensor-breakout'&gt;&lt;img src='https://cdn-learn.adafruit.com/guides/images/000/004/623/medium500/6525-00.jpg?1789651252' /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The Adafruit TCS3448 (a.k.a. TCS34488) Multi-Spectral Sensor is a multi-channel spectrometer, which is a special type of light sensor that is able to detect not only the amount of light present but also the amounts of light within different wavelengths. This means that you can use it to detect much better than the human eye is capable of, what color or colors of light is present.&lt;br/&gt;&lt;br/&gt;&lt;a href='https://learn.adafruit.com/adafruit-tcs3448-14-channel-light-color-sensor-breakout'&gt;Learn More&lt;/a&gt;&lt;/p&gt;</content>
+    <updated>2026-09-29T10:18:14Z</updated>
+    <author>
+      <name>Liz Clark</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:learn.adafruit.com,2005:Guides::External/4625</id>
+    <published>2026-09-23T12:51:28-04:00</published>
+    <updated>2026-11-04T14:33:28-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://learn.adafruit.com/usb-host-camera-on-fruit-jam"/>
+    <url>https://learn.adafruit.com/usb-host-camera-on-fruit-jam</url>
+    <title>USB Host Camera on Fruit Jam</title>
+    <content type="html">&lt;p&gt;If seeing is believing, then you better believe that your Fruit Jam can now take photos with USB cameras.&lt;/p&gt;&lt;p&gt;&lt;a href='https://learn.adafruit.com/usb-host-camera-on-fruit-jam'&gt;&lt;img src='https://cdn-learn.adafruit.com/guides/images/000/004/625/medium500/fruitjam_usbcamera_guidephoto.png?1790353048' /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Learn how to hook up a USB camera to your Fruit Jam and take photos with CircuitPython. You can save them to CPSAVES for copying to a computer, or just view live preview on a DVI display.&lt;br/&gt;&lt;br/&gt;&lt;a href='https://learn.adafruit.com/usb-host-camera-on-fruit-jam'&gt;Learn More&lt;/a&gt;&lt;/p&gt;</content>
+    <updated>2026-09-29T10:08:00Z</updated>
+    <author>
+      <name>Tim C</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:learn.adafruit.com,2005:Guides::External/4624</id>
+    <published>2026-09-20T14:34:01-04:00</published>
+    <updated>2026-11-04T11:54:26-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://learn.adafruit.com/meshfruit-message-board"/>
+    <url>https://learn.adafruit.com/meshfruit-message-board</url>
+    <title>MeshFruit Message Board</title>
+    <content type="html">&lt;p&gt;MeshFruit Message Board&lt;/p&gt;&lt;p&gt;&lt;a href='https://learn.adafruit.com/meshfruit-message-board'&gt;&lt;img src='https://cdn-learn.adafruit.com/guides/images/000/004/624/medium500/hero-fridge-right.jpg?1789929321' /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Build an off-grid message board! This message board listens for messages sent across a LoRa network and shows them on an e-ink display.&lt;br/&gt;&lt;br/&gt;&lt;a href='https://learn.adafruit.com/meshfruit-message-board'&gt;Learn More&lt;/a&gt;&lt;/p&gt;</content>
+    <updated>2026-09-22T23:05:00Z</updated>
+    <author>
+      <name>Ruiz Brothers</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:learn.adafruit.com,2005:Guides::External/4620</id>
+    <published>2026-09-14T18:46:38-04:00</published>
+    <updated>2026-10-05T19:00:21-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://learn.adafruit.com/handheld-esp32-arcade-machine-ports"/>
+    <url>https://learn.adafruit.com/handheld-esp32-arcade-machine-ports</url>
+    <title>Arcade Machine/Console Emulator for ESP32 Handheld</title>
+    <content type="html">&lt;p&gt;Play classic arcade games and consoles on a dedicated ESP32 handheld&lt;/p&gt;&lt;p&gt;&lt;a href='https://learn.adafruit.com/handheld-esp32-arcade-machine-ports'&gt;&lt;img src='https://cdn-learn.adafruit.com/guides/images/000/004/620/medium500/gboytv-4783.jpg?1791215046' /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;You can play original arcade ROMs, Game Boy, and NES games on Feather ESP32 v2 emulations of Intel 8080, Z80, and 6502 games -- Space Invaders, Lunar Rescue, Pac-Man, Galaga, Ms. Pac-Man, Donkey Kong, and Burger Time! All with the same Adafruit Arcade Machine library as our Fruit Jam ports.&lt;br/&gt;&lt;br/&gt;&lt;a href='https://learn.adafruit.com/handheld-esp32-arcade-machine-ports'&gt;Learn More&lt;/a&gt;&lt;/p&gt;</content>
+    <updated>2026-09-22T12:13:03Z</updated>
+    <author>
+      <name>John Park</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:learn.adafruit.com,2005:Guides::External/4617</id>
+    <published>2026-09-11T12:17:57-04:00</published>
+    <updated>2026-11-04T08:03:06-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://learn.adafruit.com/adafruit-tsl2585-digital-uva-and-ambient-light-sensor"/>
+    <url>https://learn.adafruit.com/adafruit-tsl2585-digital-uva-and-ambient-light-sensor</url>
+    <title>Adafruit TSL2585 Digital UVA and Ambient Light Sensor</title>
+    <content type="html">&lt;p&gt;"Three-in-one" light sensor&lt;/p&gt;&lt;p&gt;&lt;a href='https://learn.adafruit.com/adafruit-tsl2585-digital-uva-and-ambient-light-sensor'&gt;&lt;img src='https://cdn-learn.adafruit.com/guides/images/000/004/617/medium500/6524-00.jpg?1789143548' /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The Adafruit TSL2585 Digital UVA and Ambient Light Sensor is a great "three-in-one" light sensor that  has ambient light sensing, Infrared channel and UVA (315nm-400nm). In particular it's not that common to get UVA narrow-band sensing on an I2C sensor, so this is great for outdoor light monitoring. It can also be used to measure curing lights, blacklights and reptile lamps! &lt;br/&gt;&lt;br/&gt;&lt;a href='https://learn.adafruit.com/adafruit-tsl2585-digital-uva-and-ambient-light-sensor'&gt;Learn More&lt;/a&gt;&lt;/p&gt;</content>
+    <updated>2026-09-22T10:06:55Z</updated>
+    <author>
+      <name>Liz Clark</name>
+    </author>
+  </entry>
+</feed>
